@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anatomy — Free Claude Skills for GTM & Marketing Teams</title>
+<meta name="description" content="Free, downloadable Claude skills for GTM and marketing teams — competitor intelligence, ABM, AEO, and more. Read it, download the file, drag it into Claude.">
+<meta property="og:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
+<meta property="og:description" content="Free, downloadable Claude skills for GTM and marketing teams.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --graphite:#0B0E12;
+    --graphite-mid:#14181D;
+    --graphite-line:#262B31;
+    --amber:#F5A623;
+    --amber-deep:#C2760D;
+    --amber-pale:#FCEACB;
+    --paper:#faf6f2;
+    --paper-dim:#f0ebe4;
+    --paper-line:#E3DCCF;
+    --ink:#232323;
+    --ink-soft:#5B564C;
+    --card:#ffffff;
+    --mono:'IBM Plex Mono', monospace;
+    --disp:'Anton', sans-serif;
+    --body:'Space Grotesk', sans-serif;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ background:var(--paper); color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; }
+  a{ color:inherit; }
+
+  /* hero */
+  .hero{ background:var(--graphite); color:var(--paper); padding:72px 40px 52px; position:relative; overflow:hidden; border-bottom:3px solid var(--amber); }
+  .hero::before{
+    content:""; position:absolute; inset:0;
+    background-image:linear-gradient(var(--graphite-line) 1px, transparent 1px), linear-gradient(90deg, var(--graphite-line) 1px, transparent 1px);
+    background-size:48px 48px; opacity:.4; mask-image:linear-gradient(to bottom, black, transparent 80%);
+  }
+  .hero-inner{ position:relative; max-width:1040px; margin:0 auto; }
+  .kicker{ font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--amber); margin-bottom:18px; display:flex; align-items:center; gap:10px; }
+  .kicker::before{ content:""; width:22px; height:1px; background:var(--amber); display:inline-block; }
+  h1.word{ font-family:var(--disp); font-size:clamp(44px, 8vw, 92px); line-height:.88; text-transform:uppercase; letter-spacing:-.01em; }
+  h1.word span{ color:var(--amber); }
+  .hero-sub{ font-family:var(--mono); font-size:14.5px; margin-top:18px; max-width:600px; color:#C9C4B8; line-height:1.65; }
+  .hero-cta{ margin-top:30px; display:flex; gap:12px; flex-wrap:wrap; }
+  .btn{ font-family:var(--mono); font-size:12.5px; text-transform:uppercase; letter-spacing:.05em; padding:12px 22px; border-radius:2px;
+    text-decoration:none; display:inline-flex; align-items:center; gap:8px; cursor:pointer; font-weight:600; border:1.5px solid transparent; transition:all .15s ease; }
+  .btn-primary{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
+  .btn-primary:hover{ background:transparent; color:var(--amber); }
+  .btn-ghost-dark{ background:transparent; color:var(--paper); border-color:#4A5158; }
+  .btn-ghost-dark:hover{ border-color:var(--amber); color:var(--amber); }
+  .btn-ghost{ background:transparent; color:var(--ink); border-color:var(--ink); }
+  .btn-ghost:hover{ background:var(--ink); color:var(--paper); }
+  .btn-navy{ background:var(--graphite); color:var(--paper); border-color:var(--graphite); }
+  .btn-navy:hover{ background:var(--amber-deep); border-color:var(--amber-deep); color:var(--graphite); }
+  .btn-sm{ padding:9px 15px; font-size:11px; }
+
+  .hero-stats{ display:flex; gap:0; margin-top:44px; border-top:2px solid var(--amber); flex-wrap:wrap; }
+  .hstat{ flex:1; min-width:150px; padding:16px 22px 4px 0; border-right:1px solid var(--graphite-line); }
+  .hstat:first-child{ padding-left:0; }
+  .hstat:last-child{ border-right:none; }
+  .hstat .num{ font-family:var(--disp); font-size:28px; color:var(--amber); }
+  .hstat .label{ font-family:var(--mono); font-size:10.5px; color:#8A8378; text-transform:uppercase; letter-spacing:.06em; }
+
+  /* how it works */
+  .how{ max-width:1040px; margin:0 auto; padding:56px 40px; border-bottom:2px solid var(--ink); }
+  .how-title{ font-family:var(--disp); font-size:clamp(24px,3.4vw,32px); text-transform:uppercase; margin-bottom:6px; }
+  .how-sub{ font-family:var(--mono); font-size:11.5px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.08em; margin-bottom:30px; }
+  .how-steps{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:22px; }
+  .step{ background:var(--card); border:1px solid var(--paper-line); border-radius:6px; padding:22px; }
+  .step-label{ font-family:var(--mono); font-size:11px; color:var(--amber-deep); text-transform:uppercase; letter-spacing:.08em; margin-bottom:10px; }
+  .step h4{ font-family:var(--disp); font-size:19px; text-transform:uppercase; margin-bottom:8px; }
+  .step p{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); }
+
+  /* filter */
+  .filter-wrap{ position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:2px solid var(--ink); padding:18px 40px; }
+  .filter-label{ font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--ink-soft); margin-bottom:10px; }
+  .tags{ display:flex; flex-wrap:wrap; gap:8px; }
+  .tag-btn{ font-family:var(--mono); font-size:12.5px; padding:8px 14px; background:var(--card); border:1.5px solid var(--ink);
+    border-radius:2px; cursor:pointer; text-transform:uppercase; letter-spacing:.03em; transition:all .15s ease; color:var(--ink); }
+  .tag-btn:hover{ background:var(--paper-dim); }
+  .tag-btn.active{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
+
+  /* skills grid */
+  .skills-section{ max-width:1040px; margin:0 auto; padding:48px 40px 64px; }
+  .skills-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px; }
+  .skill-card{ background:var(--card); border:1px solid var(--paper-line); border-radius:6px; padding:24px 24px 22px; display:flex; flex-direction:column; }
+  .skill-card-cat{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:var(--amber-deep); background:var(--amber-pale); padding:4px 9px; border-radius:2px; align-self:flex-start; margin-bottom:12px; }
+  .skill-card h3{ font-family:var(--disp); font-size:22px; text-transform:uppercase; letter-spacing:.005em; margin-bottom:8px; }
+  .skill-card .summary{ font-size:14px; line-height:1.55; color:var(--ink-soft); margin-bottom:16px; flex-grow:1; }
+  .perfect-label{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft); margin-bottom:8px; }
+  .skill-card ul{ list-style:none; margin-bottom:18px; }
+  .skill-card li{ font-size:13px; line-height:1.5; padding-left:15px; position:relative; margin-bottom:5px; }
+  .skill-card li::before{ content:"—"; position:absolute; left:0; color:var(--amber-deep); }
+  .skill-card .actions{ display:flex; gap:8px; flex-wrap:wrap; padding-top:16px; border-top:1px solid var(--paper-line); }
+
+  /* modal */
+  .modal-backdrop{ display:none; position:fixed; inset:0; background:rgba(11,14,18,.6); z-index:50; padding:40px 20px; overflow-y:auto; }
+  .modal-backdrop.show{ display:block; }
+  .modal{ max-width:720px; margin:0 auto; background:var(--card); border-radius:8px; padding:36px 36px 40px; position:relative; }
+  .modal-close{ position:absolute; top:20px; right:20px; background:none; border:none; font-family:var(--mono); font-size:13px; cursor:pointer; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em; }
+  .modal-close:hover{ color:var(--amber-deep); }
+  .modal-body{ font-size:14.5px; line-height:1.7; }
+  .modal-body h1{ font-family:var(--disp); font-size:28px; text-transform:uppercase; margin:22px 0 12px; }
+  .modal-body h2{ font-family:var(--disp); font-size:19px; text-transform:uppercase; margin:26px 0 10px; }
+  .modal-body ul{ padding-left:20px; margin-bottom:14px; }
+  .modal-body p{ margin-bottom:14px; }
+  .modal-body blockquote{ border-left:2px solid var(--amber); padding-left:16px; color:var(--ink-soft); font-style:italic; margin-bottom:14px; }
+  .modal-body hr{ border:none; border-top:1px solid var(--paper-line); margin:20px 0; }
+
+  footer{ padding:44px 40px; font-family:var(--mono); font-size:12px; color:var(--ink-soft); text-align:center; border-top:1px solid var(--paper-line); }
+  footer a{ color:var(--amber-deep); text-decoration:underline; }
+  .footer-tagline{ margin-top:10px; color:#a39c8f; }
+
+  @media (max-width:640px){
+    .hero{ padding:44px 20px 32px; } .how{ padding:40px 20px; } .filter-wrap{ padding:14px 20px; }
+    .skills-section{ padding:36px 20px 48px; } .modal{ padding:28px 20px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero" id="top">
+  <div class="hero-inner">
+    <div class="kicker">Free Claude Skills — GTM & Marketing</div>
+    <h1 class="word">Anatomy<span>.</span></h1>
+    <p class="hero-sub">A library of Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more. Read how it works, download the file, drag it into Claude.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#skills">Browse Skills</a>
+      <a class="btn btn-ghost-dark" href="#how">How It Works</a>
+    </div>
+    <div class="hero-stats" id="heroStats"></div>
+  </div>
+</div>
+
+<div class="how" id="how">
+  <div class="how-title">Get Started in 3 Steps</div>
+  <div class="how-sub">No account, no install, no cost</div>
+  <div class="how-steps">
+    <div class="step">
+      <div class="step-label">Step 1</div>
+      <h4>Browse</h4>
+      <p>Filter by category to find the skill built for the workflow you're trying to speed up.</p>
+    </div>
+    <div class="step">
+      <div class="step-label">Step 2</div>
+      <h4>Download</h4>
+      <p>Each skill is a single, readable Markdown file — what it does, how to prompt it, what you get back.</p>
+    </div>
+    <div class="step">
+      <div class="step-label">Step 3</div>
+      <h4>Drag Into Claude</h4>
+      <p>Drop the file into any Claude conversation, or attach it as a project skill. That's the whole install.</p>
+    </div>
+  </div>
+</div>
+
+<div class="filter-wrap" id="skills">
+  <div class="filter-label">Filter by category — click one or stack multiple</div>
+  <div class="tags" id="tagBar"></div>
+</div>
+
+<div class="skills-section">
+  <div class="skills-grid" id="skillsGrid"></div>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">Close ✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>
+  <div>Built by <a href="https://rlwbruce-byte.github.io/rachelwbruce/" target="_blank" rel="noopener">Rachel Bruce</a> — GTM &amp; AI systems.</div>
+  <div class="footer-tagline">New skills added as they're built and tested internally.</div>
+</footer>
+
+<script>
+const CATEGORIES = ["Competitive Intelligence","ABM","AEO"];
+
+const SKILLS = [
+  {
+    slug:"competitor-intelligence",
+    title:"Competitor Intelligence Brief",
+    category:"Competitive Intelligence",
+    summary:"Turns raw competitor signals — a pricing page, a review, a call transcript — into a structured, shareable brief for sales and leadership.",
+    perfectFor:[
+      "Weekly or monthly competitive monitoring",
+      "Prepping a rep before a competitive deal review",
+      "Feeding a living battlecard without manual upkeep"
+    ]
+  },
+  {
+    slug:"abm-intelligence",
+    title:"ABM Account Snapshot",
+    category:"ABM",
+    summary:"Turns a target account name into a structured ABM snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.",
+    perfectFor:[
+      "Prioritizing a target account list before the quarter kicks off",
+      "Prepping sales before an account-based outbound push",
+      "Re-engaging a stalled account with a fresh angle"
+    ]
+  },
+  {
+    slug:"aeo",
+    title:"AEO Content Auditor",
+    category:"AEO",
+    summary:"Audits content against how AI answer engines are likely to summarize or cite it, and flags what to fix.",
+    perfectFor:[
+      "Auditing product pages before a content refresh",
+      "Writing new comparison pages with AEO in mind from the start",
+      "Checking whether competitors are winning the citation battle"
+    ]
+  }
+];
+
+let active = new Set();
+
+function renderStats(){
+  const el = document.getElementById('heroStats');
+  el.innerHTML = `
+    <div class="hstat"><div class="num">${SKILLS.length}</div><div class="label">Skills Available</div></div>
+    <div class="hstat"><div class="num">${CATEGORIES.length}</div><div class="label">Categories</div></div>
+    <div class="hstat"><div class="num">$0</div><div class="label">Cost</div></div>
+  `;
+}
+
+function renderTags(){
+  const bar = document.getElementById('tagBar');
+  bar.innerHTML = '';
+  CATEGORIES.forEach(cat=>{
+    const btn = document.createElement('button');
+    btn.className = 'tag-btn' + (active.has(cat) ? ' active' : '');
+    btn.textContent = cat;
+    btn.onclick = ()=>{ if(active.has(cat)) active.delete(cat); else active.add(cat); render(); };
+    bar.appendChild(btn);
+  });
+}
+
+function render(){
+  renderTags();
+  const grid = document.getElementById('skillsGrid');
+  grid.innerHTML = '';
+  SKILLS.filter(s => active.size === 0 || active.has(s.category)).forEach(s=>{
+    const div = document.createElement('div');
+    div.className = 'skill-card';
+    div.innerHTML = `
+      <div class="skill-card-cat">${s.category}</div>
+      <h3>${s.title}</h3>
+      <p class="summary">${s.summary}</p>
+      <div class="perfect-label">Perfect for</div>
+      <ul>${s.perfectFor.map(p=>`<li>${p}</li>`).join('')}</ul>
+      <div class="actions">
+        <button class="btn btn-ghost btn-sm" data-read="${s.slug}">Read</button>
+        <a class="btn btn-ghost btn-sm" href="skills/${s.slug}/skill.md" download>↓ Download</a>
+        <a class="btn btn-navy btn-sm" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude.ai</a>
+      </div>
+    `;
+    grid.appendChild(div);
+  });
+  grid.querySelectorAll('[data-read]').forEach(btn=>{
+    btn.addEventListener('click', ()=> openSkill(btn.dataset.read));
+  });
+}
+
+function openSkill(slug){
+  fetch(`skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
+    const body = md.replace(/^---[\s\S]*?---/, '').trim();
+    document.getElementById('modalBody').innerHTML = mdToHtml(body);
+    document.getElementById('modalBackdrop').classList.add('show');
+  });
+}
+
+function mdToHtml(md){
+  return md
+    .split(/\n\n+/).map(block=>{
+      if(block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`;
+      if(block.startsWith('# ')) return `<h1>${block.slice(2)}</h1>`;
+      if(block.startsWith('> ')) return `<blockquote>${block.replace(/^> ?/gm,'')}</blockquote>`;
+      if(block.startsWith('- ')) return `<ul>${block.split('\n').map(l=>`<li>${l.replace(/^- /,'')}</li>`).join('')}</ul>`;
+      return `<p>${block}</p>`;
+    }).join('\n');
+}
+
+document.getElementById('modalClose').addEventListener('click', ()=>{
+  document.getElementById('modalBackdrop').classList.remove('show');
+});
+document.getElementById('modalBackdrop').addEventListener('click', (e)=>{
+  if(e.target.id === 'modalBackdrop') document.getElementById('modalBackdrop').classList.remove('show');
+});
+
+renderStats();
+render();
+</script>
+
+</body>
+</html>
