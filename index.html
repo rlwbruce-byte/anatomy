@@ -4,137 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anatomy — Free Claude Skills for GTM & Marketing Teams</title>
-<meta name="description" content="Free, downloadable Claude skills for GTM and marketing teams — competitor intelligence, ABM, AEO, and more. Read it, download the file, drag it into Claude.">
-<meta property="og:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
-<meta property="og:description" content="Free, downloadable Claude skills for GTM and marketing teams.">
+<meta name="description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more. No install, no cost: download the file, drag it into Claude.">
+
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="shortcut icon" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://rlwbruce-byte.github.io/anatomy/">
+<meta property="og:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
+<meta property="og:description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more.">
+<meta property="og:image" content="https://rlwbruce-byte.github.io/anatomy/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
+<meta name="twitter:description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more.">
+<meta name="twitter:image" content="https://rlwbruce-byte.github.io/anatomy/assets/og-image.png">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --graphite:#0B0E12;
-    --graphite-mid:#14181D;
-    --graphite-line:#262B31;
-    --amber:#F5A623;
-    --amber-deep:#C2760D;
-    --amber-pale:#FCEACB;
-    --paper:#faf6f2;
-    --paper-dim:#f0ebe4;
-    --paper-line:#E3DCCF;
-    --ink:#232323;
-    --ink-soft:#5B564C;
-    --card:#ffffff;
-    --mono:'IBM Plex Mono', monospace;
-    --disp:'Anton', sans-serif;
-    --body:'Space Grotesk', sans-serif;
-  }
-  *{ box-sizing:border-box; margin:0; padding:0; }
-  body{ background:var(--paper); color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; }
-  a{ color:inherit; }
-
-  /* hero */
-  .hero{ background:var(--graphite); color:var(--paper); padding:72px 40px 52px; position:relative; overflow:hidden; border-bottom:3px solid var(--amber); }
-  .hero::before{
-    content:""; position:absolute; inset:0;
-    background-image:linear-gradient(var(--graphite-line) 1px, transparent 1px), linear-gradient(90deg, var(--graphite-line) 1px, transparent 1px);
-    background-size:48px 48px; opacity:.4; mask-image:linear-gradient(to bottom, black, transparent 80%);
-  }
-  .hero-inner{ position:relative; max-width:1040px; margin:0 auto; }
-  .kicker{ font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--amber); margin-bottom:18px; display:flex; align-items:center; gap:10px; }
-  .kicker::before{ content:""; width:22px; height:1px; background:var(--amber); display:inline-block; }
-  h1.word{ font-family:var(--disp); font-size:clamp(44px, 8vw, 92px); line-height:.88; text-transform:uppercase; letter-spacing:-.01em; }
-  h1.word span{ color:var(--amber); }
-  .hero-sub{ font-family:var(--mono); font-size:14.5px; margin-top:18px; max-width:600px; color:#C9C4B8; line-height:1.65; }
-  .hero-cta{ margin-top:30px; display:flex; gap:12px; flex-wrap:wrap; }
-  .btn{ font-family:var(--mono); font-size:12.5px; text-transform:uppercase; letter-spacing:.05em; padding:12px 22px; border-radius:2px;
-    text-decoration:none; display:inline-flex; align-items:center; gap:8px; cursor:pointer; font-weight:600; border:1.5px solid transparent; transition:all .15s ease; }
-  .btn-primary{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
-  .btn-primary:hover{ background:transparent; color:var(--amber); }
-  .btn-ghost-dark{ background:transparent; color:var(--paper); border-color:#4A5158; }
-  .btn-ghost-dark:hover{ border-color:var(--amber); color:var(--amber); }
-  .btn-ghost{ background:transparent; color:var(--ink); border-color:var(--ink); }
-  .btn-ghost:hover{ background:var(--ink); color:var(--paper); }
-  .btn-navy{ background:var(--graphite); color:var(--paper); border-color:var(--graphite); }
-  .btn-navy:hover{ background:var(--amber-deep); border-color:var(--amber-deep); color:var(--graphite); }
-  .btn-sm{ padding:9px 15px; font-size:11px; }
-
-  .hero-stats{ display:flex; gap:0; margin-top:44px; border-top:2px solid var(--amber); flex-wrap:wrap; }
-  .hstat{ flex:1; min-width:150px; padding:16px 22px 4px 0; border-right:1px solid var(--graphite-line); }
-  .hstat:first-child{ padding-left:0; }
-  .hstat:last-child{ border-right:none; }
-  .hstat .num{ font-family:var(--disp); font-size:28px; color:var(--amber); }
-  .hstat .label{ font-family:var(--mono); font-size:10.5px; color:#8A8378; text-transform:uppercase; letter-spacing:.06em; }
-
-  /* how it works */
-  .how{ max-width:1040px; margin:0 auto; padding:56px 40px; border-bottom:2px solid var(--ink); }
-  .how-title{ font-family:var(--disp); font-size:clamp(24px,3.4vw,32px); text-transform:uppercase; margin-bottom:6px; }
-  .how-sub{ font-family:var(--mono); font-size:11.5px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.08em; margin-bottom:30px; }
-  .how-steps{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:22px; }
-  .step{ background:var(--card); border:1px solid var(--paper-line); border-radius:6px; padding:22px; }
-  .step-label{ font-family:var(--mono); font-size:11px; color:var(--amber-deep); text-transform:uppercase; letter-spacing:.08em; margin-bottom:10px; }
-  .step h4{ font-family:var(--disp); font-size:19px; text-transform:uppercase; margin-bottom:8px; }
-  .step p{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); }
-
-  /* filter */
-  .filter-wrap{ position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:2px solid var(--ink); padding:18px 40px; }
-  .filter-label{ font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--ink-soft); margin-bottom:10px; }
-  .tags{ display:flex; flex-wrap:wrap; gap:8px; }
-  .tag-btn{ font-family:var(--mono); font-size:12.5px; padding:8px 14px; background:var(--card); border:1.5px solid var(--ink);
-    border-radius:2px; cursor:pointer; text-transform:uppercase; letter-spacing:.03em; transition:all .15s ease; color:var(--ink); }
-  .tag-btn:hover{ background:var(--paper-dim); }
-  .tag-btn.active{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
-
-  /* skills grid */
-  .skills-section{ max-width:1040px; margin:0 auto; padding:48px 40px 64px; }
-  .skills-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px; }
-  .skill-card{ background:var(--card); border:1px solid var(--paper-line); border-radius:6px; padding:24px 24px 22px; display:flex; flex-direction:column; }
-  .skill-card-cat{ font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:var(--amber-deep); background:var(--amber-pale); padding:4px 9px; border-radius:2px; align-self:flex-start; margin-bottom:12px; }
-  .skill-card h3{ font-family:var(--disp); font-size:22px; text-transform:uppercase; letter-spacing:.005em; margin-bottom:8px; }
-  .skill-card .summary{ font-size:14px; line-height:1.55; color:var(--ink-soft); margin-bottom:16px; flex-grow:1; }
-  .perfect-label{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft); margin-bottom:8px; }
-  .skill-card ul{ list-style:none; margin-bottom:18px; }
-  .skill-card li{ font-size:13px; line-height:1.5; padding-left:15px; position:relative; margin-bottom:5px; }
-  .skill-card li::before{ content:"—"; position:absolute; left:0; color:var(--amber-deep); }
-  .skill-card .actions{ display:flex; gap:8px; flex-wrap:wrap; padding-top:16px; border-top:1px solid var(--paper-line); }
-
-  /* modal */
-  .modal-backdrop{ display:none; position:fixed; inset:0; background:rgba(11,14,18,.6); z-index:50; padding:40px 20px; overflow-y:auto; }
-  .modal-backdrop.show{ display:block; }
-  .modal{ max-width:720px; margin:0 auto; background:var(--card); border-radius:8px; padding:36px 36px 40px; position:relative; }
-  .modal-close{ position:absolute; top:20px; right:20px; background:none; border:none; font-family:var(--mono); font-size:13px; cursor:pointer; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em; }
-  .modal-close:hover{ color:var(--amber-deep); }
-  .modal-body{ font-size:14.5px; line-height:1.7; }
-  .modal-body h1{ font-family:var(--disp); font-size:28px; text-transform:uppercase; margin:22px 0 12px; }
-  .modal-body h2{ font-family:var(--disp); font-size:19px; text-transform:uppercase; margin:26px 0 10px; }
-  .modal-body ul{ padding-left:20px; margin-bottom:14px; }
-  .modal-body p{ margin-bottom:14px; }
-  .modal-body blockquote{ border-left:2px solid var(--amber); padding-left:16px; color:var(--ink-soft); font-style:italic; margin-bottom:14px; }
-  .modal-body hr{ border:none; border-top:1px solid var(--paper-line); margin:20px 0; }
-
-  footer{ padding:44px 40px; font-family:var(--mono); font-size:12px; color:var(--ink-soft); text-align:center; border-top:1px solid var(--paper-line); }
-  footer a{ color:var(--amber-deep); text-decoration:underline; }
-  .footer-tagline{ margin-top:10px; color:#a39c8f; }
-
-  @media (max-width:640px){
-    .hero{ padding:44px 20px 32px; } .how{ padding:40px 20px; } .filter-wrap{ padding:14px 20px; }
-    .skills-section{ padding:36px 20px 48px; } .modal{ padding:28px 20px 32px; }
-  }
-</style>
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 
 <div class="hero" id="top">
+  <a class="top-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
   <div class="hero-inner">
     <div class="kicker">Free Claude Skills — GTM & Marketing</div>
     <h1 class="word">Anatomy<span>.</span></h1>
     <p class="hero-sub">A library of Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more. Read how it works, download the file, drag it into Claude.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="#skills">Browse Skills</a>
-      <a class="btn btn-ghost-dark" href="#how">How It Works</a>
-    </div>
     <div class="hero-stats" id="heroStats"></div>
   </div>
 </div>
+
+<nav class="page-nav">
+  <div class="page-nav-inner">
+    <a href="index.html" data-page="getting-started">Getting Started</a>
+    <a href="marketing.html" data-page="marketing">Marketing</a>
+    <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
+  </div>
+</nav>
 
 <div class="how" id="how">
   <div class="how-title">Get Started in 3 Steps</div>
@@ -143,7 +56,7 @@
     <div class="step">
       <div class="step-label">Step 1</div>
       <h4>Browse</h4>
-      <p>Filter by category to find the skill built for the workflow you're trying to speed up.</p>
+      <p>Head to the Marketing or Go-To-Market tab to find the skill built for the workflow you're trying to speed up.</p>
     </div>
     <div class="step">
       <div class="step-label">Step 2</div>
@@ -158,143 +71,143 @@
   </div>
 </div>
 
-<div class="filter-wrap" id="skills">
-  <div class="filter-label">Filter by category — click one or stack multiple</div>
-  <div class="tags" id="tagBar"></div>
-</div>
+<div class="guide-section">
+  <div class="how" id="playbook-intro">
+    <div class="guide-kicker">— New Section</div>
+    <div class="how-title">Claude Setup Guide</div>
+    <p class="section-intro">New to Claude or looking to build a stronger foundation with a Claude environment that your team can actually rely on? Here is a more detailed set-up guide and several helpful resources that I look to for additional guidance.</p>
+  </div>
 
-<div class="skills-section">
-  <div class="skills-grid" id="skillsGrid"></div>
-</div>
+  <div class="pb-section" id="know-before-you-begin">
+    <div class="pb-section-title">Know Before You Begin</div>
+    <div class="pb-section-sub">Three steps to move off ad-hoc prompting and onto a system Claude can rely on</div>
+    <div class="pb-steps" id="stepsRail"></div>
+  </div>
 
-<div class="modal-backdrop" id="modalBackdrop">
-  <div class="modal">
-    <button class="modal-close" id="modalClose">Close ✕</button>
-    <div class="modal-body" id="modalBody"></div>
+  <div class="pb-section" id="ai-101">
+    <div class="pb-section-title">AI 101</div>
+    <div class="pb-section-sub">The terms you need to know before any of this makes sense</div>
+    <div class="pb-glossary-grid" id="glossaryGrid"></div>
+  </div>
+
+  <div class="pb-section" id="best-practices">
+    <div class="pb-section-title">Best Practices</div>
+    <div class="pb-section-sub">The right setup depends on how many people need the same answer from Claude. While this isn't my unique advice but information shared from resources and thought leaders I like to follow as I continue to build and scale AI-environments for B2B GTM Teams.</div>
+    <div class="pb-bp-grid" id="bpGrid"></div>
   </div>
 </div>
 
 <footer>
   <div>Built by <a href="https://rlwbruce-byte.github.io/rachelwbruce/" target="_blank" rel="noopener">Rachel Bruce</a> — GTM &amp; AI systems.</div>
   <div class="footer-tagline">New skills added as they're built and tested internally.</div>
+  <div class="footer-links">More about <a href="https://claude.ai/code/artifact/32aa8650-77df-4bf9-b8d1-d4e94440dfd5" target="_blank" rel="noopener">GTMAnatomy.AI</a></div>
 </footer>
 
+<script src="assets/site.js"></script>
 <script>
-const CATEGORIES = ["Competitive Intelligence","ABM","AEO"];
-
-const SKILLS = [
+const STEPS = [
   {
-    slug:"competitor-intelligence",
-    title:"Competitor Intelligence Brief",
-    category:"Competitive Intelligence",
-    summary:"Turns raw competitor signals — a pricing page, a review, a call transcript — into a structured, shareable brief for sales and leadership.",
-    perfectFor:[
-      "Weekly or monthly competitive monitoring",
-      "Prepping a rep before a competitive deal review",
-      "Feeding a living battlecard without manual upkeep"
-    ]
+    title:"Separate knowledge from behavior",
+    text:"Static reference material — brand guidelines, personas, messaging docs — is knowledge. Reusable procedures — voice rules, formatting, workflows — are behavior. They belong in different places: knowledge in a Project's Knowledge Base, behavior packaged as a Skill.",
+    tags:["Knowledge Base","Skills"]
   },
   {
-    slug:"abm-intelligence",
-    title:"ABM Account Snapshot",
-    category:"ABM",
-    summary:"Turns a target account name into a structured ABM snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.",
-    perfectFor:[
-      "Prioritizing a target account list before the quarter kicks off",
-      "Prepping sales before an account-based outbound push",
-      "Re-engaging a stalled account with a fresh angle"
-    ]
+    title:"Choose your layer",
+    text:"Solo builders start with one Claude Project. Teams split knowledge by function and add Skills on top. Enterprises add governance over both — access control, distribution, review cadence.",
+    tags:["Projects","Cowork","Scale"]
   },
   {
-    slug:"aeo",
-    title:"AEO Content Auditor",
-    category:"AEO",
-    summary:"Audits content against how AI answer engines are likely to summarize or cite it, and flags what to fix.",
-    perfectFor:[
-      "Auditing product pages before a content refresh",
-      "Writing new comparison pages with AEO in mind from the start",
-      "Checking whether competitors are winning the citation battle"
-    ]
-  }
+    title:"Scale access deliberately",
+    text:"Start private, expand sharing on purpose, and reach for a live connector — like GitHub — only when a task genuinely needs live repo access. Don't make a connector your default retrieval path for static knowledge; that's where consistency breaks down.",
+    tags:["Governance","Connectors"]
+  },
 ];
 
-let active = new Set();
+const GLOSSARY = [
+  {term:"LLM", title:"LLM", text:"Short for Large Language Model — the underlying AI system trained on massive amounts of text to understand and generate language. ChatGPT, Claude, and Grok are all products built on top of an LLM."},
+  {term:"Model", title:"Model", text:"A specific version of an LLM released under a family name — Claude, GPT, Grok — each with its own size, speed, and capability tradeoffs. A graphic comparing models is coming soon."},
+  {term:"Prompt", title:"Prompt", text:"A one-off instruction inside a single conversation. Nothing persists once the chat ends."},
+  {term:"Project", title:"Project", text:"A persistent workspace with a Knowledge Base and custom instructions that every chat inside it can draw on."},
+  {term:"Skill", title:"Skill", text:"A packaged, reusable procedure — like a brand voice guide — that Claude invokes automatically across chat, Code, and Cowork."},
+  {term:"Cowork", title:"Cowork", text:"Claude working directly in a local folder of files — structuring documents and running multi-step tasks."},
+  {term:"Connector / MCP", title:"Connector / MCP", text:"A live link to an external tool — GitHub, Drive, Slack — that Claude queries in real time. Powerful, but only as stable as the connection itself."},
+];
 
-function renderStats(){
-  const el = document.getElementById('heroStats');
-  el.innerHTML = `
-    <div class="hstat"><div class="num">${SKILLS.length}</div><div class="label">Skills Available</div></div>
-    <div class="hstat"><div class="num">${CATEGORIES.length}</div><div class="label">Categories</div></div>
-    <div class="hstat"><div class="num">$0</div><div class="label">Cost</div></div>
-  `;
-}
+const BEST_PRACTICES = [
+  {
+    tier:"Individual",
+    title:"Solo Builder",
+    text:"One Claude Project holding your personal operating brain — who you are, your voice, your clients, your workflows. Loads automatically at the start of every session.",
+    bullets:["One Project, one Knowledge Base","Custom instructions written once","Optional local CLAUDE.md mirror for Cowork or Code"],
+    link:"https://demandloops.substack.com/p/turns-out-claude-needs-a-brain",
+    linkText:"Read: Turns out Claude needs a brain",
+    source:"Kaylee Edmondson, Looped In"
+  },
+  {
+    tier:"Team",
+    title:"Small Team",
+    text:"Split knowledge into focused Projects by function instead of one mega-project, and turn recurring rules into a Skill so every teammate produces on-brand work without re-explaining the style guide.",
+    bullets:["Projects split by function, not one mega-project","Skills for repeatable voice and format rules","Shared visibility across the team"],
+    link:"https://ruben.substack.com/p/claude-cowork-project",
+    linkText:"Read: Claude Cowork + Project",
+    source:"Ruben Hassid, How to AI"
+  },
+  {
+    tier:"Enterprise",
+    title:"Org-Wide Rollout",
+    text:"Same two layers, plus governance — admin-managed groups and roles, org-wide Skill distribution through a private marketplace, and connectors scoped to specific, live-data tasks only.",
+    bullets:["Role-based access by group (SCIM-ready)","Private Skills marketplace for distribution","Connectors scoped to live-data tasks"],
+    link:"https://claude.com/blog/cowork-for-enterprise",
+    linkText:"Read: Making Claude Cowork ready for enterprise",
+    source:"Anthropic"
+  },
+];
 
-function renderTags(){
-  const bar = document.getElementById('tagBar');
-  bar.innerHTML = '';
-  CATEGORIES.forEach(cat=>{
-    const btn = document.createElement('button');
-    btn.className = 'tag-btn' + (active.has(cat) ? ' active' : '');
-    btn.textContent = cat;
-    btn.onclick = ()=>{ if(active.has(cat)) active.delete(cat); else active.add(cat); render(); };
-    bar.appendChild(btn);
-  });
-}
-
-function render(){
-  renderTags();
-  const grid = document.getElementById('skillsGrid');
-  grid.innerHTML = '';
-  SKILLS.filter(s => active.size === 0 || active.has(s.category)).forEach(s=>{
-    const div = document.createElement('div');
-    div.className = 'skill-card';
-    div.innerHTML = `
-      <div class="skill-card-cat">${s.category}</div>
-      <h3>${s.title}</h3>
-      <p class="summary">${s.summary}</p>
-      <div class="perfect-label">Perfect for</div>
-      <ul>${s.perfectFor.map(p=>`<li>${p}</li>`).join('')}</ul>
-      <div class="actions">
-        <button class="btn btn-ghost btn-sm" data-read="${s.slug}">Read</button>
-        <a class="btn btn-ghost btn-sm" href="skills/${s.slug}/skill.md" download>↓ Download</a>
-        <a class="btn btn-navy btn-sm" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude.ai</a>
+function renderSteps(){
+  document.getElementById('stepsRail').innerHTML = STEPS.map((s,i)=>`
+    <div class="pb-step">
+      <div class="pb-step-num">${String(i+1).padStart(2,'0')}</div>
+      <div class="pb-step-body">
+        <h4>${s.title}</h4>
+        <p>${s.text}</p>
+        <div class="pb-step-tags">${s.tags.map(t=>`<span class="pb-step-tag">${t}</span>`).join('')}</div>
       </div>
-    `;
-    grid.appendChild(div);
-  });
-  grid.querySelectorAll('[data-read]').forEach(btn=>{
-    btn.addEventListener('click', ()=> openSkill(btn.dataset.read));
-  });
+    </div>
+  `).join('');
 }
 
-function openSkill(slug){
-  fetch(`skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
-    const body = md.replace(/^---[\s\S]*?---/, '').trim();
-    document.getElementById('modalBody').innerHTML = mdToHtml(body);
-    document.getElementById('modalBackdrop').classList.add('show');
-  });
+function renderGlossary(){
+  document.getElementById('glossaryGrid').innerHTML = GLOSSARY.map(g=>`
+    <div class="pb-gloss-card">
+      <div class="pb-gloss-term">${g.term}</div>
+      <h4>${g.title}</h4>
+      <p>${g.text}</p>
+    </div>
+  `).join('');
 }
 
-function mdToHtml(md){
-  return md
-    .split(/\n\n+/).map(block=>{
-      if(block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`;
-      if(block.startsWith('# ')) return `<h1>${block.slice(2)}</h1>`;
-      if(block.startsWith('> ')) return `<blockquote>${block.replace(/^> ?/gm,'')}</blockquote>`;
-      if(block.startsWith('- ')) return `<ul>${block.split('\n').map(l=>`<li>${l.replace(/^- /,'')}</li>`).join('')}</ul>`;
-      return `<p>${block}</p>`;
-    }).join('\n');
+function renderBestPractices(){
+  document.getElementById('bpGrid').innerHTML = BEST_PRACTICES.map(b=>`
+    <div class="pb-bp-card">
+      <div class="pb-bp-tier">${b.tier}</div>
+      <h4>${b.title}</h4>
+      <p>${b.text}</p>
+      <ul>${b.bullets.map(x=>`<li>${x}</li>`).join('')}</ul>
+      <a class="pb-bp-link" href="${b.link}" target="_blank" rel="noopener">${b.linkText} →</a>
+      <div class="pb-bp-source">${b.source}</div>
+    </div>
+  `).join('');
 }
 
-document.getElementById('modalClose').addEventListener('click', ()=>{
-  document.getElementById('modalBackdrop').classList.remove('show');
-});
-document.getElementById('modalBackdrop').addEventListener('click', (e)=>{
-  if(e.target.id === 'modalBackdrop') document.getElementById('modalBackdrop').classList.remove('show');
-});
-
-renderStats();
-render();
+  setActiveNav('getting-started');
+  renderStats('heroStats', [
+    { value: 3, label: 'Skills Available' },
+    { value: 2, label: 'Skill Tracks' },
+    { value: '$0', label: 'Cost' }
+  ]);
+  renderSteps();
+  renderGlossary();
+  renderBestPractices();
 </script>
 
 </body>

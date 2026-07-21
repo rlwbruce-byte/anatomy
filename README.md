@@ -9,9 +9,21 @@ Live site: served via GitHub Pages from this repo's `main` branch.
 ## Structure
 
 ```
-index.html              # the whole site — no build step
+index.html              # Getting Started (home) — hero, 3-step onboarding, Claude Setup Guide
+marketing.html          # Marketing-track skills
+go-to-market.html       # Go-To-Market-track skills
+assets/styles.css        # shared styles across all 3 pages
+assets/site.js           # shared render/filter/modal logic across all 3 pages
 skills/<slug>/skill.md   # one skill per folder; front-matter + full write-up
 ```
+
+Still no build step — just static HTML/CSS/JS shared via plain `<link>`/`<script>`
+tags, no bundler. Each page's `SKILLS`/`CATEGORIES` arrays are inlined per page
+since which skills appear on which page differs.
+
+`index.html` also carries the Claude Setup Guide (formerly a standalone
+`playbook.html`) — Getting Started / AI 101 / Best Practices sections with
+their own in-page anchor nav, appended below the 3-step onboarding.
 
 Each `skill.md` starts with front-matter (`title`, `status`, `summary`,
 `category`, `audience`). Only `status: published` skills belong here —

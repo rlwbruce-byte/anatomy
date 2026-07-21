@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go-To-Market Skills — Anatomy</title>
+<meta name="description" content="Free, downloadable Claude skills for GTM teams — competitor intelligence, and more. No install, no cost: download the file, drag it into Claude.">
+
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="shortcut icon" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rlwbruce-byte.github.io/anatomy/go-to-market.html">
+<meta property="og:title" content="Go-To-Market Skills — Anatomy">
+<meta property="og:description" content="Free, downloadable Claude skills for GTM teams — competitor intelligence, and more.">
+<meta property="og:image" content="https://rlwbruce-byte.github.io/anatomy/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Go-To-Market Skills — Anatomy">
+<meta name="twitter:description" content="Free, downloadable Claude skills for GTM teams — competitor intelligence, and more.">
+<meta name="twitter:image" content="https://rlwbruce-byte.github.io/anatomy/assets/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="page-header">
+  <a class="top-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
+  <div class="page-header-inner">
+    <div class="kicker">Free Claude Skills — Go-To-Market</div>
+    <h1>Go-To-Market<span>.</span></h1>
+    <p>Skills built for GTM teams — competitive intelligence, pipeline signals, and more. Read how it works, download the file, drag it into Claude.</p>
+    <div class="hero-stats" id="heroStats"></div>
+  </div>
+</div>
+
+<nav class="page-nav">
+  <div class="page-nav-inner">
+    <a href="index.html" data-page="getting-started">Getting Started</a>
+    <a href="marketing.html" data-page="marketing">Marketing</a>
+    <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
+  </div>
+</nav>
+
+<div class="filter-wrap" id="skills">
+  <div class="filter-label">Filter by category — click one or stack multiple</div>
+  <div class="tags" id="tagBar"></div>
+</div>
+
+<div class="skills-section">
+  <div class="skills-grid" id="skillsGrid"></div>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">Close ✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>
+  <div>Built by <a href="https://rlwbruce-byte.github.io/rachelwbruce/" target="_blank" rel="noopener">Rachel Bruce</a> — GTM &amp; AI systems.</div>
+  <div class="footer-tagline">New skills added as they're built and tested internally.</div>
+  <div class="footer-links">More about <a href="https://claude.ai/code/artifact/32aa8650-77df-4bf9-b8d1-d4e94440dfd5" target="_blank" rel="noopener">GTMAnatomy.AI</a></div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+const CATEGORIES = ["Competitive Intelligence"];
+
+const SKILLS = [
+  {
+    slug:"competitor-intelligence",
+    title:"Competitor Intelligence Brief",
+    category:"Competitive Intelligence",
+    summary:"Turns raw competitor signals — a pricing page, a review, a call transcript — into a structured, shareable brief for sales and leadership.",
+    perfectFor:[
+      "Weekly or monthly competitive monitoring",
+      "Prepping a rep before a competitive deal review",
+      "Feeding a living battlecard without manual upkeep"
+    ]
+  }
+];
+
+let active = new Set();
+function render(){
+  renderTags('tagBar', CATEGORIES, active, render);
+  renderSkillsGrid('skillsGrid', SKILLS, active);
+}
+
+setActiveNav('gtm');
+renderStats('heroStats', [
+  { value: SKILLS.length, label: 'Skills Available' },
+  { value: CATEGORIES.length, label: 'Categories' },
+  { value: '$0', label: 'Cost' }
+]);
+initModal();
+render();
+</script>
+
+</body>
+</html>

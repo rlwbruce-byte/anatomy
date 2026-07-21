@@ -6,7 +6,18 @@ Guidance for Claude Code when working in this repo.
 
 `anatomy` is the public-facing site hosting free Claude skills for GTM and
 marketing teams. It is served via GitHub Pages directly from `main` — no
-build step, `index.html` is the whole site.
+build step. The site is 3 static pages sharing `assets/styles.css` and
+`assets/site.js`:
+
+- `index.html` — Getting Started (home): hero (no CTA buttons — the top
+  page-nav is the only navigation), 3-step onboarding, and the Claude Setup
+  Guide (its own in-page anchor nav + Getting Started/AI 101/Best Practices
+  sections). No skills grid.
+- `marketing.html` — skills tagged for the Marketing track.
+- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track.
+
+There is no separate `playbook.html` — that content lives on `index.html`.
+Don't re-split it into its own page without the user asking.
 
 ## Repo isolation — read before syncing anything
 
@@ -24,10 +35,14 @@ and push here as its own step. Never script a bulk sync across repos.
 ## Adding a new skill
 
 1. Create `skills/<slug>/skill.md` with front-matter: `title`, `status:
-   published`, `summary`, `category`, `audience`.
-2. Add an entry to the `SKILLS` array in `index.html` (slug, title,
-   category, summary, perfectFor bullets).
-3. If it's a new category, add it to the `CATEGORIES` array too.
+   published`, `summary`, `category`, `audience` (`Marketing Leaders` or
+   `GTM Leaders` — determines which page it belongs on).
+2. Add an entry to the `SKILLS` array in `marketing.html` or
+   `go-to-market.html` (whichever matches `audience`) — slug, title,
+   category, summary, perfectFor bullets.
+3. If it's a new category, add it to that page's `CATEGORIES` array too.
+4. Update the stats (`renderStats` call) on both that page and `index.html`
+   if the total skill/track counts changed.
 
 ## Brand
 
