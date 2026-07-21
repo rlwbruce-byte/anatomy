@@ -2,6 +2,10 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-21 (6)
+
+- Rewrote the hero-sub copy on the Getting Started page: dropped the "competitor intelligence, ABM, AEO, and more" list from the intro sentence and added "Check back often, skills are added and updated daily." to signal the library is actively growing.
+
 ## 2026-07-21 (5)
 
 - Renamed and expanded **AEO Content Auditor** → **AEO Brand Auditor**
