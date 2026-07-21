@@ -4,6 +4,8 @@ status: published
 summary: Turns a target account name into a structured account-based marketing snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.
 category: ABM
 audience: Marketing Leaders
+created: 2026-07-15
+updated: 2026-07-15
 ---
 
 # ABM Account Snapshot

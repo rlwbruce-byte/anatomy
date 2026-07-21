@@ -2,6 +2,12 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-21 (4)
+
+- Every skill `skill.md` now carries `created` and `updated` dates in front-matter (convention added to `CLAUDE.md` — bump `updated` on any content change). Backfilled all four skills from git history.
+- Renamed the **Company Identity Builder** category from "Brand & Messaging" to just **Messaging** (front-matter + `marketing.html`).
+- Added a "Generate your LLMS.txt summary" bullet to the Company Identity Builder perfect-for list (skill.md + card).
+
 ## 2026-07-21 (3)
 
 - Recategorized **Company Identity Builder** as a brand/messaging skill (it's for understanding a company's external-facing message, not account/market intel). Moved it from the Go-To-Market track to the Marketing track: `audience` → Marketing Leaders, `category` → **Brand & Messaging**, and reframed its copy/perfect-for bullets accordingly.

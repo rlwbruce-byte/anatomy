@@ -2,8 +2,10 @@
 title: Company Identity Builder
 status: published
 summary: Give Claude a company URL and it builds a full GTM identity — brand colors, competitors, category, sales plays, proof points, and beachhead offering — one question at a time, then hands back a README, a branded HTML deck, and an llms.txt.
-category: Brand & Messaging
+category: Messaging
 audience: Marketing Leaders
+created: 2026-07-21
+updated: 2026-07-21
 ---
 
 # Company Identity Builder
@@ -78,6 +80,7 @@ thin, Claude says so rather than guessing.
 - Capturing a company's brand identity (palette, category, positioning) in one place
 - Building a positioning or messaging input from scratch
 - Onboarding a new marketer onto how a company presents itself
+- Generate your LLMS.txt summary
 
 ## Scope
 

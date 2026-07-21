@@ -4,6 +4,8 @@ status: published
 summary: Audits existing content against how AI answer engines (ChatGPT, Perplexity, Google AI Overviews) are likely to summarize or cite it, and flags what to fix.
 category: AEO
 audience: Marketing Leaders
+created: 2026-07-15
+updated: 2026-07-15
 ---
 
 # AEO Content Auditor

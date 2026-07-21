@@ -36,7 +36,10 @@ and push here as its own step. Never script a bulk sync across repos.
 
 1. Create `skills/<slug>/skill.md` with front-matter: `title`, `status:
    published`, `summary`, `category`, `audience` (`Marketing Leaders` or
-   `GTM Leaders` — determines which page it belongs on).
+   `GTM Leaders` — determines which page it belongs on), `created` and
+   `updated` (both `YYYY-MM-DD`). Every skill.md must always carry both
+   dates; bump `updated` on any content change to that skill (leave
+   `created` fixed).
 2. Add an entry to the `SKILLS` array in `marketing.html` or
    `go-to-market.html` (whichever matches `audience`) — slug, title,
    category, summary, perfectFor bullets.
