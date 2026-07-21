@@ -2,10 +2,14 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-21 (3)
+
+- Recategorized **Company Identity Builder** as a brand/messaging skill (it's for understanding a company's external-facing message, not account/market intel). Moved it from the Go-To-Market track to the Marketing track: `audience` → Marketing Leaders, `category` → **Brand & Messaging**, and reframed its copy/perfect-for bullets accordingly.
+- `marketing.html` gains the skill and the new **Brand & Messaging** category (Marketing track now 3 skills); `go-to-market.html` reverts to just Competitor Intelligence and its single category. Total site skills unchanged (4), so `index.html` stats stay put.
+
 ## 2026-07-21 (2)
 
-- Published new GTM skill: **Company Identity Builder** (`skills/company-identity-builder/skill.md`). Give Claude a company URL and it builds a full GTM identity across six approval-gated questions (brand colors, competitors, categories, sales plays, proof points, beachhead), then outputs a README, a branded HTML deck, and an llms.txt.
-- Added new category **Account & Market Intelligence** to `go-to-market.html` and the skill to its `SKILLS` array (GTM track now has 2 skills).
+- Published new skill: **Company Identity Builder** (`skills/company-identity-builder/skill.md`). Give Claude a company URL and it builds a full identity across six approval-gated questions (brand colors, competitors, categories, sales plays, proof points, beachhead), then outputs a README, a branded HTML deck, and an llms.txt.
 - Bumped `index.html` "Skills Available" stat from 3 to 4.
 
 ## 2026-07-21 (1)

@@ -2,8 +2,8 @@
 title: Company Identity Builder
 status: published
 summary: Give Claude a company URL and it builds a full GTM identity — brand colors, competitors, category, sales plays, proof points, and beachhead offering — one question at a time, then hands back a README, a branded HTML deck, and an llms.txt.
-category: Account & Market Intelligence
-audience: GTM Leaders
+category: Brand & Messaging
+audience: Marketing Leaders
 ---
 
 # Company Identity Builder
@@ -20,8 +20,10 @@ When all six are approved, it produces three deliverables: a standalone
 `README.md`, a self-contained HTML brand deck styled in the company's real
 colors, and an `llms.txt` (a dense, machine-readable summary).
 
-Built for GTM teams profiling a target account, sizing up a competitor, or
-reverse-engineering how a company actually sells.
+Built for marketing and brand teams who need a company's external-facing
+identity laid out clearly — your own, to pressure-test the message you're
+putting into market, or another company's, to see how they present
+themselves.
 
 ## Trigger phrases
 
@@ -72,10 +74,10 @@ thin, Claude says so rather than guessing.
 
 ## Perfect for
 
-- Pre-call research on a target account or partner
-- Reverse-engineering a competitor's go-to-market motion
-- Building a positioning or battlecard input from scratch
-- Onboarding a new rep onto an unfamiliar market or segment
+- Auditing your own external-facing message — is it saying what you think?
+- Capturing a company's brand identity (palette, category, positioning) in one place
+- Building a positioning or messaging input from scratch
+- Onboarding a new marketer onto how a company presents itself
 
 ## Scope
 
