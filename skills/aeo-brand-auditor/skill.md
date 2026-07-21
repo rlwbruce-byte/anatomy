@@ -4,6 +4,8 @@ status: published
 summary: Runs a company-wide AEO scan — a live AI-answer query panel, a site audit, and a competitive teardown — from a handful of questions about your company, or a quick single-page citability check. Delivers a report, a browser-viewable HTML version, and an executive PDF summary.
 category: AEO
 audience: Marketing Leaders
+created: 2026-07-15
+updated: 2026-07-21
 ---
 
 # AEO Brand Auditor

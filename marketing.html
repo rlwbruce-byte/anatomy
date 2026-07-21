@@ -73,14 +73,30 @@
 
 <script src="assets/site.js"></script>
 <script>
-const CATEGORIES = ["ABM","AEO"];
+const CATEGORIES = ["ABM","AEO","Messaging"];
 
 const SKILLS = [
+  {
+    slug:"company-identity-builder",
+    title:"Company Identity Builder",
+    category:"Messaging",
+    summary:"Give Claude a company URL and it maps the external-facing identity — brand colors, category, competitors, positioning, proof points, and beachhead message — then hands back a README, a branded HTML deck, and an llms.txt.",
+    created:"2026-07-21",
+    updated:"2026-07-21",
+    perfectFor:[
+      "Auditing your own external-facing message",
+      "Capturing a company's brand identity in one place",
+      "Building a positioning or messaging input from scratch",
+      "Generate your LLMS.txt summary"
+    ]
+  },
   {
     slug:"abm-intelligence",
     title:"ABM Account Snapshot",
     category:"ABM",
     summary:"Turns a target account name into a structured ABM snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.",
+    created:"2026-07-15",
+    updated:"2026-07-15",
     perfectFor:[
       "Prioritizing a target account list before the quarter kicks off",
       "Prepping sales before an account-based outbound push",
@@ -92,6 +108,8 @@ const SKILLS = [
     title:"AEO Brand Auditor",
     category:"AEO",
     summary:"Runs a company-wide AEO scan — AI-answer query panel, site audit, competitive teardown — or a quick single-page citability check.",
+    created:"2026-07-15",
+    updated:"2026-07-21",
     perfectFor:[
       "Getting an evidence-based read on whether AI answer engines cite you at all",
       "Finding queries where a named competitor is winning and you're invisible",

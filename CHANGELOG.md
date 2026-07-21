@@ -2,7 +2,7 @@
 
 All notable changes to the site are recorded here, most recent first.
 
-## 2026-07-21 (3)
+## 2026-07-21 (5)
 
 - Renamed and expanded **AEO Content Auditor** → **AEO Brand Auditor**
   (`skills/aeo/skill.md` → `skills/aeo-brand-auditor/skill.md`, slug `aeo`
@@ -11,13 +11,24 @@ All notable changes to the site are recorded here, most recent first.
   query panel, site audit, competitive teardown) alongside the original
   page-level check, promoted from `brain` after an internal test run.
 - Updated the `SKILLS` array entry on `marketing.html` (slug, title,
-  summary, perfectFor bullets) to match. No count/category change — still 1
-  skill under AEO on the Marketing track.
+  summary, perfectFor bullets, and `created`/`updated` dates — `created`
+  kept at the original 2026-07-15, `updated` bumped to 2026-07-21) to
+  match. No count/category change.
+
+## 2026-07-21 (4)
+
+- Every skill `skill.md` now carries `created` and `updated` dates in front-matter (convention added to `CLAUDE.md` — bump `updated` on any content change). Backfilled all four skills from git history.
+- Renamed the **Company Identity Builder** category from "Brand & Messaging" to just **Messaging** (front-matter + `marketing.html`).
+- Added a "Generate your LLMS.txt summary" bullet to the Company Identity Builder perfect-for list (skill.md + card).
+
+## 2026-07-21 (3)
+
+- Recategorized **Company Identity Builder** as a brand/messaging skill (it's for understanding a company's external-facing message, not account/market intel). Moved it from the Go-To-Market track to the Marketing track: `audience` → Marketing Leaders, `category` → **Brand & Messaging**, and reframed its copy/perfect-for bullets accordingly.
+- `marketing.html` gains the skill and the new **Brand & Messaging** category (Marketing track now 3 skills); `go-to-market.html` reverts to just Competitor Intelligence and its single category. Total site skills unchanged (4), so `index.html` stats stay put.
 
 ## 2026-07-21 (2)
 
-- Published new GTM skill: **Company Identity Builder** (`skills/company-identity-builder/skill.md`). Give Claude a company URL and it builds a full GTM identity across six approval-gated questions (brand colors, competitors, categories, sales plays, proof points, beachhead), then outputs a README, a branded HTML deck, and an llms.txt.
-- Added new category **Account & Market Intelligence** to `go-to-market.html` and the skill to its `SKILLS` array (GTM track now has 2 skills).
+- Published new skill: **Company Identity Builder** (`skills/company-identity-builder/skill.md`). Give Claude a company URL and it builds a full identity across six approval-gated questions (brand colors, competitors, categories, sales plays, proof points, beachhead), then outputs a README, a branded HTML deck, and an llms.txt.
 - Bumped `index.html` "Skills Available" stat from 3 to 4.
 
 ## 2026-07-21 (1)
