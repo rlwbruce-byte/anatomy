@@ -2,6 +2,12 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-21 (2)
+
+- Published new GTM skill: **Company Identity Builder** (`skills/company-identity-builder/skill.md`). Give Claude a company URL and it builds a full GTM identity across six approval-gated questions (brand colors, competitors, categories, sales plays, proof points, beachhead), then outputs a README, a branded HTML deck, and an llms.txt.
+- Added new category **Account & Market Intelligence** to `go-to-market.html` and the skill to its `SKILLS` array (GTM track now has 2 skills).
+- Bumped `index.html` "Skills Available" stat from 3 to 4.
+
 ## 2026-07-21 (1)
 
 - Shortened the top-right contact button label from "Contact for Consulting" to "Contact" on all 3 pages (mailto link/subject unchanged).
