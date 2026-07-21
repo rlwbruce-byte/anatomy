@@ -38,6 +38,7 @@ function renderSkillsGrid(gridId, skills, active){
       <p class="summary">${s.summary}</p>
       <div class="perfect-label">Perfect for</div>
       <ul>${s.perfectFor.map(p=>`<li>${p}</li>`).join('')}</ul>
+      ${(s.created || s.updated) ? `<div class="skill-card-dates">${s.created ? `Added ${s.created}` : ''}${s.created && s.updated ? ' · ' : ''}${s.updated ? `Updated ${s.updated}` : ''}</div>` : ''}
       <div class="actions">
         <button class="btn btn-ghost btn-sm" data-read="${s.slug}">Read</button>
         <a class="btn btn-ghost btn-sm" href="skills/${s.slug}/skill.md" download>↓ Download</a>
@@ -53,8 +54,17 @@ function renderSkillsGrid(gridId, skills, active){
 
 function openSkill(slug){
   fetch(`skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
+    const fm = md.match(/^---([\s\S]*?)---/);
+    let meta = '';
+    if(fm){
+      const cre = (fm[1].match(/^created:\s*(.+)$/m) || [])[1];
+      const upd = (fm[1].match(/^updated:\s*(.+)$/m) || [])[1];
+      if(cre || upd){
+        meta = `<div class="modal-meta">${cre ? `Added ${cre.trim()}` : ''}${cre && upd ? ' · ' : ''}${upd ? `Updated ${upd.trim()}` : ''}</div>`;
+      }
+    }
     const body = md.replace(/^---[\s\S]*?---/, '').trim();
-    document.getElementById('modalBody').innerHTML = mdToHtml(body);
+    document.getElementById('modalBody').innerHTML = meta + mdToHtml(body);
     document.getElementById('modalBackdrop').classList.add('show');
   });
 }
