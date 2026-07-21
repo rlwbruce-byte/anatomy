@@ -73,30 +73,14 @@
 
 <script src="assets/site.js"></script>
 <script>
-const CATEGORIES = ["ABM","AEO","Messaging"];
+const CATEGORIES = ["ABM","AEO"];
 
 const SKILLS = [
-  {
-    slug:"company-identity-builder",
-    title:"Company Identity Builder",
-    category:"Messaging",
-    summary:"Give Claude a company URL and it maps the external-facing identity — brand colors, category, competitors, positioning, proof points, and beachhead message — then hands back a README, a branded HTML deck, and an llms.txt.",
-    created:"2026-07-21",
-    updated:"2026-07-21",
-    perfectFor:[
-      "Auditing your own external-facing message",
-      "Capturing a company's brand identity in one place",
-      "Building a positioning or messaging input from scratch",
-      "Generate your LLMS.txt summary"
-    ]
-  },
   {
     slug:"abm-intelligence",
     title:"ABM Account Snapshot",
     category:"ABM",
     summary:"Turns a target account name into a structured ABM snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.",
-    created:"2026-07-15",
-    updated:"2026-07-15",
     perfectFor:[
       "Prioritizing a target account list before the quarter kicks off",
       "Prepping sales before an account-based outbound push",
@@ -104,16 +88,14 @@ const SKILLS = [
     ]
   },
   {
-    slug:"aeo",
-    title:"AEO Content Auditor",
+    slug:"aeo-brand-auditor",
+    title:"AEO Brand Auditor",
     category:"AEO",
-    summary:"Audits content against how AI answer engines are likely to summarize or cite it, and flags what to fix.",
-    created:"2026-07-15",
-    updated:"2026-07-15",
+    summary:"Runs a company-wide AEO scan — AI-answer query panel, site audit, competitive teardown — or a quick single-page citability check.",
     perfectFor:[
-      "Auditing product pages before a content refresh",
-      "Writing new comparison pages with AEO in mind from the start",
-      "Checking whether competitors are winning the citation battle"
+      "Getting an evidence-based read on whether AI answer engines cite you at all",
+      "Finding queries where a named competitor is winning and you're invisible",
+      "Auditing a single page before a content refresh"
     ]
   }
 ];
