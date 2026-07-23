@@ -52,6 +52,69 @@ function renderSkillsGrid(gridId, skills, active){
   });
 }
 
+function renderPromptsGrid(gridId, prompts, active){
+  const grid = document.getElementById(gridId);
+  grid.innerHTML = '';
+  const visible = prompts.filter(p => active.size === 0 || active.has(p.category));
+  if(visible.length === 0){
+    grid.innerHTML = `<div class="empty-state">No prompts published here yet — check back soon.</div>`;
+    return;
+  }
+  visible.forEach(p=>{
+    const div = document.createElement('div');
+    div.className = 'skill-card';
+    div.innerHTML = `
+      <div class="skill-card-cat">${p.category}</div>
+      <h3>${p.title}</h3>
+      <p class="summary">${p.summary}</p>
+      <div class="perfect-label">Perfect for</div>
+      <ul>${p.perfectFor.map(x=>`<li>${x}</li>`).join('')}</ul>
+      ${(p.created || p.updated) ? `<div class="skill-card-dates">${p.created ? `Added ${p.created}` : ''}${p.created && p.updated ? ' · ' : ''}${p.updated ? `Updated ${p.updated}` : ''}</div>` : ''}
+      <div class="actions">
+        <button class="btn btn-ghost btn-sm" data-read="${p.slug}">Read</button>
+        <button class="btn btn-ghost btn-sm" data-copy="${p.slug}">Copy</button>
+        <a class="btn btn-navy btn-sm" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude.ai</a>
+      </div>
+    `;
+    grid.appendChild(div);
+  });
+  grid.querySelectorAll('[data-read]').forEach(btn=>{
+    btn.addEventListener('click', ()=> openPrompt(btn.dataset.read));
+  });
+  grid.querySelectorAll('[data-copy]').forEach(btn=>{
+    btn.addEventListener('click', ()=> copyPrompt(btn.dataset.copy, btn));
+  });
+}
+
+function openPrompt(slug){
+  fetch(`prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
+    const fm = md.match(/^---([\s\S]*?)---/);
+    let meta = '';
+    if(fm){
+      const cre = (fm[1].match(/^created:\s*(.+)$/m) || [])[1];
+      const upd = (fm[1].match(/^updated:\s*(.+)$/m) || [])[1];
+      if(cre || upd){
+        meta = `<div class="modal-meta">${cre ? `Added ${cre.trim()}` : ''}${cre && upd ? ' · ' : ''}${upd ? `Updated ${upd.trim()}` : ''}</div>`;
+      }
+    }
+    const body = md.replace(/^---[\s\S]*?---/, '').trim();
+    document.getElementById('modalBody').innerHTML = meta + mdToHtml(body);
+    document.getElementById('modalBackdrop').classList.add('show');
+  });
+}
+
+function copyPrompt(slug, btn){
+  fetch(`prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
+    const fenced = md.match(/```[\w]*\n([\s\S]*?)```/);
+    const text = fenced ? fenced[1].trim() : md.replace(/^---[\s\S]*?---/, '').trim();
+    navigator.clipboard.writeText(text).then(()=>{
+      const original = btn.textContent;
+      btn.textContent = 'Copied ✓';
+      setTimeout(()=>{ btn.textContent = original; }, 1800);
+    });
+  });
+}
+
 function openSkill(slug){
   fetch(`skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
     const fm = md.match(/^---([\s\S]*?)---/);

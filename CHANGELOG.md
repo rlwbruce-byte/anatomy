@@ -2,6 +2,27 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-22 (2)
+
+- Getting Started (`index.html`) copy pass:
+  - Hero sub now reads "A library of Claude **prompts and skills** built from
+    real GTM workflows. Read how it works, download the **files**, **execute
+    in Claude**. Check back often, **updates** are made daily." (was skills-only,
+    "drag it into Claude", "skills are added and updated daily").
+  - Step 1 (Browse): "Marketing" and "Go-To-Market" are now links to
+    `marketing.html` and `go-to-market.html`.
+  - Claude Setup Guide: removed the "— New Section" kicker and replaced the
+    intro paragraph with "Build a system Claude can rely on with repeatable
+    skills, prompts, and more."
+
+## 2026-07-22 (1)
+
+- Added a new **Prompts** section to `marketing.html` and `go-to-market.html`, below the existing Skills grid — its own heading, stats row, filter tags, and grid, wrapped in `.guide-section` (the same amber-top-border/tinted-background "new zone" treatment used for the Claude Setup Guide on `index.html`) so it reads as a distinct content zone rather than more of the Skills grid.
+- `assets/site.js`: added `renderPromptsGrid`, `openPrompt`, and `copyPrompt` — mirrors the existing Skills rendering functions but reads from `prompts/<slug>/prompt.md` and swaps the Download button for a Copy button (extracts the first fenced code block in the prompt file and copies it to the clipboard).
+- `assets/styles.css`: added `.filter-wrap.static` (non-sticky variant, since the page already has one sticky filter bar for Skills) and `.hero-stats.on-light` (amber-deep instead of amber for stat numbers/border, since this stats row sits on the tinted `--paper-dim` background instead of graphite).
+- Shipped with one placeholder card per page (`prompts/placeholder-marketing-prompt/`, `prompts/placeholder-gtm-prompt/`) — `status: draft`, clearly marked `[Placeholder]` in the title. **Replace both before this section should be considered live** — see `CLAUDE.md` → "Adding a new prompt" for the pattern.
+- `CLAUDE.md`: documented the Prompts section and the new "Adding a new prompt" recipe alongside the existing "Adding a new skill" one.
+
 ## 2026-07-21 (6)
 
 - Rewrote the hero-sub copy on the Getting Started page: dropped the "competitor intelligence, ABM, AEO, and more" list from the intro sentence and added "Check back often, skills are added and updated daily." to signal the library is actively growing.

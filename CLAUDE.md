@@ -13,8 +13,20 @@ build step. The site is 3 static pages sharing `assets/styles.css` and
   page-nav is the only navigation), 3-step onboarding, and the Claude Setup
   Guide (its own in-page anchor nav + Getting Started/AI 101/Best Practices
   sections). No skills grid.
-- `marketing.html` — skills tagged for the Marketing track.
-- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track.
+- `marketing.html` — skills tagged for the Marketing track, plus its own
+  Prompts section below the skills grid.
+- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track, plus
+  its own Prompts section below the skills grid.
+
+Both `marketing.html` and `go-to-market.html` carry a **Prompts** section
+(added 2026-07-22) below the Skills grid — a separate, self-contained zone
+for short copy-paste prompts that don't warrant a full Skill file. It's
+wrapped in `.guide-section` (the same amber-top-border + tinted-background
+"new zone" treatment used for the Claude Setup Guide on `index.html`), with
+its own heading, stats row, filter tags, and grid — structurally identical
+to the Skills section but visually distinct. It currently ships with one
+placeholder card per page (`status: draft` in front-matter) — replace
+before treating the section as live content.
 
 There is no separate `playbook.html` — that content lives on `index.html`.
 Don't re-split it into its own page without the user asking.
@@ -46,6 +58,25 @@ and push here as its own step. Never script a bulk sync across repos.
 3. If it's a new category, add it to that page's `CATEGORIES` array too.
 4. Update the stats (`renderStats` call) on both that page and `index.html`
    if the total skill/track counts changed.
+
+## Adding a new prompt
+
+1. Create `prompts/<slug>/prompt.md` with front-matter: `title`, `status:
+   published`, `summary`, `category`, `audience` (`Marketing Leaders` or
+   `GTM Leaders`), `created` and `updated` (both `YYYY-MM-DD`). Body should
+   include a short "What this prompt does" blurb and a fenced code block
+   with the literal copy-paste prompt text — the Copy button on the card
+   extracts the first fenced block in the file verbatim.
+2. Add an entry to the `PROMPTS` array in `marketing.html` or
+   `go-to-market.html` (whichever matches `audience`) — slug, title,
+   category, summary, perfectFor bullets, `created`/`updated`.
+3. If it's a new category, add it to that page's `PROMPT_CATEGORIES` array.
+4. Update the `promptStats` `renderStats` call on that page if the count
+   changed.
+5. Uses the shared `renderPromptsGrid` / `openPrompt` / `copyPrompt`
+   functions in `assets/site.js` — same card markup as Skills
+   (`.skill-card`), just a different data source and action set (Read /
+   Copy / Open Claude.ai instead of Read / Download / Open Claude.ai).
 
 ## Brand
 

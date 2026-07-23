@@ -90,6 +90,12 @@ h1.word span{ color:var(--amber); }
   border-radius:2px; cursor:pointer; text-transform:uppercase; letter-spacing:.03em; transition:all .15s ease; color:var(--ink); }
 .tag-btn:hover{ background:var(--paper-dim); }
 .tag-btn.active{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
+.filter-wrap.static{ position:static; }
+
+/* stats variant for light backgrounds (e.g. inside .guide-section) */
+.hero-stats.on-light{ border-top-color:var(--amber-deep); }
+.hero-stats.on-light .hstat{ border-right-color:var(--paper-line); }
+.hero-stats.on-light .num{ color:var(--amber-deep); }
 
 /* skills grid */
 .skills-section{ max-width:1040px; margin:0 auto; padding:48px 40px 64px; }
