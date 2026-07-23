@@ -1,5 +1,5 @@
 function setActiveNav(page){
-  document.querySelectorAll('.page-nav a').forEach(a=>{
+  document.querySelectorAll('.global-nav a').forEach(a=>{
     a.classList.toggle('active', a.dataset.page === page);
   });
 }
@@ -12,7 +12,7 @@ function renderStats(elId, stats){
 function renderTags(barId, categories, active, onChange){
   const bar = document.getElementById(barId);
   bar.innerHTML = '';
-  categories.forEach(cat=>{
+  categories.slice().sort((a,b)=>a.localeCompare(b)).forEach(cat=>{
     const btn = document.createElement('button');
     btn.className = 'tag-btn' + (active.has(cat) ? ' active' : '');
     btn.textContent = cat;
@@ -24,7 +24,8 @@ function renderTags(barId, categories, active, onChange){
 function renderSkillsGrid(gridId, skills, active){
   const grid = document.getElementById(gridId);
   grid.innerHTML = '';
-  const visible = skills.filter(s => active.size === 0 || active.has(s.category));
+  const visible = skills.filter(s => active.size === 0 || active.has(s.category))
+    .sort((a,b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
   if(visible.length === 0){
     grid.innerHTML = `<div class="empty-state">No skills published here yet — check back soon.</div>`;
     return;
@@ -38,11 +39,10 @@ function renderSkillsGrid(gridId, skills, active){
       <p class="summary">${s.summary}</p>
       <div class="perfect-label">Perfect for</div>
       <ul>${s.perfectFor.map(p=>`<li>${p}</li>`).join('')}</ul>
-      ${(s.created || s.updated) ? `<div class="skill-card-dates">${s.created ? `Added ${s.created}` : ''}${s.created && s.updated ? ' · ' : ''}${s.updated ? `Updated ${s.updated}` : ''}</div>` : ''}
+      ${(s.created || s.updated) ? `<div class="skill-card-dates">${s.updated ? `Updated ${s.updated}` : ''}${s.updated && s.created ? ' · ' : ''}${s.created ? `Added ${s.created}` : ''}</div>` : ''}
       <div class="actions">
         <button class="btn btn-ghost btn-sm" data-read="${s.slug}">Read</button>
         <a class="btn btn-ghost btn-sm" href="skills/${s.slug}/skill.md" download>↓ Download</a>
-        <a class="btn btn-navy btn-sm" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude.ai</a>
       </div>
     `;
     grid.appendChild(div);
@@ -94,7 +94,7 @@ function openPrompt(slug){
       const cre = (fm[1].match(/^created:\s*(.+)$/m) || [])[1];
       const upd = (fm[1].match(/^updated:\s*(.+)$/m) || [])[1];
       if(cre || upd){
-        meta = `<div class="modal-meta">${cre ? `Added ${cre.trim()}` : ''}${cre && upd ? ' · ' : ''}${upd ? `Updated ${upd.trim()}` : ''}</div>`;
+        meta = `<div class="modal-meta">${upd ? `Updated ${upd.trim()}` : ''}${upd && cre ? ' · ' : ''}${cre ? `Added ${cre.trim()}` : ''}</div>`;
       }
     }
     const body = md.replace(/^---[\s\S]*?---/, '').trim();
@@ -123,7 +123,7 @@ function openSkill(slug){
       const cre = (fm[1].match(/^created:\s*(.+)$/m) || [])[1];
       const upd = (fm[1].match(/^updated:\s*(.+)$/m) || [])[1];
       if(cre || upd){
-        meta = `<div class="modal-meta">${cre ? `Added ${cre.trim()}` : ''}${cre && upd ? ' · ' : ''}${upd ? `Updated ${upd.trim()}` : ''}</div>`;
+        meta = `<div class="modal-meta">${upd ? `Updated ${upd.trim()}` : ''}${upd && cre ? ' · ' : ''}${cre ? `Added ${cre.trim()}` : ''}</div>`;
       }
     }
     const body = md.replace(/^---[\s\S]*?---/, '').trim();

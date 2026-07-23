@@ -31,50 +31,38 @@
 </head>
 <body>
 
+<nav class="global-nav">
+  <div class="global-nav-inner">
+    <div class="gn-links">
+      <a href="index.html" data-page="getting-started">Getting Started</a>
+      <a href="marketing.html" data-page="marketing">Marketing</a>
+      <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
+    </div>
+    <a class="gn-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
+  </div>
+</nav>
+
 <div class="page-header">
-  <a class="top-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
   <div class="page-header-inner">
     <div class="kicker">Free Claude Skills — Marketing</div>
     <h1>Marketing<span>.</span></h1>
-    <p>Skills built for marketing leaders — audience-first content audits, account intelligence, and more. Read how it works, download the file, drag it into Claude.</p>
+    <p>Skills built for marketing teams — persona-based content audits, campaign builders, and more. Read how it works, download the file, create as a skill in Claude.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude.ai ↗</a>
+    </div>
     <div class="hero-stats" id="heroStats"></div>
   </div>
 </div>
 
-<nav class="page-nav">
-  <div class="page-nav-inner">
-    <a href="index.html" data-page="getting-started">Getting Started</a>
-    <a href="marketing.html" data-page="marketing">Marketing</a>
-    <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
-  </div>
-</nav>
-
 <div class="filter-wrap" id="skills">
-  <div class="filter-label">Filter by category — click one or stack multiple</div>
-  <div class="tags" id="tagBar"></div>
+  <div class="filter-inner">
+    <div class="filter-label">Filter by category — click one or stack multiple</div>
+    <div class="tags" id="tagBar"></div>
+  </div>
 </div>
 
 <div class="skills-section">
   <div class="skills-grid" id="skillsGrid"></div>
-</div>
-
-<div class="guide-section" id="prompts">
-  <div class="how" id="prompts-intro">
-    <div class="guide-kicker">— New Section</div>
-    <div class="how-title">Prompts</div>
-    <div class="how-sub">Copy-paste prompts — no download, no install</div>
-    <p class="section-intro">Quick prompts for marketing leaders — paste straight into Claude.ai for one-off asks that don't need a full skill. New prompts added as they're tested internally.</p>
-    <div class="hero-stats on-light" id="promptStats"></div>
-  </div>
-
-  <div class="filter-wrap static" id="promptsFilter">
-    <div class="filter-label">Filter by category — click one or stack multiple</div>
-    <div class="tags" id="promptTagBar"></div>
-  </div>
-
-  <div class="skills-section">
-    <div class="skills-grid" id="promptsGrid"></div>
-  </div>
 </div>
 
 <div class="modal-backdrop" id="modalBackdrop">
@@ -143,43 +131,14 @@ function render(){
   renderSkillsGrid('skillsGrid', SKILLS, active);
 }
 
-const PROMPT_CATEGORIES = ["General"];
-
-const PROMPTS = [
-  {
-    slug:"placeholder-marketing-prompt",
-    title:"[Placeholder] Replace With A Real Prompt",
-    category:"General",
-    summary:"Placeholder card — swap in a real copy-paste prompt for marketing leaders (title, summary, category, perfectFor bullets) before treating this section as live.",
-    created:"2026-07-22",
-    updated:"2026-07-22",
-    perfectFor:[
-      "Replace with a real use case",
-      "Replace with a second use case"
-    ]
-  }
-];
-
-let promptActive = new Set();
-function renderPrompts(){
-  renderTags('promptTagBar', PROMPT_CATEGORIES, promptActive, renderPrompts);
-  renderPromptsGrid('promptsGrid', PROMPTS, promptActive);
-}
-
 setActiveNav('marketing');
 renderStats('heroStats', [
   { value: SKILLS.length, label: 'Skills Available' },
   { value: CATEGORIES.length, label: 'Categories' },
   { value: '$0', label: 'Cost' }
 ]);
-renderStats('promptStats', [
-  { value: PROMPTS.length, label: 'Prompts Available' },
-  { value: PROMPT_CATEGORIES.length, label: 'Categories' },
-  { value: '$0', label: 'Cost' }
-]);
 initModal();
 render();
-renderPrompts();
 </script>
 
 </body>

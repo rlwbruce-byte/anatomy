@@ -19,6 +19,19 @@
 body{ background:var(--paper); color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; }
 a{ color:inherit; }
 
+/* global nav (top bar — page links + Contact) */
+.global-nav{ background:var(--graphite); border-bottom:1px solid var(--graphite-line); }
+.global-nav-inner{ max-width:1040px; margin:0 auto; padding:14px 40px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.gn-links{ display:flex; gap:10px; overflow-x:auto; }
+.gn-links a{ font-family:var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--paper);
+  text-decoration:none; padding:9px 16px; white-space:nowrap; border:1.5px solid #4A5158; border-radius:2px;
+  background:transparent; transition:all .15s ease; flex-shrink:0; }
+.gn-links a:hover{ color:var(--amber); border-color:var(--amber); }
+.gn-links a.active{ background:var(--amber); color:var(--graphite); border-color:var(--amber); }
+.gn-contact{ font-family:var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--paper);
+  border:1.5px solid #4A5158; padding:9px 16px; border-radius:2px; text-decoration:none; white-space:nowrap; transition:all .15s ease; flex-shrink:0; }
+.gn-contact:hover{ border-color:var(--amber); color:var(--amber); }
+
 /* page nav */
 .page-nav{ background:var(--graphite); }
 .page-nav-inner{ max-width:1040px; margin:0 auto; padding:18px 40px; display:flex; gap:10px; overflow-x:auto; }
@@ -84,6 +97,7 @@ h1.word span{ color:var(--amber); }
 
 /* filter */
 .filter-wrap{ position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:2px solid var(--ink); padding:18px 40px; }
+.filter-inner{ max-width:1040px; margin:0 auto; }
 .filter-label{ font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--ink-soft); margin-bottom:10px; }
 .tags{ display:flex; flex-wrap:wrap; gap:8px; }
 .tag-btn{ font-family:var(--mono); font-size:12.5px; padding:8px 14px; background:var(--card); border:1.5px solid var(--ink);
@@ -179,6 +193,7 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .pb-bp-source{ font-family:var(--mono); font-size:10.5px; color:#a39c8f; margin-top:6px; font-style:italic; }
 
 @media (max-width:640px){
+  .global-nav-inner{ padding:12px 20px; }
   .hero{ padding:44px 20px 32px; } .page-header{ padding:36px 20px 28px; } .how{ padding:40px 20px; } .filter-wrap{ padding:14px 20px; }
   .skills-section{ padding:36px 20px 48px; } .modal{ padding:28px 20px 32px; } .page-nav-inner{ padding:0 20px; }
   .top-contact{ position:static; display:inline-block; margin-bottom:20px; }

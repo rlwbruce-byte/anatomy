@@ -9,24 +9,28 @@ marketing teams. It is served via GitHub Pages directly from `main` — no
 build step. The site is 3 static pages sharing `assets/styles.css` and
 `assets/site.js`:
 
-- `index.html` — Getting Started (home): hero (no CTA buttons — the top
-  page-nav is the only navigation), 3-step onboarding, and the Claude Setup
-  Guide (its own in-page anchor nav + Getting Started/AI 101/Best Practices
-  sections). No skills grid.
-- `marketing.html` — skills tagged for the Marketing track, plus its own
-  Prompts section below the skills grid.
-- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track, plus
-  its own Prompts section below the skills grid.
+- `index.html` — Getting Started (home): hero, 3-step onboarding, and the
+  Claude Setup Guide (its own in-page anchor nav + Getting Started/AI 101/
+  Best Practices sections). No skills grid.
+- `marketing.html` — skills tagged for the Marketing track.
+- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track.
 
-Both `marketing.html` and `go-to-market.html` carry a **Prompts** section
-(added 2026-07-22) below the Skills grid — a separate, self-contained zone
-for short copy-paste prompts that don't warrant a full Skill file. It's
-wrapped in `.guide-section` (the same amber-top-border + tinted-background
-"new zone" treatment used for the Claude Setup Guide on `index.html`), with
-its own heading, stats row, filter tags, and grid — structurally identical
-to the Skills section but visually distinct. It currently ships with one
-placeholder card per page (`status: draft` in front-matter) — replace
-before treating the section as live content.
+Every page opens with a shared `.global-nav` top bar (the three page links
+on the left, Contact on the right, in one 1040px row above the hero) — this
+replaced the old per-page `.top-contact` + `.page-nav` pattern on 2026-07-23.
+The two skill pages carry an `Open Claude.ai` `.hero-cta` button in the hero
+(below the paragraph, above the amber border); `index.html` does not. Skills
+render sorted alphabetically by category then title, with date meta shown as
+`Updated … · Added …`.
+
+The **Prompts** section that briefly lived below the Skills grid on
+`marketing.html` and `go-to-market.html` (added 2026-07-22) was removed on
+2026-07-23. The scaffolding is still present but unused: the shared
+`renderPromptsGrid` / `openPrompt` / `copyPrompt` helpers in `assets/site.js`,
+the `.filter-wrap.static` / `.hero-stats.on-light` CSS, and the `prompts/`
+placeholder folder. To bring the section back, re-add the `.guide-section`
+markup and the inline `PROMPTS` / `renderPrompts` block to a page — see the
+"Adding a new prompt" recipe below, which still applies.
 
 There is no separate `playbook.html` — that content lives on `index.html`.
 Don't re-split it into its own page without the user asking.

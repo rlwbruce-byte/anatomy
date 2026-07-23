@@ -2,6 +2,60 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-23 (2)
+
+Site-wide layout + behavior pass across all three pages (`index.html`,
+`marketing.html`, `go-to-market.html`) and shared assets:
+
+- **Global nav.** Replaced the per-page setup (an absolutely-positioned
+  `.top-contact` link in the hero + a separate `.page-nav` bar below it) with
+  a single `.global-nav` top bar on every page: the three page links
+  (Getting Started / Marketing / Go-To-Market) on the left, Contact on the
+  right, aligned in one 1040px-wide row above the hero. `setActiveNav` now
+  targets `.global-nav a`. Old `.page-nav` CSS left in place (unused, no
+  longer referenced).
+- **Hero CTA.** Removed the per-card "Open Claude.ai" button from the skill
+  card actions (`assets/site.js` `renderSkillsGrid`) and placed one
+  `Open Claude.ai ↗` button (`.btn-primary`, inside a new `.hero-cta`) in the
+  hero of the two skill pages — below the hero paragraph, above the amber
+  bottom border. Not added to `index.html` (no skill cards there).
+- **Filter alignment.** Wrapped the Skills filter bar's label + tags in a
+  `.filter-inner` (`max-width:1040px; margin:0 auto`) so they left-align with
+  the hero copy and the skills grid instead of sitting flush to the viewport
+  padding.
+- **Sorting.** Skills now render sorted alphabetically by category, then by
+  title (`renderSkillsGrid`); category filter chips are sorted alphabetically
+  too (`renderTags`).
+- **Date order.** Skill card meta and the Read-modal meta now read
+  `Updated <date> · Added <date>` (was `Added … · Updated …`) — in both
+  `renderSkillsGrid` and `openSkill`.
+- **Prompts removed.** Deleted the **Prompts** `.guide-section` (and its
+  inline `PROMPTS`/`renderPrompts` JS + `promptStats`) from `marketing.html`
+  and `go-to-market.html`. The shared `renderPromptsGrid` / `openPrompt` /
+  `copyPrompt` helpers, the prompt-related CSS, and the `prompts/`
+  placeholder folder are left in place in case the section is re-enabled
+  later; nothing renders them now.
+- **Marketing hero copy** updated to: "Skills built for marketing teams —
+  persona-based content audits, campaign builders, and more. Read how it
+  works, download the file, create as a skill in Claude."
+
+## 2026-07-23 (1)
+
+- Added a new GTM skill: **Basic Discovery**
+  (`skills/company-discovery-basic/skill.md`, `status: published`, category
+  **Account Intelligence**, audience **GTM Leaders**) — generates an
+  executive-level account brief for a target company (overview, ownership,
+  funding, products, competitors, revenue-growth opportunities, buying
+  reasons, plus optional AI strategy / recent news / talking points /
+  executive summary). Promoted from `brain`.
+- `go-to-market.html`: added the `company-discovery-basic` entry to the
+  `SKILLS` array and added **Account Intelligence** to the `CATEGORIES` array
+  (now `["Competitive Intelligence", "Account Intelligence"]`). GTM skill
+  count is now 2; hero stats compute from array length, so no manual number
+  change on this page.
+- `index.html`: bumped the "Skills Available" hero stat from 4 to 5 (total
+  across both tracks).
+
 ## 2026-07-22 (2)
 
 - Getting Started (`index.html`) copy pass:

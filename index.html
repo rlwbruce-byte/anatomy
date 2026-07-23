@@ -31,8 +31,18 @@
 </head>
 <body>
 
+<nav class="global-nav">
+  <div class="global-nav-inner">
+    <div class="gn-links">
+      <a href="index.html" data-page="getting-started">Getting Started</a>
+      <a href="marketing.html" data-page="marketing">Marketing</a>
+      <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
+    </div>
+    <a class="gn-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
+  </div>
+</nav>
+
 <div class="hero" id="top">
-  <a class="top-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
   <div class="hero-inner">
     <div class="kicker">Free Claude Skills — GTM & Marketing</div>
     <h1 class="word">Anatomy<span>.</span></h1>
@@ -40,14 +50,6 @@
     <div class="hero-stats" id="heroStats"></div>
   </div>
 </div>
-
-<nav class="page-nav">
-  <div class="page-nav-inner">
-    <a href="index.html" data-page="getting-started">Getting Started</a>
-    <a href="marketing.html" data-page="marketing">Marketing</a>
-    <a href="go-to-market.html" data-page="gtm">Go-To-Market</a>
-  </div>
-</nav>
 
 <div class="how" id="how">
   <div class="how-title">Get Started in 3 Steps</div>
@@ -200,7 +202,7 @@ function renderBestPractices(){
 
   setActiveNav('getting-started');
   renderStats('heroStats', [
-    { value: 4, label: 'Skills Available' },
+    { value: 5, label: 'Skills Available' },
     { value: 2, label: 'Skill Tracks' },
     { value: '$0', label: 'Cost' }
   ]);
