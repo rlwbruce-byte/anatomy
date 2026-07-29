@@ -2,6 +2,19 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-07-29
+
+Published a new skill to the Marketing track: **Build Brand Guidelines**.
+
+- **`skills/build-brand-guidelines/skill.md`** — public-facing skill copy
+  (`status: published`, category **Brand**, audience **Marketing Leaders**).
+  Give Claude a company URL; it reads the site's real colors, typography,
+  logo, and voice and builds an installable brand skill, a written style
+  guide, a one-page branded PDF, and an editable PowerPoint deck.
+- **`marketing.html`** — added the new **Brand** category to `CATEGORIES` and
+  the skill entry to `SKILLS` (listed first).
+- **`index.html`** — bumped the "Skills Available" stat 5 → 6.
+
 ## 2026-07-23 (2)
 
 Site-wide layout + behavior pass across all three pages (`index.html`,
