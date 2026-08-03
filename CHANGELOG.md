@@ -2,6 +2,23 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-08-03
+
+Published a new skill to the Marketing track: **ABM Activation Plan**.
+
+- **`skills/abm-activation-plan/skill.md`** — public-facing skill copy
+  (`status: published`, category **ABM**, audience **Marketing & Sales
+  Leaders**). Give Claude a company's GTM identity and a campaign objective
+  (plus, ideally, a target account list); it builds a full ABM activation
+  program — account routing, challenge patterns by segment, persona entry
+  points, outreach hooks, a priority account table, and play-based email
+  templates — as branded HTML, PDF, and Markdown. Promoted from `brain`
+  after an internal test run (SecurityScorecard/TITAN net-new prospecting).
+- **`marketing.html`** — added the skill entry to `SKILLS` (listed
+  alphabetically after ABM Account Snapshot; no new category needed, ABM
+  already existed).
+- **`index.html`** — bumped the "Skills Available" stat 6 → 7.
+
 ## 2026-07-29
 
 Published a new skill to the Marketing track: **Build Brand Guidelines**.
