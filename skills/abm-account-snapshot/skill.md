@@ -1,14 +1,18 @@
 ---
 title: ABM Account Snapshot
+aliases:
+  - Target Account Insight
 status: published
 summary: Turns a target account name into a structured account-based marketing snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.
 category: ABM
 audience: Marketing Leaders
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-08-03
 ---
 
 # ABM Account Snapshot
+
+*Also known as: Target Account Insight*
 
 ## What this skill does
 
@@ -19,6 +23,8 @@ Give Claude a target account and whatever you already know about it — firmogra
 - "Build an ABM snapshot for [Account]"
 - "Who should we target at [Account] and why now?"
 - "Turn this account research into a 1:1 ABM brief"
+- "Pull a Target Account Insight for [Account]"
+- "Give me the target account insight on [Account]"
 
 ## What you say
 
