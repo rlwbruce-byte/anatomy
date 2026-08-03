@@ -4,7 +4,7 @@ aliases:
   - ABM Activation Ideas
   - ABM Program Builder
 status: published
-summary: Turns a company's GTM identity plus a campaign objective into a full ABM activation program — account routing, challenge patterns, persona entry points, outreach hooks, a priority account table, and play-based email templates — for sales/marketing alignment.
+summary: Leverages a company's GTM approach along with a campaign objective into an ABM program complete with account tiering, desired outcomes, common challenges, target account entry points, outreach hooks, and play-based email templates.
 category: ABM
 audience: Marketing & Sales Leaders
 created: 2026-08-03
@@ -71,13 +71,10 @@ best-effort and need your validation before anything goes out the door.
 
 ## Perfect for
 
-- Kicking off a new ABM program or quarter and needing sales/marketing to work
-  from the same account list, segments, and messaging
-- Turning a raw target account list into something SDRs can act on without
-  guessing who to contact or what to say
-- Re-segmenting an existing account list against a new campaign objective
-- Auditing whether outreach copy is using only cleared proof points before it
-  goes out
+- Kicking off a new ABM program
+- Aligning sales and marketing on target account approaches
+- Turning a raw target account list into SDRs outreach plans
+- Re-segmenting an account list against a new campaign objective
 
 ## Scope
 
