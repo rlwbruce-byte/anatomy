@@ -2,6 +2,25 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-08-03 (2)
+
+Published a new skill to the Marketing track: **YouTube Video Kit**.
+
+- **`skills/youtube-video-kit/skill.md`** — public-facing skill copy
+  (`status: published`, category **Content**, audience **Marketing &
+  Content Teams**). Give Claude a company URL, an unlisted video link, and
+  its transcript; it builds a complete YouTube publishing kit — titles,
+  description, tags, an A/B thumbnail set, pinned comment, playlist/
+  category, and a Shorts/LinkedIn/blog repurposing kit — as a single
+  self-contained HTML one-pager, styled in that company's own real brand
+  colors and fonts rather than a fixed template. Promoted from `brain`
+  after an internal test run (a CloudCover explainer video), which also
+  caught and fixed a thumbnail-generator bug (headline text overflow) and
+  tightened the strikethrough-emphasis guidance before promotion.
+- **`marketing.html`** — added the new **Content** category to `CATEGORIES`
+  and the skill entry to `SKILLS` (listed last).
+- **`index.html`** — bumped the "Skills Available" stat 8 → 9.
+
 ## 2026-08-03
 
 Published a new skill to the Marketing track: **ABM Activation Plan**.
