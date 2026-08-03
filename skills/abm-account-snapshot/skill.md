@@ -80,7 +80,7 @@ firmographic or intent data your stack already produces.
 
 ## Works great with
 
-- Competitor Intelligence Brief — layer in competitive context when a known
+- Competitor Intelligence — layer in competitive context when a known
   competitor is entrenched at the account
 - AEO Content Auditor — check whether the account's own market shows up in
   AI answer engines the way you'd expect

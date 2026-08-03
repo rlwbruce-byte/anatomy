@@ -1,14 +1,14 @@
 ---
-title: Competitor Intelligence Brief
+title: Competitor Intelligence
 status: published
 summary: Turns raw competitor signals (site changes, launches, pricing moves, reviews) into a structured, shareable intelligence brief for sales and leadership.
 category: Competitive Intelligence
 audience: GTM Leaders
 created: 2026-07-15
-updated: 2026-07-21
+updated: 2026-08-03
 ---
 
-# Competitor Intelligence Brief
+# Competitor Intelligence
 
 ## What this skill does
 

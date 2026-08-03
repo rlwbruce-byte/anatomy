@@ -98,7 +98,7 @@ app with a Filesystem connector) makes saving the deliverables seamless.
 
 ## Works great with
 
-- **Competitor Intelligence Brief** — turn the competitor list this surfaces
+- **Competitor Intelligence** — turn the competitor list this surfaces
   into an ongoing monitoring cadence
 - **ABM Account Snapshot** — layer this company identity into an
   account-level plan

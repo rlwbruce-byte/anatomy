@@ -82,4 +82,4 @@ None to start — prompt-only. Higher-fidelity output with:
 
 - Company Identity Builder — run first if the company identity doesn't already exist; this skill reads its output directly
 - ABM Account Snapshot — use for a single high-value account that needs a deeper 1:1 treatment than a priority-table row provides
-- Competitor Intelligence Brief — layer in when a named competitor shows up repeatedly across the account list
+- Competitor Intelligence — layer in when a named competitor shows up repeatedly across the account list

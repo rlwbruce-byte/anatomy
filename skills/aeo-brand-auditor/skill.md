@@ -80,5 +80,5 @@ surface with web search and file-writing enabled.
 
 ## Works great with
 
-- Competitor Intelligence Brief — see whether a competitor's content is
+- Competitor Intelligence — see whether a competitor's content is
   winning the answer-engine citation battle in your category
