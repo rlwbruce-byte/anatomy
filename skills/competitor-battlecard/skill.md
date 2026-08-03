@@ -1,7 +1,7 @@
 ---
 title: Competitor Battlecard
 status: published
-summary: Creates competitive battlecards for SEs and sales teams — structured competitor analysis with talk tracks, objection handling, trap-setting questions, and proof points, built on a Fact/Impact/Act framework.
+summary: Creates competitive battlecards for GTM teams — structured competitor analysis with talk tracks, objection handling, trap-setting questions, and proof points, built on a Fact/Impact/Act framework.
 category: Competitive Intelligence
 audience: GTM Leaders
 created: 2026-07-30
@@ -56,7 +56,7 @@ output reads like something an SE can use live on a call, not a research memo.
 
 ## Perfect for
 
-- Arming SEs and AEs before a competitive deal cycle
+- Arming reps and SEs to support a competitive deal cycle
 - Standardizing how a team talks about a specific competitor
 - Turning scattered win/loss notes and call transcripts into something
   reusable across the team

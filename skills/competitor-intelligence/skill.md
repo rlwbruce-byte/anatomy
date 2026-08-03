@@ -1,7 +1,7 @@
 ---
 title: Competitor Intelligence
 status: published
-summary: Turns raw competitor signals (site changes, launches, pricing moves, reviews) into a structured, shareable intelligence brief for sales and leadership.
+summary: Turns raw competitor signals into a structured, shareable brief for sales and leadership. Can support one-time analysis or ongoing monitoring of key competitors.
 category: Competitive Intelligence
 audience: GTM Leaders
 created: 2026-07-15
