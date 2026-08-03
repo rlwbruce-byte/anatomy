@@ -13,23 +13,20 @@ updated: 2026-08-03
 
 # ABM Activation Plan
 
-*Also known as: ABM Activation Ideas, ABM Program Builder*
+Also known as: ABM Activation Ideas, ABM Program Builder
 
 ## What this skill does
 
-Give Claude your company's GTM identity, a campaign objective, and (ideally)
-a target account list, and it builds a complete ABM activation program: which
-accounts to pursue and which to route elsewhere, the operational challenge
-patterns that group accounts into playable segments, who to contact first at
-each type of account, the specific outreach hooks an SDR can use in a Day 1
-email, a priority account table combining all of it, and — for the accounts
-selected into a first playable cohort — play-assigned email templates and a
-personalization guide.
+Give Claude your company's GTM identity, a campaign objective, and (ideally) a target account list. It builds a complete ABM activation program:
 
-This is the program-level companion to **ABM Account Snapshot** (single
-account, 1:1/1:few) and **Company Identity Builder** (company GTM research) —
-it turns company identity plus an account list into a *segment-level*
-activation plan the whole sales and marketing team can work from.
+- Which accounts to pursue, and which to route elsewhere
+- The challenge patterns that group accounts into playable segments
+- Who to contact first at each type of account
+- The specific outreach hooks an SDR can use in a Day 1 email
+- A priority account table that combines all of it
+- Play-assigned email templates and a personalization guide for a first playable cohort
+
+This is the program-level companion to ABM Account Snapshot (built for a single account) and Company Identity Builder (company GTM research) — together they turn your company identity and account list into one activation plan sales and marketing can work from.
 
 ## Trigger phrases
 
@@ -49,25 +46,12 @@ activation plan the whole sales and marketing team can work from.
 
 ## What Claude delivers
 
-Two paired documents:
+Two paired documents, each delivered as branded HTML, a PDF export, and a Markdown export, styled in your company's own brand colors:
 
-- Account Intelligence & Priority Table — account routing (ICP vs.
-  partner vs. disqualify), named challenge patterns by segment, persona-first
-  entry points, outreach hooks, and a priority account table combining all of
-  it with fit rating, first persona, and entry hook per account.
-- Segment to Outreach — the first playable cohort (filtered from the
-  priority table), play assignment within that cohort, Day 1/4/9 email
-  templates per play angle (two options per touch), and a personalization
-  guide (one row per account: trigger slot, personalization notes).
+- Account Intelligence & Priority Table — account routing, challenge patterns by segment, persona entry points, outreach hooks, and a priority account table with fit rating, first persona, and entry hook per account
+- Segment to Outreach — the first playable cohort, play assignment, Day 1/4/9 email templates by play angle, and a personalization guide
 
-Each delivered as branded HTML (viewable + downloadable), a PDF export, and a
-Markdown export — styled in your company's own brand colors.
-
-Before diving in, Claude will ask for the inputs that make the biggest
-difference in output quality — your target account or customer list, a proof
-points doc, and a brand voice doc. If any of those aren't available, it still
-builds the full plan, but flags clearly, up front, exactly which parts are
-best-effort and need your validation before anything goes out the door.
+Before diving in, Claude will ask for the inputs that make the biggest difference in output quality — your target account or customer list, a proof points doc, and a brand voice doc. If any of those aren't available, it still builds the full plan, but flags clearly, up front, exactly which parts are best-effort and need your validation before anything goes out the door.
 
 ## Perfect for
 
@@ -87,19 +71,16 @@ and produces firmographic-only segmentation rather than guessing at intent.
 ## Setup required
 
 None to start — prompt-only. Higher-fidelity output with:
-- A `Company Identity Builder` output, or your own GTM/ICP/sales-play
-  reference docs
+
+- A Company Identity Builder output, or your own GTM/ICP/sales-play reference docs
 - A target account list or existing customer list
 - A proof points doc with a cleared/pending split
 - A brand voice doc (tone, banned terms, word count limits)
-- Active sales sequences/cadences, and any intent/behavioral data (HubSpot
-  exports, G2 intent, tech stack data, SDR notes, funding/hiring news)
+- Active sales sequences/cadences
+- Any intent/behavioral data (HubSpot exports, G2 intent, tech stack data, SDR notes, funding/hiring news)
 
 ## Works great with
 
-- **Company Identity Builder** — run first if the company identity doesn't
-  already exist; this skill reads its output directly.
-- **ABM Account Snapshot** — use for a single high-value account that needs a
-  deeper 1:1 treatment than a priority-table row provides.
-- **Competitor Intelligence Brief** — layer in when a named competitor shows
-  up repeatedly across the account list.
+- Company Identity Builder — run first if the company identity doesn't already exist; this skill reads its output directly
+- ABM Account Snapshot — use for a single high-value account that needs a deeper 1:1 treatment than a priority-table row provides
+- Competitor Intelligence Brief — layer in when a named competitor shows up repeatedly across the account list
