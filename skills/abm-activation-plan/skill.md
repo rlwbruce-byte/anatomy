@@ -4,7 +4,7 @@ aliases:
   - ABM Activation Ideas
   - ABM Program Builder
 status: published
-summary: Leverages a company's GTM approach along with a campaign objective into an ABM program complete with account tiering, desired outcomes, common challenges, target account entry points, outreach hooks, and play-based email templates.
+summary: Leverages a company's GTM approach along with a campaign objective into a complete ABM program including account tiering, target account entry points, outreach hooks, and play-based email templates.
 category: ABM
 audience: Marketing & Sales Leaders
 created: 2026-08-03
@@ -17,14 +17,11 @@ Also known as: ABM Activation Ideas, ABM Program Builder
 
 ## What this skill does
 
-Give Claude your company's GTM identity, a campaign objective, and (ideally) a target account list. It builds a complete ABM activation program:
+Give Claude your company's GTM priorities, a campaign objective, and (ideally) a target account list. It builds a complete ABM activation program:
 
-- Which accounts to pursue, and which to route elsewhere
-- The challenge patterns that group accounts into playable segments
-- Who to contact first at each type of account
-- The specific outreach hooks an SDR can use in a Day 1 email
-- A priority account table that combines all of it
-- Play-assigned email templates and a personalization guide for a first playable cohort
+- Common challenges that group accounts into playable segments
+- Key contacts or decision makers at each account
+- Email templates and a personalization guide to immediately action
 
 This is the program-level companion to ABM Account Snapshot (built for a single account) and Company Identity Builder (company GTM research) — together they turn your company identity and account list into one activation plan sales and marketing can work from.
 
