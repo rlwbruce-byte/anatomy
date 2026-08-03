@@ -1,9 +1,8 @@
 ---
 title: ABM Account Snapshot
-aliases:
-  - Target Account Insight
+aliases: ["ABM Intelligence", "Target Account Insights"]
 status: published
-summary: Turns a target account name into a structured account-based marketing snapshot — org signals, stakeholders, timing triggers, and a tailored outreach angle.
+summary: Improve ABM effectiveness with target account intelligence. Input a target account name or URL and receive a structured snapshot with org signals, key stakeholders, timing triggers, and a tailored outreach angle unique to your sales plays.
 category: ABM
 audience: Marketing Leaders
 created: 2026-07-15
@@ -12,25 +11,39 @@ updated: 2026-08-03
 
 # ABM Account Snapshot
 
-*Also known as: Target Account Insight*
+*Also known as ABM Intelligence or Target Account Insights.*
+
+Improve ABM effectiveness with target account intelligence. Input a target
+account name or URL and receive a structured snapshot with org signals, key
+stakeholders, timing triggers, and a tailored outreach angle unique to your
+sales plays.
 
 ## What this skill does
 
-Give Claude a target account and whatever you already know about it — firmographic data, a LinkedIn search, notes from an SDR, a funding announcement — and it produces a structured account snapshot built for account-based marketing motions: who to target, what's likely top of mind for them right now, and an outreach angle grounded in something real about the account, not a generic template.
+Give Claude a URL or company name and receive target account insights —
+firmographic data, a LinkedIn search, notes from an SDR, a funding
+announcement — in a structured account snapshot built for account-based
+marketing motions: who to target, what's likely top of mind for them right
+now, and an outreach angle grounded in real signals that relate to your
+solutions.
 
 ## Trigger phrases
 
 - "Build an ABM snapshot for [Account]"
 - "Who should we target at [Account] and why now?"
 - "Turn this account research into a 1:1 ABM brief"
-- "Pull a Target Account Insight for [Account]"
-- "Give me the target account insight on [Account]"
+- "Run ABM Intelligence on [Account]"
+- "Give me Target Account Insights for [Account]"
 
 ## What you say
 
 > "Account is Acme Logistics, ~800 employees, just raised a Series C.
 > We know they're using a competitor's product for warehouse routing.
 > Our champion contact left last quarter."
+
+Or just drop in a URL:
+
+> "https://acmelogistics.com — who should we be targeting there?"
 
 ## What Claude delivers
 
@@ -45,21 +58,25 @@ Give Claude a target account and whatever you already know about it — firmogra
 
 ## Perfect for
 
-- Prioritizing a target account list before a quarter kicks off
-- Prepping sales before an account-based outbound push
-- Building the account-specific narrative for a 1:1 or 1:few ABM tier
-- Re-engaging a stalled or dormant account with a fresh angle
+- Target account intel unique to your sales plays
+- Customized outreach to priority accounts
+- Re-engaging a stalled account with a fresh angle
 
 ## Scope
 
-Works from account intelligence you provide — it does not pull live data
-from CRM or intent platforms on its own. Pairs well with exports from tools
-like ZoomInfo, G2 intent, or Demandbase if you have them.
+Works from account intelligence you provide, plus a URL or company name to
+research from — it does not pull live data from CRM or intent platforms
+unless you connect one at setup. Pairs well with exports from tools like
+ZoomInfo, G2 intent, or Demandbase if you have them.
 
 ## Setup required
 
-None to start — prompt-only. Higher-fidelity output if you paste in
-whatever firmographic or intent data your stack already produces.
+A quick one-time setup the first time you run it: your company and what
+you sell, an optional CRM connection, and what signals matter most for
+qualifying a fit. Output is automatically formatted to match your own
+company's brand, not a generic template. After that, nothing else to
+start — prompt-only, with higher-fidelity output if you paste in whatever
+firmographic or intent data your stack already produces.
 
 ## Works great with
 
