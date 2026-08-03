@@ -1,10 +1,12 @@
 ---
+name: abm-activation-plan
 title: ABM Activation Plan
 aliases:
   - ABM Activation Ideas
   - ABM Program Builder
 status: published
 summary: Leverages a company's GTM approach along with a campaign objective into a complete ABM program including account tiering, target account entry points, outreach hooks, and play-based email templates.
+description: Given a company's GTM identity/priorities, a campaign objective, and (ideally) a target account list, builds a complete ABM activation program — account tiering, the common challenges that group accounts into playable segments, key contacts or decision makers at each account, outreach hooks, a priority account table, and play-based email templates with a personalization guide. Use when the user wants to build an ABM activation plan, set up or prioritize an ABM program, align sales and marketing on target accounts, turn a raw account list into an outreach plan, or asks for ABM activation ideas tied to a campaign objective or segment.
 category: ABM
 audience: Marketing & Sales Leaders
 created: 2026-08-03
