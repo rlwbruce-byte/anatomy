@@ -132,14 +132,35 @@ function openSkill(slug){
   });
 }
 
+function mdInline(text){
+  return text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
+function mdList(block, markerRe){
+  const items = [];
+  block.split('\n').forEach(line=>{
+    if(markerRe.test(line)){
+      items.push(line.replace(markerRe, ''));
+    } else if(items.length){
+      items[items.length - 1] += ' ' + line.trim();
+    }
+  });
+  return items.map(i=>`<li>${mdInline(i)}</li>`).join('');
+}
+
 function mdToHtml(md){
   return md
     .split(/\n\n+/).map(block=>{
-      if(block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`;
-      if(block.startsWith('# ')) return `<h1>${block.slice(2)}</h1>`;
-      if(block.startsWith('> ')) return `<blockquote>${block.replace(/^> ?/gm,'')}</blockquote>`;
-      if(block.startsWith('- ')) return `<ul>${block.split('\n').map(l=>`<li>${l.replace(/^- /,'')}</li>`).join('')}</ul>`;
-      return `<p>${block}</p>`;
+      if(block.startsWith('## ')) return `<h2>${mdInline(block.slice(3))}</h2>`;
+      if(block.startsWith('# ')) return `<h1>${mdInline(block.slice(2))}</h1>`;
+      if(block.startsWith('> ')) return `<blockquote>${mdInline(block.replace(/^> ?/gm,''))}</blockquote>`;
+      if(/^\d+\.\s/.test(block)) return `<ol>${mdList(block, /^\d+\.\s+/)}</ol>`;
+      if(/^-\s/.test(block)) return `<ul>${mdList(block, /^-\s+/)}</ul>`;
+      return `<p>${mdInline(block)}</p>`;
     }).join('\n');
 }
 

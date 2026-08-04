@@ -136,10 +136,13 @@ h1.word span{ color:var(--amber); }
 .modal-body{ font-size:14.5px; line-height:1.7; }
 .modal-body h1{ font-family:var(--disp); font-size:28px; text-transform:uppercase; margin:22px 0 12px; }
 .modal-body h2{ font-family:var(--disp); font-size:19px; text-transform:uppercase; margin:26px 0 10px; }
-.modal-body ul{ padding-left:20px; margin-bottom:14px; }
+.modal-body ul, .modal-body ol{ padding-left:20px; margin-bottom:14px; }
+.modal-body li{ margin-bottom:6px; }
 .modal-body p{ margin-bottom:14px; }
 .modal-body blockquote{ border-left:2px solid var(--amber); padding-left:16px; color:var(--ink-soft); font-style:italic; margin-bottom:14px; }
+.modal-body blockquote code{ font-style:normal; }
 .modal-body hr{ border:none; border-top:1px solid var(--paper-line); margin:20px 0; }
+.modal-body code{ font-family:var(--mono); font-size:.92em; background:var(--paper-dim); padding:1px 5px; border-radius:3px; }
 
 footer{ padding:44px 40px; font-family:var(--mono); font-size:12px; color:var(--ink-soft); text-align:center; border-top:1px solid var(--paper-line); }
 footer a{ color:var(--amber-deep); text-decoration:underline; }
