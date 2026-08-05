@@ -2,7 +2,7 @@
 title: Marketing Audit
 status: published
 summary: Give Claude a company name or URL and it grades their marketing across owned, earned, paid, and social channels, then hands back a scorecard-style report — good/bad/low-hanging-fruit per channel, a prioritized top-fix list, and HTML + PDF outputs.
-category: Marketing Audit
+category: GENERAL
 audience: Marketing Leaders
 created: 2026-08-05
 updated: 2026-08-05

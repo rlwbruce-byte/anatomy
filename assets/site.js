@@ -9,10 +9,17 @@ function renderStats(elId, stats){
   el.innerHTML = stats.map(s=>`<div class="hstat"><div class="num">${s.value}</div><div class="label">${s.label}</div></div>`).join('');
 }
 
+function categorySort(a, b){
+  if(a === b) return 0;
+  if(a === 'GENERAL') return -1;
+  if(b === 'GENERAL') return 1;
+  return a.localeCompare(b);
+}
+
 function renderTags(barId, categories, active, onChange){
   const bar = document.getElementById(barId);
   bar.innerHTML = '';
-  categories.slice().sort((a,b)=>a.localeCompare(b)).forEach(cat=>{
+  categories.slice().sort(categorySort).forEach(cat=>{
     const btn = document.createElement('button');
     btn.className = 'tag-btn' + (active.has(cat) ? ' active' : '');
     btn.textContent = cat;
@@ -25,7 +32,7 @@ function renderSkillsGrid(gridId, skills, active){
   const grid = document.getElementById(gridId);
   grid.innerHTML = '';
   const visible = skills.filter(s => active.size === 0 || active.has(s.category))
-    .sort((a,b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
+    .sort((a,b) => categorySort(a.category, b.category) || a.title.localeCompare(b.title));
   if(visible.length === 0){
     grid.innerHTML = `<div class="empty-state">No skills published here yet — check back soon.</div>`;
     return;

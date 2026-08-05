@@ -25,7 +25,7 @@ Give Claude your company's GTM priorities, a campaign objective, and (ideally) a
 - Key contacts or decision makers at each account
 - Email templates and a personalization guide to immediately action
 
-This is the program-level companion to ABM Account Snapshot (built for a single account) and Company Identity Builder (company GTM research) — together they turn your company identity and account list into one activation plan sales and marketing can work from.
+This is the program-level companion to Target Account Snapshot (built for a single account) and Company Identity Builder (company GTM research) — together they turn your company identity and account list into one activation plan sales and marketing can work from.
 
 ## Trigger phrases
 
@@ -81,5 +81,5 @@ None to start — prompt-only. Higher-fidelity output with:
 ## Works great with
 
 - Company Identity Builder — run first if the company identity doesn't already exist; this skill reads its output directly
-- ABM Account Snapshot — use for a single high-value account that needs a deeper 1:1 treatment than a priority-table row provides
+- Target Account Snapshot — use for a single high-value account that needs a deeper 1:1 treatment than a priority-table row provides
 - Competitor Intelligence — layer in when a named competitor shows up repeatedly across the account list

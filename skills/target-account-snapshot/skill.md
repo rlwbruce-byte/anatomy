@@ -1,6 +1,6 @@
 ---
-title: ABM Account Snapshot
-aliases: ["ABM Intelligence", "Target Account Insights"]
+title: Target Account Snapshot
+aliases: ["ABM Account Snapshot", "ABM Intelligence", "Target Account Insights"]
 status: published
 summary: Improve ABM effectiveness with target account intelligence. Input a target account name or URL and receive a structured snapshot with org signals, key stakeholders, timing triggers, and a tailored outreach angle unique to your sales plays.
 category: ABM
@@ -9,9 +9,9 @@ created: 2026-07-15
 updated: 2026-08-03
 ---
 
-# ABM Account Snapshot
+# Target Account Snapshot
 
-*Also known as ABM Intelligence or Target Account Insights.*
+*Also known as ABM Account Snapshot, ABM Intelligence, or Target Account Insights.*
 
 Improve ABM effectiveness with target account intelligence. Input a target
 account name or URL and receive a structured snapshot with org signals, key

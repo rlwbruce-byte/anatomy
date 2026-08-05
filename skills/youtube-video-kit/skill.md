@@ -2,7 +2,7 @@
 title: YouTube Video Kit
 status: published
 summary: Give Claude a company URL, an unlisted video link, and its transcript, and it builds a complete, on-brand YouTube publishing kit — titles, description, tags, thumbnails, pinned comment, playlist/category, and cross-channel repurposing — styled in that company's own real brand colors and fonts.
-category: Content
+category: VIDEO
 audience: Marketing & Content Teams
 created: 2026-08-03
 updated: 2026-08-03

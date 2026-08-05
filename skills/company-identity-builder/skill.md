@@ -100,5 +100,5 @@ app with a Filesystem connector) makes saving the deliverables seamless.
 
 - **Competitor Intelligence** — turn the competitor list this surfaces
   into an ongoing monitoring cadence
-- **ABM Account Snapshot** — layer this company identity into an
+- **Target Account Snapshot** — layer this company identity into an
   account-level plan

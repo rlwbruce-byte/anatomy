@@ -61,6 +61,6 @@ signals (a monitoring tool, a shared inbox, a Slack channel).
 
 ## Works great with
 
-- ABM Account Snapshot — layer competitive context into account-level plans
+- Target Account Snapshot — layer competitive context into account-level plans
 - AEO Content Auditor — check whether a competitor is winning share of voice
   in AI answer engines
