@@ -2,6 +2,22 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-08-05
+
+Published a new skill to the Marketing track: **Marketing Audit**.
+
+- **`skills/marketing-audit/skill.md`** — public-facing skill copy
+  (`status: published`, category **Marketing Audit**, audience **Marketing
+  Leaders**). Give Claude a company name or URL; it runs four live research
+  passes (owned, earned, paid, social), grades each A–F with sourced
+  good/bad/low-hanging-fruit findings, and hands back a prioritized "if you
+  only fix five things" list plus `report.md`/`report.html`/`report.pdf`.
+  Promoted from `brain` after an internal test run (EasyMetrics), which
+  confirmed the grading judgment and report structure.
+- **`marketing.html`** — added the new **Marketing Audit** category to
+  `CATEGORIES` and the skill entry to `SKILLS` (listed first).
+- **`index.html`** — bumped the "Skills Available" stat 9 → 10.
+
 ## 2026-08-03 (2)
 
 Published a new skill to the Marketing track: **YouTube Video Kit**.
