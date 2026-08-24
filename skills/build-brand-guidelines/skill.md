@@ -1,9 +1,6 @@
 ---
-title: Build Brand Guidelines
-status: published
-summary: Give Claude a company URL and it reads the site's real brand identity — colors, typography, logo, and voice — then builds a complete brand guidelines set: an installable brand skill for your own Claude environment, a written style guide, a one-page branded PDF, and an editable PowerPoint deck.
-category: Brand
-audience: Marketing Leaders
+name: build-brand-guidelines
+description: Builds brand guidelines from a company or client URL. Extracts the brand identity — colors, typography, logo, and voice — from the live site, then generates an installable brand-guidelines skill for the user's own Claude environment, a human-readable brand-guidelines.md, a one-page branded PDF visual (palette, fonts, and usage rules, with selectable hex codes), and an editable .pptx slide deck. Use when someone asks to build or create brand guidelines from a website, turn a site into a brand style guide, or set up a client's brand as a reusable Claude skill.
 created: 2026-07-29
 updated: 2026-07-29
 ---

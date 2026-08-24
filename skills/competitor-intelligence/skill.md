@@ -1,11 +1,8 @@
 ---
-title: Competitor Intelligence
-status: published
-summary: Turns raw competitor signals into a structured, shareable brief for sales and leadership. Can support one-time analysis or ongoing monitoring of key competitors.
-category: Competitive Intelligence
-audience: GTM Leaders
+name: competitor-intelligence
+description: Turns raw competitor signals (changelogs, pricing-page changes, launches, review-site exports, LinkedIn posts, call transcripts) into a structured, shareable competitive brief — the headline change, what it means for deals in flight, and battlecard-ready talking points a rep can use verbatim. Supports one-off analysis or ongoing monitoring of a roster of competitors. Use when the user asks to build a competitor brief, wants to know what changed with a named competitor, needs to keep sales current across several competitors, or asks to turn competitive signals into a battlecard update.
 created: 2026-07-15
-updated: 2026-08-03
+updated: 2026-07-21
 ---
 
 # Competitor Intelligence

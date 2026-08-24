@@ -1,9 +1,6 @@
 ---
-title: Marketing Audit
-status: published
-summary: Give Claude a company name or URL and it grades their marketing across owned, earned, paid, and social channels, then hands back a scorecard-style report — good/bad/low-hanging-fruit per channel, a prioritized top-fix list, and HTML + PDF outputs.
-category: GENERAL
-audience: Marketing Leaders
+name: marketing-audit
+description: Runs an outside-in read of how a company's marketing actually shows up in the world, from nothing but a company name or URL. Researches and grades four channel types against live sources — owned (site, content, pricing), earned (press, analysts, reviews, Wikipedia), paid (search, display, sponsorships), and social (LinkedIn, X, YouTube, TikTok, community, exec personal brand) — scoring each A through F and splitting findings into good, bad, and low-hanging fruit, then closing with a single prioritized list of the five things worth fixing first, ordered by effort-to-impact rather than by channel. Use when the user asks to audit or grade a company's marketing, wants a candid outside view of their own brand, a client's, or a competitor's, or asks how a company shows up across marketing channels.
 created: 2026-08-05
 updated: 2026-08-05
 ---

@@ -1,11 +1,8 @@
 ---
-title: Basic Discovery
-status: published
-summary: Turns a company name into a sales-ready account brief — overview, ownership, funding, competitors, buying reasons, and revenue-expansion opportunities — sourced from the latest public information for discovery prep and account planning.
-category: Account Intelligence
-audience: GTM Leaders
+name: company-discovery-basic
+description: Turns a company name into a sales-ready account brief — overview, ownership, funding, competitors, buying reasons, and revenue-expansion opportunities — sourced from the latest public information. Use when the user asks to research a company, build an account brief, prepare for a discovery call or executive briefing, or identify revenue-expansion opportunities for a target account.
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 # Basic Discovery

@@ -1,9 +1,6 @@
 ---
-title: Competitor Battlecard
-status: published
-summary: Creates competitive battlecards for GTM teams — structured competitor analysis with talk tracks, objection handling, trap-setting questions, and proof points, built on a Fact/Impact/Act framework.
-category: Competitive Intelligence
-audience: GTM Leaders
+name: competitor-battlecard
+description: Turns a competitor name plus whatever competitive intel you have (their website, G2 reviews, win/loss notes, call transcripts) into a deal-ready battlecard — strengths to acknowledge and pivot away from, weaknesses to exploit carefully, a feature comparison with a talk track for each row, objection-handling scripts, trap-setting questions, landmines to avoid, proof points, and demo differentiation — with every claim framed as Fact, Impact, Act. Use when the user asks to create a battlecard, wants to know how to compete against a named competitor, needs competitive positioning or objection handling, or is prepping a rep or SE for a deal where a specific competitor is in play.
 created: 2026-07-30
 updated: 2026-08-03
 ---

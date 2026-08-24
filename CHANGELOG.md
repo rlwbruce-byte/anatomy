@@ -2,6 +2,38 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-08-05 (2)
+
+Fixed every skill download on the site. They could not be imported into
+Claude, and three of them were the wrong content entirely.
+
+- **All 10 `skills/*/skill.md`** — rewrote the front-matter to the four keys
+  Claude and the site actually need: `name`, `description`, `created`,
+  `updated`. The files previously carried `title`/`status`/`summary`/
+  `category`/`audience` and **no `name` and no `description`**, so every
+  download failed on upload with *"missing field 'name' in SKILL.md
+  frontmatter and no directory name available for fallback"* — a bare `.md`
+  has no directory name to fall back on. `abm-activation-plan` was the only
+  one that had been hand-patched and worked. The bug was invisible on the
+  site because the Read modal strips front-matter before rendering.
+  `created`/`updated` stay because `openSkill()` greps them for the Read
+  modal's date line; the card's title, summary and category come from the
+  `SKILLS` arrays, not front-matter.
+- **`skills/abm-activation-plan`, `skills/aeo-brand-auditor`,
+  `skills/company-identity-builder`** — replaced the truncated write-up with
+  the skill's real operating procedure. These three shipped as
+  descriptions of a skill rather than the skill itself (71, 75 and 95 lines
+  against 381, 228 and 227 in source), so importing one gave Claude a
+  brochure. Internal repo notes were stripped and references to bundled
+  files now degrade gracefully, since a download arrives as a bare `.md`.
+- **`marketing.html`, `go-to-market.html`** — corrected the `updated` dates
+  for `aeo-brand-auditor` (→ 2026-07-24) and `company-discovery-basic`
+  (→ 2026-07-24), which had drifted from the skill files.
+- **`CLAUDE.md`** — the "Adding a new skill" recipe still prescribed the old
+  front-matter schema and was the root cause. Rewritten to specify the
+  four-key contract, the exact failure it prevents, and to generate the file
+  with `brain`'s `scripts/promote-skill.py` rather than hand-write it.
+
 ## 2026-08-05
 
 Published a new skill to the Marketing track: **Marketing Audit**.

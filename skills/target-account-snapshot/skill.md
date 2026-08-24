@@ -1,10 +1,6 @@
 ---
-title: Target Account Snapshot
-aliases: ["ABM Account Snapshot", "ABM Intelligence", "Target Account Insights"]
-status: published
-summary: Improve ABM effectiveness with target account intelligence. Input a target account name or URL and receive a structured snapshot with org signals, key stakeholders, timing triggers, and a tailored outreach angle unique to your sales plays.
-category: ABM
-audience: Marketing Leaders
+name: target-account-snapshot
+description: Turns a target account name or URL, plus whatever account intelligence you provide (firmographics, LinkedIn research, SDR notes, funding news), into a structured 1:1/1:few ABM snapshot — org signals, a stakeholder map, timing triggers, and an outreach angle tied to your own sales plays. Use when the user asks to build an ABM or target account snapshot, prioritize target accounts, prep sales for account-based outbound, pull target account insights, or re-engage a stalled account with a fresh angle.
 created: 2026-07-15
 updated: 2026-08-03
 ---

@@ -1,9 +1,6 @@
 ---
-title: YouTube Video Kit
-status: published
-summary: Give Claude a company URL, an unlisted video link, and its transcript, and it builds a complete, on-brand YouTube publishing kit — titles, description, tags, thumbnails, pinned comment, playlist/category, and cross-channel repurposing — styled in that company's own real brand colors and fonts.
-category: VIDEO
-audience: Marketing & Content Teams
+name: youtube-video-kit
+description: Turns a company URL, a video link, and its transcript into a complete, on-brand YouTube publishing kit — three search-optimized title options, a full description with hook, chapters, and UTM-tagged links, 12-20 tags, an A/B thumbnail set, a pinned comment, playlist and category assignment, and a repurposing kit (Shorts callouts, a LinkedIn post, a blog-embed blurb) — styled in the company's own brand colors and fonts read from their live site and delivered as one self-contained HTML page with copy buttons. Use when the user asks to prepare or publish a video on YouTube, write a YouTube title or description, build a thumbnail set, or repurpose a video across channels.
 created: 2026-08-03
 updated: 2026-08-03
 ---

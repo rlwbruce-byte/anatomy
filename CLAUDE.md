@@ -44,21 +44,52 @@ git submodule, subtree, or automated CI sync between them, and none should
 be added without the user explicitly asking for it.
 
 Content moves from `brain` to `anatomy` by deliberate, manual promotion
-only: copy the finished skill's files over, adapt as needed for public
-consumption (strip internal notes, no proprietary agent internals), commit
-and push here as its own step. Never script a bulk sync across repos.
+only: generate the public copy there with `scripts/promote-skill.py` (it
+strips brain-only front-matter and any `<!-- internal -->` blocks), copy the
+result over, commit and push here as its own step. Never hand-write the file,
+and never script a bulk sync across repos.
 
 ## Adding a new skill
 
-1. Create `skills/<slug>/skill.md` with front-matter: `title`, `status:
-   published`, `summary`, `category`, `audience` (`Marketing Leaders` or
-   `GTM Leaders` — determines which page it belongs on), `created` and
-   `updated` (both `YYYY-MM-DD`). Every skill.md must always carry both
-   dates; bump `updated` on any content change to that skill (leave
-   `created` fixed).
+1. Don't hand-write `skills/<slug>/skill.md`. Every file in `skills/` is a
+   **download that people upload into Claude > Skills > Upload**, so its
+   front-matter is validated by Claude itself. Generate it in the `brain` repo
+   with `python3 scripts/promote-skill.py <slug>` and copy the result here.
+
+   The front-matter carries **exactly four keys**, and nothing else:
+
+   ```yaml
+   ---
+   name: <slug>          # REQUIRED by Claude; must equal the folder name.
+                         # ≤64 chars, lowercase letters/numbers/hyphens only,
+                         # must not contain "anthropic" or "claude"
+   description: <what it does AND when to use it>   # REQUIRED by Claude.
+                         # Non-empty, ≤1024 chars, third person, no XML tags
+   created: YYYY-MM-DD
+   updated: YYYY-MM-DD
+   ---
+   ```
+
+   A missing `name` is fatal: a bare `.md` upload has no directory name to
+   fall back on, so Claude rejects it outright with *"missing field 'name' in
+   SKILL.md frontmatter and no directory name available for fallback"*. That
+   is how every download on this site was broken until 2026-08-05.
+
+   `created`/`updated` are required too — `openSkill()` in `assets/site.js`
+   greps them out of the front-matter for the Read modal's
+   "Updated … · Added …" line. Bump `updated` on any content change, leave
+   `created` fixed, and keep both in sync with the `SKILLS` entry in step 2.
+
+   Do **not** add `title`, `summary`, `category`, `audience`, `status` or
+   `aliases` here — those are brain-only, and the site reads the card's title,
+   summary and category from the `SKILLS` array (step 2), not front-matter.
+
+   The body must be the skill's real operating procedure, not a description of
+   it — someone who uploads this file should get a working skill, not a
+   brochure. `brain/skills/<slug>/skill.md` is the source of truth.
 2. Add an entry to the `SKILLS` array in `marketing.html` or
-   `go-to-market.html` (whichever matches `audience`) — slug, title,
-   category, summary, perfectFor bullets.
+   `go-to-market.html` (whichever matches the skill's audience) — slug, title,
+   category, summary, perfectFor bullets, created, updated.
 3. If it's a new category, add it to that page's `CATEGORIES` array too.
 4. Update the stats (`renderStats` call) on both that page and `index.html`
    if the total skill/track counts changed.
