@@ -15,19 +15,30 @@ account planning, executive briefings, discovery preparation, and identifying
 revenue expansion opportunities — written the way an Enterprise Account
 Executive would prep for a customer meeting.
 
-## Every run ships three things
+## Every run ships two things
 
-Not one of these is optional, and the artifact is not a "if they ask for it"
-extra — **every run produces all three**:
+The artifact is not a "if they ask for it" extra — **every run produces both**:
 
 1. **The brief in chat** — the full report, in the sections below.
-2. **A markdown copy on disk** — the canonical text for the company, saved to
-   your research folder as `<company-slug>/README.md`.
-3. **A self-contained HTML brief** — `<company-slug>-account-brief.artifact.html`,
-   styled in the company's own brand palette, published as a private artifact
-   and saved alongside the markdown.
+2. **A self-contained HTML brief** — the same report styled in the company's
+   own brand palette and published as a private artifact.
+
+Where the session can also write files, save both to disk as a third output —
+see **Save the run**. Where it can't, the first two still both happen.
 
 See **Build the artifact** and **Save the run** at the end of this file.
+
+## Handle with care
+
+Open the brief — in chat and in the artifact — with the soft facts to verify
+before a live conversation. This goes first, not in a footnote: a number cited
+confidently and wrong is worse than no number.
+
+Flag things like source conflicts on funding totals or headcount, name
+collisions with unrelated companies, marquee customers who are also investors,
+cumulative figures presented as current, and products announced but not yet GA.
+Say what the conflict is and what to do about it — "cite the Series B, not a
+total" beats "funding is unclear."
 
 ## Company Overview
 
@@ -176,9 +187,10 @@ variable definitions, `<meta name="theme-color">`, and SVG fills. Use the
 company's real typefaces when they're on Google Fonts; substitute a close match
 and say so in the brand table when they aren't.
 
-If a brand-extraction skill has already run for this company, reuse the palette
-it captured instead of re-extracting. If a visual-design skill is available (`artifact-design`,
-`canvas-design`, `brand-guidelines`), load it for styling guidance first.
+If a brand-extraction or brand-guidelines skill has already run for this
+company, reuse the palette it captured instead of re-extracting. If a
+visual-design skill is available in the session, load it for styling guidance
+first.
 
 Check contrast before shipping: a brand accent that's safe as a fill is often
 not safe as text. Split it into two tokens — the raw brand color for fills and
@@ -208,14 +220,17 @@ private by default, so publishing the brief needs no approval — but **don't
 share the link outward** (a prospect, a client, a public channel) without
 checking first. Account research carries competitive and financial specifics.
 
-Hand back the artifact link in the reply. If the Artifact tool isn't available
-in the session, still write the HTML to disk, deliver it with `SendUserFile` so
-it renders in the side panel, and say plainly that no hosted link was created.
+Hand back the artifact link in the reply. If the session can't publish
+artifacts, hand over the HTML file itself — however this session delivers files
+— and say plainly that no hosted link was created. Never let a missing publish
+step turn the run back into chat-only output.
 
 ## Save the run
 
-Save under a per-company folder in your research directory — the slug is
-lowercase and hyphenated, domain minus `www.` and the TLD (`datacore.com` →
+Skip this section where the session has no filesystem — the chat brief and the
+artifact are still both required. Where files can be written, save under a
+per-company folder in your research directory — the slug is lowercase and
+hyphenated, domain minus `www.` and the TLD (`datacore.com` →
 `datacore`, `kargo.ai` → `kargo-ai`). Account briefs are the standing reference
 for a company, so they sit at the folder root and get updated in place rather
 than dated into a subfolder.
@@ -227,19 +242,17 @@ than dated into a subfolder.
 ```
 
 `README.md` opens with a metadata blockquote (company, website, context, last
-updated, method), then a **Handle with care** section — the soft facts to verify
-before a live conversation: source conflicts on funding or headcount, name
-collisions, customers who are also investors, products announced but not GA.
-Lead the chat brief with the same list. Then the report sections, a **Brand
-reference** table, a **Files** table, **Sources**, and the not-affiliated footer.
+updated, method), then the **Handle with care** list, then the report sections,
+a **Brand reference** table, a **Files** table, **Sources**, and the
+not-affiliated footer.
 
-**The artifact is what gets lost.** An artifact lives in the artifact store, not
-on disk — nothing backs it up. Writing the same HTML into the company folder is
-what makes it survivable, which is why it's step 3 and not an afterthought. The
-same goes for a run in an ephemeral or cloud session: files that aren't
-committed and pushed are gone when the session ends.
+**The artifact is the part that gets lost.** An artifact lives in the artifact
+store, not on disk — nothing backs it up. Writing the same HTML into the company
+folder is what makes it survivable. The same goes for a run in an ephemeral or
+cloud session: files that are never saved out are gone when the session ends.
 
-If the session can't commit — a desktop session reaching the folder through a
-filesystem connector can usually write files but not run `git` — write the files
-anyway, then say plainly that the run is **on disk but not committed** so
-someone can finish the job. Never leave a run uncommitted silently.
+If the research folder is version-controlled, commit the run before the session
+ends. If the session can write files but can't commit them — a desktop session
+reaching a folder through a filesystem connector usually can't run `git` — write
+them anyway, then say plainly that the run is **on disk but not committed** so
+someone can finish the job. Never leave a run unsaved silently.

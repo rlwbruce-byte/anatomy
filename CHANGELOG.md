@@ -2,6 +2,23 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-04 (2)
+
+Follow-up pass on **Basic Discovery** so the download behaves correctly for
+someone who uploads it into Claude > Skills, where there is no filesystem and
+no repo.
+
+- **`skills/company-discovery-basic/skill.md`** — the run contract is now
+  *two* things (chat brief + published artifact), with saving to disk as a
+  conditional third rather than a hard requirement; *Save the run* opens by
+  saying to skip it where the session has no filesystem, and no longer assumes
+  the research folder is version-controlled. Removed environment-specific tool
+  names and the named sibling-skill references, so the styling and delivery
+  steps degrade to "if the session has one." Promoted **Handle with care** to
+  its own section near the top — it was previously described inside the
+  filesystem section, which meant a session that skipped that section also
+  lost the instruction to lead the brief with the caveats.
+
 ## 2026-09-04
 
 Updated the Go-To-Market track skill **Basic Discovery**: every run now ships
