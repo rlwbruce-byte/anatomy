@@ -2,6 +2,28 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-04
+
+Updated the Go-To-Market track skill **Basic Discovery**: every run now ships
+a visual artifact, not just chat output.
+
+- **`skills/company-discovery-basic/skill.md`** — added three sections. *Every
+  run ships three things* states the contract up front: the chat brief, a
+  markdown copy on disk, and a self-contained HTML brief published as a
+  private artifact. *Build the artifact* covers extracting real brand tokens
+  from the company's live site (CSS custom properties, computed header/nav/CTA
+  styles, hex frequency, `theme-color`, SVG fills), splitting the accent into
+  fill and text tokens so accent text clears 4.5:1, and the build rules —
+  self-contained, light/dark token blocks, responsive at 900px and 390px, the
+  scan strip, the not-affiliated footer. *Save the run* covers the per-company
+  folder convention and why the artifact is the thing that gets lost if it
+  isn't also written to disk. `updated` → 2026-09-04.
+- **`go-to-market.html`** — refreshed the card summary to mention the artifact,
+  added a fourth `perfectFor` bullet, and bumped `updated` to match the skill
+  file.
+
+Skill and track counts are unchanged, so the stats stay as they are.
+
 ## 2026-08-05 (2)
 
 Fixed every skill download on the site. They could not be imported into
