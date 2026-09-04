@@ -146,18 +146,20 @@ implementation details unless they directly relate to business value.
 
 ## Optional Additions
 
-When relevant, also include the sections below.
+When relevant, also include the three sections below. They're the only optional
+part of the report — everything else above and the Executive Summary below run
+every time.
 
-## AI Strategy
+### AI Strategy
 
 Describe AI products, LLM initiatives, generative AI offerings, and AI
 partnerships.
 
-## Recent News
+### Recent News
 
 Summarize significant announcements from the last 6–12 months.
 
-## Sales Talking Points
+### Sales Talking Points
 
 Provide several thoughtful discovery questions that could uncover growth
 opportunities. For example:

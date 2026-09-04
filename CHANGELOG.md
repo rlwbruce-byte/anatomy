@@ -2,6 +2,20 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-04 (3)
+
+Heading-level fix in **Basic Discovery**, carried over from the source repo.
+
+- **`skills/company-discovery-basic/skill.md`** — `Optional Additions` was an
+  `##` heading followed by four more `##` headings, so AI Strategy, Recent News,
+  Sales Talking Points and Executive Summary all read as top-level report
+  sections rather than as the optional ones. Executive Summary was the real
+  problem: a required section filed under "optional" while its own text says to
+  end every report with it. The three genuinely optional sections are now `###`
+  under Optional Additions, Executive Summary stays `##` and closes the report
+  spec, and the Optional Additions line says which sections it governs. Predates
+  the artifact work — the original skill shipped this way.
+
 ## 2026-09-04 (2)
 
 Follow-up pass on **Basic Discovery** so the download behaves correctly for
