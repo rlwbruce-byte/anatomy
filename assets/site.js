@@ -49,7 +49,7 @@ function renderSkillsGrid(gridId, skills, active){
       ${(s.created || s.updated) ? `<div class="skill-card-dates">${s.updated ? `Updated ${s.updated}` : ''}${s.updated && s.created ? ' · ' : ''}${s.created ? `Added ${s.created}` : ''}</div>` : ''}
       <div class="actions">
         <button class="btn btn-ghost btn-sm" data-read="${s.slug}">Read</button>
-        <a class="btn btn-ghost btn-sm" href="skills/${s.slug}/skill.md" download>↓ Download</a>
+        <a class="btn btn-ghost btn-sm" href="/skills/${s.slug}/skill.md" download>↓ Download</a>
       </div>
     `;
     grid.appendChild(div);
@@ -94,7 +94,7 @@ function renderPromptsGrid(gridId, prompts, active){
 }
 
 function openPrompt(slug){
-  fetch(`prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
+  fetch(`/prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
     const fm = md.match(/^---([\s\S]*?)---/);
     let meta = '';
     if(fm){
@@ -111,7 +111,7 @@ function openPrompt(slug){
 }
 
 function copyPrompt(slug, btn){
-  fetch(`prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
+  fetch(`/prompts/${slug}/prompt.md`).then(r=>r.text()).then(md=>{
     const fenced = md.match(/```[\w]*\n([\s\S]*?)```/);
     const text = fenced ? fenced[1].trim() : md.replace(/^---[\s\S]*?---/, '').trim();
     navigator.clipboard.writeText(text).then(()=>{
@@ -123,7 +123,7 @@ function copyPrompt(slug, btn){
 }
 
 function openSkill(slug){
-  fetch(`skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
+  fetch(`/skills/${slug}/skill.md`).then(r=>r.text()).then(md=>{
     const fm = md.match(/^---([\s\S]*?)---/);
     let meta = '';
     if(fm){
