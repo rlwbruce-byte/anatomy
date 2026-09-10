@@ -179,3 +179,34 @@ function initModal(){
     if(e.target.id === 'modalBackdrop') document.getElementById('modalBackdrop').classList.remove('show');
   });
 }
+
+function initContactForm(formId){
+  const form = document.getElementById(formId);
+  if(!form) return;
+  const status = form.querySelector('.form-status');
+  const fallback = form.dataset.fallbackEmail;
+  const say = msg => { if(status) status.textContent = msg; };
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const trap = form.querySelector('[name="_gotcha"]');
+    if(trap && trap.value) return;
+    const endpoint = form.dataset.endpoint;
+    if(!endpoint){
+      const get = n => { const el = form.querySelector('[name="'+n+'"]'); return el ? el.value : ''; };
+      const body = ['Name: '+get('name'), 'Company: '+get('company'), 'Role: '+get('role'), '',
+                    'What we are working on:', get('message')].join('\n');
+      window.location.href = 'mailto:' + fallback
+        + '?subject=' + encodeURIComponent('GTM Anatomy enquiry, ' + (get('company') || get('name')))
+        + '&body=' + encodeURIComponent(body);
+      say('Opening your email client. If nothing happens, write to ' + fallback + '.');
+      return;
+    }
+    say('Sending.');
+    fetch(endpoint, { method:'POST', headers:{'Accept':'application/json'}, body:new FormData(form) })
+      .then(r => {
+        if(r.ok){ form.reset(); say('Thank you. We will reply shortly.'); }
+        else { say('Something went wrong. Write to ' + fallback + ' instead.'); }
+      })
+      .catch(() => say('Something went wrong. Write to ' + fallback + ' instead.'));
+  });
+}

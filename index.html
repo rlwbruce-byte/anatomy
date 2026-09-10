@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anatomy — Free Claude Skills for GTM & Marketing Teams</title>
-<meta name="description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more. No install, no cost: download the file, drag it into Claude.">
+<title>GTM Anatomy — AI infrastructure for go-to-market teams</title>
+<meta name="description" content="GTM Anatomy builds the AI Operating System your go-to-market team runs on, tuned to your business, your brand, and your goals. You own it.">
+<link rel="canonical" href="https://gtmanatomy.ai/">
 
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
@@ -13,18 +14,33 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
 
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="GTM Anatomy">
 <meta property="og:url" content="https://gtmanatomy.ai/">
-<meta property="og:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
-<meta property="og:description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more.">
+<meta property="og:title" content="GTM Anatomy — AI infrastructure for go-to-market teams">
+<meta property="og:description" content="GTM Anatomy builds the AI Operating System your go-to-market team runs on, tuned to your business, your brand, and your goals. You own it.">
 <meta property="og:image" content="https://gtmanatomy.ai/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anatomy — Free Claude Skills for GTM & Marketing Teams">
-<meta name="twitter:description" content="Free, downloadable Claude skills built from real GTM workflows — competitor intelligence, ABM, AEO, and more.">
+<meta name="twitter:title" content="GTM Anatomy — AI infrastructure for go-to-market teams">
+<meta name="twitter:description" content="GTM Anatomy builds the AI Operating System your go-to-market team runs on, tuned to your business, your brand, and your goals. You own it.">
 <meta name="twitter:image" content="https://gtmanatomy.ai/assets/og-image.png">
 
+<link rel="alternate" type="text/markdown" href="/index.md">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization",
+ "name":"GTM Anatomy","url":"https://gtmanatomy.ai/",
+ "description":"AI infrastructure for go-to-market teams. GTM Anatomy builds AI Operating Systems tuned to a business, its brand, and its goals.",
+ "founder":{"@type":"Person","name":"Rachel W Bruce"},
+ "logo":"https://gtmanatomy.ai/assets/favicon-192.png"}
+</script>
+<script>
+(function(){
+  var moved = {'#how':1,'#playbook-intro':1,'#know-before-you-begin':1,'#ai-101':1,'#best-practices':1};
+  if (moved[location.hash]) location.replace('/getting-started.html' + location.hash);
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
@@ -33,180 +49,287 @@
 
 <nav class="global-nav">
   <div class="global-nav-inner">
+    <a class="gn-brand" href="/">GTM Anatomy</a>
     <div class="gn-links">
-      <a href="/" data-page="getting-started">Getting Started</a>
-      <a href="/marketing.html" data-page="marketing">Marketing</a>
-      <a href="/go-to-market.html" data-page="gtm">Go-To-Market</a>
+      <a href="/" data-page="home">Home</a>
+      <a href="/about.html" data-page="about">About</a>
+      <a href="/offerings/" data-page="offerings">Offerings</a>
+      <span class="gn-group">
+        <a href="/getting-started.html" data-page="skills">Claude Skills</a>
+        <span class="gn-drop">
+          <a href="/getting-started.html">Getting started</a>
+          <a href="/marketing.html">Marketing</a>
+          <a href="/go-to-market.html">Sales</a>
+        </span>
+      </span>
     </div>
-    <a class="gn-contact" href="mailto:rlwbruce@gmail.com?subject=GTM%20Anatomy%20Consulting">Contact</a>
+    <a class="gn-contact" href="/contact.html" data-page="contact">Contact</a>
   </div>
 </nav>
 
 <div class="hero" id="top">
   <div class="hero-inner">
-    <div class="kicker">Free Claude Skills — GTM & Marketing</div>
-    <h1 class="word">Anatomy<span>.</span></h1>
-    <p class="hero-sub">A library of Claude prompts and skills built from real GTM workflows. Read how it works, download the files, execute in Claude. Check back often, updates are made daily.</p>
-    <div class="hero-stats" id="heroStats"></div>
-  </div>
-</div>
-
-<div class="how" id="how">
-  <div class="how-title">Get Started in 3 Steps</div>
-  <div class="how-sub">No account, no install, no cost</div>
-  <div class="how-steps">
-    <div class="step">
-      <div class="step-label">Step 1</div>
-      <h4>Browse</h4>
-      <p>Head to the <a href="/marketing.html">Marketing</a> or <a href="/go-to-market.html">Go-To-Market</a> tab to find the skill built for the workflow you're trying to speed up.</p>
+    <div class="kicker">AI infrastructure for go-to-market teams</div>
+    <h1 class="hero-statement">Your brand. Your context. Your AI<span>.</span></h1>
+    <p class="hero-sub">Most companies are adding AI to a go-to-market process that was designed before AI existed. We start somewhere else: your foundations, agreed across the team and encoded into an AI Operating System you own, so the work you do once is used every time.</p>
+    <div class="hero-support">Designed and built, not bolted on.</div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="/contact.html#book">Book a strategy call</a>
+      <a class="btn btn-ghost-dark" href="/getting-started.html">Explore the skills</a>
     </div>
-    <div class="step">
-      <div class="step-label">Step 2</div>
-      <h4>Download</h4>
-      <p>Each skill is a single, readable Markdown file — what it does, how to prompt it, what you get back.</p>
-    </div>
-    <div class="step">
-      <div class="step-label">Step 3</div>
-      <h4>Drag Into Claude</h4>
-      <p>Drop the file into any Claude conversation, or attach it as a project skill. That's the whole install.</p>
+    <div class="pill-row">
+      <span class="pill">B2B technology</span>
+      <span class="pill">Series A through Series C</span>
+      <span class="pill">20 to 200 people</span>
     </div>
   </div>
 </div>
 
-<div class="guide-section">
-  <div class="how" id="playbook-intro">
-    <div class="how-title">Claude Setup Guide</div>
-    <p class="section-intro">Build a system Claude can rely on with repeatable skills, prompts, and more.</p>
-  </div>
-
-  <div class="pb-section" id="know-before-you-begin">
-    <div class="pb-section-title">Know Before You Begin</div>
-    <div class="pb-section-sub">Three steps to move off ad-hoc prompting and onto a system Claude can rely on</div>
-    <div class="pb-steps" id="stepsRail"></div>
-  </div>
-
-  <div class="pb-section" id="ai-101">
-    <div class="pb-section-title">AI 101</div>
-    <div class="pb-section-sub">The terms you need to know before any of this makes sense</div>
-    <div class="pb-glossary-grid" id="glossaryGrid"></div>
-  </div>
-
-  <div class="pb-section" id="best-practices">
-    <div class="pb-section-title">Best Practices</div>
-    <div class="pb-section-sub">The right setup depends on how many people need the same answer from Claude. While this isn't my unique advice but information shared from resources and thought leaders I like to follow as I continue to build and scale AI-environments for B2B GTM Teams.</div>
-    <div class="pb-bp-grid" id="bpGrid"></div>
+<div class="section" id="what">
+  <div class="section-eyebrow">What is GTM Anatomy</div>
+  <h2 class="section-title">AI infrastructure, tuned to your business</h2>
+  <div class="split">
+    <div class="prose">
+      <p>Every go-to-market (GTM) team has access to the same models. That is exactly why so much of what they produce sounds the same. Adopting AI without the underlying context is how companies end up with AI-slop: content that sounds like everyone else in the market.</p>
+      <p>There are no shortcuts. The fundamentals that have always made go-to-market work are still required: messaging, ideal customer profile (ICP) and personas, differentiators, proof points, competitors, and buying signals. Most companies do not have them written down, or sales, marketing, and product each carry a different version of them. AI does not create alignment. It scales whatever you feed it.</p>
+      <p>We align your team on those foundations, encode them into an AI Operating System tuned to your business, your brand, and your goals, and keep that system learning as the brand evolves. Quite frankly, you are buying something you do not have the time or the expertise to build, and you own it when it is done.</p>
+      <p><a class="btn btn-ghost" href="/about.html">Learn more about GTM Anatomy</a></p>
+    </div>
+    <div>
+      <ul class="spec-list">
+        <li class="spec-item">
+          <h4>Align the foundations</h4>
+          <p>One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.</p>
+        </li>
+        <li class="spec-item">
+          <h4>Encode them once</h4>
+          <p>Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.</p>
+        </li>
+        <li class="spec-item">
+          <h4>Keep it learning</h4>
+          <p>Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.</p>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
-<footer>
-  <div>Built by <a href="https://rlwbruce-byte.github.io/rachelwbruce/" target="_blank" rel="noopener">Rachel Bruce</a> — GTM &amp; AI systems.</div>
+<div class="section" id="offerings">
+  <div class="section-eyebrow">Offerings</div>
+  <h2 class="section-title">Four ways to work with GTM Anatomy</h2>
+  <p class="section-lead">The four offerings run in sequence: diagnose, build, operate, and keep current. Start with the Anatomy Scan, build from the roadmap it produces, then keep the system honest as the business changes. You can stop after any one of them, and everything we build is yours.</p>
+  <div class="offer-grid">
+    <div class="offer-card">
+      <div class="offer-num">Offering 01</div>
+      <h3 class="offer-name">Anatomy Scan</h3>
+      <p class="offer-desc">A two-week diagnostic of your go-to-market foundations and your AI readiness. You leave with foundations your team has agreed on, and a sequenced roadmap you can run with or without us.</p>
+      <div class="offer-meta">
+        <span class="offer-timeline">Two weeks</span>
+        <a class="offer-link" href="/offerings/anatomy-scan.html">See the Anatomy Scan &rarr;</a>
+      </div>
+    </div>
+    <div class="offer-card">
+      <div class="offer-num">Offering 02</div>
+      <h3 class="offer-name">Build Sprint</h3>
+      <p class="offer-desc">A focused build against the highest-scoring opportunities on your roadmap. We ship working skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.</p>
+      <div class="offer-meta">
+        <span class="offer-timeline"><span class="tbd">Timeline TBC</span></span>
+        <a class="offer-link" href="/offerings/build-sprint.html">See the Build Sprint &rarr;</a>
+      </div>
+    </div>
+    <div class="offer-card">
+      <div class="offer-num">Offering 03</div>
+      <h3 class="offer-name">GTM Operating System</h3>
+      <p class="offer-desc">The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, your standards, and your governance written into it.</p>
+      <div class="offer-meta">
+        <span class="offer-timeline"><span class="tbd">Timeline TBC</span></span>
+        <a class="offer-link" href="/offerings/gtm-operating-system.html">See the GTM Operating System &rarr;</a>
+      </div>
+    </div>
+    <div class="offer-card">
+      <div class="offer-num">Offering 04</div>
+      <h3 class="offer-name">Fractional AI GTM Partner</h3>
+      <p class="offer-desc">Ongoing partnership. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.</p>
+      <div class="offer-meta">
+        <span class="offer-timeline">Ongoing</span>
+        <a class="offer-link" href="/offerings/fractional-ai-gtm-partner.html">See the Fractional AI GTM Partner &rarr;</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-cta">
+    <a class="btn btn-ghost" href="/offerings/">Compare all four offerings</a>
+  </div>
+</div>
+
+<div class="section-band dark">
+  <div class="section flush" id="skills">
+    <div class="section-eyebrow on-dark">The skills library</div>
+    <h2 class="section-title">Try the method before you hire it</h2>
+    <p class="section-lead on-dark">GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one, run it on a real company, and judge the output for yourself.</p>
+    <blockquote class="quote">Try it yourself. If you would rather have it built for you, talk to us.</blockquote>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="/getting-started.html">Start here</a>
+      <a class="btn btn-ghost-dark" href="/marketing.html">Marketing skills</a>
+      <a class="btn btn-ghost-dark" href="/go-to-market.html">Sales skills</a>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="roles">
+  <div class="section-eyebrow">What it means to you</div>
+  <h2 class="section-title">What this means in your role</h2>
+  <p class="section-lead">The system is the same in every engagement. What it changes depends on what you are measured on.</p>
+  <div class="persona-grid">
+    <div class="persona-tile">
+      <div class="persona-role">As a founder or CEO</div>
+      <p class="persona-line">Good for founders and chief executives who are looking for pipeline from a flat headcount, and AI infrastructure that survives the next model release. You already have the tools. What you do not have is a system.</p>
+      <ul class="persona-list">
+        <li>One set of go-to-market foundations the whole team works from, agreed and written down.</li>
+        <li>Measured where you are measured: pipeline per head, customer acquisition cost (CAC), and go-to-market cost as a percent of new annual recurring revenue (ARR).</li>
+        <li>Everything transfers to you at handover: architecture, skills, agents, and runbooks.</li>
+      </ul>
+    </div>
+    <div class="persona-tile">
+      <div class="persona-role">As a CRO or GTM leader</div>
+      <p class="persona-line">Good for revenue leaders who are looking for one operating system the team actually runs, instead of tool sprawl and one-off prompts. You own the outcome, not the architecture, and that is exactly why the architecture has to be someone's job.</p>
+      <ul class="persona-list">
+        <li>One brand story, carried consistently by sales, marketing, and product.</li>
+        <li>A roadmap with sequencing and owners, so the team knows what ships first and why.</li>
+        <li>Measured in pipeline created, cycle time, and message consistency.</li>
+      </ul>
+    </div>
+    <div class="persona-tile">
+      <div class="persona-role">As a marketing leader</div>
+      <p class="persona-line">Good for marketing leaders who are looking for volume without losing differentiation. Everyone has the same models, so the difference has to come from your context.</p>
+      <ul class="persona-list">
+        <li>Your ICP, personas, messaging, differentiators, and proof points encoded once, then used by everyone every time.</li>
+        <li>Brand and answer engine optimization (AEO) audits that show where your owned and earned properties have drifted from the story you are telling now.</li>
+        <li>Measured in content throughput per person, and in consistency across every property.</li>
+      </ul>
+    </div>
+    <div class="persona-tile">
+      <div class="persona-role">As an ops professional</div>
+      <p class="persona-line">Good for marketing, sales, and revenue operations professionals who are looking for something they can actually operate. You will run what gets built, so it gets documented while it is being built.</p>
+      <ul class="persona-list">
+        <li>Documented skills, clean integrations, and written runbooks, not a black box.</li>
+        <li>Standards for what agents may touch, which data they read, and who approves a change.</li>
+        <li>Measured in workflow uptime, data quality, rep adoption, and time to ship a new play.</li>
+      </ul>
+    </div>
+    <div class="persona-tile">
+      <div class="persona-role">As an operating partner or investor</div>
+      <p class="persona-line">Good for operating partners and investors who are looking for a repeatable way to raise go-to-market efficiency across a portfolio. The foundations are the same at every company you back, which is what makes the read comparable.</p>
+      <ul class="persona-list">
+        <li>A current-state read on a portfolio company's go-to-market foundations in two weeks.</li>
+        <li>AI spend tied to outcomes, with cost per outcome instrumented from the start rather than reconstructed later.</li>
+        <li>Each company owns its own infrastructure, so the value stays with the asset.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-band">
+  <div class="section flush" id="contact">
+    <div class="section-eyebrow">Contact</div>
+    <h2 class="section-title">Tell us what you are working on</h2>
+    <p class="section-lead">The fastest start is a short call on where your go-to-market foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so.</p>
+    <div class="contact-wrap">
+      <form class="contact-form" id="contactFormHome" method="POST"
+      data-endpoint=""
+      data-fallback-email="rlwbruce@gmail.com">
+  <!-- data-endpoint: paste the Formspree form URL here (https://formspree.io/f/xxxxxxx)
+       and the form POSTs to it. Left empty, it composes a mailto: to data-fallback-email. -->
+  <div class="form-row">
+    <div class="form-field">
+      <label for="contactFormHome-name">Name</label>
+      <input class="form-input" id="contactFormHome-name" name="name" type="text" required>
+    </div>
+    <div class="form-field">
+      <label for="contactFormHome-email">Work email</label>
+      <input class="form-input" id="contactFormHome-email" name="email" type="email" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="contactFormHome-company">Company</label>
+      <input class="form-input" id="contactFormHome-company" name="company" type="text">
+    </div>
+    <div class="form-field">
+      <label for="contactFormHome-role">Your role</label>
+      <select class="form-select" id="contactFormHome-role" name="role">
+        <option>Founder or CEO</option>
+        <option>CRO or GTM leader</option>
+        <option>Marketing leader</option>
+        <option>Operations</option>
+        <option>Operating partner or investor</option>
+        <option>Something else</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-field">
+    <label for="contactFormHome-message">What are you working on?</label>
+    <textarea class="form-textarea" id="contactFormHome-message" name="message"
+      placeholder="Where the go-to-market team is today, and what is putting pressure on it." required></textarea>
+  </div>
+  <input class="form-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <input type="hidden" name="_subject" value="GTM Anatomy enquiry">
+  <button class="btn btn-navy" type="submit">Send</button>
+  <div class="form-status" role="status" aria-live="polite"></div>
+  <p class="form-note">We reply to everything. No sequence, no drip.</p>
+</form>
+      <aside class="contact-aside">
+        <h3>Prefer to book directly?</h3>
+        <p>Pick a time and we will come prepared. Send the company name in advance and we will have read your site before the call.</p>
+        <a class="btn btn-primary" href="/contact.html#book">Book a strategy call</a>
+        <hr>
+        <h3>Not ready to talk?</h3>
+        <p>Start with the free skills library and run one on a real account.</p>
+        <a class="offer-link" href="/getting-started.html">Explore the skills &rarr;</a>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="/">GTM Anatomy</a>
+        <div class="footer-descriptor">AI Infrastructure for Go-to-Market Teams</div>
+        <p class="footer-tag">Your brand. Your context. Your AI.</p>
+        <a class="footer-domain" href="/">GTMAnatomy.ai</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="/about.html">About</a>
+        <a href="/offerings/">Offerings</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Offerings</h5>
+        <a href="/offerings/anatomy-scan.html">Anatomy Scan</a>
+        <a href="/offerings/build-sprint.html">Build Sprint</a>
+        <a href="/offerings/gtm-operating-system.html">GTM Operating System</a>
+        <a href="/offerings/fractional-ai-gtm-partner.html">Fractional AI GTM Partner</a>
+      </div>
+      <div class="footer-col">
+        <h5>Claude Skills</h5>
+        <a href="/getting-started.html">Getting started</a>
+        <a href="/marketing.html">Marketing</a>
+        <a href="/go-to-market.html">Sales</a>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 GTM Anatomy. All rights reserved.</span>
+      <span>Built by <a href="https://rlwbruce-byte.github.io/rachelwbruce/" target="_blank" rel="noopener">Rachel Bruce</a>, GTM and AI systems.</span>
+    </div>
+  </div>
 </footer>
 
 <script src="/assets/site.js"></script>
 <script>
-const STEPS = [
-  {
-    title:"Separate knowledge from behavior",
-    text:"Static reference material — brand guidelines, personas, messaging docs — is knowledge. Reusable procedures — voice rules, formatting, workflows — are behavior. They belong in different places: knowledge in a Project's Knowledge Base, behavior packaged as a Skill.",
-    tags:["Knowledge Base","Skills"]
-  },
-  {
-    title:"Choose your layer",
-    text:"Solo builders start with one Claude Project. Teams split knowledge by function and add Skills on top. Enterprises add governance over both — access control, distribution, review cadence.",
-    tags:["Projects","Cowork","Scale"]
-  },
-  {
-    title:"Scale access deliberately",
-    text:"Start private, expand sharing on purpose, and reach for a live connector — like GitHub — only when a task genuinely needs live repo access. Don't make a connector your default retrieval path for static knowledge; that's where consistency breaks down.",
-    tags:["Governance","Connectors"]
-  },
-];
-
-const GLOSSARY = [
-  {term:"LLM", title:"LLM", text:"Short for Large Language Model — the underlying AI system trained on massive amounts of text to understand and generate language. ChatGPT, Claude, and Grok are all products built on top of an LLM."},
-  {term:"Model", title:"Model", text:"A specific version of an LLM released under a family name — Claude, GPT, Grok — each with its own size, speed, and capability tradeoffs. A graphic comparing models is coming soon."},
-  {term:"Prompt", title:"Prompt", text:"A one-off instruction inside a single conversation. Nothing persists once the chat ends."},
-  {term:"Project", title:"Project", text:"A persistent workspace with a Knowledge Base and custom instructions that every chat inside it can draw on."},
-  {term:"Skill", title:"Skill", text:"A packaged, reusable procedure — like a brand voice guide — that Claude invokes automatically across chat, Code, and Cowork."},
-  {term:"Cowork", title:"Cowork", text:"Claude working directly in a local folder of files — structuring documents and running multi-step tasks."},
-  {term:"Connector / MCP", title:"Connector / MCP", text:"A live link to an external tool — GitHub, Drive, Slack — that Claude queries in real time. Powerful, but only as stable as the connection itself."},
-];
-
-const BEST_PRACTICES = [
-  {
-    tier:"Individual",
-    title:"Solo Builder",
-    text:"One Claude Project holding your personal operating brain — who you are, your voice, your clients, your workflows. Loads automatically at the start of every session.",
-    bullets:["One Project, one Knowledge Base","Custom instructions written once","Optional local CLAUDE.md mirror for Cowork or Code"],
-    link:"https://demandloops.substack.com/p/turns-out-claude-needs-a-brain",
-    linkText:"Read: Turns out Claude needs a brain",
-    source:"Kaylee Edmondson, Looped In"
-  },
-  {
-    tier:"Team",
-    title:"Small Team",
-    text:"Split knowledge into focused Projects by function instead of one mega-project, and turn recurring rules into a Skill so every teammate produces on-brand work without re-explaining the style guide.",
-    bullets:["Projects split by function, not one mega-project","Skills for repeatable voice and format rules","Shared visibility across the team"],
-    link:"https://ruben.substack.com/p/claude-cowork-project",
-    linkText:"Read: Claude Cowork + Project",
-    source:"Ruben Hassid, How to AI"
-  },
-  {
-    tier:"Enterprise",
-    title:"Org-Wide Rollout",
-    text:"Same two layers, plus governance — admin-managed groups and roles, org-wide Skill distribution through a private marketplace, and connectors scoped to specific, live-data tasks only.",
-    bullets:["Role-based access by group (SCIM-ready)","Private Skills marketplace for distribution","Connectors scoped to live-data tasks"],
-    link:"https://claude.com/blog/cowork-for-enterprise",
-    linkText:"Read: Making Claude Cowork ready for enterprise",
-    source:"Anthropic"
-  },
-];
-
-function renderSteps(){
-  document.getElementById('stepsRail').innerHTML = STEPS.map((s,i)=>`
-    <div class="pb-step">
-      <div class="pb-step-num">${String(i+1).padStart(2,'0')}</div>
-      <div class="pb-step-body">
-        <h4>${s.title}</h4>
-        <p>${s.text}</p>
-        <div class="pb-step-tags">${s.tags.map(t=>`<span class="pb-step-tag">${t}</span>`).join('')}</div>
-      </div>
-    </div>
-  `).join('');
-}
-
-function renderGlossary(){
-  document.getElementById('glossaryGrid').innerHTML = GLOSSARY.map(g=>`
-    <div class="pb-gloss-card">
-      <div class="pb-gloss-term">${g.term}</div>
-      <h4>${g.title}</h4>
-      <p>${g.text}</p>
-    </div>
-  `).join('');
-}
-
-function renderBestPractices(){
-  document.getElementById('bpGrid').innerHTML = BEST_PRACTICES.map(b=>`
-    <div class="pb-bp-card">
-      <div class="pb-bp-tier">${b.tier}</div>
-      <h4>${b.title}</h4>
-      <p>${b.text}</p>
-      <ul>${b.bullets.map(x=>`<li>${x}</li>`).join('')}</ul>
-      <a class="pb-bp-link" href="${b.link}" target="_blank" rel="noopener">${b.linkText} →</a>
-      <div class="pb-bp-source">${b.source}</div>
-    </div>
-  `).join('');
-}
-
-  setActiveNav('getting-started');
-  renderStats('heroStats', [
-    { value: 10, label: 'Skills Available' },
-    { value: 2, label: 'Skill Tracks' },
-    { value: '$0', label: 'Cost' }
-  ]);
-  renderSteps();
-  renderGlossary();
-  renderBestPractices();
+  setActiveNav('home');
+  initContactForm('contactFormHome');
 </script>
 
 </body>

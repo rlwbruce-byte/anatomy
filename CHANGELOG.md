@@ -2,6 +2,51 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-10
+
+Site restructure. The skills library becomes a section of a full GTM Anatomy
+marketing site rather than the whole site. Copy across the new pages is drafted
+from the Brand + Message Guide v0.4, so voice, vocabulary and mechanics follow
+that document.
+
+- **New `index.html`** — Home. Hero on the tagline ("Your brand. Your context.
+  Your AI."), what GTM Anatomy is, the four offerings as a sequence, the skills
+  library as the self-serve door, five "what it means to you" role tiles, and a
+  contact section. Carries Organization JSON-LD and a whitelisted hash redirect
+  so the five old root anchors still land on their content.
+- **`getting-started.html`** — the previous `index.html`, moved. Content is
+  unchanged apart from the nav, the headline, and two copy fixes: Step 1 now
+  points at "Sales" rather than a "Go-To-Market tab", and the Best Practices
+  standfirst drops first-person voice. Still the only page holding skill counts.
+- **New `about.html`** — purpose, the revenue-engine foundations as a numbered
+  climb, how we work, who it is for and who it is not, founder, vision and
+  mission.
+- **New `offerings/`** — a hub plus one page per offering, each covering what it
+  is, why it exists, what you get, why you need it, proof points, and a sample.
+  Testimonial markup ships commented out on all four, so nothing invented is
+  visible. Offering names follow the brand guide: Anatomy Scan, Build Sprint,
+  GTM Operating System, Fractional AI GTM Partner.
+- **New `contact.html`** — form plus a "what happens next" aside. The form posts
+  to whatever is in `data-endpoint`; left empty, it composes a mailto instead, so
+  it works on a static host today.
+- **Nav** — one bar across all eleven pages: Home, About, Offerings, Claude
+  Skills, Contact. The Claude Skills group is a CSS-only dropdown on pointer
+  devices, with a second-row `.subnav` on the three library pages that always
+  renders, so the grouping works on touch and without JavaScript.
+- **Sales relabel** — the Go-To-Market track is now labelled Sales in the nav,
+  the subnav, the title and the H1. `go-to-market.html` keeps its filename,
+  because GitHub Pages has no redirects and inbound links should not break.
+- **Machine-readable layer** — `llms.txt` as the index, a `.md` twin beside every
+  page, `llms-full.txt`, `sitemap.xml` and `robots.txt`. Service JSON-LD on each
+  offering page. Any copy change must be mirrored into the page's `.md` twin and
+  into `llms-full.txt` in the same commit.
+- **`assets/styles.css`** — one appended block for the new components. The only
+  changes above it are three nav overrides.
+- **Pending client input** is marked in place, never invented: dashed `.tbd`
+  chips for the three unpublished timelines, `.placeholder-block` panels for
+  pricing and for every proof point or ROI figure, and HTML comments for the
+  scheduler URL and the founder biography.
+
 ## 2026-09-04 (3)
 
 Heading-level fix in **Basic Discovery**, carried over from the source repo.

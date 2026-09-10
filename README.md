@@ -1,33 +1,45 @@
-# Anatomy
+# GTM Anatomy
 
-Free, downloadable Claude skills for GTM and marketing teams — competitor
-intelligence, ABM, AEO, and more. Read what a skill does, download the
-`.md` file, drag it into any Claude conversation.
+The public site for GTM Anatomy: AI infrastructure for go-to-market teams.
+Marketing pages for the practice (home, about, four offerings, contact), plus
+the free Claude skills library — read what a skill does, download the `.md`
+file, drag it into any Claude conversation.
 
 Live site: served via GitHub Pages from this repo's `main` branch.
 
 ## Structure
 
 ```
-index.html              # Getting Started (home) — hero, 3-step onboarding, Claude Setup Guide
-marketing.html          # Marketing-track skills
-go-to-market.html       # Go-To-Market-track skills
-assets/styles.css        # shared styles across all 3 pages
-assets/site.js           # shared render/filter/modal logic across all 3 pages
-skills/<slug>/skill.md   # one skill per folder; front-matter + full write-up
+index.html                       # Home — hero, what we do, offerings, roles, contact
+about.html                       # About — purpose, the foundations, how we work, who it is for
+offerings/index.html             # Offerings hub — the four offerings in sequence
+offerings/anatomy-scan.html      # Offering 01
+offerings/build-sprint.html      # Offering 02
+offerings/gtm-operating-system.html        # Offering 03
+offerings/fractional-ai-gtm-partner.html   # Offering 04
+contact.html                     # Contact — form plus what happens next
+getting-started.html             # Claude skills: onboarding + Claude Setup Guide
+marketing.html                   # Claude skills: Marketing track
+go-to-market.html                # Claude skills: Sales track (URL kept, label is Sales)
+assets/styles.css                # shared styles across all 11 pages
+assets/site.js                   # shared render/filter/modal/contact-form logic
+skills/<slug>/skill.md           # one skill per folder; front-matter + full write-up
+llms.txt                         # llms.txt index for answer engines
+llms-full.txt                    # every page's markdown, concatenated
+<page>.md                        # markdown twin of each HTML page
+sitemap.xml, robots.txt          # crawl surface
 ```
 
 Still no build step — just static HTML/CSS/JS shared via plain `<link>`/`<script>`
-tags, no bundler. Each page's `SKILLS`/`CATEGORIES` arrays are inlined per page
-since which skills appear on which page differs.
+tags, no bundler. Each skill page's `SKILLS`/`CATEGORIES` arrays are inlined per
+page since which skills appear on which page differs.
 
-`index.html` also carries the Claude Setup Guide (formerly a standalone
-`playbook.html`) — Getting Started / AI 101 / Best Practices sections with
-their own in-page anchor nav, appended below the 3-step onboarding.
+`getting-started.html` carries the Claude Setup Guide (formerly a standalone
+`playbook.html`) — Getting Started / AI 101 / Best Practices sections appended
+below the 3-step onboarding. It is also the only page holding skill counts.
 
-Each `skill.md` starts with front-matter (`title`, `status`, `summary`,
-`category`, `audience`). Only `status: published` skills belong here —
-this repo is public.
+Each `skill.md` starts with the four-key front-matter (`name`, `description`,
+`created`, `updated`) that Claude validates on upload. See `CLAUDE.md`.
 
 ## Where content comes from
 

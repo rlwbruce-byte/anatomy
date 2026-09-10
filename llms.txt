@@ -1,0 +1,38 @@
+# GTM Anatomy
+
+> GTM Anatomy builds AI Operating Systems for go-to-market teams at start-ups and
+> scale-ups, tuned to each business, its brand, and its goals. We align teams on
+> their go-to-market foundations, encode them into AI infrastructure the team owns,
+> and keep that system learning as the brand evolves.
+
+Category: AI infrastructure for go-to-market teams.
+Tagline: Your brand. Your context. Your AI.
+Ideal customer: B2B technology start-ups and scale-ups, Series A through Series C,
+roughly 20 to 200 people, with a lean go-to-market team expected to produce like a
+large one.
+Founded by Rachel W Bruce after fifteen years building and leading marketing
+organizations in cybersecurity, AI, robotics, and technology distribution.
+
+## Core pages
+
+- [Home](https://gtmanatomy.ai/index.md): what GTM Anatomy is, the four offerings, and what the work means by role.
+- [About](https://gtmanatomy.ai/about.md): why the practice exists, the go-to-market foundations, how we work, and who it is for.
+- [Contact](https://gtmanatomy.ai/contact.md): book a strategy call or send a note.
+
+## Offerings
+
+- [Offerings overview](https://gtmanatomy.ai/offerings/index.md): the four offerings in sequence and what every engagement includes.
+- [Anatomy Scan](https://gtmanatomy.ai/offerings/anatomy-scan.md): a two-week diagnostic of your go-to-market foundations and AI readiness, ending in a 90-day roadmap.
+- [Build Sprint](https://gtmanatomy.ai/offerings/build-sprint.md): a focused build against the highest-scoring opportunities on your roadmap.
+- [GTM Operating System](https://gtmanatomy.ai/offerings/gtm-operating-system.md): the full build of the AI Operating System your go-to-market team runs on.
+- [Fractional AI GTM Partner](https://gtmanatomy.ai/offerings/fractional-ai-gtm-partner.md): ongoing partnership that keeps the system current as the business changes.
+
+## Claude skills library
+
+- [Getting started](https://gtmanatomy.ai/getting-started.md): how to install and run a Claude skill, plus the Claude setup guide.
+- [Marketing skills](https://gtmanatomy.ai/marketing.md): free Claude skills for marketing teams.
+- [Sales skills](https://gtmanatomy.ai/go-to-market.md): free Claude skills for sales and revenue teams.
+
+## Optional
+
+- [Full site text](https://gtmanatomy.ai/llms-full.txt): every page above, concatenated.

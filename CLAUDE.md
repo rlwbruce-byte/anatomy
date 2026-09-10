@@ -4,24 +4,79 @@ Guidance for Claude Code when working in this repo.
 
 ## What this repo is
 
-`anatomy` is the public-facing site hosting free Claude skills for GTM and
-marketing teams. It is served via GitHub Pages directly from `main` — no
-build step. The site is 3 static pages sharing `assets/styles.css` and
-`assets/site.js`:
+`anatomy` is the public-facing site for **GTM Anatomy**: the marketing site for
+the practice, plus the free Claude skills library for GTM and marketing teams.
+It is served via GitHub Pages directly from `main` — no build step. Eleven
+static pages share `assets/styles.css` and `assets/site.js`:
 
-- `index.html` — Getting Started (home): hero, 3-step onboarding, and the
-  Claude Setup Guide (its own in-page anchor nav + Getting Started/AI 101/
-  Best Practices sections). No skills grid.
+**The practice**
+
+- `index.html` — Home: hero on the tagline, what GTM Anatomy is, the four
+  offerings, the skills library, five role tiles, contact section.
+- `about.html` — purpose, the revenue-engine foundations, how we work, who it is
+  for, founder, vision and mission.
+- `offerings/index.html` — hub, plus one page per offering:
+  `anatomy-scan.html`, `build-sprint.html`, `gtm-operating-system.html`,
+  `fractional-ai-gtm-partner.html`.
+- `contact.html` — form plus a "what happens next" aside.
+
+**The skills library**
+
+- `getting-started.html` — onboarding and the Claude Setup Guide (this was the
+  old `index.html` before the 2026-09-10 restructure).
 - `marketing.html` — skills tagged for the Marketing track.
-- `go-to-market.html` — skills tagged for the Go-To-Market (GTM) track.
+- `go-to-market.html` — skills tagged for the **Sales** track. The filename stays
+  `go-to-market.html` on purpose: GitHub Pages has no redirects, so renaming it
+  would break inbound links. Change the label, never the URL.
 
-Every page opens with a shared `.global-nav` top bar (the three page links
-on the left, Contact on the right, in one 1040px row above the hero) — this
-replaced the old per-page `.top-contact` + `.page-nav` pattern on 2026-07-23.
-The two skill pages carry an `Open Claude.ai` `.hero-cta` button in the hero
-(below the paragraph, above the amber border); `index.html` does not. Skills
-render sorted alphabetically by category then title, with date meta shown as
-`Updated … · Added …`.
+### Nav
+
+One `.global-nav` bar on all eleven pages: wordmark, then Home, About,
+Offerings, Claude Skills, and Contact on the right. Claude Skills is a CSS-only
+dropdown (`.gn-group` / `.gn-drop`) on pointer devices, suppressed under
+`@media (hover:none)`. The three library pages also carry a `.subnav` second row
+that always renders, which is how the grouping works on touch and with
+JavaScript off. Call `setActiveNav('home'|'about'|'offerings'|'skills'|'contact')`
+at the bottom of each page; the `.subnav` active state is hardcoded per page.
+
+Copy the whole nav block verbatim when adding a page. It is duplicated by design
+— there is no include mechanism and no build step.
+
+### Machine-readable layer
+
+`llms.txt` is the index. Every HTML page has a markdown twin at the same path
+with `.md` instead of `.html`, and `llms-full.txt` is all of them concatenated.
+`sitemap.xml` and `robots.txt` sit at the root.
+
+**Maintenance rule: any copy change to a page must be mirrored into that page's
+`.md` twin and into `llms-full.txt` in the same commit.** This is the real cost
+of the approach; skip it and the answer-engine surface goes stale silently.
+
+### Content that is pending client input
+
+Never invent proof points, ROI figures, metrics, testimonials, prices, or
+timelines. Where the layout calls for one we do not have, it is marked in place:
+a dashed `.tbd` chip for unpublished timelines, a `.placeholder-block` panel for
+pricing and for proof-point sections, and an HTML comment for the scheduler URL,
+the founder biography, and every testimonial. Before anything goes to a prospect
+audience, run `git grep -n 'class="tbd"\|placeholder-block'` and reconcile each
+hit. Filling one of these needs the client's word, not a plausible number.
+
+### Voice
+
+Copy on the practice pages is drafted from the GTM Anatomy Brand + Message
+Guide. The mechanics that matter when editing: sentence case headlines, Oxford
+comma, commas and colons rather than dashes, "+" only in titles and "and" inside
+sentences, no "+" appended to figures, acronyms defined on first use per page,
+"we" for the practice and "you" for the client, AI-slop and AI-native
+hyphenated, start-ups and scale-ups as two words. Anton is reserved for the
+wordmark and offering names — nothing else. Avoid: "AI-powered", "revolutionary",
+"game-changing", "10x", "unlock", "seamless", "cutting-edge", "solutions" as a
+noun, "enterprise" as a customer descriptor.
+
+Skills render sorted alphabetically by category then title, with date meta shown
+as `Updated … · Added …`. Skill counts live only in the `renderStats` call on
+`getting-started.html`, so adding a skill never means editing Home.
 
 The **Prompts** section that briefly lived below the Skills grid on
 `marketing.html` and `go-to-market.html` (added 2026-07-22) was removed on
@@ -32,8 +87,9 @@ placeholder folder. To bring the section back, re-add the `.guide-section`
 markup and the inline `PROMPTS` / `renderPrompts` block to a page — see the
 "Adding a new prompt" recipe below, which still applies.
 
-There is no separate `playbook.html` — that content lives on `index.html`.
-Don't re-split it into its own page without the user asking.
+There is no separate `playbook.html` — that content lives on
+`getting-started.html`. Don't re-split it into its own page without the user
+asking.
 
 ## Repo isolation — read before syncing anything
 
@@ -91,8 +147,10 @@ and never script a bulk sync across repos.
    `go-to-market.html` (whichever matches the skill's audience) — slug, title,
    category, summary, perfectFor bullets, created, updated.
 3. If it's a new category, add it to that page's `CATEGORIES` array too.
-4. Update the stats (`renderStats` call) on both that page and `index.html`
-   if the total skill/track counts changed.
+4. Update the stats (`renderStats` call) on `getting-started.html` if the total
+   skill or track counts changed. That is the only page holding counts.
+5. Mirror the new card into that page's `.md` twin (`marketing.md` or
+   `go-to-market.md`) and regenerate `llms-full.txt`.
 
 ## Adding a new prompt
 
