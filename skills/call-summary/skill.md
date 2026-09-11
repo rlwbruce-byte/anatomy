@@ -1,6 +1,6 @@
 ---
 name: call-summary
-description: Build a meeting write-up or call recap from an AI notetaker's summary, a raw transcript, and handwritten or typed notes. Produces a structured record with date, time, participants (including each participant's organization and title), a TL;DR, decisions made, open items with named owners, a thematic notes summary, and a chronological outline of every topic in the order it came up. Cross-checks the questions the user planned to ask against what the transcript shows was actually answered, and flags where the sources disagree rather than inventing facts. Each run ships the markdown record plus a Word copy and a web page rendered from it, so the three cannot drift. Use when asked to write up a call, turn meeting notes into a recap, debrief an interview or discovery call, or summarize a conversation from a transcript.
+description: Build a meeting write-up or call recap from an AI notetaker's summary, a raw transcript, and handwritten or typed notes. Produces a structured record with date, time, participants (including each participant's organization and title), a TL;DR, decisions made, open items with named owners, a thematic notes summary, and a chronological outline of every topic in the order it came up. Cross-checks the questions the user planned to ask against what the transcript shows was actually answered, and flags where the sources disagree rather than inventing facts. Each run ships the markdown record plus a Word copy and a web page rendered from it, so the three cannot drift, and a plain-text CRM log block ready to paste into an activity or call record. Use when asked to write up a call, turn meeting notes into a recap, debrief an interview or discovery call, or summarize a conversation from a transcript.
 created: 2026-09-10
 updated: 2026-09-11
 ---
@@ -27,6 +27,7 @@ write-up is the record of a conversation, and its date is part of what it record
 | `<file>.md` | **The source of truth.** Everything else is rendered from it. |
 | `<file>.docx` | The copy to send, print, or mark up |
 | `<file>.html` | A page to publish, for a link that opens anywhere |
+| **CRM log** | A plain-text block inside the record, sized and formatted to paste straight into a CRM activity |
 
 All three, every run, and the two rendered files are built from the markdown rather than
 written by hand — that is the only thing keeping three copies of one call from disagreeing
@@ -112,8 +113,8 @@ Front-matter carries `date`, `time`, `duration`, `type`, `company`, `title`, `pa
 `source`, `artifact` and `status`. Then: an H1 of `YYYY-MM-DD — <meeting title>`, the
 **Date / Time / Duration / Platform** header lines, **Participants**, **People mentioned**,
 **TL;DR**, **Decisions made**, **Open items** (with `Committed follow-ups` and `Still open`
-beneath it), **Notes summary**, **Discussion outline**, **Conflicts and unknowns**, and
-**Sources**.
+beneath it), **Notes summary**, **Discussion outline**, **Conflicts and unknowns**, **CRM log**,
+and **Sources**.
 
 **TL;DR** — 3 to 6 bullets, full sentences. Lead with the thing that changes what the user
 does next, not with what happened first. Someone who reads only this should be able to hold
@@ -146,6 +147,20 @@ stuff — the scheduling mix-up at the top, the one-line aside near the end — 
 appears nowhere else in the record still appears here. Twenty to thirty lines is normal for
 an hour. It goes last, because that is where you reach for it: the document has been read,
 and now you are checking whether anything is missing.
+
+**CRM log** — a fenced plain-text block holding the version of this call that belongs in a
+CRM activity record. It exists because the record itself does not paste: a CRM activity field
+strips markdown, mangles tables, and truncates long text, so a document written for a human
+reader arrives there as noise. Keep it to roughly 12 to 18 lines, plain text only, no
+markdown syntax, no tables, no bold. Lead with the date and who was on the call, then the
+one-paragraph summary, then decisions, then next steps as `Owner — action — due`, then the
+page link if there is one. Every line must survive being pasted into a single-line-per-entry
+field. This is a compression of what is already in the record, so it introduces no fact that
+is not above it.
+
+If the session has a CRM connector, offer to write the activity directly rather than
+handing over text to paste — and ask before writing to a CRM, always. Logging to someone's
+system of record is not a step to take on your own initiative.
 
 **Conflicts and unknowns** — where the sources disagree, where a proper noun looks
 mis-transcribed, where a name in the notes appears nowhere in the transcript. One line each,
@@ -199,6 +214,7 @@ A run is finished when all of these are true. If one isn't, say which.
 - [ ] The discussion outline covers the call end to end, including the small stuff.
 - [ ] Conflicts are flagged, not silently resolved.
 - [ ] `.md`, `.docx` and `.html` all exist and were rendered from the same markdown.
+- [ ] The CRM log block is plain text and pastes without markdown artifacts.
 - [ ] The artifact URL is in the front-matter.
 - [ ] The files are saved somewhere that survives the session.
 - [ ] The user's follow-ups are on their open-items list.
@@ -211,6 +227,8 @@ A run is finished when all of these are true. If one isn't, say which.
 - Never drop one of the user's questions because the conversation moved on.
 - Never smooth over a name conflict between sources — flag it.
 - Never hand-build the `.docx` or the `.html`. Render them, or they drift.
+- Never write to a CRM without asking first, even when a connector is available.
+- Never put a fact in the CRM log that isn't already in the record above it.
 
 ## Works great with
 

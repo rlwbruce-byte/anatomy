@@ -2,6 +2,26 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-11 (2)
+
+**Call Summary** — category changed and copy revised, same day it shipped.
+
+- **`go-to-market.html`** — category `Call Intelligence` → **`Sales`** in both
+  `CATEGORIES` and the skill's `SKILLS` entry, on Rachel's call. Card summary
+  and `Perfect for` bullets rewritten in her words: Sales calls, Interviews,
+  Meetings, and any call that needs further alignment with other resources.
+- **`skills/call-summary/skill.md`** — the new card copy promised a Word doc
+  and artifact "that can be pushed directly into CRM," which the skill did not
+  do. Rather than soften the claim, the skill now produces it: a **CRM log**
+  section, a fenced plain-text block sized to paste into a CRM activity record
+  — date, attendees, summary, decisions, next steps as `Owner — action — due`,
+  and the page link. It exists because the record itself does not paste: an
+  activity field strips markdown, mangles tables, and truncates long text, so a
+  document written for a human reader lands there as noise. Where a CRM
+  connector is available the skill offers to write the activity directly, and
+  it asks first every time — logging to someone's system of record is not a
+  step to take unprompted.
+
 ## 2026-09-11
 
 New skill on the Go-To-Market track: **Call Summary**, under a new
