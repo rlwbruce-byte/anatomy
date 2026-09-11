@@ -2,6 +2,38 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-12
+
+**Campaign Kit** — new skill on the Marketing page, and a markdown renderer
+that can show it.
+
+- **`skills/campaign-kit/skill.md`** — new. Give Claude one long-form asset
+  plus either a message guide or a statement of what the asset is meant to
+  achieve, and it builds the whole campaign around it: the promotion and the
+  follow-up. Landing page, confirmation page, five email tracks, newsletter
+  module, three LinkedIn post types, SDR cold outreach and post-download
+  follow-ups, a blog post, three ads, and an expansion track for companies with
+  an installed base. Two things distinguish it from asking for promo copy: it
+  reads the asset in full and builds a claims inventory first, so every stat in
+  the kit traces to a page and nothing is invented; and it scores the asset
+  against the stated goals *before* writing anything, with a hard approval gate
+  and the standing option to say the asset doesn't serve the goal and shouldn't
+  be promoted as-is.
+- **`marketing.html`** — new `Campaign` category, and the skill added to
+  `SKILLS`. Eight skills, seven categories.
+- **`assets/site.js`** — `mdToHtml()` extended. It previously handled `#`, `##`,
+  blockquotes and lists, and dropped everything else into `<p>`. It now renders
+  pipe tables, `###`–`#####` headings, fenced code blocks and horizontal rules,
+  and pulls fenced content out before parsing so code is never re-interpreted as
+  markdown. This was already a live bug rather than a new requirement: Call
+  Summary's two tables were rendering as rows of raw pipe characters, and the
+  `###` headings in ABM Activation Plan, AEO Brand Auditor, Company Discovery
+  and Company Identity Builder were rendering as body paragraphs. All fixed by
+  the same change.
+- **`assets/styles.css`** — modal styles for the newly-rendered elements:
+  tables (in a horizontally scrolling wrapper, so a wide table can't push the
+  modal sideways), `h3`–`h5`, `pre`, and `hr`.
+
 ## 2026-09-11 (2)
 
 **Call Summary** — category changed and copy revised, same day it shipped.
