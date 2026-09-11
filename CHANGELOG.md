@@ -2,6 +2,31 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-11
+
+New skill on the Go-To-Market track: **Call Summary**, under a new
+**Call Intelligence** category.
+
+- **`skills/call-summary/skill.md`** — merges an AI notetaker's summary, the raw
+  transcript, and the user's own notes into one call record: participants with
+  organization and title, TL;DR, decisions made, open items with named owners, a
+  thematic notes summary, and a chronological outline of every topic in the order
+  it came up. Two passes are what distinguish it from a summarization prompt. It
+  cross-checks the questions the user planned to ask against what the transcript
+  shows was actually answered, sorting each into answered, partially answered, or
+  never asked. And it flags where the three sources disagree instead of quietly
+  picking the confident-sounding one — on the first real run, that caught a
+  company name that *both* notetaker outputs had wrong, in two different ways.
+- **`go-to-market.html`** — `SKILLS` entry, and `Call Intelligence` added to
+  `CATEGORIES`. The track's hero stats read off array length, so they follow.
+- **`index.html`** — Skills Available 10 → 11.
+
+Generated with `scripts/promote-skill.py` in the source repo, which was written
+for this promotion: it reduces the front-matter to the four keys Claude
+validates on upload and strips the `<!-- internal -->` blocks that carry
+filesystem paths and private working context. Previously the rule to use that
+script existed in `CLAUDE.md` but the script itself did not.
+
 ## 2026-09-04 (3)
 
 Heading-level fix in **Basic Discovery**, carried over from the source repo.
