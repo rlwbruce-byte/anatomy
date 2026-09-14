@@ -78,7 +78,7 @@ _Timeline: Ongoing_
 
 ### Try before you buy.
 
-Or try it free if you prefer to build yourself. Sharing is caring: GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one and judge the output for yourself.
+Sharing is caring: GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one and judge the output for yourself.
 
 > The more we build together, the better we become. If you test a skill, drop us a DM and let us know what you think!
 

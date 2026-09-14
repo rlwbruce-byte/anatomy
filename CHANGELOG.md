@@ -2,6 +2,11 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (17)
+
+- **Dropped "Or try it free if you prefer to build yourself."** from the skills
+  band lead. The section now opens on "Sharing is caring:".
+
 ## 2026-09-14 (16)
 
 - **Contact copy**: "Include the company name when you book so we can be better
