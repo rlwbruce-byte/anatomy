@@ -80,11 +80,11 @@ _Timeline: Ongoing_
 
 ## The skills library
 
-### Try the method before you hire it.
+### Try before you buy.
 
-GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one, run it on a real company, and judge the output for yourself.
+Or try it free if you prefer to build yourself. Sharing is caring: GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one and judge the output for yourself.
 
-> Try it yourself. If you would rather have it built for you, talk to us.
+> The more we build together, the better we become. If you test a skill, drop me a DM and let me know what you think.
 
 ## What it means to you
 

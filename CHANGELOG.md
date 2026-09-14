@@ -2,6 +2,21 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (7)
+
+Fourth pass: the skills library band.
+
+- **Retitled** "Try before you buy." and the lead rewritten, opening with "Or"
+  so it reads as the fourth door off the offerings section above it.
+- **New standing line** replaces the brand guide's "Try it yourself" invitation:
+  "The more we build together, the better we become. If you test a skill, drop me
+  a DM and let me know what you think."
+- **"Drop me a DM" is not yet a link.** No social URL exists in the repo, and a
+  DM link that opened the contact form would not do what it says. Marked with a
+  placeholder comment in `index.html` until a URL is supplied.
+- One edit on the supplied copy: "Sharing is caring and GTM Anatomy publishes"
+  joined two independent clauses without punctuation, so it now takes a colon.
+
 ## 2026-09-14 (6)
 
 Third pass: the Offerings section.
