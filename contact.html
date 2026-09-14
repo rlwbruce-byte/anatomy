@@ -50,7 +50,7 @@
         </span>
       </span>
     </div>
-    <a class="gn-contact" href="/contact.html" data-page="contact">Let's Chat</a>
+    <a class="gn-contact" href="/contact.html" data-page="contact">Contact</a>
   </div>
 </nav>
 
@@ -66,17 +66,17 @@
   <div class="section-eyebrow">Book a time</div>
   <h2 class="section-title">Pick a slot that works<span>.</span></h2>
   <p class="section-lead">Send the company name when you book and we will have read your site before the call.</p>
-  <!-- Calendly inline embed. Swapping the booking link means changing data-embed
-       here and nothing else; initEmbed() in site.js builds the iframe. -->
-  <div class="embed-slot live" id="schedulerEmbed"
-       data-embed="https://calendly.com/d/d2kc-4rx-ksd"
-       data-title="Book a call with GTM Anatomy" style="margin-top:26px">
-    <div class="embed-empty">
-      <strong>Scheduler</strong>
-      The booking calendar is loading. If it does not appear, book directly at
-      <a href="https://calendly.com/d/d2kc-4rx-ksd" target="_blank" rel="noopener">calendly.com/d/d2kc-4rx-ksd</a>.
-    </div>
+  <!-- Calendly's own inline widget. The colour params match the brand tokens:
+       background faf6f2 is --paper, text 0b0e12 is --graphite, primary f5a623 is
+       --amber. Swapping the booking link means changing data-url here. -->
+  <div class="calendly-wrap">
+    <div class="calendly-inline-widget"
+         data-url="https://calendly.com/d/d2kc-4rx-ksd?background_color=faf6f2&text_color=0b0e12&primary_color=f5a623"
+         style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </div>
+  <p class="form-note" style="margin-top:14px">Calendar not loading? <a href="https://calendly.com/d/d2kc-4rx-ksd" target="_blank" rel="noopener">Book directly on Calendly</a>, or email us below.</p>
+</div>
 </div>
 
 <div class="section" id="message">
@@ -147,7 +147,6 @@
 <script src="/assets/site.js"></script>
 <script>
   setActiveNav('contact');
-  initEmbed('schedulerEmbed');
 </script>
 
 </body>

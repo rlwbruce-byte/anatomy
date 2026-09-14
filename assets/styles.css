@@ -460,6 +460,14 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
   letter-spacing:.045em; color:var(--ink); margin-bottom:10px; }
 .persona-tile.compact .persona-line{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); margin:0; flex-grow:0; }
 
+/* Calendly inline widget. Its themed background matches --paper, so it sits on
+   the page rather than in a card. The min-width in Calendly's own inline style
+   would force a sideways scroll on a narrow phone, so it is overridden there. */
+.calendly-wrap{ margin-top:26px; }
+@media (max-width:420px){
+  .calendly-inline-widget{ min-width:0 !important; width:100% !important; }
+}
+
 /* ---- Coming Soon splash pages ----
    Used on About, Offerings and the four offering pages while their copy is
    still being written. The real pages live in git history; see CLAUDE.md. */

@@ -18,6 +18,8 @@ Fifteen to thirty minutes on where your go-to-market (GTM) foundations stand tod
 
 Send the company name when you book and we will have read your site before the call.
 
+Calendar not loading? Book directly on Calendly, or email us below.
+
 ## Other ways to reach us
 
 ### Not a calendar person?

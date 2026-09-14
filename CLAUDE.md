@@ -36,7 +36,9 @@ static pages share `assets/styles.css` and `assets/site.js`:
 ### Nav
 
 One `.global-nav` bar on all eleven pages: the wordmark on the left, then About,
-Offerings, AI Skills and the "Let's Chat" call to action grouped hard right. There
+Offerings, AI Skills and **Contact** grouped hard right. The Contact button keeps
+that plain label: it is wayfinding, and the amber fill already carries the
+emphasis. "Let's chat" is the heading on the contact page, not the nav item. There
 is no Home item: the wordmark is the home link and carries
 `aria-label="GTM Anatomy, home"`. Offerings are reached through the hub, never
 listed individually in the nav.
@@ -98,28 +100,39 @@ figures rule: write "starting at $5,000", never "$5,000+".
 
 `contact.html` is live and doubles as the booking page and the contact form:
 Calendly collects the details at the point of booking, so there is no separate
-form to wire. It carries one `.embed-slot`, `#schedulerEmbed`, built by
-`initEmbed()` in `assets/site.js` from its `data-embed` attribute. Changing the
-booking link means changing that one attribute and nothing else.
+form to wire.
 
-Booking link: `https://calendly.com/d/d2kc-4rx-ksd`. Calendly serves
-`x-frame-options: ALLOWALL`, so it embeds. Email and LinkedIn sit below the
-calendar as fallbacks; keep them, because an iframe that fails to load must not
-leave the page with no way to make contact.
+It uses **Calendly's own inline widget**, not a hand-rolled iframe: a
+`div.calendly-inline-widget` carrying `data-url`, plus their
+`assets.calendly.com/assets/external/widget.js`. Changing the booking link means
+changing that one `data-url`.
+
+The link carries brand theming as query params, and they must stay in step with
+the tokens: `background_color=faf6f2` is `--paper`, `text_color=0b0e12` is
+`--graphite`, `primary_color=f5a623` is `--amber`. Because the widget's ground
+matches the page, it sits on the page rather than inside a card.
+
+Calendly's own inline style sets `min-width:320px`, which forces a sideways
+scroll on a narrow phone, so `.calendly-inline-widget` is overridden to
+`min-width:0` under 420px. That override needs `!important` to beat the inline
+style. Keep it.
+
+A "Calendar not loading?" link sits under the widget, and email and LinkedIn sit
+below that. Keep them: an embed that fails must not leave the page with no way to
+make contact.
 
 **Watch the inline script when regenerating this page.** `close(page, extra_js)`
 takes a real newline, not an escaped one. A literal `\n` in that argument lands
 in the HTML, throws a syntax error, and silently kills every call in the block,
-including `setActiveNav`. That shipped once and was caught by checking the iframe
-actually built.
+including `setActiveNav`. That shipped once.
 
 **This sandbox cannot load calendly.com or Google Fonts in a headless browser.**
-A blank embed in a local screenshot proves nothing. Verify the built iframe's
-`src` locally, then check the rendered calendar on the live site.
+A blank embed in a local screenshot proves nothing. Assert the widget div and its
+script tag are present, then check the rendered calendar on the live site.
 
-The unused `#formEmbed` slot and the native `<form>` markup are gone from the
-page but `initEmbed` still supports a hidden fallback, so a hosted form can be
-dropped back in later.
+`initContactForm()` and `initEmbed()` were removed from `assets/site.js` once
+Calendly replaced both. Nothing calls them. They are in git if a hosted form is
+ever wanted instead.
 
 ### Coming Soon splash pages
 

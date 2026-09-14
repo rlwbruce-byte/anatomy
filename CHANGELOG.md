@@ -2,6 +2,24 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (15)
+
+- **Contact now uses Calendly's own inline widget** rather than a hand-rolled
+  iframe, with the client's brand-themed link: background `faf6f2`, text
+  `0b0e12`, primary `f5a623`, which are `--paper`, `--graphite` and `--amber`.
+  The widget's ground matches the page, so it sits on the page rather than in a
+  card.
+- **Overrode Calendly's `min-width:320px`** under 420px. Their inline style would
+  have forced a sideways scroll on a narrow phone; verified clean at 320px.
+- **Removed `initContactForm()` and `initEmbed()` from `assets/site.js`.**
+  Calendly replaced both, nothing called them any more, and a mailto-composing
+  form helper that no page uses is exactly the kind of thing someone later
+  mistakes for live code. 2.2KB out of the shared script.
+- **Nav Contact button is "Contact" again.** An earlier instruction to rename a
+  contact button was applied to the nav; it meant the contact page heading, which
+  is "Let's chat." The nav item is wayfinding and the amber fill already carries
+  the emphasis.
+
 ## 2026-09-14 (14)
 
 Booking and social go live.
