@@ -2,6 +2,25 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (4)
+
+Hero and chrome, from the client's first pass over the home page.
+
+- **Wordmark enlarged**: 19px to 27px in the nav, 26px to 36px in the footer.
+- **Nav label "Claude Skills" is now "AI Skills"**, in the top bar, the library
+  subnav, and the footer column heading. Body copy still says Claude where it
+  means Claude, because the skills genuinely run there.
+- **Home hero statement is now set in Anton**, mixed case, up from Space Grotesk
+  400. It sits directly under the wordmark and now reads as an extension of it.
+  This is a deliberate third exception to the Anton rule, recorded in CLAUDE.md.
+- **New hero copy**: "Still doing random acts of AI? Turn your context and
+  foundational resources into an AI Operating System you own, so the work you do
+  once is used every time."
+- **Removed** the "Designed and built, not bolted on" support line.
+- **Primary call to action is now "Let's strategize"**, replacing "Book a
+  strategy call" across all eleven pages. The old phrasing stays in the contact
+  page meta description, where it plainly describes the action for search.
+
 ## 2026-09-14 (3)
 
 The wordmark lands.

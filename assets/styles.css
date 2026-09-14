@@ -218,7 +218,7 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .wm{ font-family:var(--disp); text-transform:none; letter-spacing:.005em; white-space:nowrap; display:inline-block; }
 .wm-a{ color:var(--amber); }
 .wm-b{ color:var(--paper); }
-.gn-brand{ font-size:19px; text-decoration:none; margin-right:6px; white-space:nowrap; display:inline-flex; }
+.gn-brand{ font-size:27px; text-decoration:none; margin-right:6px; white-space:nowrap; display:inline-flex; }
 .gn-brand .wm-b{ transition:color .15s ease; }
 .gn-brand:hover .wm-b{ color:var(--amber); }
 .gn-brand:focus-visible{ outline:2px solid var(--amber); outline-offset:3px; }
@@ -241,7 +241,10 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .subnav a.active{ color:var(--amber); border-color:var(--amber); }
 
 /* statement heroes (Anton reserved for wordmark + offering names) */
-.hero-statement{ font-family:var(--body); font-weight:400; font-size:clamp(30px,5.2vw,54px); line-height:1.12; letter-spacing:-.01em; color:var(--paper); }
+/* Hero statement is set in Anton, mixed case, so it reads as an extension of the
+   GTMAnatomy. wordmark directly above it rather than as body copy blown up. */
+.hero-statement{ font-family:var(--disp); font-weight:400; font-size:clamp(38px,6.4vw,70px);
+  line-height:1.04; letter-spacing:.002em; color:var(--paper); text-transform:none; text-wrap:balance; }
 .hero-statement span{ color:var(--amber); }
 .hero-support{ font-family:var(--mono); font-size:12px; color:var(--amber); text-transform:uppercase; letter-spacing:.08em; margin-top:16px; }
 .page-header.stmt h1{ font-family:var(--body); font-weight:500; font-size:clamp(28px,4.4vw,42px); text-transform:none; line-height:1.15; letter-spacing:-.01em; }
@@ -392,7 +395,7 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px; }
 @media (max-width:760px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width:480px){ .footer-grid{ grid-template-columns:1fr; } }
-.footer-brand{ font-size:26px; text-decoration:none; display:block; }
+.footer-brand{ font-size:36px; text-decoration:none; display:block; }
 .footer-brand:focus-visible{ outline:2px solid var(--amber); outline-offset:3px; }
 .footer-descriptor{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--amber); margin-top:8px; }
 .footer-tag{ font-size:14px; color:#C9C4B8; margin-top:14px; line-height:1.6; }

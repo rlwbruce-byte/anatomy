@@ -35,7 +35,8 @@ static pages share `assets/styles.css` and `assets/site.js`:
 ### Nav
 
 One `.global-nav` bar on all eleven pages: wordmark, then Home, About,
-Offerings, Claude Skills, and Contact on the right. Claude Skills is a CSS-only
+Offerings, AI Skills, and Contact on the right. Five items, and the offerings are
+reached through the hub, never listed individually in the nav. AI Skills is a CSS-only
 dropdown (`.gn-group` / `.gn-drop`) on pointer devices, suppressed under
 `@media (hover:none)`. The three library pages also carry a `.subnav` second row
 that always renders, which is how the grouping works on touch and with
@@ -121,8 +122,15 @@ Guide. The mechanics that matter when editing: sentence case headlines, Oxford
 comma, commas and colons rather than dashes, "+" only in titles and "and" inside
 sentences, no "+" appended to figures, acronyms defined on first use per page,
 "we" for the practice and "you" for the client, AI-slop and AI-native
-hyphenated, start-ups and scale-ups as two words. Anton is reserved for the
-wordmark and offering names — nothing else. Avoid: "AI-powered", "revolutionary",
+hyphenated, start-ups and scale-ups as two words.
+
+Anton is reserved for the wordmark, offering names, and the Home hero statement
+(`.hero-statement`), which is set in Anton mixed case so it reads as an extension
+of the wordmark above it rather than as body copy blown up. Nothing else.
+
+The primary call to action is **"Let's strategize"**, not "Book a strategy call".
+The older phrasing survives only in `contact.html` meta descriptions, where it
+describes the action plainly for search results and should stay. Avoid: "AI-powered", "revolutionary",
 "game-changing", "10x", "unlock", "seamless", "cutting-edge", "solutions" as a
 noun, "enterprise" as a customer descriptor.
 
@@ -232,6 +240,13 @@ and never script a bulk sync across repos.
   reverses cleanly on graphite, where the supplied black logo file cannot go.
   The lockup is the only place the name is written closed up; in prose the
   company is **GTM Anatomy**, two words, and the site is **GTMAnatomy.ai**.
+- **Local screenshots do not load Google Fonts.** Headless Chromium in this
+  environment cannot reach fonts.googleapis.com, so every local render falls back
+  to a system sans and Anton never appears. Do not read a local screenshot as
+  evidence that a typeface is wrong. To see the real thing, inject the fonts as
+  base64 `@font-face` rules with `page.addStyleTag` before screenshotting. The
+  published site and any Artifact render correctly, because the viewer's own
+  browser fetches the fonts.
 - `assets/og-image.png` is rendered from that same lockup. To regenerate it,
   screenshot a 1200x630 page with the fonts embedded as base64 data URIs —
   linking Google Fonts in headless Chromium silently falls back to a default
