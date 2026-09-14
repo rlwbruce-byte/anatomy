@@ -2,6 +2,23 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (14)
+
+Booking and social go live.
+
+- **"Drop us a DM" now links to the company LinkedIn**, and the line reads "us"
+  and "let us know" rather than the first person. That also settles the voice
+  wobble flagged earlier: the practice speaks as "we" everywhere on the site.
+- **`contact.html` is no longer a splash page.** It carries the Calendly booking
+  embed, with email and LinkedIn below it as fallbacks. Calendly collects the
+  details at the point of booking, so it serves as the contact form too and no
+  separate form is wired.
+- **LinkedIn added to the footer** Company column on all eleven pages.
+- **Fixed a shipped bug found while testing the embed.** The page's inline script
+  carried a literal `\n` instead of a newline, which threw a syntax error and
+  silently killed every call in the block, `setActiveNav` included. Caught by
+  asserting the iframe actually built rather than trusting the screenshot.
+
 ## 2026-09-14 (13)
 
 Home page formatting pass.
