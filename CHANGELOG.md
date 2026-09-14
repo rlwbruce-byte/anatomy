@@ -2,6 +2,20 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (16)
+
+- **Contact copy**: "Include the company name when you book so we can be better
+  prepared for our discussion."
+- **Nav wordmark aligns with the hero.** It sat 40px inside it. Cause was two
+  competing gutter patterns: the hero puts its 40px gutter on an outer wrapper and
+  caps the inner element at 1040px, while the nav carried both the cap and the
+  gutter itself, which inset it by the gutter width. Widening the nav cap to
+  1120px (1040 plus two gutters) makes the two land on the same line at 1440,
+  1280, 900 and 375px. `.subnav-inner` got the same treatment.
+- Noted in CLAUDE.md that `.section`, `.how` and `.skills-section` are still the
+  inset pattern, so light-ground content sits 40px right of the hero and footer.
+  Left as is, pending a decision.
+
 ## 2026-09-14 (15)
 
 - **Contact now uses Calendly's own inline widget** rather than a hand-rolled
