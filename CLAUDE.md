@@ -132,9 +132,9 @@ hit. Filling one of these needs the client's word, not a plausible number.
 
 ### Who we size to
 
-The ideal customer is a **go-to-market team of 2 to 200**, not a company of that
+The ideal customer is a **go-to-market team of 1 to 100**, not a company of that
 size. The company can be far larger. Copy must not conflate the two, and the
-Home hero chip says "GTM teams of 2 to 200" for exactly this reason.
+Home hero chip says "GTM teams of 1 to 100" for exactly this reason.
 
 ### Voice
 
@@ -282,6 +282,11 @@ and never script a bulk sync across repos.
   screenshot a 1200x630 page with the fonts embedded as base64 data URIs —
   linking Google Fonts in headless Chromium silently falls back to a default
   sans and the wordmark comes out in the wrong face.
+- **Buttons.** On a **light** ground the primary action is the graphite fill,
+  `.btn-navy`, and the secondary is the outlined `.btn-ghost`. On a **dark**
+  ground the primary is the amber fill, `.btn-primary`, and the secondary is
+  `.btn-ghost-dark`. Amber is spent in one place at a time, so it does not
+  double as a button colour on paper. This applies to the Coming Soon cards too.
 - Palette: graphite `#0B0E12` / amber `#F5A623` (`#C2760D` deep) — "Amber
   Circuit," chosen deliberately to avoid matching Continuous's navy/violet
   system while keeping a similar tech-forward, dark-ground feel.

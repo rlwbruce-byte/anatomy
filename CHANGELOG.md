@@ -2,6 +2,29 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (11)
+
+- **Hero close rewritten** to "so the value of your brand is carried through
+  every time", in the client's own words, replacing the brand guide's "the work
+  you do once is used every time".
+- **Ideal customer is now a GTM team of 1 to 100**, down from 2 to 200, in the
+  hero chip, `llms.txt` and the repo guidance.
+- **Button rule set and documented.** On light grounds the primary action is the
+  graphite fill and the secondary is the outlined ghost; on dark grounds the
+  primary is amber. "Learn more about GTM Anatomy" moves from ghost to graphite,
+  and the single call to action on every Coming Soon card follows the same rule,
+  so amber is spent in one place at a time rather than doubling as a button
+  colour on paper.
+- **Home contact section simplified.** The "Not ready to talk?" aside is folded
+  into the paragraph, and the section now carries two buttons, "Let's strategize"
+  and "Explore the skills", instead of a two-column split.
+- **Fixed a cascade collision in the footer.** The original `footer` element rule
+  carries `text-align:center`, and it was still beating the newer `.site-footer`
+  class, so every footer on the site rendered centred instead of in left-aligned
+  columns. `.site-footer` now sets alignment, family and size explicitly.
+- Added spacing between a `.section-lead` and the `.prose` block after it, which
+  previously ran together as one wall of text.
+
 ## 2026-09-14 (10)
 
 Home contact section, the last of the client's page pass.
