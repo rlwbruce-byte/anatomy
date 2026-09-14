@@ -34,7 +34,7 @@ It has to be done strategically, on a foundation strong enough to evolve with th
 
 ## What you get
 
-### Inside the engagement
+### Inside the engagement.
 
 **An architecture for your AI infrastructure**
 
@@ -68,7 +68,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 ## Proof points and ROI
 
-### What we hold ourselves to
+### What we hold ourselves to.
 
 - Built from your own material, never a template, so the differentiation is structural rather than editorial.
 

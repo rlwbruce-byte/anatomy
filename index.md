@@ -10,7 +10,7 @@ _AI infrastructure for go-to-market teams_
 
 # Your brand. Your context. Your AI.
 
-Most companies are adding AI to a go-to-market process that was designed before AI existed. We start somewhere else: your foundations, agreed across the team and encoded into an AI Operating System you own, so the work you do once is used every time.
+Still doing random acts of AI? Turn your context and foundational resources into an AI Operating System you own, so the work you do once is used every time.
 
 _B2B technology_
 
@@ -20,31 +20,25 @@ _GTM teams of 2 to 200_
 
 ## What is GTM Anatomy
 
-### AI infrastructure, tuned to your business
+### AI infrastructure, unique to your business.
 
-Every go-to-market (GTM) team has access to the same models. That is exactly why so much of what they produce sounds the same. Adopting AI without the underlying context is how companies end up with AI-slop: content that sounds like everyone else in the market.
+There are no shortcuts. Any executive who suggests "just use AI," or hopes to skip past the fundamental building blocks of brand and go-to-market (GTM), will be left behind. Foundational elements are still required, and easier than ever to build.
 
-There are no shortcuts. The fundamentals that have always made go-to-market work are still required: messaging, ideal customer profile (ICP) and personas, differentiators, proof points, competitors, and buying signals. Most companies do not have them written down, or sales, marketing, and product each carry a different version of them. AI does not create alignment. It scales whatever you feed it.
+From messaging, ideal customer profile (ICP) and personas to proof points, differentiators, and buying signals, teams must unify around a shared foundation. Today, that challenge takes a second shape: foundational materials the team does not agree on. Sales, marketing, and product each carry their own version, and with AI, misalignment means confusion and exclusion from answer engines.
 
-We align your team on those foundations, encode them into an AI Operating System tuned to your business, your brand, and your goals, and keep that system learning as the brand evolves. Quite frankly, you are buying something you do not have the time or the expertise to build, and you own it when it is done.
+GTM Anatomy aligns your team on those foundations, encodes them into an AI Operating System tuned to your business, your brand, and your goals, and keeps that system learning as the brand evolves. Quite frankly, you are buying something you do not have the time or the expertise to build, and you own it when it is done.
 
 Learn more about GTM Anatomy
 
-**Align the foundations**
+Align the foundations One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
 
-One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
+Encode them once Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
 
-**Encode them once**
-
-Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
-
-**Keep it learning**
-
-Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
+Keep it learning Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
 
 ## Offerings
 
-### Four ways to work with GTM Anatomy
+### Four ways to work with GTM Anatomy.
 
 The four offerings run in sequence: diagnose, build, operate, and keep current. Start with the Anatomy Scan, build from the roadmap it produces, then keep the system honest as the business changes. You can stop after any one of them, and everything we build is yours.
 
@@ -82,7 +76,7 @@ _Timeline: Ongoing_
 
 ## The skills library
 
-### Try the method before you hire it
+### Try the method before you hire it.
 
 GTM Anatomy publishes a free library of working go-to-market skills for Claude. Same method, same standards, built from real workflows rather than written up as examples. Download one, run it on a real company, and judge the output for yourself.
 
@@ -90,7 +84,7 @@ GTM Anatomy publishes a free library of working go-to-market skills for Claude. 
 
 ## What it means to you
 
-### What this means in your role
+### What this means in your role.
 
 The system is the same in every engagement. What it changes depends on what you are measured on.
 
@@ -136,7 +130,7 @@ Good for operating partners and investors who are looking for a repeatable way t
 
 ## Contact
 
-### Tell us what you are working on
+### Tell us what you are working on.
 
 The fastest start is a short call on where your go-to-market foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so.
 

@@ -14,13 +14,13 @@ A short call on where your go-to-market (GTM) foundations stand today, and wheth
 
 ## Book a call
 
-### Pick a time
+### Pick a time.
 
 Thirty minutes. Send the company name when you book and we will have read your site before the call.
 
 ## Send a message
 
-### Or tell us in writing
+### Or tell us in writing.
 
 Where the go-to-market team is today, and what is putting pressure on it. That is enough to make the first call useful.
 

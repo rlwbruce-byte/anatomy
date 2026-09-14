@@ -128,6 +128,16 @@ Anton is reserved for the wordmark, offering names, and the Home hero statement
 (`.hero-statement`), which is set in Anton mixed case so it reads as an extension
 of the wordmark above it rather than as body copy blown up. Nothing else.
 
+Headings carry terminal punctuation. The full stop is marked up as
+`<span>.</span>` so `.section-title span` and `.page-header h1 span` tint it
+amber, echoing the wordmark. A heading that is a question keeps its "?" and gets
+nothing appended.
+
+Line-drawing icons use the `.spec-list.iconic` variant, never the base
+`.spec-item`. Icons are inline SVG, 24x24 viewBox, `fill="none"`,
+`stroke="currentColor"`, stroke-width 1.4, in `--amber-deep`. Each one has to
+encode its point; a decorative glyph that could sit on any bullet does not ship.
+
 The primary call to action is **"Let's strategize"**, not "Book a strategy call".
 The older phrasing survives only in `contact.html` meta descriptions, where it
 describes the action plainly for search results and should stay. Avoid: "AI-powered", "revolutionary",

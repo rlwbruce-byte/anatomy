@@ -14,7 +14,7 @@ The fundamentals that have always made a go-to-market (GTM) organization work ar
 
 ## Purpose
 
-### Why GTM Anatomy exists
+### Why GTM Anatomy exists.
 
 GTM Anatomy exists to give go-to-market teams AI infrastructure that is tuned to their business, their brand, and their goals.
 
@@ -28,7 +28,7 @@ That is what we build. We align your team on the fundamentals, encode them into 
 
 ## The foundations
 
-### The anatomy of a revenue engine
+### The anatomy of a revenue engine.
 
 The information that has always been required for a successful go-to-market organization is still required, at every size and every stage. We work through it in this order, because it is a climb and each step depends on the one below it.
 
@@ -66,7 +66,7 @@ The part that is ours is what happens after the alignment. The foundations do no
 
 ## How we work
 
-### Four things we hold to
+### Four things we hold to.
 
 **The foundation comes first**
 
@@ -86,7 +86,7 @@ Not every task is an AI use case. AI costs are rising and the environmental impa
 
 ## Who this is for
 
-### Lean teams expected to punch above their weight
+### Lean teams expected to punch above their weight.
 
 We work with start-ups and scale-ups in B2B technology, roughly Series A through Series C, with a go-to-market team of 2 to 200, with a go-to-market function that exists but is under-built for its ambition. The buyer is usually a VP of marketing, a chief revenue officer (CRO), or a founder still carrying go-to-market personally. The shared condition is always the same: a lean team expected to produce like a large one.
 
@@ -106,7 +106,7 @@ We would rather tell you that in the first call than in the third month.
 
 ## Who is behind it
 
-### Founded by Rachel W Bruce
+### Founded by Rachel W Bruce.
 
 GTM Anatomy was founded by Rachel W Bruce after fifteen years building and leading marketing organizations in cybersecurity, AI, robotics, and technology distribution.
 
@@ -114,7 +114,7 @@ The practice is the method she used to run those teams, rebuilt for what AI can 
 
 ## Vision + mission
 
-### Where this goes
+### Where this goes.
 
 **Vision**
 

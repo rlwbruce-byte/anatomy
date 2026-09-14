@@ -38,7 +38,7 @@ Brands move faster than their websites. The talking points on your site are usua
 
 ## What you get
 
-### Inside the engagement
+### Inside the engagement.
 
 **A seat where you need it**
 
@@ -78,7 +78,7 @@ Ongoing support runs at $8,500 per month. Hourly rates are available where the w
 
 ## Proof points and ROI
 
-### What we hold ourselves to
+### What we hold ourselves to.
 
 - The system updates the foundations for you and with you, so the context does not decay between projects.
 

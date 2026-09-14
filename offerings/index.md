@@ -8,13 +8,13 @@ Source: https://gtmanatomy.ai/offerings/
 
 _Offerings_
 
-# Four ways to work with GTM Anatomy
+# Four ways to work with GTM Anatomy.
 
 The offerings run in sequence: diagnose, build, operate, and keep current. Start where you actually are, stop after any one of them, and take everything we build with you.
 
 ## The sequence
 
-### Diagnose, build, operate, keep current
+### Diagnose, build, operate, keep current.
 
 Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A AI Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional Partner keeps all of it true as the business changes.
 
@@ -52,7 +52,7 @@ _Timeline: Ongoing_
 
 ## Every engagement
 
-### What is true in all four
+### What is true in all four.
 
 **Built from your material, never a template**
 
@@ -72,7 +72,7 @@ Where it earns its keep, and where it does not. Not every task is a use case, an
 
 ## Investment
 
-### What each one costs
+### What each one costs.
 
 Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. AI Sprints are scoped, and the partnership is monthly.
 

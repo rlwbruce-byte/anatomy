@@ -34,7 +34,7 @@ The person who could do it already has a full-time job. The prompt that worked b
 
 ## What you get
 
-### Inside the engagement
+### Inside the engagement.
 
 **Working skills and agents**
 
@@ -64,7 +64,7 @@ The value of the foundations shows up the first time a rep, a marketer, or an op
 
 ## Proof points and ROI
 
-### What we hold ourselves to
+### What we hold ourselves to.
 
 - Built from your own material, so the differentiation is structural rather than editorial.
 

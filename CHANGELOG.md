@@ -2,6 +2,27 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (5)
+
+Second pass: the "What is GTM Anatomy" section.
+
+- **Headings now carry terminal punctuation** across all eight practice pages.
+  A full stop is appended as `<span>.</span>` so it picks up the amber, matching
+  the wordmark. Headings that already ended in punctuation were left alone.
+- **Section retitled** "AI infrastructure, unique to your business."
+- **Section copy rewritten** from the client's draft. Three edits on top of what
+  was supplied: "today" capitalised at the start of its sentence, a comma splice
+  resolved to a colon ("takes a second shape: foundational materials the team
+  does not agree on"), and "Oftentimes" dropped as filler with its sentence
+  folded into the one before it. Split into three paragraphs, the first set as
+  the lede. Go-to-market (GTM) is now defined on first use on this page.
+- **Line-drawing icons** on the three specs in the right-hand column, as a new
+  `.spec-list.iconic` variant. Base `.spec-item` is untouched, so the plain spec
+  lists on About and the four offering pages keep their existing look. Each
+  glyph encodes its point: a shared left edge with three rules of differing
+  length for alignment, one core feeding three nodes for encoding once, and a
+  loop enclosing a rising line for a system that keeps learning.
+
 ## 2026-09-14 (4)
 
 Hero and chrome, from the client's first pass over the home page.

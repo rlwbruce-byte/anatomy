@@ -32,7 +32,7 @@ Both produce the same result once AI is in the workflow: output that is faster, 
 
 ## What you get
 
-### Inside the engagement
+### Inside the engagement.
 
 **A current-state map**
 
@@ -66,7 +66,7 @@ A roadmap built on foundations your team has actually agreed to is the differenc
 
 ## Proof points and ROI
 
-### What we hold ourselves to
+### What we hold ourselves to.
 
 - Scoped to two weeks, so the decision it informs is not held up for a quarter.
 

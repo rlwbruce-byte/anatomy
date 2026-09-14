@@ -334,6 +334,17 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .spec-item:first-child{ border-top:none; }
 .spec-item h4{ font-family:var(--body); font-weight:600; font-size:15px; text-transform:uppercase; letter-spacing:.04em; margin-bottom:6px; }
 .spec-item p{ font-size:14px; line-height:1.6; color:var(--ink-soft); max-width:66ch; }
+
+/* iconic variant: a line drawing sits left of each spec. Base .spec-item is
+   unchanged, so the plain lists on About and the offering pages keep their look. */
+.spec-list.iconic .spec-item{ display:flex; align-items:flex-start; gap:16px; }
+.spec-icon{ flex:0 0 auto; width:34px; height:34px; color:var(--amber-deep); margin-top:-2px; }
+.spec-icon svg{ width:100%; height:100%; display:block; }
+.spec-text{ min-width:0; }
+
+/* the full stop in a section heading picks up the amber, matching the wordmark */
+.section-title span{ color:var(--amber-deep); }
+.section-band.dark .section-title span{ color:var(--amber); }
 .section-band.dark .spec-item{ border-top-color:var(--graphite-line); }
 .section-band.dark .spec-item h4{ color:var(--paper); }
 .section-band.dark .spec-item p{ color:#CBD4DE; }
