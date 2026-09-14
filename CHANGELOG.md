@@ -2,6 +2,21 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (9)
+
+Role tiles get their real copy.
+
+- **"As a ..." dropped from every tile title.** They now read Founder or CEO,
+  CRO, Marketing, GTM Operations, Investors, in the client's own labels.
+- **New copy on all five tiles**, each written to the role's own pressure rather
+  than restating the offer: deal velocity for the CRO, output and enablement for
+  Marketing, data quality and sales administration for GTM Operations, spend and
+  sprawl across portfolio companies for Investors.
+- **Grid retuned from five columns to three.** The supplied copy runs to two
+  sentences, which at five columns set roughly 24 characters a line and turned
+  each tile into a narrow ladder. Three across gives the sentences room; the
+  remaining two sit in a second row at the same column width.
+
 ## 2026-09-14 (8)
 
 Seven pages go to Coming Soon, and the role tiles are rebuilt.

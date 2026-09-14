@@ -435,9 +435,10 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 
 
 /* compact role tiles: title plus a single line, five across on wide screens */
-.persona-grid.compact{ grid-template-columns:repeat(auto-fit,minmax(186px,1fr)); gap:18px; }
-/* five roles, one row: auto-fit would leave the fifth stranded on its own line */
-@media (min-width:960px){ .persona-grid.compact{ grid-template-columns:repeat(5,1fr); } }
+/* Three across at full width. The copy runs to two sentences, which at five
+   columns would set roughly 24 characters a line and turn each tile into a
+   narrow ladder. Row two holds the remaining two at the same column width. */
+.persona-grid.compact{ grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
 .persona-tile.compact{ border-left:none; border-top:3px solid var(--amber); padding:20px 18px; }
 .persona-name{ font-family:var(--body); font-weight:600; font-size:13px; text-transform:uppercase;
   letter-spacing:.045em; color:var(--ink); margin-bottom:10px; }
