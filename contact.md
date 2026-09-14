@@ -12,9 +12,17 @@ _Contact_
 
 A short call on where your go-to-market (GTM) foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so and tell you what would be.
 
-## Get in touch
+## Book a call
 
-### Start the conversation
+### Pick a time
+
+Thirty minutes. Send the company name when you book and we will have read your site before the call.
+
+## Send a message
+
+### Or tell us in writing
+
+Where the go-to-market team is today, and what is putting pressure on it. That is enough to make the first call useful.
 
 ### What happens next
 
@@ -23,6 +31,10 @@ A short call on where your go-to-market (GTM) foundations stand today, and wheth
 - A short call on the motion, the team, and the pressure you are under right now.
 
 - If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.
+
+### What it costs
+
+The Anatomy Scan is $5,000 for two weeks, and the fee credits into an Anatomy OS build. Full pricing is published.
 
 ### Not ready to talk?
 

@@ -7,6 +7,9 @@
 
 Category: AI infrastructure for go-to-market teams.
 Tagline: Your brand. Your context. Your AI.
+Pricing is published: Anatomy Scan $5,000 (two weeks), Anatomy OS $25,000 (three to
+six weeks), Build Sprint from $5,000 (scoped per project), Fractional AI GTM Partner
+$8,500 per month. The Anatomy Scan fee credits into an Anatomy OS build.
 Ideal customer: B2B technology start-ups and scale-ups, Series A through Series C,
 roughly 20 to 200 people, with a lean go-to-market team expected to produce like a
 large one.
@@ -22,10 +25,10 @@ organizations in cybersecurity, AI, robotics, and technology distribution.
 ## Offerings
 
 - [Offerings overview](https://gtmanatomy.ai/offerings/index.md): the four offerings in sequence and what every engagement includes.
-- [Anatomy Scan](https://gtmanatomy.ai/offerings/anatomy-scan.md): a two-week diagnostic of your go-to-market foundations and AI readiness, ending in a 90-day roadmap.
-- [Build Sprint](https://gtmanatomy.ai/offerings/build-sprint.md): a focused build against the highest-scoring opportunities on your roadmap.
-- [GTM Operating System](https://gtmanatomy.ai/offerings/gtm-operating-system.md): the full build of the AI Operating System your go-to-market team runs on.
-- [Fractional AI GTM Partner](https://gtmanatomy.ai/offerings/fractional-ai-gtm-partner.md): ongoing partnership that keeps the system current as the business changes.
+- [Anatomy Scan](https://gtmanatomy.ai/offerings/anatomy-scan.md): a two-week diagnostic of your go-to-market foundations and AI readiness, ending in a 90-day roadmap. $5,000, two weeks.
+- [Anatomy OS](https://gtmanatomy.ai/offerings/anatomy-os.md): the full build of an AI-native go-to-market operating system for your team. $25,000, three to six weeks.
+- [Build Sprint](https://gtmanatomy.ai/offerings/build-sprint.md): scoped project work against your roadmap. Starting at $5,000, priced by scope.
+- [Fractional AI GTM Partner](https://gtmanatomy.ai/offerings/fractional-ai-gtm-partner.md): ongoing partnership that keeps the system current as the business changes. $8,500 per month, with hourly rates for project work.
 
 ## Claude skills library
 

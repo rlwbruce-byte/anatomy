@@ -60,14 +60,46 @@
     <div class="kicker">Contact</div>
     <h1>Tell us what you are working on.</h1>
     <p>A short call on where your go-to-market (GTM) foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so and tell you what would be.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#book">Book a strategy call</a>
+      <a class="btn btn-ghost-dark" href="#message">Send a message</a>
+    </div>
   </div>
 </div>
 
 <div class="section" id="book">
-  <div class="section-eyebrow">Get in touch</div>
-  <h2 class="section-title">Start the conversation</h2>
+  <div class="section-eyebrow">Book a call</div>
+  <h2 class="section-title">Pick a time</h2>
+  <p class="section-lead">Thirty minutes. Send the company name when you book and we will have read your site before the call.</p>
+  <!-- SCHEDULER EMBED
+       Paste the scheduler URL into data-embed below and the iframe renders in place
+       of this notice. Works with any provider that offers an inline embed URL
+       (Calendly, Cal.com, HubSpot meetings, SavvyCal). Nothing else needs changing. -->
+  <div class="embed-slot" id="schedulerEmbed"
+       data-embed=""
+       data-title="Book a strategy call with GTM Anatomy">
+    <div class="embed-empty">
+      <strong>Scheduler embed slot</strong>
+      Not connected yet. Paste your booking link into <code>data-embed</code> on this
+      element and the calendar renders here. Until then, use the message form below and
+      we will send you times.
+    </div>
+  </div>
+</div>
+
+<div class="section" id="message">
+  <div class="section-eyebrow">Send a message</div>
+  <h2 class="section-title">Or tell us in writing</h2>
+  <p class="section-lead">Where the go-to-market team is today, and what is putting pressure on it. That is enough to make the first call useful.</p>
   <div class="contact-wrap">
-    <form class="contact-form" id="contactForm" method="POST"
+    <div>
+      <!-- HOSTED FORM EMBED
+           If you would rather run the form through a provider (HubSpot, Tally, Typeform,
+           Fillout), paste its embed URL into data-embed on #formEmbed below. The iframe
+           then replaces the native form entirely, and nothing else needs changing.
+           Left empty, the native form below is what renders, which is the default. -->
+      <div class="embed-slot" id="formEmbed" data-embed="" data-title="Contact GTM Anatomy" hidden></div>
+<form class="contact-form" id="contactForm" method="POST"
       data-endpoint=""
       data-fallback-email="rlwbruce@gmail.com">
   <!-- data-endpoint: paste the Formspree form URL here (https://formspree.io/f/xxxxxxx)
@@ -110,6 +142,7 @@
   <div class="form-status" role="status" aria-live="polite"></div>
   <p class="form-note">We reply to everything. No sequence, no drip.</p>
 </form>
+    </div>
     <aside class="contact-aside">
       <h3>What happens next</h3>
       <ol class="next-list">
@@ -117,9 +150,10 @@
         <li>A short call on the motion, the team, and the pressure you are under right now.</li>
         <li>If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.</li>
       </ol>
-      <!-- PLACEHOLDER, PENDING CLIENT INPUT: scheduler URL (Calendly or Cal.com).
-           Once supplied, add a "Book a strategy call" button here and point every
-           /contact.html#book link at it instead. -->
+      <hr>
+      <h3>What it costs</h3>
+      <p>The Anatomy Scan is $5,000 for two weeks, and the fee credits into an Anatomy OS build. Full pricing is published.</p>
+      <a class="offer-link" href="/offerings/">See all four offerings &rarr;</a>
       <hr>
       <h3>Not ready to talk?</h3>
       <p>Start with the free skills library and run one on a real account.</p>
@@ -161,8 +195,8 @@
       <div class="footer-col">
         <h5>Offerings</h5>
         <a href="/offerings/anatomy-scan.html">Anatomy Scan</a>
+        <a href="/offerings/anatomy-os.html">Anatomy OS</a>
         <a href="/offerings/build-sprint.html">Build Sprint</a>
-        <a href="/offerings/gtm-operating-system.html">GTM Operating System</a>
         <a href="/offerings/fractional-ai-gtm-partner.html">Fractional AI GTM Partner</a>
       </div>
       <div class="footer-col">
@@ -182,6 +216,8 @@
 <script src="/assets/site.js"></script>
 <script>
   setActiveNav('contact');
+  initEmbed('schedulerEmbed');
+  initEmbed('formEmbed', 'contactForm');
   initContactForm('contactForm');
 </script>
 

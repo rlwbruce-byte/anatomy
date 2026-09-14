@@ -52,23 +52,31 @@ The four offerings run in sequence: diagnose, build, operate, and keep current. 
 
 A two-week diagnostic of your go-to-market foundations and your AI readiness. You leave with foundations your team has agreed on, and a sequenced roadmap you can run with or without us.
 
+_Investment: $5,000_
+
 _Timeline: Two weeks_
+
+### Anatomy OS
+
+The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover.
+
+_Investment: $25,000_
+
+_Timeline: Three to six weeks_
 
 ### Build Sprint
 
-A focused build against the highest-scoring opportunities on your roadmap. We ship working skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.
+Scoped project work against your roadmap. We ship skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.
 
-_Timeline: Timeline TBC_
+_Investment: Starting at $5,000_
 
-### GTM Operating System
-
-The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, your standards, and your governance written into it.
-
-_Timeline: Timeline TBC_
+_Timeline: Scoped per project_
 
 ### Fractional AI GTM Partner
 
 Ongoing partnership. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
+
+_Investment: $8,500 per month_
 
 _Timeline: Ongoing_
 
@@ -132,9 +140,17 @@ Good for operating partners and investors who are looking for a repeatable way t
 
 The fastest start is a short call on where your go-to-market foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so.
 
-### Prefer to book directly?
+Book a time directly, or send a note and we will reply. Either way the first conversation is about your foundations rather than about tools, because that is what decides whether anything we build afterwards is worth building.
 
-Pick a time and we will come prepared. Send the company name in advance and we will have read your site before the call.
+If you would rather see the work before you talk to anyone, the skills library is free. Run one on a real account and judge the output.
+
+### What happens next
+
+- We read it, and we reply. Every one of them.
+
+- A short call on the motion, the team, and the pressure you are under right now.
+
+- If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.
 
 ### Not ready to talk?
 

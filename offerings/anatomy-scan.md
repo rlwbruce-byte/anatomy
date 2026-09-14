@@ -12,9 +12,9 @@ _Offering 01_
 
 A two-week diagnostic of your go-to-market (GTM) foundations and your AI readiness, ending in a roadmap you can run with or without us.
 
-_Two weeks_
+_$5,000_
 
-_Fixed engagement_
+_Two weeks_
 
 _Fee credits into the build_
 

@@ -2,6 +2,38 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14
+
+Pricing, offering sequence, and contact routing, from the client's own figures.
+
+- **Pricing is published.** Anatomy Scan $5,000 for two weeks. Anatomy OS
+  $25,000 for three to six weeks, where it lands in that range depending on how
+  fast intake comes back and how quickly the sprint sessions run. Build Sprint
+  scoped per project, starting at $5,000. Fractional AI GTM Partner $8,500 per
+  month, with hourly rates for project-shaped work. The Scan fee credits into an
+  Anatomy OS build. Figures appear on the offering cards, in each page's pill
+  row, in a new `.price-table` on the Offerings hub, and in `llms.txt`.
+- **`gtm-operating-system.html` is now `anatomy-os.html`.** Anatomy OS is the
+  product name; what it is gets described as an AI-native go-to-market operating
+  system. Every link, the canonical, the JSON-LD, the sitemap and the markdown
+  twin moved with it. Nothing external pointed at the old URL yet, so no redirect
+  was needed.
+- **Offerings resequenced** to Scan, Anatomy OS, Build Sprint, Fractional. The
+  Build Sprint is now scoped project work that follows the build rather than a
+  smaller build preceding it, and its copy says so. Kickers, cards, cross-links
+  and the footer column all renumbered.
+- **The contact form moved off Home.** Home now links to `contact.html` for both
+  booking and messaging, so there is one place to change how contact works.
+- **Contact page gained two embed slots**, driven by a new `initEmbed()` in
+  `assets/site.js`. `#schedulerEmbed` takes any inline booking URL;
+  `#formEmbed` takes a hosted form URL and hides the native form when set.
+  Both are provider-agnostic one-attribute swaps, because the provider is not
+  chosen yet. With neither set the page still works: the scheduler shows a
+  visible "not connected" notice and the native form posts by mailto.
+- **All `.tbd` timeline chips are gone**, since every timeline is now published.
+  The remaining `.placeholder-block` panels are proof points and ROI figures,
+  which still need real client outcomes.
+
 ## 2026-09-10
 
 Site restructure. The skills library becomes a section of a full GTM Anatomy
@@ -25,7 +57,7 @@ that document.
   is, why it exists, what you get, why you need it, proof points, and a sample.
   Testimonial markup ships commented out on all four, so nothing invented is
   visible. Offering names follow the brand guide: Anatomy Scan, Build Sprint,
-  GTM Operating System, Fractional AI GTM Partner.
+  Anatomy OS, Fractional AI GTM Partner.
 - **New `contact.html`** — form plus a "what happens next" aside. The form posts
   to whatever is in `data-endpoint`; left empty, it composes a mailto instead, so
   it works on a static host today.

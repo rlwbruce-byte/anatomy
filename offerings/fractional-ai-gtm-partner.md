@@ -12,11 +12,11 @@ _Offering 04_
 
 A standing seat on your go-to-market team. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
 
+_$8,500 per month_
+
 _Ongoing_
 
-_Cadence TBC_
-
-_Advisor + technology partner_
+_Hourly rates for project work_
 
 ## What it is
 
@@ -36,7 +36,7 @@ Brands move faster than their websites. The talking points on your site are usua
 
 **A recurring working cadence**
 
-With the team that actually runs the system, not a quarterly steering committee.
+With the team that actually runs the system, not a quarterly steering committee. Set at the start of the engagement and adjusted as the business demands.
 
 **Foundations kept current**
 
@@ -64,6 +64,8 @@ The build is the beginning. What determines whether the investment holds is whet
 
 Most go-to-market teams do not have the headcount for that role, and honestly, it is not a full-time job. This is the shape that fits: enough time to keep the system honest, enough distance to tell you the truth about it.
 
+Ongoing support runs at $8,500 per month. Hourly rates are available where the work is project-shaped rather than continuous.
+
 ## Proof points and ROI
 
 ### What we hold ourselves to
@@ -76,11 +78,13 @@ Most go-to-market teams do not have the headcount for that role, and honestly, i
 
 - Measured in message consistency, time to ship a new play, and spend predictability.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Retained client outcome, tenure, or ROI figure. Also pending: the published working cadence and monthly shape. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Retained client outcome, tenure, or ROI figure. -->
 
 ## Sample
 
-A typical month has a working session with the team, one audit or update project moving, at least one new or revised skill in the system, and a written review of what changed and what it cost. The cadence is set at the start of the engagement and adjusted as the business demands.
+A typical month has a working session with the team, one audit or update project moving, at least one new or revised skill in the system, and a written review of what changed and what it cost.
+
+That is the $8,500 monthly engagement. Where the work is project-shaped rather than continuous, we quote it hourly instead.
 
 How we work →
 

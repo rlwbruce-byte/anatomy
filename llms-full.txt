@@ -1,6 +1,6 @@
 # GTM Anatomy — full site text
 
-Every page of GTMAnatomy.ai, concatenated. Generated 2026-09-10.
+Every page of GTMAnatomy.ai, concatenated. Generated 2026-09-14.
 
 # GTM Anatomy — AI infrastructure for go-to-market teams
 
@@ -56,23 +56,31 @@ The four offerings run in sequence: diagnose, build, operate, and keep current. 
 
 A two-week diagnostic of your go-to-market foundations and your AI readiness. You leave with foundations your team has agreed on, and a sequenced roadmap you can run with or without us.
 
+_Investment: $5,000_
+
 _Timeline: Two weeks_
+
+### Anatomy OS
+
+The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover.
+
+_Investment: $25,000_
+
+_Timeline: Three to six weeks_
 
 ### Build Sprint
 
-A focused build against the highest-scoring opportunities on your roadmap. We ship working skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.
+Scoped project work against your roadmap. We ship skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.
 
-_Timeline: Timeline TBC_
+_Investment: Starting at $5,000_
 
-### GTM Operating System
-
-The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, your standards, and your governance written into it.
-
-_Timeline: Timeline TBC_
+_Timeline: Scoped per project_
 
 ### Fractional AI GTM Partner
 
 Ongoing partnership. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
+
+_Investment: $8,500 per month_
 
 _Timeline: Ongoing_
 
@@ -136,9 +144,17 @@ Good for operating partners and investors who are looking for a repeatable way t
 
 The fastest start is a short call on where your go-to-market foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so.
 
-### Prefer to book directly?
+Book a time directly, or send a note and we will reply. Either way the first conversation is about your foundations rather than about tools, because that is what decides whether anything we build afterwards is worth building.
 
-Pick a time and we will come prepared. Send the company name in advance and we will have read your site before the call.
+If you would rather see the work before you talk to anyone, the skills library is free. Run one on a real account and judge the output.
+
+### What happens next
+
+- We read it, and we reply. Every one of them.
+
+- A short call on the motion, the team, and the pressure you are under right now.
+
+- If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.
 
 ### Not ready to talk?
 
@@ -282,7 +298,7 @@ You leave with foundations your team has agreed on and a sequenced roadmap, whet
 
 # Offerings — GTM Anatomy
 
-> Four ways to work with GTM Anatomy: the Anatomy Scan, a Build Sprint, the GTM Operating System, and a Fractional AI GTM Partner. Everything we build is yours.
+> Four ways to work with GTM Anatomy: the Anatomy Scan, a Build Sprint, the Anatomy OS, and a Fractional AI GTM Partner. Everything we build is yours.
 
 Source: https://gtmanatomy.ai/offerings/
 
@@ -298,29 +314,37 @@ The offerings run in sequence: diagnose, build, operate, and keep current. Start
 
 ### Diagnose, build, operate, keep current
 
-Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A Build Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional AI GTM Partner keeps all of it true as the business changes.
+Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A Build Sprint ships the top of that roadmap. The Anatomy OS is the full build with the standards and governance around it. The Fractional AI GTM Partner keeps all of it true as the business changes.
 
 ### Anatomy Scan
 
 A two-week diagnostic of your go-to-market (GTM) organization as it actually operates today. We map the current state, align your team on the foundations underneath it, score 15 to 20 opportunities where AI would earn its keep, and hand you a 90-day roadmap. Diagnosis before prescription, and no obligation to build.
 
+_Investment: $5,000_
+
 _Timeline: Two weeks_
+
+### Anatomy OS
+
+The complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working. Anatomy OS is the name. What you are buying is an AI-native go-to-market operating system, architected to start with your GTM team and scale across the organization.
+
+_Investment: $25,000_
+
+_Timeline: Three to six weeks_
 
 ### Build Sprint
 
-A focused build against the highest-scoring opportunities on your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Scoped to a defined set of outcomes, not to an open-ended engagement.
+Scoped project work against your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Price and duration both follow the scope and the complexity, and we agree them before you commit.
 
-_Timeline: Timeline TBC_
+_Investment: Starting at $5,000_
 
-### GTM Operating System
-
-The complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working. Architected to start with go-to-market and scale across the organization.
-
-_Timeline: Timeline TBC_
+_Timeline: Scoped per project_
 
 ### Fractional AI GTM Partner
 
-A standing seat on your go-to-market team. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task.
+A standing seat on your go-to-market team. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+
+_Investment: $8,500 per month_
 
 _Timeline: Ongoing_
 
@@ -346,11 +370,19 @@ Where it earns its keep, and where it does not. Not every task is a use case, an
 
 ## Investment
 
-### How pricing works
+### What each one costs
 
-The Anatomy Scan is a fixed engagement. If you go on to build, the Anatomy Scan fee credits into the build. Build Sprint and GTM Operating System engagements are scoped from the roadmap, so the price follows the work rather than a package. The Fractional AI GTM Partner is a monthly commitment.
+Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. Sprints are scoped, and the partnership is monthly.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Confirm published price points, or confirm that pricing stays on request. Confirm the Anatomy Scan credit is still commercially true and publishable. -->
+_Investment: $5,000_
+
+_Investment: $25,000_
+
+_Investment: Starting at $5,000_
+
+_Investment: $8,500 per month_
+
+Start the Anatomy Scan and the $5,000 fee credits into the $25,000 Anatomy OS build, so the diagnostic costs you nothing if you go on to build. If you do not, the roadmap is still yours and you can run it with an internal team or another partner.
 
 That is usually the answer to a short call, not to a page. Tell us where the go-to-market team is today and we will tell you where to start.
 
@@ -370,9 +402,9 @@ _Offering 01_
 
 A two-week diagnostic of your go-to-market (GTM) foundations and your AI readiness, ending in a roadmap you can run with or without us.
 
-_Two weeks_
+_$5,000_
 
-_Fixed engagement_
+_Two weeks_
 
 _Fee credits into the build_
 
@@ -448,117 +480,31 @@ Two weeks to an aligned set of foundations and a roadmap you own. If it is not t
 
 ---
 
-# Build Sprint — GTM Anatomy
+# Anatomy OS — GTM Anatomy
 
-> A focused build against the highest-scoring opportunities on your go-to-market roadmap, shipped into your stack and documented so your team can run it.
+> Anatomy OS is an AI-native go-to-market operating system, built for your business. Your context, your standards, and your governance, written in and handed over.
 
-Source: https://gtmanatomy.ai/offerings/build-sprint.html
+Source: https://gtmanatomy.ai/offerings/anatomy-os.html
 
 ---
 
 _Offering 02_
 
-# Build Sprint.
+# Anatomy OS.
 
-A focused build against the highest-scoring opportunities on your roadmap, shipped into the systems your team already uses and documented so they can run it without us.
+The full build. We architect and implement an AI-native go-to-market operating system for your team, with your context, your standards, and your governance written into it.
 
-_Timeline TBC_
+_$25,000_
 
-_Scoped from your roadmap_
+_Three to six weeks_
 
 _Full transfer at handover_
 
 ## What it is
 
-A Build Sprint takes the top of your roadmap and ships it.
+Anatomy OS is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
 
-We build the skills, agents, and workflows against your own context, inside the systems your team already runs, and we hand over the documentation with them. A Sprint is scoped to a defined set of outcomes rather than to an open-ended engagement, which is what makes the cost knowable before it starts.
-
-## Why it exists
-
-Most go-to-market (GTM) teams do not stall on AI because they picked the wrong tool. They stall because nobody owns the build.
-
-The person who could do it already has a full-time job. The prompt that worked brilliantly once lives in someone's notes app and nobody else knows it exists. The roadmap is agreed and then it waits. A Build Sprint puts a defined block of build time against a defined set of outcomes, with your context in it from the first line.
-
-## What you get
-
-### Inside the engagement
-
-**Working skills and agents**
-
-Built from your material, never a template, so the output carries your differentiators and your proof points.
-
-**Integration into your stack**
-
-Inside the systems the team already runs, with clean handoffs between them rather than a parallel process nobody adopts.
-
-**Written runbooks**
-
-How each one is used, what it expects as input, and what good output looks like, so the work survives the person who commissioned it.
-
-**Training for the operators**
-
-A session with the people who will actually run this, not a recording sent to a distribution list.
-
-**A post-sprint review**
-
-What shipped, what it changed, what it cost, and what should come next.
-
-## Why you need it
-
-A roadmap that nobody builds is a document.
-
-The value of the foundations shows up the first time a rep, a marketer, or an operator uses the system and gets output that sounds like your company instead of everyone else's. A Sprint is how you get to that moment in weeks rather than quarters, without hiring for it, and without the person who understands it leaving with the knowledge in their head.
-
-## Proof points and ROI
-
-### What we hold ourselves to
-
-- Built from your own material, so the differentiation is structural rather than editorial.
-
-- Documented at the point of build, which is the only point at which documentation actually gets written.
-
-- Scoped to outcomes, so cost per outcome is knowable before we start rather than after.
-
-- Measured in time to ship a new play, and in throughput per person on the team that runs it.
-
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed Build Sprint. Also pending: the published Sprint duration. -->
-
-## Sample
-
-What ships in a Sprint is a set of working assets, each with a runbook: the skill or agent itself, the context it draws on, the systems it touches, the input it expects, and an example of correct output.
-
-The free skills library is the public version of exactly this work. Every skill there was built the same way, from a real workflow, written down and packaged so someone else can run it. Download one and look at the structure.
-
-See how a skill is built →
-
-If you already have an Anatomy Scan or an equivalent plan, a Sprint is the fastest way to make it real.
-
----
-
-# GTM Operating System — GTM Anatomy
-
-> The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, standards, and governance written in.
-
-Source: https://gtmanatomy.ai/offerings/gtm-operating-system.html
-
----
-
-_Offering 03_
-
-# GTM Operating System.
-
-The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, your standards, and your governance written into it.
-
-_Timeline TBC_
-
-_Full transfer at handover_
-
-_Architected to scale across the org_
-
-## What it is
-
-The GTM Operating System is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
+Anatomy OS is what we call it. What you are buying is an AI-native go-to-market operating system, tuned to your business, your brand, and your goals.
 
 It starts with the go-to-market (GTM) team, because that is where the pressure is, and it is architected to scale across the rest of the organization, so every function that represents the brand is eventually working from the same context. The system we hand over is called your AI Operating System, and it is yours.
 
@@ -614,7 +560,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 - Everything transfers. There is no version of this where the system leaves when we do.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed GTM Operating System build. Also pending: the published build duration. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed Anatomy OS build. -->
 
 ## Sample
 
@@ -622,9 +568,101 @@ The handover contains an architecture document, the context repository holding y
 
 It is the same shape whether the go-to-market team is six people or sixty. What changes is how many workflows are in it on day one, and how much of the organization it is architected to reach.
 
+Three to six weeks, end to end. Where a build lands in that range depends on how quickly your team turns around intake and how fast we can get through the sprint sessions together.
+
 The Anatomy Scan sizes this →
 
-The Anatomy Scan sizes the build and the roadmap sequences it. Start there, and the fee credits in.
+The Anatomy Scan sizes the build and the roadmap sequences it. Start there, and the $5,000 fee credits into the $25,000 build.
+
+---
+
+# Build Sprint — GTM Anatomy
+
+> Scoped project work against your go-to-market roadmap, shipped into your stack and documented so your team can run it. Priced by scope, starting at $5,000.
+
+Source: https://gtmanatomy.ai/offerings/build-sprint.html
+
+---
+
+_Offering 03_
+
+# Build Sprint.
+
+Scoped project work against your roadmap, shipped into the systems your team already uses and documented so they can run it without us. Priced by scope and complexity.
+
+_Starting at $5,000_
+
+_Scoped from your roadmap_
+
+_Full transfer at handover_
+
+## What it is
+
+A Build Sprint takes the top of your roadmap and ships it.
+
+We build the skills, agents, and workflows against your own context, inside the systems your team already runs, and we hand over the documentation with them. A Sprint is scoped to a defined set of outcomes rather than to an open-ended engagement, which is what makes the cost knowable before it starts.
+
+Price and duration vary by scope and complexity, and start at $5,000. We scope both before you commit to either.
+
+## Why it exists
+
+Most go-to-market (GTM) teams do not stall on AI because they picked the wrong tool. They stall because nobody owns the build.
+
+The person who could do it already has a full-time job. The prompt that worked brilliantly once lives in someone's notes app and nobody else knows it exists. The roadmap is agreed and then it waits. A Build Sprint puts a defined block of build time against a defined set of outcomes, with your context in it from the first line.
+
+## What you get
+
+### Inside the engagement
+
+**Working skills and agents**
+
+Built from your material, never a template, so the output carries your differentiators and your proof points.
+
+**Integration into your stack**
+
+Inside the systems the team already runs, with clean handoffs between them rather than a parallel process nobody adopts.
+
+**Written runbooks**
+
+How each one is used, what it expects as input, and what good output looks like, so the work survives the person who commissioned it.
+
+**Training for the operators**
+
+A session with the people who will actually run this, not a recording sent to a distribution list.
+
+**A post-sprint review**
+
+What shipped, what it changed, what it cost, and what should come next.
+
+## Why you need it
+
+A roadmap that nobody builds is a document.
+
+The value of the foundations shows up the first time a rep, a marketer, or an operator uses the system and gets output that sounds like your company instead of everyone else's. A Sprint is how you get to that moment in weeks rather than quarters, without hiring for it, and without the person who understands it leaving with the knowledge in their head.
+
+## Proof points and ROI
+
+### What we hold ourselves to
+
+- Built from your own material, so the differentiation is structural rather than editorial.
+
+- Documented at the point of build, which is the only point at which documentation actually gets written.
+
+- Scoped to outcomes, so cost per outcome is knowable before we start rather than after.
+
+- Measured in time to ship a new play, and in throughput per person on the team that runs it.
+
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed Build Sprint. -->
+
+## Sample
+
+What ships in a Sprint is a set of working assets, each with a runbook: the skill or agent itself, the context it draws on, the systems it touches, the input it expects, and an example of correct output.
+
+The free skills library is the public version of exactly this work. Every skill there was built the same way, from a real workflow, written down and packaged so someone else can run it. Download one and look at the structure.
+
+See how a skill is built →
+
+Whether the work follows an Anatomy OS build or stands on its own, we scope the price and the timeline before you commit.
 
 ---
 
@@ -642,11 +680,11 @@ _Offering 04_
 
 A standing seat on your go-to-market team. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
 
+_$8,500 per month_
+
 _Ongoing_
 
-_Cadence TBC_
-
-_Advisor + technology partner_
+_Hourly rates for project work_
 
 ## What it is
 
@@ -666,7 +704,7 @@ Brands move faster than their websites. The talking points on your site are usua
 
 **A recurring working cadence**
 
-With the team that actually runs the system, not a quarterly steering committee.
+With the team that actually runs the system, not a quarterly steering committee. Set at the start of the engagement and adjusted as the business demands.
 
 **Foundations kept current**
 
@@ -694,6 +732,8 @@ The build is the beginning. What determines whether the investment holds is whet
 
 Most go-to-market teams do not have the headcount for that role, and honestly, it is not a full-time job. This is the shape that fits: enough time to keep the system honest, enough distance to tell you the truth about it.
 
+Ongoing support runs at $8,500 per month. Hourly rates are available where the work is project-shaped rather than continuous.
+
 ## Proof points and ROI
 
 ### What we hold ourselves to
@@ -706,11 +746,13 @@ Most go-to-market teams do not have the headcount for that role, and honestly, i
 
 - Measured in message consistency, time to ship a new play, and spend predictability.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Retained client outcome, tenure, or ROI figure. Also pending: the published working cadence and monthly shape. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Retained client outcome, tenure, or ROI figure. -->
 
 ## Sample
 
-A typical month has a working session with the team, one audit or update project moving, at least one new or revised skill in the system, and a written review of what changed and what it cost. The cadence is set at the start of the engagement and adjusted as the business demands.
+A typical month has a working session with the team, one audit or update project moving, at least one new or revised skill in the system, and a written review of what changed and what it cost.
+
+That is the $8,500 monthly engagement. Where the work is project-shaped rather than continuous, we quote it hourly instead.
 
 How we work →
 
@@ -1014,9 +1056,17 @@ _Contact_
 
 A short call on where your go-to-market (GTM) foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so and tell you what would be.
 
-## Get in touch
+## Book a call
 
-### Start the conversation
+### Pick a time
+
+Thirty minutes. Send the company name when you book and we will have read your site before the call.
+
+## Send a message
+
+### Or tell us in writing
+
+Where the go-to-market team is today, and what is putting pressure on it. That is enough to make the first call useful.
 
 ### What happens next
 
@@ -1025,6 +1075,10 @@ A short call on where your go-to-market (GTM) foundations stand today, and wheth
 - A short call on the motion, the team, and the pressure you are under right now.
 
 - If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.
+
+### What it costs
+
+The Anatomy Scan is $5,000 for two weeks, and the fee credits into an Anatomy OS build. Full pricing is published.
 
 ### Not ready to talk?
 

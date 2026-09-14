@@ -1,18 +1,18 @@
 # Build Sprint — GTM Anatomy
 
-> A focused build against the highest-scoring opportunities on your go-to-market roadmap, shipped into your stack and documented so your team can run it.
+> Scoped project work against your go-to-market roadmap, shipped into your stack and documented so your team can run it. Priced by scope, starting at $5,000.
 
 Source: https://gtmanatomy.ai/offerings/build-sprint.html
 
 ---
 
-_Offering 02_
+_Offering 03_
 
 # Build Sprint.
 
-A focused build against the highest-scoring opportunities on your roadmap, shipped into the systems your team already uses and documented so they can run it without us.
+Scoped project work against your roadmap, shipped into the systems your team already uses and documented so they can run it without us. Priced by scope and complexity.
 
-_Timeline TBC_
+_Starting at $5,000_
 
 _Scoped from your roadmap_
 
@@ -23,6 +23,8 @@ _Full transfer at handover_
 A Build Sprint takes the top of your roadmap and ships it.
 
 We build the skills, agents, and workflows against your own context, inside the systems your team already runs, and we hand over the documentation with them. A Sprint is scoped to a defined set of outcomes rather than to an open-ended engagement, which is what makes the cost knowable before it starts.
+
+Price and duration vary by scope and complexity, and start at $5,000. We scope both before you commit to either.
 
 ## Why it exists
 
@@ -72,7 +74,7 @@ The value of the foundations shows up the first time a rep, a marketer, or an op
 
 - Measured in time to ship a new play, and in throughput per person on the team that runs it.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed Build Sprint. Also pending: the published Sprint duration. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed Build Sprint. -->
 
 ## Sample
 
@@ -82,4 +84,4 @@ The free skills library is the public version of exactly this work. Every skill 
 
 See how a skill is built →
 
-If you already have an Anatomy Scan or an equivalent plan, a Sprint is the fastest way to make it real.
+Whether the work follows an Anatomy OS build or stands on its own, we scope the price and the timeline before you commit.

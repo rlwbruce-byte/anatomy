@@ -1,6 +1,6 @@
 # Offerings — GTM Anatomy
 
-> Four ways to work with GTM Anatomy: the Anatomy Scan, a Build Sprint, the GTM Operating System, and a Fractional AI GTM Partner. Everything we build is yours.
+> Four ways to work with GTM Anatomy: the Anatomy Scan, a Build Sprint, the Anatomy OS, and a Fractional AI GTM Partner. Everything we build is yours.
 
 Source: https://gtmanatomy.ai/offerings/
 
@@ -16,29 +16,37 @@ The offerings run in sequence: diagnose, build, operate, and keep current. Start
 
 ### Diagnose, build, operate, keep current
 
-Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A Build Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional AI GTM Partner keeps all of it true as the business changes.
+Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A Build Sprint ships the top of that roadmap. The Anatomy OS is the full build with the standards and governance around it. The Fractional AI GTM Partner keeps all of it true as the business changes.
 
 ### Anatomy Scan
 
 A two-week diagnostic of your go-to-market (GTM) organization as it actually operates today. We map the current state, align your team on the foundations underneath it, score 15 to 20 opportunities where AI would earn its keep, and hand you a 90-day roadmap. Diagnosis before prescription, and no obligation to build.
 
+_Investment: $5,000_
+
 _Timeline: Two weeks_
+
+### Anatomy OS
+
+The complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working. Anatomy OS is the name. What you are buying is an AI-native go-to-market operating system, architected to start with your GTM team and scale across the organization.
+
+_Investment: $25,000_
+
+_Timeline: Three to six weeks_
 
 ### Build Sprint
 
-A focused build against the highest-scoring opportunities on your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Scoped to a defined set of outcomes, not to an open-ended engagement.
+Scoped project work against your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Price and duration both follow the scope and the complexity, and we agree them before you commit.
 
-_Timeline: Timeline TBC_
+_Investment: Starting at $5,000_
 
-### GTM Operating System
-
-The complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working. Architected to start with go-to-market and scale across the organization.
-
-_Timeline: Timeline TBC_
+_Timeline: Scoped per project_
 
 ### Fractional AI GTM Partner
 
-A standing seat on your go-to-market team. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task.
+A standing seat on your go-to-market team. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+
+_Investment: $8,500 per month_
 
 _Timeline: Ongoing_
 
@@ -64,10 +72,18 @@ Where it earns its keep, and where it does not. Not every task is a use case, an
 
 ## Investment
 
-### How pricing works
+### What each one costs
 
-The Anatomy Scan is a fixed engagement. If you go on to build, the Anatomy Scan fee credits into the build. Build Sprint and GTM Operating System engagements are scoped from the roadmap, so the price follows the work rather than a package. The Fractional AI GTM Partner is a monthly commitment.
+Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. Sprints are scoped, and the partnership is monthly.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Confirm published price points, or confirm that pricing stays on request. Confirm the Anatomy Scan credit is still commercially true and publishable. -->
+_Investment: $5,000_
+
+_Investment: $25,000_
+
+_Investment: Starting at $5,000_
+
+_Investment: $8,500 per month_
+
+Start the Anatomy Scan and the $5,000 fee credits into the $25,000 Anatomy OS build, so the diagnostic costs you nothing if you go on to build. If you do not, the roadmap is still yours and you can run it with an internal team or another partner.
 
 That is usually the answer to a short call, not to a page. Tell us where the go-to-market team is today and we will tell you where to start.

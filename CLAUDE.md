@@ -15,10 +15,13 @@ static pages share `assets/styles.css` and `assets/site.js`:
   offerings, the skills library, five role tiles, contact section.
 - `about.html` — purpose, the revenue-engine foundations, how we work, who it is
   for, founder, vision and mission.
-- `offerings/index.html` — hub, plus one page per offering:
-  `anatomy-scan.html`, `build-sprint.html`, `gtm-operating-system.html`,
-  `fractional-ai-gtm-partner.html`.
-- `contact.html` — form plus a "what happens next" aside.
+- `offerings/index.html` — hub, plus one page per offering, in sequence:
+  `anatomy-scan.html` (01), `anatomy-os.html` (02), `build-sprint.html` (03),
+  `fractional-ai-gtm-partner.html` (04). The sequence is diagnose, build, scoped
+  project work, then ongoing partnership, and the numbering encodes it — reorder
+  the cards and you must renumber the kickers too.
+- `contact.html` — the only page carrying a form. Home links here rather than
+  embedding one, so there is a single place to change how contact works.
 
 **The skills library**
 
@@ -52,13 +55,53 @@ with `.md` instead of `.html`, and `llms-full.txt` is all of them concatenated.
 `.md` twin and into `llms-full.txt` in the same commit.** This is the real cost
 of the approach; skip it and the answer-engine surface goes stale silently.
 
+### Offering names and pricing
+
+**Anatomy OS** is the product name. What it *is* gets described as an AI-native
+go-to-market operating system — that phrasing carries the meaning, the name
+carries the brand. Do not expand the name into "GTM Operating System" or
+"Anatomy Operating System" in copy.
+
+Pricing is published, and lives in four places that must stay in step: the
+`OFFERS` array in the Home generator output, the `HUB_OFFERS` cards and the
+`.price-table` on `offerings/index.html`, the `.pill-row` on each offering page,
+and the pricing lines in `llms.txt`. Current figures:
+
+| Offering | Investment | Timeline |
+| --- | --- | --- |
+| Anatomy Scan | $5,000 | Two weeks |
+| Anatomy OS | $25,000 | Three to six weeks |
+| Build Sprint | Starting at $5,000 | Scoped per project |
+| Fractional AI GTM Partner | $8,500 per month | Ongoing |
+
+The Anatomy Scan fee credits into an Anatomy OS build. Hourly rates are available
+on the Fractional partnership for project-shaped work. Remember the no-"+"-on-
+figures rule: write "starting at $5,000", never "$5,000+".
+
+### Contact form and scheduler embeds
+
+`contact.html` has two `.embed-slot` elements driven by `initEmbed()` in
+`assets/site.js`. Each renders an iframe when its `data-embed` attribute holds a
+URL, and otherwise leaves the slot alone:
+
+- `#schedulerEmbed` — paste any inline booking URL (Calendly, Cal.com, HubSpot
+  meetings, SavvyCal). Until then it shows a visible "not connected" notice.
+- `#formEmbed` — paste a hosted form URL (HubSpot, Tally, Typeform, Fillout) and
+  it replaces the native form, which `initEmbed` hides automatically. Left empty,
+  the slot hides itself and the native form is what renders.
+
+The native form posts to `data-endpoint` on the `<form>` if set, and otherwise
+composes a mailto. That is why the page works on a static host with nothing
+configured. Provider choice is still open, so do not hard-code one.
+
 ### Content that is pending client input
 
 Never invent proof points, ROI figures, metrics, testimonials, prices, or
 timelines. Where the layout calls for one we do not have, it is marked in place:
-a dashed `.tbd` chip for unpublished timelines, a `.placeholder-block` panel for
-pricing and for proof-point sections, and an HTML comment for the scheduler URL,
-the founder biography, and every testimonial. Before anything goes to a prospect
+a dashed `.tbd` chip for unpublished figures, a `.placeholder-block` panel for
+proof-point and ROI sections, and an HTML comment for the founder biography and
+every testimonial. Prices and timelines are no longer pending — they are
+published, listed above. Before anything goes to a prospect
 audience, run `git grep -n 'class="tbd"\|placeholder-block'` and reconcile each
 hit. Filling one of these needs the client's word, not a plausible number.
 

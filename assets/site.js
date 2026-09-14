@@ -210,3 +210,21 @@ function initContactForm(formId){
       .catch(() => say('Something went wrong. Write to ' + fallback + ' instead.'));
   });
 }
+
+// Renders a provider embed into a .embed-slot when its data-embed URL is set.
+// Pass hideId to hide a native fallback (e.g. the built-in form) once the embed loads.
+function initEmbed(slotId, hideId){
+  const slot = document.getElementById(slotId);
+  if(!slot) return;
+  const url = (slot.dataset.embed || '').trim();
+  if(!url){ if(!slot.querySelector('.embed-empty')) slot.hidden = true; return; }
+  const frame = document.createElement('iframe');
+  frame.src = url;
+  frame.title = slot.dataset.title || 'Embedded content';
+  frame.loading = 'lazy';
+  frame.setAttribute('allow', 'camera; microphone; fullscreen; payment');
+  slot.innerHTML = '';
+  slot.hidden = false;
+  slot.appendChild(frame);
+  if(hideId){ const el = document.getElementById(hideId); if(el) el.hidden = true; }
+}

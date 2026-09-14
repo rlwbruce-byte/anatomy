@@ -1,26 +1,28 @@
-# GTM Operating System — GTM Anatomy
+# Anatomy OS — GTM Anatomy
 
-> The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, standards, and governance written in.
+> Anatomy OS is an AI-native go-to-market operating system, built for your business. Your context, your standards, and your governance, written in and handed over.
 
-Source: https://gtmanatomy.ai/offerings/gtm-operating-system.html
+Source: https://gtmanatomy.ai/offerings/anatomy-os.html
 
 ---
 
-_Offering 03_
+_Offering 02_
 
-# GTM Operating System.
+# Anatomy OS.
 
-The full build. We architect and implement the AI Operating System your go-to-market team runs on, with your context, your standards, and your governance written into it.
+The full build. We architect and implement an AI-native go-to-market operating system for your team, with your context, your standards, and your governance written into it.
 
-_Timeline TBC_
+_$25,000_
+
+_Three to six weeks_
 
 _Full transfer at handover_
 
-_Architected to scale across the org_
-
 ## What it is
 
-The GTM Operating System is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
+Anatomy OS is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
+
+Anatomy OS is what we call it. What you are buying is an AI-native go-to-market operating system, tuned to your business, your brand, and your goals.
 
 It starts with the go-to-market (GTM) team, because that is where the pressure is, and it is architected to scale across the rest of the organization, so every function that represents the brand is eventually working from the same context. The system we hand over is called your AI Operating System, and it is yours.
 
@@ -76,7 +78,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 - Everything transfers. There is no version of this where the system leaves when we do.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed GTM Operating System build. Also pending: the published build duration. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed Anatomy OS build. -->
 
 ## Sample
 
@@ -84,6 +86,8 @@ The handover contains an architecture document, the context repository holding y
 
 It is the same shape whether the go-to-market team is six people or sixty. What changes is how many workflows are in it on day one, and how much of the organization it is architected to reach.
 
+Three to six weeks, end to end. Where a build lands in that range depends on how quickly your team turns around intake and how fast we can get through the sprint sessions together.
+
 The Anatomy Scan sizes this →
 
-The Anatomy Scan sizes the build and the roadmap sequences it. Start there, and the fee credits in.
+The Anatomy Scan sizes the build and the roadmap sequences it. Start there, and the $5,000 fee credits into the $25,000 build.
