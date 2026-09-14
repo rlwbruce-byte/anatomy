@@ -10,6 +10,11 @@ All notable changes to the site are recorded here, most recent first.
   Operations" is now "GTM Ops Teams". The second one also settles the parallelism
   flagged when the tiles were written: every label now names a person or a group
   rather than a function.
+- **Fixed a gap in the markdown twins.** The extractor never matched
+  `h3.persona-name`, so the five role tiles reached `index.md` and
+  `llms-full.txt` as unlabelled paragraphs: an answer engine could read the five
+  lines but not tell which role each belonged to. Caught while checking the
+  relabel had propagated.
 
 ## 2026-09-14 (16)
 

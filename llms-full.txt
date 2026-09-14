@@ -92,13 +92,23 @@ Sharing is caring: GTM Anatomy publishes a free library of working go-to-market 
 
 The system is the same in every engagement. That does not mean the needs are the same across your organization. Here is how GTM Anatomy supports different GTM roles.
 
+**Founder/CEO**
+
 Operationalize AI across your GTM team to align your brand, messaging, and marketing resources.
+
+**CRO**
 
 Time kills all deals. Accelerate sales execution from outreach and inbound replies to competitor insights, proposals, and sales cycles with the right AI Operating System.
 
+**Marketing**
+
 Amplify your output, internally and externally. Enable GTM teams with the right brand and messaging, or punch above your weight with AI outputs that scale small teams.
 
+**GTM Ops Teams**
+
 Like a database, AI is only as good as the information we give it. Enable teams with headless infrastructure and eliminate the pain of sales administration.
+
+**Investors**
 
 Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamline how Port Cos are leveraging AI and gain confidence in their operations.
 
