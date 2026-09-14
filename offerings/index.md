@@ -1,6 +1,6 @@
 # Offerings — GTM Anatomy
 
-> Four ways to work with GTM Anatomy: the Anatomy Scan, a Build Sprint, the Anatomy OS, and a Fractional AI GTM Partner. Everything we build is yours.
+> Four ways to work with GTM Anatomy: the Anatomy Scan, a AI Sprint, the GTM Operating System, and a Fractional Partner. Everything we build is yours.
 
 Source: https://gtmanatomy.ai/offerings/
 
@@ -16,7 +16,7 @@ The offerings run in sequence: diagnose, build, operate, and keep current. Start
 
 ### Diagnose, build, operate, keep current
 
-Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A Build Sprint ships the top of that roadmap. The Anatomy OS is the full build with the standards and governance around it. The Fractional AI GTM Partner keeps all of it true as the business changes.
+Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A AI Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional Partner keeps all of it true as the business changes.
 
 ### Anatomy Scan
 
@@ -24,7 +24,7 @@ A two-week diagnostic of your go-to-market (GTM) organization as it actually ope
 
 _Investment: $5,000_
 
-_Timeline: Two weeks_
+_Timeline: Typically delivered within two weeks_
 
 ### Anatomy OS
 
@@ -32,19 +32,19 @@ The complete build: the context layer that holds your foundations, the skills an
 
 _Investment: $25,000_
 
-_Timeline: Three to six weeks_
+_Timeline: Typically delivered within three to six weeks_
 
-### Build Sprint
+### AI Sprint
 
 Scoped project work against your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Price and duration both follow the scope and the complexity, and we agree them before you commit.
 
 _Investment: Starting at $5,000_
 
-_Timeline: Scoped per project_
+_Timeline: Timeline scoped per project_
 
-### Fractional AI GTM Partner
+### Fractional Partner
 
-A standing seat on your go-to-market team. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
 
 _Investment: $8,500 per month_
 
@@ -74,7 +74,7 @@ Where it earns its keep, and where it does not. Not every task is a use case, an
 
 ### What each one costs
 
-Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. Sprints are scoped, and the partnership is monthly.
+Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. AI Sprints are scoped, and the partnership is monthly.
 
 _Investment: $5,000_
 

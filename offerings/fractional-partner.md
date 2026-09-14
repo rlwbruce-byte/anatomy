@@ -1,16 +1,16 @@
-# Fractional AI GTM Partner — GTM Anatomy
+# Fractional Partner — GTM Anatomy
 
-> Ongoing partnership that keeps your AI Operating System current as the business changes, sequences the audits and update projects, and says where AI fits.
+> Ongoing support across marketing, go-to-market, and GTM engineering. We keep your system current, sequence the audits and update projects, and say where AI fits.
 
-Source: https://gtmanatomy.ai/offerings/fractional-ai-gtm-partner.html
+Source: https://gtmanatomy.ai/offerings/fractional-partner.html
 
 ---
 
 _Offering 04_
 
-# Fractional AI GTM Partner.
+# Fractional Partner.
 
-A standing seat on your go-to-market team. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
+A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
 
 _$8,500 per month_
 
@@ -20,9 +20,15 @@ _Hourly rates for project work_
 
 ## What it is
 
-A standing seat on your go-to-market (GTM) team.
+A standing seat on your team. Where that seat sits depends on where the gap is.
 
-We keep your AI Operating System current as the brand, the product, and the market move. We run the audits that show where your owned and earned properties have drifted, sequence the update projects that bring them back in line, and build new skills and agents as the motion changes. What you get is a trusted advisor and technology partner who has sat in the operating chair, not a support queue.
+Marketing. Positioning, messaging, campaign architecture, content operations, and the brand and answer engine optimization (AEO) audits that show where your properties have drifted from the story you are telling now.
+
+Go-to-market. Pipeline strategy, segmentation, sales and marketing alignment, and the operating cadence that keeps the three functions working from one source of truth.
+
+GTM engineering. The build itself: skills, agents, integrations, data quality, and the standards that say what those agents may touch. This is the seat most teams cannot hire for, because the role barely existed two years ago.
+
+Take one, take two, or take all three. We keep your AI Operating System current as the brand, the product, and the market move, and you get a trusted advisor and technology partner who has sat in the operating chair, not a support queue.
 
 ## Why it exists
 
@@ -33,6 +39,10 @@ Brands move faster than their websites. The talking points on your site are usua
 ## What you get
 
 ### Inside the engagement
+
+**A seat where you need it**
+
+Marketing, go-to-market, GTM engineering, or a blend. We scope which one, or which mix, at the start and adjust as the business moves.
 
 **A recurring working cadence**
 
@@ -62,7 +72,7 @@ Whenever the question is whether AI belongs in a given task, you get one, includ
 
 The build is the beginning. What determines whether the investment holds is whether somebody is accountable for keeping the context true.
 
-Most go-to-market teams do not have the headcount for that role, and honestly, it is not a full-time job. This is the shape that fits: enough time to keep the system honest, enough distance to tell you the truth about it.
+Most teams do not have the headcount for that role, and honestly, it is not a full-time job. GTM engineering is the sharpest version of the problem: the skills are scarce, the salaries are high, and the work is lumpy. This is the shape that fits: enough time to keep the system honest, enough distance to tell you the truth about it.
 
 Ongoing support runs at $8,500 per month. Hourly rates are available where the work is project-shaped rather than continuous.
 

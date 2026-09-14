@@ -88,7 +88,7 @@ Not every task is an AI use case. AI costs are rising and the environmental impa
 
 ### Lean teams expected to punch above their weight
 
-We work with start-ups and scale-ups in B2B technology, roughly Series A through Series C and 20 to 200 people, with a go-to-market function that exists but is under-built for its ambition. The buyer is usually a VP of marketing, a chief revenue officer (CRO), or a founder still carrying go-to-market personally. The shared condition is always the same: a lean team expected to produce like a large one.
+We work with start-ups and scale-ups in B2B technology, roughly Series A through Series C, with a go-to-market team of 2 to 200, with a go-to-market function that exists but is under-built for its ambition. The buyer is usually a VP of marketing, a chief revenue officer (CRO), or a founder still carrying go-to-market personally. The shared condition is always the same: a lean team expected to produce like a large one.
 
 Scale here means something specific. Your AI Operating System starts with the go-to-market team and scales across it, then across the rest of the organization, so every function that represents the brand is working from the same context. Scaling across the org is the outcome. Large enterprises are not the customer.
 

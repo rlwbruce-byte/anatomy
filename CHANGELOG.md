@@ -2,14 +2,33 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (2)
+
+Naming, scope and phrasing corrections from the client.
+
+- **Offering 03 is now AI Sprint**, at `offerings/ai-sprint.html`.
+- **Offering 04 is now Fractional Partner**, at `offerings/fractional-partner.html`,
+  and its scope is explicit: marketing, go-to-market, and GTM engineering, as one
+  seat or several. The page now names each of the three and what the seat covers,
+  with GTM engineering called out as the one most teams cannot hire for.
+- **Timelines read "Typically delivered within …"** rather than a flat duration,
+  so delivery speed can evolve without the copy promising a fixed window.
+- **The ideal customer is a go-to-market team of 2 to 200, not a company of that
+  size.** The company can be far larger. The Home hero chip, the About page, and
+  `llms.txt` all say so now, where they previously implied a 20 to 200 person
+  company.
+- **Removed the "compare all four offerings" button** from Home. The cards link
+  through individually and the hub sits in the nav, so the button was a third path
+  to the same place.
+
 ## 2026-09-14
 
 Pricing, offering sequence, and contact routing, from the client's own figures.
 
 - **Pricing is published.** Anatomy Scan $5,000 for two weeks. Anatomy OS
   $25,000 for three to six weeks, where it lands in that range depending on how
-  fast intake comes back and how quickly the sprint sessions run. Build Sprint
-  scoped per project, starting at $5,000. Fractional AI GTM Partner $8,500 per
+  fast intake comes back and how quickly the sprint sessions run. AI Sprint
+  scoped per project, starting at $5,000. Fractional Partner $8,500 per
   month, with hourly rates for project-shaped work. The Scan fee credits into an
   Anatomy OS build. Figures appear on the offering cards, in each page's pill
   row, in a new `.price-table` on the Offerings hub, and in `llms.txt`.
@@ -18,8 +37,8 @@ Pricing, offering sequence, and contact routing, from the client's own figures.
   system. Every link, the canonical, the JSON-LD, the sitemap and the markdown
   twin moved with it. Nothing external pointed at the old URL yet, so no redirect
   was needed.
-- **Offerings resequenced** to Scan, Anatomy OS, Build Sprint, Fractional. The
-  Build Sprint is now scoped project work that follows the build rather than a
+- **Offerings resequenced** to Scan, Anatomy OS, AI Sprint, Fractional. The
+  AI Sprint is now scoped project work that follows the build rather than a
   smaller build preceding it, and its copy says so. Kickers, cards, cross-links
   and the footer column all renumbered.
 - **The contact form moved off Home.** Home now links to `contact.html` for both
@@ -56,8 +75,8 @@ that document.
 - **New `offerings/`** — a hub plus one page per offering, each covering what it
   is, why it exists, what you get, why you need it, proof points, and a sample.
   Testimonial markup ships commented out on all four, so nothing invented is
-  visible. Offering names follow the brand guide: Anatomy Scan, Build Sprint,
-  Anatomy OS, Fractional AI GTM Partner.
+  visible. Offering names follow the brand guide: Anatomy Scan, AI Sprint,
+  Anatomy OS, Fractional Partner.
 - **New `contact.html`** — form plus a "what happens next" aside. The form posts
   to whatever is in `data-endpoint`; left empty, it composes a mailto instead, so
   it works on a static host today.

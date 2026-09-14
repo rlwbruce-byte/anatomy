@@ -16,10 +16,10 @@ static pages share `assets/styles.css` and `assets/site.js`:
 - `about.html` — purpose, the revenue-engine foundations, how we work, who it is
   for, founder, vision and mission.
 - `offerings/index.html` — hub, plus one page per offering, in sequence:
-  `anatomy-scan.html` (01), `anatomy-os.html` (02), `build-sprint.html` (03),
-  `fractional-ai-gtm-partner.html` (04). The sequence is diagnose, build, scoped
-  project work, then ongoing partnership, and the numbering encodes it — reorder
-  the cards and you must renumber the kickers too.
+  `anatomy-scan.html` (01), `anatomy-os.html` (02), `ai-sprint.html` (03),
+  `fractional-partner.html` (04). The sequence is diagnose, build, scoped project
+  work, then ongoing partnership, and the numbering encodes it — reorder the cards
+  and you must renumber the kickers too.
 - `contact.html` — the only page carrying a form. Home links here rather than
   embedding one, so there is a single place to change how contact works.
 
@@ -71,11 +71,14 @@ and the pricing lines in `llms.txt`. Current figures:
 | --- | --- | --- |
 | Anatomy Scan | $5,000 | Two weeks |
 | Anatomy OS | $25,000 | Three to six weeks |
-| Build Sprint | Starting at $5,000 | Scoped per project |
-| Fractional AI GTM Partner | $8,500 per month | Ongoing |
+| AI Sprint | Starting at $5,000 | Scoped per project |
+| Fractional Partner | $8,500 per month | Ongoing |
 
-The Anatomy Scan fee credits into an Anatomy OS build. Hourly rates are available
-on the Fractional partnership for project-shaped work. Remember the no-"+"-on-
+The Anatomy Scan fee credits into an Anatomy OS build. The Fractional Partner
+covers marketing, go-to-market, and GTM engineering, as one seat or several, and
+hourly rates are available for project-shaped work. Never describe it as
+go-to-market only: GTM engineering is the seat most teams cannot hire for, and it
+is a deliberate part of the offer. Remember the no-"+"-on-
 figures rule: write "starting at $5,000", never "$5,000+".
 
 ### Contact form and scheduler embeds
@@ -104,6 +107,12 @@ every testimonial. Prices and timelines are no longer pending — they are
 published, listed above. Before anything goes to a prospect
 audience, run `git grep -n 'class="tbd"\|placeholder-block'` and reconcile each
 hit. Filling one of these needs the client's word, not a plausible number.
+
+### Who we size to
+
+The ideal customer is a **go-to-market team of 2 to 200**, not a company of that
+size. The company can be far larger. Copy must not conflate the two, and the
+Home hero chip says "GTM teams of 2 to 200" for exactly this reason.
 
 ### Voice
 

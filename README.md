@@ -14,9 +14,9 @@ index.html                       # Home — hero, what we do, offerings, roles, 
 about.html                       # About — purpose, the foundations, how we work, who it is for
 offerings/index.html             # Offerings hub — the four offerings in sequence
 offerings/anatomy-scan.html      # Offering 01
-offerings/build-sprint.html      # Offering 03
+offerings/ai-sprint.html      # Offering 03
 offerings/anatomy-os.html        # Offering 03
-offerings/fractional-ai-gtm-partner.html   # Offering 04
+offerings/fractional-partner.html   # Offering 04
                                  #   (pricing published; see CLAUDE.md)
 contact.html                     # Contact — form plus what happens next
 getting-started.html             # Claude skills: onboarding + Claude Setup Guide

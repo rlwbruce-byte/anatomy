@@ -1,26 +1,26 @@
-# Build Sprint — GTM Anatomy
+# AI Sprint — GTM Anatomy
 
 > Scoped project work against your go-to-market roadmap, shipped into your stack and documented so your team can run it. Priced by scope, starting at $5,000.
 
-Source: https://gtmanatomy.ai/offerings/build-sprint.html
+Source: https://gtmanatomy.ai/offerings/ai-sprint.html
 
 ---
 
 _Offering 03_
 
-# Build Sprint.
+# AI Sprint.
 
 Scoped project work against your roadmap, shipped into the systems your team already uses and documented so they can run it without us. Priced by scope and complexity.
 
 _Starting at $5,000_
 
-_Scoped from your roadmap_
+_Timeline scoped per project_
 
 _Full transfer at handover_
 
 ## What it is
 
-A Build Sprint takes the top of your roadmap and ships it.
+An AI Sprint takes the top of your roadmap and ships it.
 
 We build the skills, agents, and workflows against your own context, inside the systems your team already runs, and we hand over the documentation with them. A Sprint is scoped to a defined set of outcomes rather than to an open-ended engagement, which is what makes the cost knowable before it starts.
 
@@ -30,7 +30,7 @@ Price and duration vary by scope and complexity, and start at $5,000. We scope b
 
 Most go-to-market (GTM) teams do not stall on AI because they picked the wrong tool. They stall because nobody owns the build.
 
-The person who could do it already has a full-time job. The prompt that worked brilliantly once lives in someone's notes app and nobody else knows it exists. The roadmap is agreed and then it waits. A Build Sprint puts a defined block of build time against a defined set of outcomes, with your context in it from the first line.
+The person who could do it already has a full-time job. The prompt that worked brilliantly once lives in someone's notes app and nobody else knows it exists. The roadmap is agreed and then it waits. An AI Sprint puts a defined block of build time against a defined set of outcomes, with your context in it from the first line.
 
 ## What you get
 
@@ -74,7 +74,7 @@ The value of the foundations shows up the first time a rep, a marketer, or an op
 
 - Measured in time to ship a new play, and in throughput per person on the team that runs it.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed Build Sprint. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome from a completed AI Sprint. -->
 
 ## Sample
 

@@ -14,7 +14,7 @@ The full build. We architect and implement an AI-native go-to-market operating s
 
 _$25,000_
 
-_Three to six weeks_
+_Typically delivered within three to six weeks_
 
 _Full transfer at handover_
 
@@ -78,7 +78,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 - Everything transfers. There is no version of this where the system leaves when we do.
 
-<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed Anatomy OS build. -->
+<!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed GTM Operating System build. -->
 
 ## Sample
 
@@ -86,7 +86,7 @@ The handover contains an architecture document, the context repository holding y
 
 It is the same shape whether the go-to-market team is six people or sixty. What changes is how many workflows are in it on day one, and how much of the organization it is architected to reach.
 
-Three to six weeks, end to end. Where a build lands in that range depends on how quickly your team turns around intake and how fast we can get through the sprint sessions together.
+Typically delivered within three to six weeks. Where a build lands in that range depends on how quickly your team turns around intake and how fast we can get through the sprint sessions together.
 
 The Anatomy Scan sizes this →
 

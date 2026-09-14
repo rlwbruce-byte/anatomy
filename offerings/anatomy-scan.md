@@ -14,7 +14,7 @@ A two-week diagnostic of your go-to-market (GTM) foundations and your AI readine
 
 _$5,000_
 
-_Two weeks_
+_Typically delivered within two weeks_
 
 _Fee credits into the build_
 

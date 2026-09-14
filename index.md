@@ -16,7 +16,7 @@ _B2B technology_
 
 _Series A through Series C_
 
-_20 to 200 people_
+_GTM teams of 2 to 200_
 
 ## What is GTM Anatomy
 
@@ -54,7 +54,7 @@ A two-week diagnostic of your go-to-market foundations and your AI readiness. Yo
 
 _Investment: $5,000_
 
-_Timeline: Two weeks_
+_Timeline: Typically delivered within two weeks_
 
 ### Anatomy OS
 
@@ -62,19 +62,19 @@ The full build. An AI-native go-to-market operating system for your team, with y
 
 _Investment: $25,000_
 
-_Timeline: Three to six weeks_
+_Timeline: Typically delivered within three to six weeks_
 
-### Build Sprint
+### AI Sprint
 
 Scoped project work against your roadmap. We ship skills and agents into the systems your team already uses, documented, with the people who will run them trained on them.
 
 _Investment: Starting at $5,000_
 
-_Timeline: Scoped per project_
+_Timeline: Timeline scoped per project_
 
-### Fractional AI GTM Partner
+### Fractional Partner
 
-Ongoing partnership. We keep the system current as the business changes, sequence the audits and update projects, and tell you when and where AI makes sense.
+A standing seat in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
 
 _Investment: $8,500 per month_
 
