@@ -126,11 +126,11 @@ _About_
 
 Why the practice exists, the go-to-market foundations we work through, how we work, and who it is for.
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -148,11 +148,11 @@ _Offerings_
 
 The four ways to work with GTM Anatomy, what each one includes, and what each one costs. Pricing is on the home page today.
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -176,11 +176,11 @@ _Typically delivered within two weeks_
 
 _Fee credits into the build_
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -204,11 +204,11 @@ _Typically delivered within three to six weeks_
 
 _Yours at handover, following enablement_
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -232,11 +232,11 @@ _Timeline scoped per project_
 
 _Full transfer at handover_
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -260,11 +260,11 @@ _Ongoing_
 
 _Hourly rates for project work_
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
 
 ---
 
@@ -604,4 +604,4 @@ A short call on where your go-to-market (GTM) foundations stand today, and wheth
 
 Online booking and the contact form are being wired up. Until they are, email is the fastest route and it goes straight to Rachel. Send the company name and we will have read your site before we reply.
 
-Not ready to talk? The skills library is live and free: start here.
+Not ready to talk? The skills library is live and free. Getting Started →

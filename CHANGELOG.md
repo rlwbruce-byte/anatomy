@@ -2,6 +2,25 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (13)
+
+Home page formatting pass.
+
+- **Nav regrouped.** The wordmark holds the left edge and every button is pushed
+  hard right against the call to action.
+- **Home removed from the nav.** The wordmark is the home link and already
+  carries the right label for screen readers, so the item was a duplicate.
+- **Contact is now the nav's call to action**, labelled "Let's Chat" and filled
+  amber. The current page dropped from a filled amber chip to a faint amber wash,
+  so the solid amber appears exactly once in the bar.
+- **"Start here" is now "Getting Started"**, on the home skills band and in the
+  Coming Soon cards.
+- **Offering cards break before the link.** `.offer-meta` stacks, so price and
+  timeline sit above the "See the ..." link rather than beside it.
+- **Coming Soon cards are headed "Coming soon."** rather than "Not live yet." The
+  status badge came out of the page header at the same time, because the phrase
+  was otherwise appearing twice within one screen.
+
 ## 2026-09-14 (12)
 
 Merged the skills-library work that landed on `main` while the site restructure

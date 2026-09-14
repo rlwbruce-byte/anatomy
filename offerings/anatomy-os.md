@@ -18,8 +18,8 @@ _Typically delivered within three to six weeks_
 
 _Yours at handover, following enablement_
 
-### Not live yet.
+### Coming soon.
 
 This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
 
-Already want to see the work? The skills library is live and free: start here.
+Already want to see the work? The skills library is live and free. Getting Started →
