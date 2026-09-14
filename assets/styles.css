@@ -212,9 +212,16 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 /* nav overrides */
 .global-nav-inner{ flex-wrap:wrap; }
 .gn-links{ overflow:visible; flex-wrap:wrap; align-items:center; }
-.gn-brand{ font-family:var(--disp); font-size:17px; text-transform:uppercase; letter-spacing:.02em; color:var(--paper);
-  text-decoration:none; margin-right:6px; white-space:nowrap; transition:color .15s ease; }
-.gn-brand:hover{ color:var(--amber); }
+/* wordmark lockup: GTMAnatomy. — amber GTM, ink Anatomy, amber full stop.
+   Live Anton text rather than an image, so it stays crisp and reverses cleanly
+   on the graphite ground where the black logo file cannot be used. */
+.wm{ font-family:var(--disp); text-transform:none; letter-spacing:.005em; white-space:nowrap; display:inline-block; }
+.wm-a{ color:var(--amber); }
+.wm-b{ color:var(--paper); }
+.gn-brand{ font-size:19px; text-decoration:none; margin-right:6px; white-space:nowrap; display:inline-flex; }
+.gn-brand .wm-b{ transition:color .15s ease; }
+.gn-brand:hover .wm-b{ color:var(--amber); }
+.gn-brand:focus-visible{ outline:2px solid var(--amber); outline-offset:3px; }
 .gn-group{ position:relative; display:inline-flex; }
 .gn-drop{ display:none; position:absolute; top:100%; left:0; margin-top:6px; min-width:180px; z-index:30;
   background:var(--graphite-mid); border:1px solid var(--graphite-line); border-radius:2px; padding:6px 0; }
@@ -385,7 +392,8 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px; }
 @media (max-width:760px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width:480px){ .footer-grid{ grid-template-columns:1fr; } }
-.footer-brand{ font-family:var(--disp); font-size:22px; text-transform:uppercase; color:var(--paper); text-decoration:none; display:block; }
+.footer-brand{ font-size:26px; text-decoration:none; display:block; }
+.footer-brand:focus-visible{ outline:2px solid var(--amber); outline-offset:3px; }
 .footer-descriptor{ font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--amber); margin-top:8px; }
 .footer-tag{ font-size:14px; color:#C9C4B8; margin-top:14px; line-height:1.6; }
 .footer-domain{ font-family:var(--mono); font-size:12px; color:var(--amber); margin-top:16px; text-decoration:none; display:inline-block; }

@@ -225,6 +225,17 @@ and never script a bulk sync across repos.
 
 ## Brand
 
+- **Wordmark.** The lockup is `GTMAnatomy.` — no space, "GTM" and the full stop
+  in amber, "Anatomy" in paper on dark grounds. It is live Anton text, not an
+  image file: `<span class="wm">` with `.wm-a` / `.wm-b` children, used in
+  `.gn-brand` and `.footer-brand`. Live text so it stays crisp at any size and
+  reverses cleanly on graphite, where the supplied black logo file cannot go.
+  The lockup is the only place the name is written closed up; in prose the
+  company is **GTM Anatomy**, two words, and the site is **GTMAnatomy.ai**.
+- `assets/og-image.png` is rendered from that same lockup. To regenerate it,
+  screenshot a 1200x630 page with the fonts embedded as base64 data URIs —
+  linking Google Fonts in headless Chromium silently falls back to a default
+  sans and the wordmark comes out in the wrong face.
 - Palette: graphite `#0B0E12` / amber `#F5A623` (`#C2760D` deep) — "Amber
   Circuit," chosen deliberately to avoid matching Continuous's navy/violet
   system while keeping a similar tech-forward, dark-ground feel.

@@ -2,6 +2,20 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (3)
+
+The wordmark lands.
+
+- **`GTMAnatomy.` is now the wordmark** in the nav and the footer of all eleven
+  pages: no space, "GTM" and the trailing full stop in amber, "Anatomy" in paper.
+  Built as live Anton text rather than an image, so it stays crisp at any size and
+  reverses cleanly on the graphite ground, which the supplied black logo file
+  cannot do. In prose the company stays "GTM Anatomy", two words.
+- **`assets/og-image.png` regenerated** from the same lockup, replacing the old
+  "Anatomy, free Claude skills" card that had been wrong since the restructure.
+  Rendered at 1200x630 on the graphite ground with the circuit grid, the
+  descriptor line, and the tagline.
+
 ## 2026-09-14 (2)
 
 Naming, scope and phrasing corrections from the client.
