@@ -2,6 +2,22 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (10)
+
+Home contact section, the last of the client's page pass.
+
+- **Retitled** "Better together. Let's synergize." with new lead copy inviting a
+  15 to 30 minute call.
+- **Section simplified** to one call to action plus a skills-library aside. The
+  "what happens next" list is gone; it duplicated the contact page, which is a
+  splash right now anyway.
+- Two edits on the supplied copy: "AI-use cases" loses its hyphen, and "15-30
+  minutes" becomes "15 to 30 minutes", matching how every other range on the site
+  is written.
+- **Restored the exclamation mark** in the skills band standing line, which was
+  dropped in an earlier pass. The client wrote it in both places and the voice is
+  warm by design.
+
 ## 2026-09-14 (9)
 
 Role tiles get their real copy.
