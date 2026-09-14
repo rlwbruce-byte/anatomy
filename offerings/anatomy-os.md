@@ -58,7 +58,7 @@ Pipeline, cycle time, and cost per outcome, attached while we build rather than 
 
 **Full transfer at handover**
 
-Architecture, skills, agents, runbooks, and standards. You own all of it.
+Architecture, skills, agents, runbooks, and standards, handed over once your team is enabled on them. You own all of it.
 
 ## Why you need it
 
@@ -76,7 +76,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 - Instrumented for cost per outcome, because AI costs are rising and not every task is a use case.
 
-- Everything transfers. There is no version of this where the system leaves when we do.
+- Everything transfers, once your team is enabled on it. There is no version of this where the system leaves when we do.
 
 <!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed GTM Operating System build. -->
 

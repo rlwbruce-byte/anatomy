@@ -75,7 +75,11 @@ and the pricing lines in `llms.txt`. Current figures:
 | AI Sprint | Starting at $5,000 | Scoped per project |
 | Fractional Partner | $8,500 per month | Ongoing |
 
-The Anatomy Scan fee credits into an Anatomy OS build. The Fractional Partner
+The four offerings are framed as **diagnose, build, operate, and continue to
+execute**. A prospect can start with the Scan or jump straight to an Anatomy OS
+build; the sequence is a recommendation, not a gate. Transfer happens **after
+enablement**, so write "yours at handover, following enablement", never handover
+alone. The Anatomy Scan fee credits into an Anatomy OS build. The Fractional Partner
 covers marketing, go-to-market, and GTM engineering, as one seat or several, and
 hourly rates are available for project-shaped work. Never describe it as
 go-to-market only: GTM engineering is the seat most teams cannot hire for, and it

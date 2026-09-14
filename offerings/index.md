@@ -10,11 +10,11 @@ _Offerings_
 
 # Four ways to work with GTM Anatomy.
 
-The offerings run in sequence: diagnose, build, operate, and keep current. Start where you actually are, stop after any one of them, and take everything we build with you.
+There are four ways to work with GTM Anatomy: diagnose, build, operate, and continue to execute. Start where you actually are, stop after any one of them, and take everything we build with you.
 
 ## The sequence
 
-### Diagnose, build, operate, keep current.
+### Diagnose, build, operate, continue to execute.
 
 Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A AI Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional Partner keeps all of it true as the business changes.
 
@@ -44,7 +44,7 @@ _Timeline: Timeline scoped per project_
 
 ### Fractional Partner
 
-A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+A standing seat in marketing, go-to-market, and/or GTM engineering, or an extra set of hands where your team needs AI-first support. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
 
 _Investment: $8,500 per month_
 

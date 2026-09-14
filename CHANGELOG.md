@@ -2,6 +2,25 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (6)
+
+Third pass: the Offerings section.
+
+- **Section retitled** "Work with GTM Anatomy." and the lead rewritten. The four
+  verbs are now diagnose, build, operate, and continue to execute. The lead also
+  says you can skip the Scan and go straight to an Anatomy OS build, and offers a
+  fourth door for teams who just want another set of hands.
+- **"Connect with Rachel" links to the contact page**, with a new link treatment
+  for `.section-lead` and `.prose` so an inline link reads as one on both grounds.
+- **Anatomy OS**: handover now reads "Yours at handover, following enablement."
+- **Fractional Partner**: "marketing, go-to-market, and/or GTM engineering", plus
+  the extra-set-of-hands sentence.
+- **The deeper pages were brought in line** rather than left contradicting Home:
+  the Offerings hub lead and heading carry the new four-verb sequence, the hub's
+  sequencing paragraph mentions the jump straight to a build, the Anatomy OS page
+  ties transfer to enablement in both the deliverable list and the proof points,
+  and the Fractional Partner page and hub card carry the new seat wording.
+
 ## 2026-09-14 (5)
 
 Second pass: the "What is GTM Anatomy" section.

@@ -10,7 +10,7 @@ _Offering 04_
 
 # Fractional Partner.
 
-A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
+A standing seat in marketing, go-to-market, and/or GTM engineering. We keep the system current, sequence the work, and tell you when and where AI makes sense. Or provide an extra set of hands where your team needs AI-first support.
 
 _$8,500 per month_
 

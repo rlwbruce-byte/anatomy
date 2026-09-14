@@ -42,9 +42,9 @@ Keep it learning Working files go stale. Your AI Operating System updates the fo
 
 ## Offerings
 
-### Four ways to work with GTM Anatomy.
+### Work with GTM Anatomy.
 
-The four offerings run in sequence: diagnose, build, operate, and keep current. Start with the Anatomy Scan, build from the roadmap it produces, then keep the system honest as the business changes. You can stop after any one of them, and everything we build is yours.
+There are four ways to work with GTM Anatomy: diagnose, build, operate, and continue to execute. Start with the Anatomy Scan, build from the roadmap it produces, or jump straight into the Anatomy OS build. Or if you just need another set of hands to support your GTM team with an AI-first marketing perspective, connect with Rachel.
 
 ### Anatomy Scan
 
@@ -56,7 +56,7 @@ _Timeline: Typically delivered within two weeks_
 
 ### Anatomy OS
 
-The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover.
+The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover, following enablement.
 
 _Investment: $25,000_
 
@@ -72,7 +72,7 @@ _Timeline: Timeline scoped per project_
 
 ### Fractional Partner
 
-A standing seat in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
+A standing seat in marketing, go-to-market, and/or GTM engineering. We keep the system current, sequence the work, and tell you when and where AI makes sense. Or provide an extra set of hands where your team needs AI-first support.
 
 _Investment: $8,500 per month_
 
@@ -302,11 +302,11 @@ _Offerings_
 
 # Four ways to work with GTM Anatomy.
 
-The offerings run in sequence: diagnose, build, operate, and keep current. Start where you actually are, stop after any one of them, and take everything we build with you.
+There are four ways to work with GTM Anatomy: diagnose, build, operate, and continue to execute. Start where you actually are, stop after any one of them, and take everything we build with you.
 
 ## The sequence
 
-### Diagnose, build, operate, keep current.
+### Diagnose, build, operate, continue to execute.
 
 Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. A AI Sprint ships the top of that roadmap. The GTM Operating System is the full build with the standards and governance around it. The Fractional Partner keeps all of it true as the business changes.
 
@@ -336,7 +336,7 @@ _Timeline: Timeline scoped per project_
 
 ### Fractional Partner
 
-A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+A standing seat in marketing, go-to-market, and/or GTM engineering, or an extra set of hands where your team needs AI-first support. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
 
 _Investment: $8,500 per month_
 
@@ -534,7 +534,7 @@ Pipeline, cycle time, and cost per outcome, attached while we build rather than 
 
 **Full transfer at handover**
 
-Architecture, skills, agents, runbooks, and standards. You own all of it.
+Architecture, skills, agents, runbooks, and standards, handed over once your team is enabled on them. You own all of it.
 
 ## Why you need it
 
@@ -552,7 +552,7 @@ That is what an operating system is. The alternative is what most teams have rig
 
 - Instrumented for cost per outcome, because AI costs are rising and not every task is a use case.
 
-- Everything transfers. There is no version of this where the system leaves when we do.
+- Everything transfers, once your team is enabled on it. There is no version of this where the system leaves when we do.
 
 <!-- PLACEHOLDER, PENDING CLIENT INPUT Named client outcome, adoption figure, or ROI from a completed GTM Operating System build. -->
 
@@ -672,7 +672,7 @@ _Offering 04_
 
 # Fractional Partner.
 
-A standing seat on your team, in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
+A standing seat in marketing, go-to-market, and/or GTM engineering. We keep the system current, sequence the work, and tell you when and where AI makes sense. Or provide an extra set of hands where your team needs AI-first support.
 
 _$8,500 per month_
 

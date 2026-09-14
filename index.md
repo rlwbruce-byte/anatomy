@@ -38,9 +38,9 @@ Keep it learning Working files go stale. Your AI Operating System updates the fo
 
 ## Offerings
 
-### Four ways to work with GTM Anatomy.
+### Work with GTM Anatomy.
 
-The four offerings run in sequence: diagnose, build, operate, and keep current. Start with the Anatomy Scan, build from the roadmap it produces, then keep the system honest as the business changes. You can stop after any one of them, and everything we build is yours.
+There are four ways to work with GTM Anatomy: diagnose, build, operate, and continue to execute. Start with the Anatomy Scan, build from the roadmap it produces, or jump straight into the Anatomy OS build. Or if you just need another set of hands to support your GTM team with an AI-first marketing perspective, connect with Rachel.
 
 ### Anatomy Scan
 
@@ -52,7 +52,7 @@ _Timeline: Typically delivered within two weeks_
 
 ### Anatomy OS
 
-The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover.
+The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in. Yours at handover, following enablement.
 
 _Investment: $25,000_
 
@@ -68,7 +68,7 @@ _Timeline: Timeline scoped per project_
 
 ### Fractional Partner
 
-A standing seat in marketing, go-to-market, or GTM engineering, or across all three. We keep the system current, sequence the work, and tell you when and where AI makes sense.
+A standing seat in marketing, go-to-market, and/or GTM engineering. We keep the system current, sequence the work, and tell you when and where AI makes sense. Or provide an extra set of hands where your team needs AI-first support.
 
 _Investment: $8,500 per month_
 
