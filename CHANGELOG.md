@@ -6,6 +6,10 @@ All notable changes to the site are recorded here, most recent first.
 
 - **Dropped "Or try it free if you prefer to build yourself."** from the skills
   band lead. The section now opens on "Sharing is caring:".
+- **Role tile labels**: "Founder or CEO" is now "Founder/CEO", and "GTM
+  Operations" is now "GTM Ops Teams". The second one also settles the parallelism
+  flagged when the tiles were written: every label now names a person or a group
+  rather than a function.
 
 ## 2026-09-14 (16)
 
