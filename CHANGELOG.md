@@ -2,6 +2,19 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (12)
+
+Merged the skills-library work that landed on `main` while the site restructure
+was in progress: Call Summary, Campaign Kit, and the markdown renderer upgrades
+(pipe tables, fenced code, deeper headings, `*` bullets, horizontal rules).
+
+- **Skill count corrected to 12.** The Campaign Kit commit added a skill without
+  bumping the figure, which had been left at 11. The count now lives on
+  `getting-started.html`, not `index.html`, because `index.html` is the new home
+  page.
+- Both `marketing.html` and `go-to-market.html` merged cleanly: their new skill
+  entries and this branch's nav, head and footer changes are all present.
+
 ## 2026-09-14 (11)
 
 - **Hero close rewritten** to "so the value of your brand is carried through
@@ -264,6 +277,83 @@ that document.
   chips for the three unpublished timelines, `.placeholder-block` panels for
   pricing and for every proof point or ROI figure, and HTML comments for the
   scheduler URL and the founder biography.
+
+## 2026-09-12
+
+**Campaign Kit** — new skill on the Marketing page, and a markdown renderer
+that can show it.
+
+- **`skills/campaign-kit/skill.md`** — new. Give Claude one long-form asset
+  plus either a message guide or a statement of what the asset is meant to
+  achieve, and it builds the whole campaign around it: the promotion and the
+  follow-up. Landing page, confirmation page, five email tracks, newsletter
+  module, three LinkedIn post types, SDR cold outreach and post-download
+  follow-ups, a blog post, three ads, and an expansion track for companies with
+  an installed base. Two things distinguish it from asking for promo copy: it
+  reads the asset in full and builds a claims inventory first, so every stat in
+  the kit traces to a page and nothing is invented; and it scores the asset
+  against the stated goals *before* writing anything, with a hard approval gate
+  and the standing option to say the asset doesn't serve the goal and shouldn't
+  be promoted as-is.
+- **`marketing.html`** — new `Campaign` category, and the skill added to
+  `SKILLS`. Eight skills, seven categories.
+- **`assets/site.js`** — `mdToHtml()` extended. It previously handled `#`, `##`,
+  blockquotes and lists, and dropped everything else into `<p>`. It now renders
+  pipe tables, `###`–`#####` headings, fenced code blocks and horizontal rules,
+  and pulls fenced content out before parsing so code is never re-interpreted as
+  markdown. This was already a live bug rather than a new requirement: Call
+  Summary's two tables were rendering as rows of raw pipe characters, and the
+  `###` headings in ABM Activation Plan, AEO Brand Auditor, Company Discovery
+  and Company Identity Builder were rendering as body paragraphs. All fixed by
+  the same change.
+- **`assets/styles.css`** — modal styles for the newly-rendered elements:
+  tables (in a horizontally scrolling wrapper, so a wide table can't push the
+  modal sideways), `h3`–`h5`, `pre`, and `hr`.
+
+## 2026-09-11 (2)
+
+**Call Summary** — category changed and copy revised, same day it shipped.
+
+- **`go-to-market.html`** — category `Call Intelligence` → **`Sales`** in both
+  `CATEGORIES` and the skill's `SKILLS` entry, on Rachel's call. Card summary
+  and `Perfect for` bullets rewritten in her words: Sales calls, Interviews,
+  Meetings, and any call that needs further alignment with other resources.
+- **`skills/call-summary/skill.md`** — the new card copy promised a Word doc
+  and artifact "that can be pushed directly into CRM," which the skill did not
+  do. Rather than soften the claim, the skill now produces it: a **CRM log**
+  section, a fenced plain-text block sized to paste into a CRM activity record
+  — date, attendees, summary, decisions, next steps as `Owner — action — due`,
+  and the page link. It exists because the record itself does not paste: an
+  activity field strips markdown, mangles tables, and truncates long text, so a
+  document written for a human reader lands there as noise. Where a CRM
+  connector is available the skill offers to write the activity directly, and
+  it asks first every time — logging to someone's system of record is not a
+  step to take unprompted.
+
+## 2026-09-11
+
+New skill on the Go-To-Market track: **Call Summary**, under a new
+**Call Intelligence** category.
+
+- **`skills/call-summary/skill.md`** — merges an AI notetaker's summary, the raw
+  transcript, and the user's own notes into one call record: participants with
+  organization and title, TL;DR, decisions made, open items with named owners, a
+  thematic notes summary, and a chronological outline of every topic in the order
+  it came up. Two passes are what distinguish it from a summarization prompt. It
+  cross-checks the questions the user planned to ask against what the transcript
+  shows was actually answered, sorting each into answered, partially answered, or
+  never asked. And it flags where the three sources disagree instead of quietly
+  picking the confident-sounding one — on the first real run, that caught a
+  company name that *both* notetaker outputs had wrong, in two different ways.
+- **`go-to-market.html`** — `SKILLS` entry, and `Call Intelligence` added to
+  `CATEGORIES`. The track's hero stats read off array length, so they follow.
+- **`index.html`** — Skills Available 10 → 11.
+
+Generated with `scripts/promote-skill.py` in the source repo, which was written
+for this promotion: it reduces the front-matter to the four keys Claude
+validates on upload and strips the `<!-- internal -->` blocks that carry
+filesystem paths and private working context. Previously the rule to use that
+script existed in `CLAUDE.md` but the script itself did not.
 
 ## 2026-09-04 (3)
 

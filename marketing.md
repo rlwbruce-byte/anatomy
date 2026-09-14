@@ -72,6 +72,24 @@ Perfect for:
 
 Download: https://gtmanatomy.ai/skills/build-brand-guidelines/skill.md (added 2026-07-29, updated 2026-07-29)
 
+## Campaign
+
+### Campaign Kit
+
+Give Claude one long-form asset — a report, ebook, whitepaper or webinar — plus your message guide or what the asset is meant to achieve, and it builds the whole campaign around it: the promotion and the follow-up. Landing page, confirmation page, five email tracks, newsletter module, three LinkedIn post types, SDR outreach and follow-ups, blog post, three ads, and an expansion track for existing customers. Every stat traces to a page of the source, and it tells you before it writes anything if the asset doesn’t actually serve the goal.
+
+Perfect for:
+
+- Launching a research report, ebook or whitepaper with more than a landing page and one email
+
+- Getting value out of a commissioned analyst study — usually the most expensive asset a company owns and the most underused
+
+- Relaunching an asset that underperformed, with a sharper message
+
+- Giving sales something to send that isn’t a product one-pager, plus the follow-up sequences to go with it
+
+Download: https://gtmanatomy.ai/skills/campaign-kit/skill.md (added 2026-09-10, updated 2026-09-11)
+
 ## GENERAL
 
 ### Marketing Audit

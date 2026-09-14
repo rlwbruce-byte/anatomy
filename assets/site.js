@@ -159,16 +159,45 @@ function mdList(block, markerRe){
   return items.map(i=>`<li>${mdInline(i)}</li>`).join('');
 }
 
+function mdTable(block){
+  // A pipe table: header row, a |---|---| separator, then body rows.
+  const rows = block.split('\n').filter(l => l.trim().startsWith('|'));
+  if(rows.length < 2 || !/^\|[\s:|-]+\|$/.test(rows[1].trim())) return null;
+  const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+  const head = cells(rows[0]).map(c=>`<th>${mdInline(c)}</th>`).join('');
+  const body = rows.slice(2).map(r=>
+    `<tr>${cells(r).map(c=>`<td>${mdInline(c)}</td>`).join('')}</tr>`).join('');
+  return `<div class="table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
 function mdToHtml(md){
+  // Pull fenced code out first so its contents are never parsed as markdown.
+  const fences = [];
+  md = md.replace(/```[^\n]*\n([\s\S]*?)```/g, (m, code) => {
+    fences.push(code.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'));
+    return '\u0000FENCE' + (fences.length - 1) + '\u0000';
+  });
   return md
     .split(/\n\n+/).map(block=>{
-      if(block.startsWith('## ')) return `<h2>${mdInline(block.slice(3))}</h2>`;
-      if(block.startsWith('# ')) return `<h1>${mdInline(block.slice(2))}</h1>`;
+      block = block.trim();
+      if(!block) return '';
+      const fence = block.match(/^\u0000FENCE(\d+)\u0000$/);
+      if(fence) return `<pre><code>${fences[+fence[1]]}</code></pre>`;
+      if(/^(-{3,}|\*{3,}|_{3,})$/.test(block)) return '<hr>';
+      if(block.startsWith('|')){
+        const table = mdTable(block);
+        if(table) return table;
+      }
+      const h = block.match(/^(#{1,5})\s+([\s\S]*)$/);
+      if(h){
+        const level = Math.min(h[1].length, 5);
+        return `<h${level}>${mdInline(h[2])}</h${level}>`;
+      }
       if(block.startsWith('> ')) return `<blockquote>${mdInline(block.replace(/^> ?/gm,''))}</blockquote>`;
       if(/^\d+\.\s/.test(block)) return `<ol>${mdList(block, /^\d+\.\s+/)}</ol>`;
-      if(/^-\s/.test(block)) return `<ul>${mdList(block, /^-\s+/)}</ul>`;
+      if(/^[-*]\s/.test(block)) return `<ul>${mdList(block, /^[-*]\s+/)}</ul>`;
       return `<p>${mdInline(block)}</p>`;
-    }).join('\n');
+    }).filter(Boolean).join('\n');
 }
 
 function initModal(){

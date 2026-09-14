@@ -55,3 +55,21 @@ Perfect for:
 - Feeding a living battlecard without manual upkeep
 
 Download: https://gtmanatomy.ai/skills/competitor-intelligence/skill.md (added 2026-07-15, updated 2026-07-21)
+
+## Sales
+
+### Call Summary
+
+Merges a notetaker's summary, the raw transcript, and your own notes into one call record with an easy to read structure. Org name and title, TL;DR, decisions, open items with owners, and a chronological outline of the topics covered. Cross-checks the questions you planned vs. what was answered, and flags inconsistencies. Generates a Word doc and artifact, plus a plain-text log block ready to paste into your CRM.
+
+Perfect for:
+
+- Sales calls
+
+- Interviews
+
+- Meetings
+
+- Any call that will require further alignment with other resources
+
+Download: https://gtmanatomy.ai/skills/call-summary/skill.md (added 2026-09-10, updated 2026-09-11)
