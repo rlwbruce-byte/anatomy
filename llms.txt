@@ -17,6 +17,12 @@ The company can be far bigger; the GTM team is what we size to.
 Founded by Rachel W Bruce after fifteen years building and leading marketing
 organizations in cybersecurity, AI, robotics, and technology distribution.
 
+## Status
+
+About, Offerings, the four offering pages and Contact are Coming Soon splash
+pages today. Home and the skills library are complete. Pricing is published on
+the home page.
+
 ## Core pages
 
 - [Home](https://gtmanatomy.ai/index.md): what GTM Anatomy is, the four offerings, and what the work means by role.

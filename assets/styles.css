@@ -432,3 +432,29 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
   .contact-wrap{ gap:32px; }
   .foundations{ columns:1; }
 }
+
+
+/* compact role tiles: title plus a single line, five across on wide screens */
+.persona-grid.compact{ grid-template-columns:repeat(auto-fit,minmax(186px,1fr)); gap:18px; }
+/* five roles, one row: auto-fit would leave the fifth stranded on its own line */
+@media (min-width:960px){ .persona-grid.compact{ grid-template-columns:repeat(5,1fr); } }
+.persona-tile.compact{ border-left:none; border-top:3px solid var(--amber); padding:20px 18px; }
+.persona-name{ font-family:var(--body); font-weight:600; font-size:13px; text-transform:uppercase;
+  letter-spacing:.045em; color:var(--ink); margin-bottom:10px; }
+.persona-tile.compact .persona-line{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); margin:0; flex-grow:0; }
+
+/* ---- Coming Soon splash pages ----
+   Used on About, Offerings and the four offering pages while their copy is
+   still being written. The real pages live in git history; see CLAUDE.md. */
+.soon-badge{ display:inline-block; font-family:var(--mono); font-size:11px; text-transform:uppercase;
+  letter-spacing:.14em; color:var(--amber); border:1px solid var(--amber); border-radius:2px;
+  padding:5px 12px; margin-top:16px; }
+.soon-body{ padding-top:56px; padding-bottom:64px; }
+.soon-card{ max-width:640px; background:var(--card); border:1px solid var(--paper-line);
+  border-top:3px solid var(--amber); border-radius:6px; padding:36px 34px 34px; }
+.soon-card .section-title{ margin-top:0; }
+.soon-card .section-lead{ font-size:15.5px; }
+.soon-card .form-note a{ color:var(--amber-deep); border-bottom:1px solid var(--amber-deep);
+  text-decoration:none; padding-bottom:1px; }
+.soon-card .form-note a:hover{ color:var(--ink); border-color:var(--ink); }
+@media (max-width:640px){ .soon-card{ padding:28px 22px; } .soon-body{ padding-top:40px; padding-bottom:48px; } }

@@ -2,6 +2,31 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-14 (8)
+
+Seven pages go to Coming Soon, and the role tiles are rebuilt.
+
+- **About, the Offerings hub, all four offering pages and Contact are now Coming
+  Soon splash pages.** Each carries the page name, a status badge, a one-line
+  summary of what is coming, and a single call to action. The offering splashes
+  keep their price and timeline chips, since those figures are already public on
+  Home. Their full versions are in git at `0b5f3a6` and CLAUDE.md records how to
+  restore one.
+- **Contact's splash carries a `mailto:` rather than a link to itself.** With the
+  contact page down, that email is the site's only working conversion path, which
+  is why it exists at all: every other splash points at `/contact.html`.
+- **Fixed stale footer links** in the shared page template, which still pointed at
+  `build-sprint.html` and `fractional-ai-gtm-partner.html` from before the rename.
+  These only surfaced now because the splash pages are generated from that
+  template. Every internal link on every page resolves.
+- **Role tiles rebuilt as compact tiles**: a title and one line each, no bullets.
+  Five sit in a single row above 960px, forced to five columns because auto-fit
+  stranded the fifth on its own line.
+- **Section retitled** "Different roles have different needs." Two edits on the
+  supplied lead: "doesn't" spelled out for consistency with the rest of the site,
+  and "our needs" changed to "the needs ... across your organization", since "we"
+  is the practice and "you" is the client.
+
 ## 2026-09-14 (7)
 
 Fourth pass: the skills library band.

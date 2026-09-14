@@ -84,53 +84,23 @@ Or try it free if you prefer to build yourself. Sharing is caring: GTM Anatomy p
 
 ## What it means to you
 
-### What this means in your role.
+### Different roles have different needs.
 
-The system is the same in every engagement. What it changes depends on what you are measured on.
+The system is the same in every engagement. That does not mean the needs are the same across your organization. Here is how GTM Anatomy supports different GTM roles.
 
-Good for founders and chief executives who are looking for pipeline from a flat headcount, and AI infrastructure that survives the next model release. You already have the tools. What you do not have is a system.
+Pipeline from a flat headcount, and AI infrastructure that survives the next model release.
 
-- One set of go-to-market foundations the whole team works from, agreed and written down.
+One operating system the team actually runs, instead of tool sprawl and one-off prompts.
 
-- Measured where you are measured: pipeline per head, customer acquisition cost (CAC), and go-to-market cost as a percent of new annual recurring revenue (ARR).
+Volume without losing differentiation, because the difference comes from your context.
 
-- Everything transfers to you at handover: architecture, skills, agents, and runbooks.
+Documented skills, clean integrations, and written runbooks you can actually operate.
 
-Good for revenue leaders who are looking for one operating system the team actually runs, instead of tool sprawl and one-off prompts. You own the outcome, not the architecture, and that is exactly why the architecture has to be someone's job.
-
-- One brand story, carried consistently by sales, marketing, and product.
-
-- A roadmap with sequencing and owners, so the team knows what ships first and why.
-
-- Measured in pipeline created, cycle time, and message consistency.
-
-Good for marketing leaders who are looking for volume without losing differentiation. Everyone has the same models, so the difference has to come from your context.
-
-- Your ICP, personas, messaging, differentiators, and proof points encoded once, then used by everyone every time.
-
-- Brand and answer engine optimization (AEO) audits that show where your owned and earned properties have drifted from the story you are telling now.
-
-- Measured in content throughput per person, and in consistency across every property.
-
-Good for marketing, sales, and revenue operations professionals who are looking for something they can actually operate. You will run what gets built, so it gets documented while it is being built.
-
-- Documented skills, clean integrations, and written runbooks, not a black box.
-
-- Standards for what agents may touch, which data they read, and who approves a change.
-
-- Measured in workflow uptime, data quality, rep adoption, and time to ship a new play.
-
-Good for operating partners and investors who are looking for a repeatable way to raise go-to-market efficiency across a portfolio. The foundations are the same at every company you back, which is what makes the read comparable.
-
-- A current-state read on a portfolio company's go-to-market foundations in two weeks.
-
-- AI spend tied to outcomes, with cost per outcome instrumented from the start rather than reconstructed later.
-
-- Each company owns its own infrastructure, so the value stays with the asset.
+A repeatable read on go-to-market efficiency across every company you back.
 
 ## Contact
 
-### Tell us what you are working on.
+### Tell us what you are working on
 
 The fastest start is a short call on where your go-to-market foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so.
 
