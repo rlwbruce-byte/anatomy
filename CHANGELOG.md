@@ -1,6 +1,68 @@
 # Changelog
 
 All notable changes to the site are recorded here, most recent first.
+## 2026-09-17 (5)
+
+About, second pass on review.
+
+- **Cut the third sentence of the hero statement.** It named the audience, which
+  the Who this is for section already does at length, and it was the sentence
+  fragment in an otherwise clean opener.
+- **Cut the "outside the work" close** and its `.founder-close` rule, now unused
+  and removed rather than left orphaned. The founder section ends on the bio.
+- **New CTA band.** Was "Start with a two-week Anatomy Scan" into the Scan page.
+  Now "Not sure where to get started? Let's chat." into `/contact.html#book` and
+  `/offerings/`. About is the only page that does not push the Scan: a reader who
+  has just met the practice is picking a direction, not an offering, so the band
+  offers the conversation and the menu instead. Noted as a deliberate exception
+  in the CLAUDE.md voice rules, which otherwise fix the primary call to action as
+  "Let's strategize".
+- Body copy now ~835 words.
+
+## 2026-09-17 (4)
+
+About, restructured around what a prospect actually needs to decide.
+
+The page was complete but long: ~1,270 words that read as an essay about the
+practice rather than an answer to the four questions a prospect brings to an
+About page. Who are you, do you understand my problem, why should I trust you,
+what makes your approach different. Rebuilt to that brief, at ~850 words
+including headings.
+
+- **Two sections cut.** The fourteen-step revenue-engine foundations climb and
+  the Vision + mission dark band. The climb's substance survives in one sentence
+  in Purpose, which already names the foundations; the "written down, or written
+  down and never agreed" insight that sat under it moved up into Purpose too.
+  The `.foundations` / `.foundation-item` CSS is left in place and unused. Both
+  sections are recoverable from `5c479c2`.
+- **Founder section rebuilt as the centrepiece**, at the length the credibility
+  question deserves. It now names employers, roles and figures: Continuous, Plus
+  One Robotics, Moogsoft through its acquisition by Dell, Very Good Security, and
+  a fourteen-person global team at Trustwave against a budget over $3.5M
+  delivering $9M in sourced pipeline, plus the nine-agent AI go-to-market system
+  built at Continuous. Every figure is from Rachel's own published career page;
+  nothing was invented, and the placeholder comment that stood in for this is
+  gone.
+- **Added `assets/rachel-bruce.jpg`**, the founder headshot, in a new
+  `.founder` grid: a 240px portrait beside the bio, stacking under 720px. The
+  only photograph on the site.
+- **Added a human close** above the CTA band, on a new `.founder-close` rule.
+  One sentence of person, one sentence handing off to the conversation.
+- **The founder section now sits on a light `.section-band`**, which is what
+  replaces the dark Vision band as the page's one change of ground before the
+  CTA. Two dark blocks back to back would have flattened the CTA.
+- **Voice unchanged.** The advice this was drafted against argues for "I" over
+  "we" on a founder-led practice. Rejected deliberately: the rest of the site is
+  "we", there is no include mechanism to keep a split voice honest, and the
+  founder section already carries the person. The line explaining the choice
+  stays in the copy.
+- **Positioning statement in the page header** now says who it is for, not just
+  what we do.
+- **Purpose, the four principles, and Who this is for tightened** rather than
+  cut. Who this is for keeps the "where we are not a fit" aside and the
+  1-to-100 nuance, in one sentence instead of a paragraph.
+- **Twins updated in the same commit**: `about.md`, the About block in
+  `llms-full.txt`, and the About line and founder line in `llms.txt`.
 
 ## 2026-09-17 (3)
 
@@ -37,6 +99,7 @@ New favicon, and the mark finally has a source.
 
 Untouched: `og-image.png`, which is built from the Anton wordmark rather than
 from this mark, and the `.md` twins, which carry no head metadata to mirror.
+
 
 ## 2026-09-17 (2)
 

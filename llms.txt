@@ -14,8 +14,10 @@ marketing, go-to-market, and GTM engineering. The Anatomy Scan fee credits into 
 Ideal customer: B2B technology start-ups and scale-ups, Series A through Series C,
 with go-to-market teams of 1 to 100 expected to produce like a much larger one.
 The company can be far bigger; the GTM team is what we size to.
-Founded by Rachel W Bruce after fifteen years building and leading marketing
-organizations in cybersecurity, AI, robotics, and technology distribution.
+Founded by Rachel W Bruce, who has spent more than fifteen years building and
+leading marketing organizations in cybersecurity, AI, robotics, FinTech, and
+technology distribution, at Continuous, Plus One Robotics, Moogsoft (acquired by
+Dell), Very Good Security, and Trustwave.
 
 ## Status
 
@@ -27,7 +29,7 @@ is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
 ## Core pages
 
 - [Home](https://gtmanatomy.ai/index.md): what GTM Anatomy is, the four offerings, and what the work means by role.
-- [About](https://gtmanatomy.ai/about.md): why the practice exists, the go-to-market foundations, how we work, and who it is for.
+- [About](https://gtmanatomy.ai/about.md): why the practice exists, how we work, who it is for, and the founder's background.
 - [Contact](https://gtmanatomy.ai/contact.md): book a strategy call or send a note.
 
 ## Offerings
