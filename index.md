@@ -30,11 +30,17 @@ GTM Anatomy aligns your team on those foundations, encodes them into an AI Opera
 
 Learn more about GTM Anatomy
 
-Align the foundations One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
+**Align the foundations**
 
-Encode them once Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
+One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
 
-Keep it learning Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
+**Encode them once**
+
+Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
+
+**Keep it learning**
+
+Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
 
 ## Offerings
 
@@ -64,7 +70,7 @@ Scoped project work against your roadmap. We ship skills and agents into the sys
 
 _Investment: Starting at $5,000_
 
-_Timeline: Timeline scoped per project_
+_Timeline: Scoped per project_
 
 ### Fractional Partner
 
@@ -106,7 +112,7 @@ Like a database, AI is only as good as the information we give it. Enable teams 
 
 **Investors**
 
-Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamline how Port Cos are leveraging AI and gain confidence in their operations.
+Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamline how portfolio companies are leveraging AI and gain confidence in their operations.
 
 ## Contact
 

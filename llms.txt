@@ -8,8 +8,8 @@
 Category: AI infrastructure for go-to-market teams.
 Tagline: Your brand. Your context. Your AI.
 Pricing is published: Anatomy Scan $5,000, typically delivered within two weeks.
-Anatomy OS $25,000, typically within three to six weeks. AI Sprint from $5,000,
-timeline scoped per project. Fractional Partner $8,500 per month, covering
+Anatomy OS $25,000, typically delivered within three to six weeks. AI Sprint starting at $5,000,
+scoped per project. Fractional Partner $8,500 per month, covering
 marketing, go-to-market, and GTM engineering. The Anatomy Scan fee credits into an Anatomy OS build.
 Ideal customer: B2B technology start-ups and scale-ups, Series A through Series C,
 with go-to-market teams of 1 to 100 expected to produce like a much larger one.
@@ -19,10 +19,10 @@ organizations in cybersecurity, AI, robotics, and technology distribution.
 
 ## Status
 
-About, Offerings and the four offering pages are Coming Soon splash pages today.
-Home, Contact and the skills library are complete. Pricing is published on the
-home page. Booking is live at https://calendly.com/d/d2kc-4rx-ksd and the company
-is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
+Every page is complete: Home, About, the Offerings hub and the four offering
+pages, Contact, and the skills library. Pricing is published on the home page and
+on the offerings hub. Booking is live at https://calendly.com/d/d2kc-4rx-ksd and
+the company is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
 
 ## Core pages
 
@@ -35,7 +35,7 @@ is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
 - [Offerings overview](https://gtmanatomy.ai/offerings/index.md): the four offerings in sequence and what every engagement includes.
 - [Anatomy Scan](https://gtmanatomy.ai/offerings/anatomy-scan.md): a two-week diagnostic of your go-to-market foundations and AI readiness, ending in a 90-day roadmap. $5,000, typically delivered within two weeks.
 - [Anatomy OS](https://gtmanatomy.ai/offerings/anatomy-os.md): the full build of an AI-native go-to-market operating system for your team. $25,000, typically delivered within three to six weeks.
-- [AI Sprint](https://gtmanatomy.ai/offerings/ai-sprint.md): scoped project work against your roadmap. Starting at $5,000, timeline scoped per project.
+- [AI Sprint](https://gtmanatomy.ai/offerings/ai-sprint.md): scoped project work against your roadmap. Starting at $5,000, scoped per project.
 - [Fractional Partner](https://gtmanatomy.ai/offerings/fractional-partner.md): a standing seat in marketing, go-to-market, or GTM engineering, or across all three. $8,500 per month, with hourly rates for project work.
 
 ## Claude skills library

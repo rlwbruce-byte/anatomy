@@ -2,6 +2,142 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (4)
+
+Contact page edits, from the page-by-page review.
+
+- **Lead copy replaced.** Now: "Fifteen to thirty minutes on where your
+  go-to-market (GTM) foundations stand today, and GTM Anatomy can best support
+  your AI-transformation and/or marketing goals."
+- **Removed "What it costs"** and the "See all four offerings" link from the
+  aside. Pricing lives on Home, the hub and the four offering pages; repeating
+  it on the booking page gave the visitor a figure to weigh at the moment they
+  were being asked to book.
+- **Removed the fit note** ("We are a fit for start-ups and scale-ups ...").
+  That was the only statement of the ideal customer on this page, so the ICP
+  now appears on Home, About and the hub but not on Contact.
+- **Email now goes to `rachel@gtmanatomy.ai`** rather than the personal Gmail
+  address. That was the only `mailto:` on the site.
+
+The aside is now just "What happens next" and its three steps, so both `<hr>`
+rules inside it went with the sections they separated.
+
+## 2026-09-17 (3)
+
+Consistency pass across all eleven pages.
+
+- **"Typically delivered within …" is now universal.** Thirty-four duration
+  mentions, zero bare ones. The five stragglers were the `llms.txt` pricing
+  line, the CLAUDE.md reference table, two one-pager pills, and the Anatomy Scan
+  call-to-action, which opened "Two weeks to an aligned set of foundations" and
+  so promised a flat window in prose. CLAUDE.md now says the rule applies in
+  prose too, not only in pills and tables.
+- **Structured data was on five pages of eleven.** Home carried `Organization`
+  and the four offering pages carried `Service`; About, Contact, the Offerings
+  hub, Getting started, Marketing and Sales carried none. All six now have a
+  block, typed to the page (`AboutPage`, `ContactPage`, `CollectionPage`,
+  `WebPage`), placed after the markdown `<link rel="alternate">` like the
+  existing ones. Descriptions are each page's own meta description, so no new
+  copy was written. The hub's also carries an `ItemList` of the four offerings.
+  All eleven parse.
+- Checked and already consistent: canonical and `og:url` on all eleven resolve
+  to their own page, navs and footers hash identically, and `theme-color` is
+  absent everywhere rather than on some pages.
+
+- **Added `scripts/make-review-artifact.py`.** Builds a self-contained review
+  copy of any page for publishing as an Artifact: inlines the stylesheet and
+  `site.js`, makes internal links absolute, and swaps the Calendly embed for a
+  marked stand-in, since an Artifact only runs scripts from a short allowlist
+  and Calendly's host is not on it. `site.js` is inlined where its tag sat, not
+  appended, or the page's own `setActiveNav` call runs before it exists. The
+  first pass also swallowed the "Calendar not loading?" fallback and two closing
+  divs, so the script now asserts that line survives.
+
+## 2026-09-17 (2)
+
+Offering-page pass, after the restore.
+
+- **Timeline wording reconciled.** The hub's `.price-table` read "Typically
+  within two weeks" while the offer cards directly above it read "Typically
+  delivered within two weeks." The locked wording is "Typically delivered
+  within …", so the table now matches. The AI Sprint pill read "Timeline scoped
+  per project," which is now "Scoped per project" like every other timeline
+  value.
+- **`about.html` was the only page whose h1 full stop was not wrapped** in
+  `<span>.</span>`, so it rendered in ink rather than amber. All five offering
+  pages already had it.
+- **The section divider no longer overhangs the page.** Unifying the caps moved
+  the rule, which was a border on the 1040px box, out to 80px on a 1280px
+  viewport while the text sat at 120px: it poked 40px left of the wordmark. The
+  rule is now an inset pseudo-element driven by a new `--gutter` token, so it
+  lands on the same line as the text and the two cannot drift. Verified on nine
+  pages at 1280, 640 and 375px.
+
+Checked and deliberately left alone: `.cta-band-title` carries no terminal
+punctuation on any of the six pages that use it, including the two that were
+already live. It is a call-to-action lead-in rather than a section heading, and
+the rule names `.section-title` and `.page-header h1`.
+
+## 2026-09-17
+
+The six Coming Soon pages come back. Every page on the site is now live.
+
+- **Restored About, the Offerings hub and the four offering pages** from their
+  archived versions at `0b5f3a6`. Not a verbatim restore: those versions predate
+  several decisions, so each page was reconciled against CLAUDE.md first.
+- **The archived nav still carried a Home item**, removed by the nav regroup in
+  `01a9da6`. Restoring verbatim would have shipped a nav on six pages that
+  disagreed with the other five. All eleven nav blocks now hash identically.
+- **The archived footer was missing the LinkedIn link** wired in `4c3be56`. Same
+  transplant, same check: all eleven footers now hash identically.
+- **`about.html` still sized the ideal customer at "2 to 200."** It was already a
+  splash page when the ICP was resized to 1 to 100, so it never got the edit, and
+  it was the only file on the site still carrying the old figure.
+- **"Full transfer at handover" in four places** did not carry the enablement
+  qualifier. Now "Yours at handover, following enablement."
+- **"GTM Operating System" in five places**, which the naming decision retired.
+  The three meta descriptions and the sequence lead now say Anatomy OS; the
+  remaining two describe the product rather than expanding the name.
+- **"a AI Sprint" in four places.** Now "an AI Sprint."
+- **Every `.placeholder-block` is commented out.** Four dashed amber panels
+  reading "PLACEHOLDER, PENDING CLIENT INPUT" would have rendered on public
+  offering pages. Commented, not deleted, matching how testimonials are held.
+  Verified in a real browser: no page renders any internal marker.
+
+- **Unified the two left edges.** `.section`, `.how` and `.skills-section` carry
+  their own 40px gutter, so their caps go to 1120px to match `.global-nav-inner`
+  and `.subnav-inner`. Every page now has one left edge: verified on all eleven
+  at 1440, 1280, 1024, 768, 375 and 320px.
+- **"Port Cos" is now "portfolio companies"** on the investor role tile.
+
+- **Added `CNAME`** containing `gtmanatomy.ai`. The custom domain lived only in
+  GitHub Pages repo settings, where a settings reset would have silently dropped
+  it and broken every root-relative asset path.
+
+- **Added `scripts/gen-md-twins.py` and `scripts/gen-llms-full.py`.** The twin
+  generator lived in the session scratchpad and did not survive it, which is how
+  the twins drift. The generator **refuses** `getting-started.html`,
+  `marketing.html` and `go-to-market.html`, whose cards are built client-side
+  from the `SKILLS` array: a static scrape empties those twins, and did, before
+  the guard went in.
+- `contact.md` regenerates byte-identical to the committed version, which is what
+  establishes the generator matches the existing convention rather than inventing
+  a new one.
+- **The role-tile fix generalized.** `index.md` now renders every `.spec-item`
+  label in bold instead of running the label into its paragraph, the same defect
+  that hid the role tiles from answer engines in September.
+
+- **Fixed a horizontal scroll at 320px** on Home and the Offerings hub.
+  `.offer-grid` used `minmax(340px,1fr)`, which cannot shrink below 340px, so the
+  offer cards pushed the page 40px wider than a small phone. Now
+  `minmax(min(340px,100%),1fr)`. Checked at 1440, 1280, 1024, 900, 375 and 320.
+- **"Timeline scoped per project" reads "Scoped per project"** in the two
+  `.offer-timeline` slots, which carry a "Timeline:" label in the markdown twin
+  and were rendering "Timeline: Timeline scoped per project" to answer engines.
+- **`llms.txt` Status block** now says every page is complete, and the pricing
+  summary says "starting at $5,000" to match the site.
+- **`sitemap.xml`** lastmod dates updated for the seven pages that changed.
+
 ## 2026-09-14 (17)
 
 - **Dropped "Or try it free if you prefer to build yourself."** from the skills

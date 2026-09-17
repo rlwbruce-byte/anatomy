@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTM Anatomy — one-pager</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root{
+    --graphite:#0B0E12; --graphite-mid:#14181D; --graphite-line:#262B31;
+    --amber:#F5A623; --amber-deep:#C2760D;
+    --paper:#faf6f2; --paper-dim:#f0ebe4; --paper-line:#E3DCCF;
+    --ink:#232323; --ink-soft:#5B564C; --card:#ffffff;
+    --mono:'IBM Plex Mono', monospace; --disp:'Anton', sans-serif; --body:'Space Grotesk', sans-serif;
+  }
+  @page{ size:letter; margin:0; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ background:var(--paper); }
+  body{ font-family:var(--body); color:var(--ink); -webkit-font-smoothing:antialiased; }
+  .sheet{ width:8.5in; height:11in; display:flex; flex-direction:column; overflow:hidden; background:var(--paper); }
+
+  /* ---- masthead ---- */
+  .top{ background:var(--graphite); color:var(--paper); padding:26px 46px 20px; position:relative; overflow:hidden;
+        border-bottom:3px solid var(--amber); flex-shrink:0; }
+  .top::before{ content:""; position:absolute; inset:0;
+    background-image:linear-gradient(var(--graphite-line) 1px, transparent 1px), linear-gradient(90deg, var(--graphite-line) 1px, transparent 1px);
+    background-size:34px 34px; opacity:.45; mask-image:linear-gradient(to bottom, black, transparent 85%); }
+  .top-in{ position:relative; display:flex; justify-content:space-between; align-items:flex-start; gap:24px; }
+  .wm{ font-family:var(--disp); font-size:37px; letter-spacing:.005em; line-height:1; }
+  .wm-a{ color:var(--amber); } .wm-b{ color:var(--paper); }
+  .descriptor{ font-family:var(--mono); font-size:9.5px; text-transform:uppercase; letter-spacing:.17em;
+               color:var(--amber); margin-top:9px; }
+  .statement{ font-family:var(--disp); font-size:25px; line-height:1.06; color:var(--paper); text-align:right; letter-spacing:.005em; }
+  .statement span{ color:var(--amber); }
+  .top-note{ position:relative; font-family:var(--mono); font-size:9.5px; color:#9A9388; margin-top:13px;
+             text-transform:uppercase; letter-spacing:.1em; }
+
+  /* ---- body ---- */
+  .main{ flex:1; padding:18px 46px 0; display:flex; flex-direction:column; }
+  .eyebrow{ font-family:var(--mono); font-size:9px; text-transform:uppercase; letter-spacing:.17em;
+            color:var(--amber-deep); display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .eyebrow::before{ content:""; width:16px; height:1px; background:var(--amber-deep); }
+  h2{ font-family:var(--body); font-weight:700; font-size:16px; letter-spacing:-.01em; margin-bottom:7px; }
+  h2 span{ color:var(--amber-deep); }
+  .lede{ font-size:10.4px; line-height:1.62; color:var(--ink-soft); max-width:7in; }
+  .lede strong{ color:var(--ink); font-weight:600; }
+  .block{ margin-bottom:12px; }
+
+  /* offerings */
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:11px; }
+  .card{ background:var(--card); border:1px solid var(--paper-line); border-top:2.5px solid var(--amber);
+         border-radius:4px; padding:11px 13px 10px; display:flex; flex-direction:column; }
+  .num{ font-family:var(--mono); font-size:8.5px; color:var(--amber-deep); letter-spacing:.14em; margin-bottom:5px; }
+  .name{ font-family:var(--disp); font-size:17.5px; text-transform:uppercase; letter-spacing:.01em; margin-bottom:5px; }
+  .desc{ font-size:9.5px; line-height:1.55; color:var(--ink-soft); flex-grow:1; }
+  .terms{ display:flex; gap:7px; margin-top:9px; padding-top:8px; border-top:1px solid var(--paper-line); flex-wrap:wrap; }
+  .term{ font-family:var(--mono); font-size:8.5px; letter-spacing:.02em; color:var(--ink);
+         background:var(--paper-dim); border:1px solid var(--paper-line); border-radius:2px; padding:3px 7px; }
+  .term.lead{ background:var(--graphite); color:var(--paper); border-color:var(--graphite); }
+
+  /* two-column lower band */
+  .cols{ display:grid; grid-template-columns:1.18fr 1fr; gap:26px; margin-top:3px; }
+  .specs{ list-style:none; margin-top:9px; }
+  .specs li{ position:relative; padding-left:15px; font-size:9.6px; line-height:1.5; color:var(--ink-soft); margin-bottom:6.5px; }
+  .specs li::before{ content:""; position:absolute; left:0; top:6px; width:6px; height:6px;
+                     border:1.4px solid var(--amber-deep); border-radius:1px; }
+  .specs b{ color:var(--ink); font-weight:600; }
+
+  /* ---- footer ---- */
+  .foot{ background:var(--graphite); color:var(--paper); padding:14px 46px; border-top:3px solid var(--amber);
+         display:flex; justify-content:space-between; align-items:center; gap:20px; margin-top:auto; flex-shrink:0; }
+  .cta{ font-family:var(--body); font-weight:700; font-size:16px; letter-spacing:-.01em; }
+  .cta span{ color:var(--amber); }
+  .cta .sub{ display:block; font-family:var(--mono); font-weight:400; font-size:9px; color:#9A9388;
+             text-transform:uppercase; letter-spacing:.11em; margin-top:5px; }
+  .contacts{ font-family:var(--mono); font-size:9.2px; line-height:1.85; text-align:right; color:#C9C4B8; }
+  .contacts b{ color:var(--amber); font-weight:500; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header class="top">
+    <div class="top-in">
+      <div>
+        <div class="wm"><span class="wm-a">GTM</span><span class="wm-b">Anatomy</span><span class="wm-a">.</span></div>
+        <div class="descriptor">AI infrastructure for go-to-market teams</div>
+      </div>
+      <div class="statement">Your brand. Your context.<br>Your AI<span>.</span></div>
+    </div>
+    <div class="top-note">Start-ups and scale-ups, Series A through Series C &middot; GTM teams of 1 to 100</div>
+  </header>
+
+  <main class="main">
+
+    <section class="block">
+      <div class="eyebrow">What we do</div>
+      <h2>There are no shortcuts<span>.</span></h2>
+      <p class="lede">The foundations that have always made a go-to-market (GTM) organization work are still
+      required, at every size and every stage: messaging, ideal customer profile (ICP) and personas,
+      differentiators, proof points, and buying signals. Most teams do not have them written down, or have them
+      and have not agreed on them. We align your team on those foundations, encode them into an AI-native
+      operating system tuned to your business, your brand, and your goals, and keep that system learning as the
+      brand evolves. <strong>You own it when it is done.</strong></p>
+    </section>
+
+    <section class="block">
+      <div class="eyebrow">The offerings</div>
+      <h2>Four ways to work with us<span>.</span></h2>
+      <p class="lede">Diagnose, build, operate, and continue to execute. Start with the Scan or go straight to a
+      build: the sequence is a recommendation, not a gate.</p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="num">01</div>
+          <div class="name">Anatomy Scan</div>
+          <p class="desc">A two-week diagnostic of your GTM foundations and your AI readiness. You leave with
+          foundations your team has agreed on, and a sequenced roadmap you can run with or without us. The fee
+          credits into an Anatomy OS build.</p>
+          <div class="terms"><span class="term lead">$5,000</span><span class="term">Typically delivered within two weeks</span></div>
+        </div>
+        <div class="card">
+          <div class="num">02</div>
+          <div class="name">Anatomy OS</div>
+          <p class="desc">The full build: an AI-native go-to-market operating system for your team, with your
+          context, your standards, and your governance written in. Yours at handover, following enablement.</p>
+          <div class="terms"><span class="term lead">$25,000</span><span class="term">Typically delivered within three to six weeks</span></div>
+        </div>
+        <div class="card">
+          <div class="num">03</div>
+          <div class="name">AI Sprint</div>
+          <p class="desc">Scoped project work against your roadmap. We ship skills and agents into the systems
+          your team already uses, documented, with the people who will run them trained on them.</p>
+          <div class="terms"><span class="term lead">Starting at $5,000</span><span class="term">Scoped per project</span></div>
+        </div>
+        <div class="card">
+          <div class="num">04</div>
+          <div class="name">Fractional Partner</div>
+          <p class="desc">A standing seat in marketing, go-to-market, and GTM engineering, as one seat or
+          several. We keep the system current, sequence the work, and say when and where AI makes sense.</p>
+          <div class="terms"><span class="term lead">$8,500 per month</span><span class="term">Ongoing</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cols">
+      <section>
+        <div class="eyebrow">Every engagement</div>
+        <h2>What is true in all four<span>.</span></h2>
+        <ul class="specs">
+          <li><b>Built from your material, never a template.</b> Your ICP, personas, messaging, differentiators,
+          and proof points are the input. If we cannot get them, we align the team on them first.</li>
+          <li><b>Yours at handover, following enablement.</b> Architecture, skills, agents, runbooks, and written
+          standards. There is no version of this where the system leaves when we do.</li>
+          <li><b>Measurement attached from the start.</b> Pipeline, cycle time, and cost per outcome,
+          instrumented while we build rather than reconstructed afterwards.</li>
+          <li><b>An honest answer about AI.</b> Not every task is a use case, and we will tell you which ones
+          are not.</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="eyebrow">Who this is for</div>
+        <h2>Lean teams, large expectations<span>.</span></h2>
+        <p class="lede">Start-ups and scale-ups in B2B technology, roughly Series A through Series C, with a
+        go-to-market team of 1 to 100. The company can be far larger: the GTM team is what we size to. The buyer
+        is usually a VP of marketing, a chief revenue officer (CRO), or a founder still carrying go-to-market
+        personally.</p>
+        <p class="lede" style="margin-top:9px">The shared condition is always the same: a lean team expected to
+        produce like a large one.</p>
+        <p class="lede" style="margin-top:9px"><strong>Try it before you talk to us.</strong> The Claude skills
+        library at gtmanatomy.ai is free, and runs the same method at a smaller scope.</p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="foot">
+    <div class="cta">Let's strategize<span>.</span>
+      <span class="sub">Fifteen to thirty minutes on where your GTM foundations stand today</span>
+    </div>
+    <div class="contacts">
+      <div><b>gtmanatomy.ai</b></div>
+      <div>calendly.com/d/d2kc-4rx-ksd</div>
+      <div>linkedin.com/company/gtm-anatomy-ai</div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
