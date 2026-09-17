@@ -1,6 +1,8 @@
 # GTM Anatomy — full site text
 
-Every page of GTMAnatomy.ai, concatenated. Generated 2026-09-14.
+Every page of GTMAnatomy.ai, concatenated. Generated 2026-09-17.
+
+---
 
 # GTM Anatomy — AI infrastructure for go-to-market teams
 
@@ -34,11 +36,17 @@ GTM Anatomy aligns your team on those foundations, encodes them into an AI Opera
 
 Learn more about GTM Anatomy
 
-Align the foundations One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
+**Align the foundations**
 
-Encode them once Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
+One agreed source of truth across sales, marketing, and product, in the words your team actually settled on.
 
-Keep it learning Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
+**Encode them once**
+
+Your context lives inside the system, so every output carries your differentiators instead of a model's defaults.
+
+**Keep it learning**
+
+Working files go stale. Your AI Operating System updates the foundations for you and with you as the brand moves.
 
 ## Offerings
 
@@ -68,7 +76,7 @@ Scoped project work against your roadmap. We ship skills and agents into the sys
 
 _Investment: Starting at $5,000_
 
-_Timeline: Timeline scoped per project_
+_Timeline: Scoped per project_
 
 ### Fractional Partner
 
@@ -124,7 +132,7 @@ Book a time directly, or send a note and we will reply. If you would rather see 
 
 # About — GTM Anatomy
 
-> GTM Anatomy aligns go-to-market teams on their foundations and builds the AI Operating System they run on. Full page coming soon.
+> GTM Anatomy aligns go-to-market teams on their foundations, encodes them into an AI Operating System the team owns, and keeps that system learning.
 
 Source: https://gtmanatomy.ai/about.html
 
@@ -132,21 +140,133 @@ Source: https://gtmanatomy.ai/about.html
 
 _About_
 
-# About.
+# There are no shortcuts.
 
-Why the practice exists, the go-to-market foundations we work through, how we work, and who it is for.
+The fundamentals that have always made a go-to-market (GTM) organization work are still required, at every size and every stage. We align your team on them, then build the AI infrastructure that uses them every day.
 
-### Coming soon.
+## Purpose
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+### Why GTM Anatomy exists.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+GTM Anatomy exists to give go-to-market teams AI infrastructure that is tuned to their business, their brand, and their goals.
+
+There are no shortcuts. The information that has always been required for a successful go-to-market team is still required: messaging, ideal customer profile (ICP) and personas, differentiators, proof points, competitors, and buying signals. If that information is not consistent across every person, and now every system, communicating about the business, the brand is not aligned. An unaligned brand loses the three things it cannot afford to lose: authority, credibility, and differentiation.
+
+Adopting AI without that underlying context is exactly how companies end up with AI-slop, content that sounds like everyone else in the market. Differentiate your business in your own context, and the work you do once is used every time your team leverages your AI Operating System.
+
+That is what we build. We align your team on the fundamentals, encode them into your AI Operating System, and keep that system learning as your brand evolves. Quite frankly, you are buying something you do not have the time or the expertise to build. AI is no longer something you try. It is a full-scale implementation, and it has to be done strategically, on a foundation strong enough to keep pace with how fast the technology is moving.
+
+> Do the foundational work once. Use it every time, with confidence.
+
+## The foundations
+
+### The anatomy of a revenue engine.
+
+The information that has always been required for a successful go-to-market organization is still required, at every size and every stage. We work through it in this order, because it is a climb and each step depends on the one below it.
+
+- Ideal customer profile (ICP)
+
+- Product category
+
+- Competitors, direct and indirect
+
+- Personas
+
+- Messaging
+
+- Differentiators
+
+- Proof points
+
+- Buying signals
+
+- Data quality
+
+- Customer relationship management (CRM)
+
+- Enrichment
+
+- Outbound process
+
+- Predictable pipeline
+
+- Then, and only then: can AI just do it?
+
+Two challenges show up in nearly every company we talk to. They do not have these foundations written down, or they have them and have not agreed on them. Either way, the team is not working from the same source of information, and that is where undifferentiated AI-slop comes from.
+
+The part that is ours is what happens after the alignment. The foundations do not just get agreed once. Your AI Operating System updates them for you and with you. If your brand has moved past the talking points still sitting on your website, we identify what the outside world sees, make the adjustments, and feed them back into the system. Every piece of content from that point forward is attuned to the new brand. The same system feeds audits and update projects, so you know when and where to fix your owned and earned properties, because in today's AI world, inconsistency gets counted against you.
+
+## How we work
+
+### Four things we hold to.
+
+**The foundation comes first**
+
+The fundamentals that have always made go-to-market work are still required, at every size and stage. Most companies do not have them, or do not agree on them. We align the team on the foundations before AI touches anything, and we decline briefs that ask us to automate what already exists.
+
+**Your context, not everyone's**
+
+Everyone has the same models. Differentiation comes from your context. We build your AI Operating System from your own material, never a template, so the work you do once is used every time, by everyone on the team.
+
+**A system that keeps learning**
+
+Working files go stale the day after they are written. Your AI Operating System updates the foundations with you, identifies where the outside world has drifted from the brand, and feeds audits and update projects across your owned and earned properties.
+
+**When and where AI makes sense**
+
+Not every task is an AI use case. AI costs are rising and the environmental impact is real. We tell you where AI earns its keep, build it so it is cost-effective at scale, and hand you infrastructure you own and can trust. Part of what you get is someone who will say "this is not a use case for AI."
+
+## Who this is for
+
+### Lean teams expected to punch above their weight.
+
+We work with start-ups and scale-ups in B2B technology, roughly Series A through Series C, with a go-to-market team of 1 to 100, with a go-to-market function that exists but is under-built for its ambition. The buyer is usually a VP of marketing, a chief revenue officer (CRO), or a founder still carrying go-to-market personally. The shared condition is always the same: a lean team expected to produce like a large one.
+
+Scale here means something specific. Your AI Operating System starts with the go-to-market team and scales across it, then across the rest of the organization, so every function that represents the brand is working from the same context. Scaling across the org is the outcome. Large enterprises are not the customer.
+
+There is a second group we see often: any go-to-market team stuck in ad-hoc AI. Stage matters less than the condition. People using AI like a search engine, foundations missing or unaligned, and output that sounds like everyone else. They usually find us through the free skills library.
+
+### Where we are not a fit
+
+- Pre-product or pre-revenue, with no go-to-market motion to build on.
+
+- Shopping for cheap outbound execution.
+
+- A brief of "just use AI," or "automate what we already do," from a team that will not do the foundational work.
+
+We would rather tell you that in the first call than in the third month.
+
+## Who is behind it
+
+### Founded by Rachel W Bruce.
+
+GTM Anatomy was founded by Rachel W Bruce after fifteen years building and leading marketing organizations in cybersecurity, AI, robotics, and technology distribution.
+
+The practice is the method she used to run those teams, rebuilt for what AI can now do. Frameworks over tools, systems over one-offs, and marketing that ties back to revenue and execution or does not get built. The brand speaks as "we" because the work is a system, not a personality.
+
+## Vision + mission
+
+### Where this goes.
+
+**Vision**
+
+Go-to-market organizations that are AI-native and aligned: one brand story, one set of talking points, carried consistently by sales, marketing, product, and every AI system that represents the business, across the whole team and, in time, the entire organization.
+
+**Mission**
+
+Give start-ups and scale-ups the confidence to leverage AI to punch above their weight.
+
+Alignment across sales, marketing, and product has always been the priority. AI raises the stakes, because the story is no longer told only by people. It is generated, at volume, by systems. When the context and intelligence behind those systems are tuned to the business, teams execute with confidence and efficiency, and AI-slop is simply not what comes out.
+
+Efficiency without getting bogged down in the build or overwhelmed by the pace of the technology. Ownership of your AI infrastructure, with confidence in what it produces. And a trusted advisor and technology partner who will tell you when and where AI makes sense, and when it does not.
+
+You leave with foundations your team has agreed on and a sequenced roadmap, whether or not you build with us.
 
 ---
 
 # Offerings — GTM Anatomy
 
-> Four ways to work with GTM Anatomy: the Anatomy Scan, Anatomy OS, an AI Sprint, and a Fractional Partner. Full page coming soon.
+> Four ways to work with GTM Anatomy: the Anatomy Scan, Anatomy OS, an AI Sprint, and a Fractional Partner. Everything we build is yours.
 
 Source: https://gtmanatomy.ai/offerings/
 
@@ -154,21 +274,90 @@ Source: https://gtmanatomy.ai/offerings/
 
 _Offerings_
 
-# Offerings.
+# Four ways to work with GTM Anatomy.
 
-The four ways to work with GTM Anatomy, what each one includes, and what each one costs. Pricing is on the home page today.
+There are four ways to work with GTM Anatomy: diagnose, build, operate, and continue to execute. Start where you actually are, stop after any one of them, and take everything we build with you.
 
-### Coming soon.
+## The sequence
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+### Diagnose, build, operate, continue to execute.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+Each offering produces the input for the next one. The Anatomy Scan produces a roadmap. An AI Sprint ships the top of that roadmap. Anatomy OS is the full build with the standards and governance around it. The Fractional Partner keeps all of it true as the business changes.
+
+### Anatomy Scan
+
+A two-week diagnostic of your go-to-market (GTM) organization as it actually operates today. We map the current state, align your team on the foundations underneath it, score 15 to 20 opportunities where AI would earn its keep, and hand you a 90-day roadmap. Diagnosis before prescription, and no obligation to build.
+
+_Investment: $5,000_
+
+_Timeline: Typically delivered within two weeks_
+
+### Anatomy OS
+
+The complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working. Anatomy OS is the name. What you are buying is an AI-native go-to-market operating system, architected to start with your GTM team and scale across the organization.
+
+_Investment: $25,000_
+
+_Timeline: Typically delivered within three to six weeks_
+
+### AI Sprint
+
+Scoped project work against your roadmap. We build the skills, agents, and workflows from your own material, inside the systems your team already uses, and hand over the runbooks with them. Price and duration both follow the scope and the complexity, and we agree them before you commit.
+
+_Investment: Starting at $5,000_
+
+_Timeline: Scoped per project_
+
+### Fractional Partner
+
+A standing seat in marketing, go-to-market, and/or GTM engineering, or an extra set of hands where your team needs AI-first support. We keep the system current, run the brand and answer engine optimization (AEO) audits that show where your properties have drifted, sequence the update projects, and give you a direct answer whenever the question is whether AI belongs in a given task. Hourly rates are available for project-shaped work.
+
+_Investment: $8,500 per month_
+
+_Timeline: Ongoing_
+
+## Every engagement
+
+### What is true in all four.
+
+**Built from your material, never a template**
+
+Your ideal customer profile (ICP), personas, messaging, differentiators, and proof points are the input. If we cannot get them, we align the team on them first.
+
+**Yours at handover, following enablement**
+
+Architecture, skills, agents, runbooks, and written standards. There is no version of this where the system leaves when we do.
+
+**Measurement attached from the start**
+
+Pipeline, cycle time, and cost per outcome, instrumented while we build rather than reconstructed afterwards.
+
+**An honest answer about AI**
+
+Where it earns its keep, and where it does not. Not every task is a use case, and we will tell you which ones are not.
+
+## Investment
+
+### What each one costs.
+
+Published, because you should not have to book a call to find out whether we are in your range. The Anatomy Scan is fixed. Anatomy OS is fixed. AI Sprints are scoped, and the partnership is monthly.
+
+| Offering | Investment | Timeline | How it works |
+| --- | --- | --- | --- |
+| Anatomy Scan | $5,000 | Typically within two weeks | Fixed engagement. The fee credits into an Anatomy OS build if you go on. |
+| Anatomy OS | $25,000 | Typically within three to six weeks | Where it lands in that range depends on how fast intake comes back and how quickly we get through the sprint sessions. |
+| AI Sprint | Starting at $5,000 | Scoped per project | Price and duration follow the scope and the complexity. Both are agreed before you commit. |
+| Fractional Partner | $8,500 per month | Ongoing | One seat or several: marketing, go-to-market, GTM engineering. Hourly rates available where the work is project-shaped. |
+
+Start the Anatomy Scan and the $5,000 fee credits into the $25,000 Anatomy OS build, so the diagnostic costs you nothing if you go on to build. If you do not, the roadmap is still yours and you can run it with an internal team or another partner.
+
+That is usually the answer to a short call, not to a page. Tell us where the go-to-market team is today and we will tell you where to start.
 
 ---
 
 # Anatomy Scan — GTM Anatomy
 
-> A two-week diagnostic of your go-to-market foundations and AI readiness. $5,000. Full page coming soon.
+> A two-week diagnostic of your go-to-market foundations and AI readiness. You leave with aligned foundations, scored opportunities, and a 90-day roadmap.
 
 Source: https://gtmanatomy.ai/offerings/anatomy-scan.html
 
@@ -178,7 +367,7 @@ _Offering 01_
 
 # Anatomy Scan.
 
-A two-week diagnostic of your go-to-market foundations and your AI readiness, ending in a roadmap you can run with or without us.
+A two-week diagnostic of your go-to-market (GTM) foundations and your AI readiness, ending in a roadmap you can run with or without us.
 
 _$5,000_
 
@@ -186,17 +375,79 @@ _Typically delivered within two weeks_
 
 _Fee credits into the build_
 
-### Coming soon.
+## What it is
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+The Anatomy Scan is a two-week engagement that maps your go-to-market organization as it actually operates today, aligns your team on the foundations underneath it, and scores the opportunities where AI would earn its keep.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+It is diagnosis before prescription. We do not build anything during the Scan, and you are not committed to building anything after it. What you own at the end is a picture of the current state that your team agrees with, and a sequence for what to do about it.
+
+## Why it exists
+
+Two challenges show up in nearly every company we talk to. Either the foundations are not written down, or they are written down and sales, marketing, and product each carry a different version.
+
+Both produce the same result once AI is in the workflow: output that is faster, louder, and less differentiated than what came before it. AI does not create alignment. It scales whatever you feed it. The Scan is how we make sure what you feed it is right, and how we find out where AI belongs in your motion before anyone spends money building it.
+
+## What you get
+
+### Inside the engagement.
+
+**A current-state map**
+
+Your go-to-market organization as it operates today: team, motion, systems, data quality, and where AI is already in use, including the places nobody has told you about.
+
+**Aligned foundations**
+
+Ideal customer profile (ICP), personas, messaging, differentiators, proof points, competitors, and buying signals, agreed across sales, marketing, and product and written in the words the team settled on.
+
+**15 to 20 scored opportunities**
+
+Ranked by impact, effort, and cost, so the argument for sequencing is on the page rather than in someone's head.
+
+**A 90-day roadmap**
+
+With sequencing, owners, and the measurement attached to each move.
+
+**A written read on when and where AI makes sense**
+
+In your motion specifically, including the places it does not.
+
+**A working session**
+
+We walk your team through all of it, together, because a roadmap nobody has argued with is not aligned.
+
+## Why you need it
+
+You are about to spend real money on AI. The question is not whether the tools work. It is whether the context underneath them is right, and whether the sequence is right.
+
+A roadmap built on foundations your team has actually agreed to is the difference between infrastructure and expensive experimentation. If you go on to build, the Anatomy Scan fee credits into the build. If you do not, the roadmap is still yours, and you can run it with an internal team or another partner.
+
+## Proof points and ROI
+
+### What we hold ourselves to.
+
+- Scoped to two weeks, so the decision it informs is not held up for a quarter.
+
+- Every opportunity is scored, so the roadmap is defensible to a board, an operating partner, or a finance review.
+
+- Measurement is attached at the roadmap stage: pipeline, cycle time, and cost per outcome, not added afterwards.
+
+- We decline "automate what we already do" briefs, and we hold the roadmap to the same standard.
+
+## Sample
+
+Every Anatomy Scan ends in one document. It opens with the current-state map, moves to the aligned foundations in the words your team agreed on, then the scored opportunity register, then the 90-day roadmap. The last section is the honest one: where AI does not belong in your motion yet, and why.
+
+If you want to see how the thinking works before you commit, the free skills library runs the same method at a smaller scope. Run the Marketing Audit or the Company Identity Builder on your own company and read what comes back.
+
+Try a skill on your own company →
+
+Two weeks to an aligned set of foundations and a roadmap you own. If it is not the right next step, we will tell you what is.
 
 ---
 
 # Anatomy OS — GTM Anatomy
 
-> An AI-native go-to-market operating system built for your team. $25,000. Full page coming soon.
+> Anatomy OS is an AI-native go-to-market operating system, built for your business. Your context, your standards, and your governance, written in and handed over.
 
 Source: https://gtmanatomy.ai/offerings/anatomy-os.html
 
@@ -206,7 +457,7 @@ _Offering 02_
 
 # Anatomy OS.
 
-The full build. An AI-native go-to-market operating system for your team, with your context, your standards, and your governance written in.
+The full build. We architect and implement an AI-native go-to-market operating system for your team, with your context, your standards, and your governance written into it.
 
 _$25,000_
 
@@ -214,17 +465,83 @@ _Typically delivered within three to six weeks_
 
 _Yours at handover, following enablement_
 
-### Coming soon.
+## What it is
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+Anatomy OS is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+Anatomy OS is what we call it. What you are buying is an AI-native go-to-market operating system, tuned to your business, your brand, and your goals.
+
+It starts with the go-to-market (GTM) team, because that is where the pressure is, and it is architected to scale across the rest of the organization, so every function that represents the brand is eventually working from the same context. The system we hand over is called your AI Operating System, and it is yours.
+
+## Why it exists
+
+Two years ago, leveraging AI meant opening a browser and experimenting. Today it is a full-scale implementation: infrastructure, context, skills, agents, governance, and cost.
+
+It has to be done strategically, on a foundation strong enough to evolve with the pace of the technology, by people who know when and where AI makes sense and when it does not. Very few go-to-market teams have the time or the in-house expertise to architect that. The ones that try tend to end up with a folder of working files that went stale the day after they were written.
+
+## What you get
+
+### Inside the engagement.
+
+**An architecture for your AI infrastructure**
+
+Where context lives, what reads it, how it stays current, and what happens when the model underneath changes.
+
+**Your foundations as the source of truth**
+
+Ideal customer profile (ICP), personas, messaging, differentiators, proof points, and buying signals, encoded once and drawn on by every skill and agent in the system.
+
+**The skills and agents your team runs daily**
+
+Built from your material and integrated into your stack, with runbooks for each.
+
+**Written AI operating standards and governance**
+
+What agents may touch, which data they read, who approves a change, and what the review cadence is. Something finance and security can actually read.
+
+**Measurement, instrumented from the start**
+
+Pipeline, cycle time, and cost per outcome, attached while we build rather than reconstructed at the board meeting.
+
+**Yours at handover, following enablement**
+
+Architecture, skills, agents, runbooks, and standards, handed over once your team is enabled on them. You own all of it.
+
+## Why you need it
+
+A lean go-to-market team is expected to produce like a large one. That is only possible if the work you do once is used every time, by everyone, without being re-explained.
+
+That is what an operating system is. The alternative is what most teams have right now: the same models everyone else has, pointed at context nobody has agreed on, producing more of what the market already sounds like, faster. Humans and AI working as one system is bigger than the sum of its parts. Humans and AI working from different versions of the story is just louder.
+
+## Proof points and ROI
+
+### What we hold ourselves to.
+
+- Built from your own material, never a template, so the differentiation is structural rather than editorial.
+
+- Standards and governance are written down, so security and finance have something to review rather than a demo to trust.
+
+- Instrumented for cost per outcome, because AI costs are rising and not every task is a use case.
+
+- Everything transfers, once your team is enabled on it. There is no version of this where the system leaves when we do.
+
+## Sample
+
+The handover contains an architecture document, the context repository holding your foundations, the skill and agent library with a runbook for each, the written operating standards, and the measurement plan.
+
+It is the same shape whether the go-to-market team is six people or sixty. What changes is how many workflows are in it on day one, and how much of the organization it is architected to reach.
+
+Typically delivered within three to six weeks. Where a build lands in that range depends on how quickly your team turns around intake and how fast we can get through the sprint sessions together.
+
+The Anatomy Scan sizes this →
+
+The Anatomy Scan sizes the build and the roadmap sequences it. Start there, and the $5,000 fee credits into the $25,000 build.
 
 ---
 
 # AI Sprint — GTM Anatomy
 
-> Scoped project work against your go-to-market roadmap. Starting at $5,000. Full page coming soon.
+> Scoped project work against your go-to-market roadmap, shipped into your stack and documented so your team can run it. Priced by scope, starting at $5,000.
 
 Source: https://gtmanatomy.ai/offerings/ai-sprint.html
 
@@ -234,25 +551,85 @@ _Offering 03_
 
 # AI Sprint.
 
-Scoped project work against your roadmap, shipped into the systems your team already uses and documented so they can run it.
+Scoped project work against your roadmap, shipped into the systems your team already uses and documented so they can run it without us. Priced by scope and complexity.
 
 _Starting at $5,000_
 
 _Timeline scoped per project_
 
-_Full transfer at handover_
+_Yours at handover, following enablement_
 
-### Coming soon.
+## What it is
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+An AI Sprint takes the top of your roadmap and ships it.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+We build the skills, agents, and workflows against your own context, inside the systems your team already runs, and we hand over the documentation with them. A Sprint is scoped to a defined set of outcomes rather than to an open-ended engagement, which is what makes the cost knowable before it starts.
+
+Price and duration vary by scope and complexity, and start at $5,000. We scope both before you commit to either.
+
+## Why it exists
+
+Most go-to-market (GTM) teams do not stall on AI because they picked the wrong tool. They stall because nobody owns the build.
+
+The person who could do it already has a full-time job. The prompt that worked brilliantly once lives in someone's notes app and nobody else knows it exists. The roadmap is agreed and then it waits. An AI Sprint puts a defined block of build time against a defined set of outcomes, with your context in it from the first line.
+
+## What you get
+
+### Inside the engagement.
+
+**Working skills and agents**
+
+Built from your material, never a template, so the output carries your differentiators and your proof points.
+
+**Integration into your stack**
+
+Inside the systems the team already runs, with clean handoffs between them rather than a parallel process nobody adopts.
+
+**Written runbooks**
+
+How each one is used, what it expects as input, and what good output looks like, so the work survives the person who commissioned it.
+
+**Training for the operators**
+
+A session with the people who will actually run this, not a recording sent to a distribution list.
+
+**A post-sprint review**
+
+What shipped, what it changed, what it cost, and what should come next.
+
+## Why you need it
+
+A roadmap that nobody builds is a document.
+
+The value of the foundations shows up the first time a rep, a marketer, or an operator uses the system and gets output that sounds like your company instead of everyone else's. A Sprint is how you get to that moment in weeks rather than quarters, without hiring for it, and without the person who understands it leaving with the knowledge in their head.
+
+## Proof points and ROI
+
+### What we hold ourselves to.
+
+- Built from your own material, so the differentiation is structural rather than editorial.
+
+- Documented at the point of build, which is the only point at which documentation actually gets written.
+
+- Scoped to outcomes, so cost per outcome is knowable before we start rather than after.
+
+- Measured in time to ship a new play, and in throughput per person on the team that runs it.
+
+## Sample
+
+What ships in a Sprint is a set of working assets, each with a runbook: the skill or agent itself, the context it draws on, the systems it touches, the input it expects, and an example of correct output.
+
+The free skills library is the public version of exactly this work. Every skill there was built the same way, from a real workflow, written down and packaged so someone else can run it. Download one and look at the structure.
+
+See how a skill is built →
+
+Whether the work follows an Anatomy OS build or stands on its own, we scope the price and the timeline before you commit.
 
 ---
 
 # Fractional Partner — GTM Anatomy
 
-> A standing seat in marketing, go-to-market, and GTM engineering. $8,500 per month. Full page coming soon.
+> Ongoing support across marketing, go-to-market, and GTM engineering. We keep your system current, sequence the audits and update projects, and say where AI fits.
 
 Source: https://gtmanatomy.ai/offerings/fractional-partner.html
 
@@ -262,7 +639,7 @@ _Offering 04_
 
 # Fractional Partner.
 
-A standing seat in marketing, go-to-market, and/or GTM engineering, or an extra set of hands where your team needs AI-first support.
+A standing seat in marketing, go-to-market, and/or GTM engineering. We keep the system current, sequence the work, and tell you when and where AI makes sense. Or provide an extra set of hands where your team needs AI-first support.
 
 _$8,500 per month_
 
@@ -270,11 +647,85 @@ _Ongoing_
 
 _Hourly rates for project work_
 
-### Coming soon.
+## What it is
 
-This page is being written. In the meantime, tell us what your go-to-market team is working on and we will answer directly, in full, without waiting for the page to ship.
+A standing seat on your team. Where that seat sits depends on where the gap is.
 
-Already want to see the work? The skills library is live and free. Getting Started →
+Marketing. Positioning, messaging, campaign architecture, content operations, and the brand and answer engine optimization (AEO) audits that show where your properties have drifted from the story you are telling now.
+
+Go-to-market. Pipeline strategy, segmentation, sales and marketing alignment, and the operating cadence that keeps the three functions working from one source of truth.
+
+GTM engineering. The build itself: skills, agents, integrations, data quality, and the standards that say what those agents may touch. This is the seat most teams cannot hire for, because the role barely existed two years ago.
+
+Take one, take two, or take all three. We keep your AI Operating System current as the brand, the product, and the market move, and you get a trusted advisor and technology partner who has sat in the operating chair, not a support queue.
+
+## Why it exists
+
+Working files go stale. So do messaging documents, and so does a system nobody tends.
+
+Brands move faster than their websites. The talking points on your site are usually a version or two behind the story your best rep is already telling. In today's AI world, that inconsistency gets counted against you, because the systems answering questions about your company read your properties, not your intentions.
+
+## What you get
+
+### Inside the engagement.
+
+**A seat where you need it**
+
+Marketing, go-to-market, GTM engineering, or a blend. We scope which one, or which mix, at the start and adjust as the business moves.
+
+**A recurring working cadence**
+
+With the team that actually runs the system, not a quarterly steering committee. Set at the start of the engagement and adjusted as the business demands.
+
+**Foundations kept current**
+
+When the story changes, the system changes with it, and every output from that point forward is attuned to the new brand.
+
+**Brand and AEO audits**
+
+Answer engine optimization (AEO) audits that show how the outside world, and the AI systems reading it, currently describe you.
+
+**Update projects sequenced by property**
+
+With owners and effort attached, so the backlog is a plan rather than a list.
+
+**New skills and agents as the motion changes**
+
+Built the same way, from your material, documented on delivery.
+
+**A direct answer on AI**
+
+Whenever the question is whether AI belongs in a given task, you get one, including "no."
+
+## Why you need it
+
+The build is the beginning. What determines whether the investment holds is whether somebody is accountable for keeping the context true.
+
+Most teams do not have the headcount for that role, and honestly, it is not a full-time job. GTM engineering is the sharpest version of the problem: the skills are scarce, the salaries are high, and the work is lumpy. This is the shape that fits: enough time to keep the system honest, enough distance to tell you the truth about it.
+
+Ongoing support runs at $8,500 per month. Hourly rates are available where the work is project-shaped rather than continuous.
+
+## Proof points and ROI
+
+### What we hold ourselves to.
+
+- The system updates the foundations for you and with you, so the context does not decay between projects.
+
+- Audits run against your owned and earned properties, so drift is found by us before it is found by a buyer.
+
+- AI spend stays tied to outcomes, with cost per outcome reviewed on the same cadence as the work.
+
+- Measured in message consistency, time to ship a new play, and spend predictability.
+
+## Sample
+
+A typical month has a working session with the team, one audit or update project moving, at least one new or revised skill in the system, and a written review of what changed and what it cost.
+
+That is the $8,500 monthly engagement. Where the work is project-shaped rather than continuous, we quote it hourly instead.
+
+How we work →
+
+Whether we built it or you did, the work is the same: keep the context current and keep the spend honest.
 
 ---
 

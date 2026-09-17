@@ -301,7 +301,7 @@ footer a{ color:var(--amber-deep); text-decoration:underline; }
 
 /* offering cards */
 /* four offerings read as a sequence, so they sit 2x2 rather than 3 + 1 */
-.offer-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:22px; margin-top:30px; }
+.offer-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr)); gap:22px; margin-top:30px; }
 .offer-card{ background:var(--card); border:1px solid var(--paper-line); border-top:3px solid var(--amber); border-radius:6px;
   padding:26px 24px; display:flex; flex-direction:column; transition:border-color .15s ease; }
 .offer-card:hover{ border-top-color:var(--amber-deep); }
