@@ -1059,7 +1059,7 @@ _Contact_
 
 # Let's chat.
 
-Fifteen to thirty minutes on where your go-to-market (GTM) foundations stand today, and whether an Anatomy Scan is the right next step. If it is not, we will say so and tell you what would be.
+Fifteen to thirty minutes on where your go-to-market (GTM) foundations stand today, and GTM Anatomy can best support your AI-transformation and/or marketing goals.
 
 ## Book a time
 
@@ -1082,9 +1082,3 @@ Email goes straight to Rachel and we reply to everything. No sequence, no drip. 
 - A short call on the motion, the team, and the pressure you are under right now.
 
 - If an Anatomy Scan fits, we scope it. If it does not, we tell you what would.
-
-### What it costs
-
-The Anatomy Scan is $5,000, typically delivered within two weeks, and the fee credits into an Anatomy OS build.
-
-We are a fit for start-ups and scale-ups in B2B technology with go-to-market teams of 1 to 100. If that is not you, say so anyway and we will point you somewhere useful.

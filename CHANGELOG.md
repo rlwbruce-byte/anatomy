@@ -2,6 +2,26 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (4)
+
+Contact page edits, from the page-by-page review.
+
+- **Lead copy replaced.** Now: "Fifteen to thirty minutes on where your
+  go-to-market (GTM) foundations stand today, and GTM Anatomy can best support
+  your AI-transformation and/or marketing goals."
+- **Removed "What it costs"** and the "See all four offerings" link from the
+  aside. Pricing lives on Home, the hub and the four offering pages; repeating
+  it on the booking page gave the visitor a figure to weigh at the moment they
+  were being asked to book.
+- **Removed the fit note** ("We are a fit for start-ups and scale-ups ...").
+  That was the only statement of the ideal customer on this page, so the ICP
+  now appears on Home, About and the hub but not on Contact.
+- **Email now goes to `rachel@gtmanatomy.ai`** rather than the personal Gmail
+  address. That was the only `mailto:` on the site.
+
+The aside is now just "What happens next" and its three steps, so both `<hr>`
+rules inside it went with the sections they separated.
+
 ## 2026-09-17 (3)
 
 Consistency pass across all eleven pages.
