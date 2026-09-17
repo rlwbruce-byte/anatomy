@@ -104,10 +104,12 @@ go-to-market operating system — that phrasing carries the meaning, the name
 carries the brand. Do not expand the name into "GTM Operating System" or
 "Anatomy Operating System" in copy.
 
-Pricing is published, and lives in four places that must stay in step: the
+Pricing is published, and lives in five places that must stay in step: the
 `OFFERS` array in the Home generator output, the `HUB_OFFERS` cards and the
 `.price-table` on `offerings/index.html`, the `.pill-row` on each offering page,
-and the pricing lines in `llms.txt`. Current figures:
+the pricing lines in `llms.txt`, and the four `.terms` rows in
+`one-pager/one-pager.html`. Re-run `python3 one-pager/build.py` after changing
+that last one. Current figures:
 
 | Offering | Investment | Timeline |
 | --- | --- | --- |
