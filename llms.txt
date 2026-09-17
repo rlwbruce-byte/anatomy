@@ -8,7 +8,7 @@
 Category: AI infrastructure for go-to-market teams.
 Tagline: Your brand. Your context. Your AI.
 Pricing is published: Anatomy Scan $5,000, typically delivered within two weeks.
-Anatomy OS $25,000, typically within three to six weeks. AI Sprint starting at $5,000,
+Anatomy OS $25,000, typically delivered within three to six weeks. AI Sprint starting at $5,000,
 scoped per project. Fractional Partner $8,500 per month, covering
 marketing, go-to-market, and GTM engineering. The Anatomy Scan fee credits into an Anatomy OS build.
 Ideal customer: B2B technology start-ups and scale-ups, Series A through Series C,

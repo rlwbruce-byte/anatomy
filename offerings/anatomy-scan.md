@@ -84,4 +84,4 @@ If you want to see how the thinking works before you commit, the free skills lib
 
 Try a skill on your own company →
 
-Two weeks to an aligned set of foundations and a roadmap you own. If it is not the right next step, we will tell you what is.
+Typically delivered within two weeks, ending in an aligned set of foundations and a roadmap you own. If it is not the right next step, we will tell you what is.

@@ -118,8 +118,8 @@ that last one. Current figures:
 
 | Offering | Investment | Timeline |
 | --- | --- | --- |
-| Anatomy Scan | $5,000 | Two weeks |
-| Anatomy OS | $25,000 | Three to six weeks |
+| Anatomy Scan | $5,000 | Typically delivered within two weeks |
+| Anatomy OS | $25,000 | Typically delivered within three to six weeks |
 | AI Sprint | Starting at $5,000 | Scoped per project |
 | Fractional Partner | $8,500 per month | Ongoing |
 
@@ -206,7 +206,10 @@ timelines. Where the layout calls for one we do not have, it is marked in place:
 a dashed `.tbd` chip for unpublished figures, a `.placeholder-block` panel for
 proof-point and ROI sections, and an HTML comment for the founder biography and
 every testimonial. Prices and timelines are no longer pending — they are
-published, listed above.
+published, listed above. **Timelines are always written "Typically delivered
+within …", never as a flat duration**, so delivery speed can change without the
+copy having promised a fixed window. That applies in prose too, not just in
+pills and tables.
 
 **Every `.placeholder-block` is commented out**, as of the 2026-09-17 restore.
 They were live panels reading "PLACEHOLDER, PENDING CLIENT INPUT" in a dashed

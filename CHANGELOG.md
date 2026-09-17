@@ -2,6 +2,28 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (3)
+
+Consistency pass across all eleven pages.
+
+- **"Typically delivered within …" is now universal.** Thirty-four duration
+  mentions, zero bare ones. The five stragglers were the `llms.txt` pricing
+  line, the CLAUDE.md reference table, two one-pager pills, and the Anatomy Scan
+  call-to-action, which opened "Two weeks to an aligned set of foundations" and
+  so promised a flat window in prose. CLAUDE.md now says the rule applies in
+  prose too, not only in pills and tables.
+- **Structured data was on five pages of eleven.** Home carried `Organization`
+  and the four offering pages carried `Service`; About, Contact, the Offerings
+  hub, Getting started, Marketing and Sales carried none. All six now have a
+  block, typed to the page (`AboutPage`, `ContactPage`, `CollectionPage`,
+  `WebPage`), placed after the markdown `<link rel="alternate">` like the
+  existing ones. Descriptions are each page's own meta description, so no new
+  copy was written. The hub's also carries an `ItemList` of the four offerings.
+  All eleven parse.
+- Checked and already consistent: canonical and `og:url` on all eleven resolve
+  to their own page, navs and footers hash identically, and `theme-color` is
+  absent everywhere rather than on some pages.
+
 ## 2026-09-17 (2)
 
 Offering-page pass, after the restore.
