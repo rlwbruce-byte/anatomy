@@ -10,7 +10,7 @@ _About_
 
 # There are no shortcuts.
 
-The fundamentals that have always made a go-to-market (GTM) organization work are still required, at every size and every stage. We align your team on them, encode them into AI infrastructure you own, and keep that system learning. For start-ups and scale-ups whose go-to-market team has to produce like a much larger one.
+The fundamentals that have always made a go-to-market (GTM) organization work are still required, at every size and every stage. We align your team on them, encode them into AI infrastructure you own, and keep that system learning.
 
 ## Purpose
 
@@ -78,8 +78,6 @@ The AI side is not theoretical. At Continuous she built a proprietary AI go-to-m
 
 The practice is that method, rebuilt for what AI can now do. Frameworks over tools, systems over one-offs, and marketing that ties back to revenue or does not get built. The brand speaks as "we" because the work is a system, not a personality.
 
-Outside the work: the Chicago suburbs, two boys, a dog named Fig, and a vegetable garden that does considerably better than the houseplants. If you are wondering whether this is a fit, a conversation will tell you faster than this page will.
+## Not sure where to get started? Let's chat.
 
-## Start with a two-week Anatomy Scan
-
-You leave with foundations your team has agreed on and a sequenced roadmap, whether or not you build with us.
+Like all other technologies, AI needs to receive the proper implementation and enablement. Find out if you are on the right path or need some support.

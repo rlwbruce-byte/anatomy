@@ -14,8 +14,7 @@ static pages share `assets/styles.css` and `assets/site.js`:
 - `index.html` — Home: hero on the tagline, what GTM Anatomy is, the four
   offerings, the skills library, five role tiles, contact section.
 - `about.html` — live, and deliberately short: point of view, why the practice
-  exists, how we work, who it is for, founder credibility, human close, call to
-  action. Restructured 2026-09-17 against the rule that an About page answers
+  exists, how we work, who it is for, founder credibility, call to action. Restructured 2026-09-17 against the rule that an About page answers
   four buyer questions (who are you, do you understand my problem, why trust
   you, what makes you different) in roughly 500 to 800 words. Body copy is ~850
   words including headings, down from ~1270. Two sections were cut and are in
@@ -23,8 +22,13 @@ static pages share `assets/styles.css` and `assets/site.js`:
   (`.foundations` / `.foundation-item`, still styled and unused) and the
   Vision + mission dark band. **Do not re-add either without the user asking.**
   The founder section is the page's centrepiece, not an afterthought: it carries
-  named employers, real figures, and `assets/rachel-bruce.jpg`, and it closes on
-  one human sentence before the CTA band.
+  named employers, real figures, and `assets/rachel-bruce.jpg`. It ends on the
+  bio: a personal "outside the work" close was drafted and cut on request, so do
+  not add one back without being asked.
+  About is the one page whose CTA band is **not** "Let's strategize" into the
+  Anatomy Scan. It reads "Not sure where to get started? Let's chat." into
+  `/contact.html#book` and `/offerings/`, because a reader who has just met the
+  practice is choosing a direction, not an offering.
 - `offerings/index.html` — hub, plus one page per offering, in sequence:
   `anatomy-scan.html` (01), `anatomy-os.html` (02), `ai-sprint.html` (03),
   `fractional-partner.html` (04). The sequence is diagnose, build, scoped project
@@ -225,7 +229,9 @@ encode its point; a decorative glyph that could sit on any bullet does not ship.
 
 The primary call to action is **"Let's strategize"**, not "Book a strategy call".
 The older phrasing survives only in `contact.html` meta descriptions, where it
-describes the action plainly for search results and should stay. Avoid: "AI-powered", "revolutionary",
+describes the action plainly for search results and should stay. `about.html` is
+the deliberate exception: its CTA band says "Let's chat", matching the contact
+page heading, because that reader is choosing a direction rather than an offering. Avoid: "AI-powered", "revolutionary",
 "game-changing", "10x", "unlock", "seamless", "cutting-edge", "solutions" as a
 noun, "enterprise" as a customer descriptor.
 

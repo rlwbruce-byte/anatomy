@@ -2,6 +2,24 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (4)
+
+About, second pass on review.
+
+- **Cut the third sentence of the hero statement.** It named the audience, which
+  the Who this is for section already does at length, and it was the sentence
+  fragment in an otherwise clean opener.
+- **Cut the "outside the work" close** and its `.founder-close` rule, now unused
+  and removed rather than left orphaned. The founder section ends on the bio.
+- **New CTA band.** Was "Start with a two-week Anatomy Scan" into the Scan page.
+  Now "Not sure where to get started? Let's chat." into `/contact.html#book` and
+  `/offerings/`. About is the only page that does not push the Scan: a reader who
+  has just met the practice is picking a direction, not an offering, so the band
+  offers the conversation and the menu instead. Noted as a deliberate exception
+  in the CLAUDE.md voice rules, which otherwise fix the primary call to action as
+  "Let's strategize".
+- Body copy now ~835 words.
+
 ## 2026-09-17 (3)
 
 About, restructured around what a prospect actually needs to decide.
