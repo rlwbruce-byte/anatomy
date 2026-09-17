@@ -5,7 +5,11 @@ Marketing pages for the practice (home, about, four offerings, contact), plus
 the free Claude skills library — read what a skill does, download the `.md`
 file, drag it into any Claude conversation.
 
-Live site: served via GitHub Pages from this repo's `main` branch.
+Live site: **https://gtmanatomy.ai**, served by Vercel from this repo's `main`
+branch. No build step — a push to `main` is a deploy.
+
+The old GitHub Pages URL still resolves but no longer serves the site: the
+`gh-pages` branch holds redirect stubs that send every path to gtmanatomy.ai.
 
 ## Structure
 

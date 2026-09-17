@@ -1,8 +1,7 @@
 # Changelog
 
 All notable changes to the site are recorded here, most recent first.
-
-## 2026-09-17 (4)
+## 2026-09-17 (5)
 
 About, second pass on review.
 
@@ -20,7 +19,7 @@ About, second pass on review.
   "Let's strategize".
 - Body copy now ~835 words.
 
-## 2026-09-17 (3)
+## 2026-09-17 (4)
 
 About, restructured around what a prospect actually needs to decide.
 
@@ -64,6 +63,43 @@ including headings.
   1-to-100 nuance, in one sentence instead of a paragraph.
 - **Twins updated in the same commit**: `about.md`, the About block in
   `llms-full.txt`, and the About line and founder line in `llms.txt`.
+
+## 2026-09-17 (3)
+
+New favicon, and the mark finally has a source.
+
+- **Recut the `A.` mark and regenerated every favicon.** The letter now fills
+  the tile rather than floating in it, the corner radius went from 12% to 22%,
+  and the amber full stop grew to match. The old icons were barely legible in a
+  tab; at 32px the A was a smudge in a lot of empty graphite.
+- **Added `assets/logo/`, which is the part that outlasts this change.** The
+  mark had no source anywhere in the repo — four PNGs were committed in
+  `e7f232e` with nothing behind them, so any edit meant redrawing it from
+  scratch. `build.py` now generates the whole set, `README.md` explains the
+  decisions, and `mark.svg` / `mark-small.svg` / `mark-square.svg` /
+  `mark-clear.svg` are the vector sources.
+- **The A is drawn as geometry, not set in a font.** Two tapered strokes and a
+  crossbar on a 512 grid. This is the same trap `og-image.png` documents: a
+  headless browser here cannot reach fonts.googleapis.com, so live text falls
+  back to a system face and ships in the wrong letterform. Geometry has no
+  webfont to lose.
+- **Two optical cuts.** A display cut for 180 and 192, and a heavier small cut
+  for 16, 32 and `favicon.svg` — bigger A in the tile, thicker thins, a heavier
+  crossbar, a tighter radius. Below one device pixel the display cut's hairlines
+  simply disappear. `favicon.svg` takes the small cut too, because a browser
+  that supports it uses it at 16px as well.
+- **`favicon-180.png` is now a square plate** with the letter pulled in 8%. iOS
+  rounds the touch icon itself, so a pre-rounded tile left black corners under
+  its mask.
+- **Added `<link rel="icon" type="image/svg+xml">`** ahead of the PNGs on all
+  eleven pages, so browsers that support it get a crisp mark at any density.
+- **Every favicon link now carries `?v=2`.** The filenames are unchanged and
+  browsers cache favicons hard, so without it returning visitors would keep the
+  old icon indefinitely. Bump it on the next regeneration.
+
+Untouched: `og-image.png`, which is built from the Anton wordmark rather than
+from this mark, and the `.md` twins, which carry no head metadata to mirror.
+
 
 ## 2026-09-17 (2)
 
