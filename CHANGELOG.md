@@ -2,6 +2,32 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (3)
+
+Vercel Web Analytics.
+
+- **Added the analytics tag to all eleven pages**, three lines directly above
+  `<script src="/assets/site.js"></script>`: the `window.va` queue shim, then
+  `<script defer src="/_vercel/insights/script.js"></script>`. Verified in
+  headless Chromium that every page still executes `setActiveNav`; the tag sits
+  in its own `<script>` block rather than joining the existing one, so it cannot
+  repeat the escaped-newline failure that once killed that block on `contact.html`.
+- **No `@vercel/analytics` dependency.** The package was installed to check, and
+  it is framework adapters over a core `inject()` that writes exactly the tag
+  above. With no bundler here nothing would import it, and a root `package.json`
+  risks Vercel detecting a build step on a site that deliberately has none. The
+  install was removed; the site is instrumented with the plain HTML snippet
+  Vercel documents for this case.
+- **Still off until the dashboard toggle.** `/_vercel/insights/script.js` 404s
+  in production until Web Analytics is enabled on the Vercel project. The markup
+  is inert until then and harmless after.
+- **Docs corrected.** `CLAUDE.md` and `README.md` said the site was served by
+  GitHub Pages; it has been on Vercel (`server: Vercel` on gtmanatomy.ai). Both
+  now say so, and `CLAUDE.md` gains an Analytics section recording the tag, its
+  placement, and why the npm package is the wrong tool here.
+
+No copy changed, so no `.md` twin or `llms-full.txt` regeneration.
+
 ## 2026-09-17 (2)
 
 About goes live.

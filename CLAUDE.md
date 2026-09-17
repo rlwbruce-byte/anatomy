@@ -6,7 +6,7 @@ Guidance for Claude Code when working in this repo.
 
 `anatomy` is the public-facing site for **GTM Anatomy**: the marketing site for
 the practice, plus the free Claude skills library for GTM and marketing teams.
-It is served via GitHub Pages directly from `main` — no build step. Eleven
+It is deployed by Vercel from `main` — still no build step. Eleven
 static pages share `assets/styles.css` and `assets/site.js`:
 
 **The practice**
@@ -30,8 +30,8 @@ static pages share `assets/styles.css` and `assets/site.js`:
   old `index.html` before the 2026-09-10 restructure).
 - `marketing.html` — skills tagged for the Marketing track.
 - `go-to-market.html` — skills tagged for the **Sales** track. The filename stays
-  `go-to-market.html` on purpose: GitHub Pages has no redirects, so renaming it
-  would break inbound links. Change the label, never the URL.
+  `go-to-market.html` on purpose: renaming it would break inbound links. Change
+  the label, never the URL.
 
 ### Nav
 
@@ -64,7 +64,25 @@ width. If you unify the rest, widen their caps the same way rather than
 restructuring the markup.
 
 Copy the whole nav block verbatim when adding a page. It is duplicated by design
-— there is no include mechanism and no build step.
+— there is no include mechanism and no build step. Copy the analytics tag from
+the foot of the page too, for the same reason.
+
+### Analytics
+
+Vercel Web Analytics, on all eleven pages, as three lines just above
+`<script src="/assets/site.js"></script>`: a comment, the `window.va` queue
+shim, and `<script defer src="/_vercel/insights/script.js"></script>`.
+
+**Do not `npm i @vercel/analytics` for this.** That package exists to be
+bundled, and every export under it is a framework adapter; its `inject()` only
+writes the same tag by hand. A `package.json` in the root would also give
+Vercel a build step to detect on a site that deliberately has none. The tag is
+the supported path for plain HTML and costs nothing to maintain.
+
+The script is served same-origin by Vercel's edge, so it 404s anywhere else —
+`python3 -m http.server` included. A 404 locally is expected and is not a
+broken page. It also 404s in production until **Web Analytics is enabled on
+the Vercel project**, which is a dashboard toggle, not a repo change.
 
 ### Machine-readable layer
 
