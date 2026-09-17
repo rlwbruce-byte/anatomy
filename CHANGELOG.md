@@ -24,6 +24,15 @@ Consistency pass across all eleven pages.
   to their own page, navs and footers hash identically, and `theme-color` is
   absent everywhere rather than on some pages.
 
+- **Added `scripts/make-review-artifact.py`.** Builds a self-contained review
+  copy of any page for publishing as an Artifact: inlines the stylesheet and
+  `site.js`, makes internal links absolute, and swaps the Calendly embed for a
+  marked stand-in, since an Artifact only runs scripts from a short allowlist
+  and Calendly's host is not on it. `site.js` is inlined where its tag sat, not
+  appended, or the page's own `setActiveNav` call runs before it exists. The
+  first pass also swallowed the "Calendar not loading?" fallback and two closing
+  divs, so the script now asserts that line survives.
+
 ## 2026-09-17 (2)
 
 Offering-page pass, after the restore.
