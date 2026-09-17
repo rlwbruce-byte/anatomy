@@ -4,8 +4,21 @@
   <meta charset="utf-8">
   <title>Moved to gtmanatomy.ai</title>
   <link rel="canonical" href="https://gtmanatomy.ai/">
+  <!-- No-JS fallback: it cannot know the path, so it lands on the home page. -->
   <meta http-equiv="refresh" content="0; url=https://gtmanatomy.ai/">
-  <script>window.location.replace("https://gtmanatomy.ai/");</script>
+  <script>
+    // GitHub serves this file for every path but the root, with a 404 status
+    // and this body. Carry the path across rather than dumping every old
+    // bookmark on the home page: /anatomy/marketing.html becomes
+    // gtmanatomy.ai/marketing.html.
+    (function () {
+      var path = window.location.pathname.replace(/^\/anatomy(?=\/|$)/, "");
+      if (path.charAt(0) !== "/") path = "/" + path;
+      window.location.replace(
+        "https://gtmanatomy.ai" + path + window.location.search + window.location.hash
+      );
+    })();
+  </script>
 </head>
 <body>
   <p>This site has moved to <a href="https://gtmanatomy.ai/">gtmanatomy.ai</a>.</p>
