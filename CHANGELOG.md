@@ -2,6 +2,29 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17
+
+Contact page, shipped on its own.
+
+- **Lead copy replaced.** Now: "Fifteen to thirty minutes on where your
+  go-to-market (GTM) foundations stand today, and GTM Anatomy can best support
+  your AI-transformation and/or marketing goals."
+- **Removed "What it costs"** and the "See all four offerings" link from the
+  aside. Pricing lives on Home; repeating it on the booking page gave the
+  visitor a figure to weigh at the moment they were being asked to book.
+- **Removed the fit note** ("We are a fit for start-ups and scale-ups ..."),
+  which was the only statement of the ideal customer on this page.
+- **Email now goes to `rachel@gtmanatomy.ai`** rather than the personal Gmail
+  address. That was the only `mailto:` on the site.
+- **Added a `ContactPage` structured-data block**, matching the `Organization`
+  block on Home. Its description is the page's own meta description.
+- **Added `CNAME`** containing `gtmanatomy.ai`. The custom domain lived only in
+  GitHub Pages repo settings, where a settings reset would silently drop it and
+  every root-relative asset path would break.
+
+The aside is now just "What happens next" and its three steps, so both `<hr>`
+rules inside it went with the sections they separated.
+
 ## 2026-09-14 (17)
 
 - **Dropped "Or try it free if you prefer to build yourself."** from the skills
