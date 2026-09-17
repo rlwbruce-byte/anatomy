@@ -57,12 +57,14 @@ def build(page, out):
     body = src[src.index("<body>") + len("<body>"): src.rindex("</body>")]
 
     # Drop the Calendly widget and its script; leave a marked stand-in.
-    body, n = re.subn(r'<div class="calendly-wrap">.*?</script>\s*</div>',
-                      CALENDLY_STANDIN.strip() + "\n", body, flags=re.S, count=1)
-    assert n == 1, "calendly wrap not matched"
-    # The fallback link below the widget is the page's safety net; losing it
-    # would make the review copy misrepresent the page.
-    assert "Calendar not loading" in body, "fallback link was swallowed"
+    # Only contact.html carries the embed; every other page passes through.
+    if 'class="calendly-wrap"' in body:
+        body, n = re.subn(r'<div class="calendly-wrap">.*?</script>\s*</div>',
+                          CALENDLY_STANDIN.strip() + "\n", body, flags=re.S, count=1)
+        assert n == 1, "calendly wrap present but not matched"
+        # The fallback link below the widget is the page's safety net; losing it
+        # would make the review copy misrepresent the page.
+        assert "Calendar not loading" in body, "fallback link was swallowed"
     body = re.sub(r'<script[^>]*calendly[^>]*>\s*</script>', "", body, flags=re.I)
 
     # Same rewrite inside the script: it builds links in template literals.
