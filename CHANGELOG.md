@@ -28,6 +28,12 @@ The six Coming Soon pages come back. Every page on the site is now live.
   offering pages. Commented, not deleted, matching how testimonials are held.
   Verified in a real browser: no page renders any internal marker.
 
+- **Unified the two left edges.** `.section`, `.how` and `.skills-section` carry
+  their own 40px gutter, so their caps go to 1120px to match `.global-nav-inner`
+  and `.subnav-inner`. Every page now has one left edge: verified on all eleven
+  at 1440, 1280, 1024, 768, 375 and 320px.
+- **"Port Cos" is now "portfolio companies"** on the investor role tile.
+
 - **Added `CNAME`** containing `gtmanatomy.ai`. The custom domain lived only in
   GitHub Pages repo settings, where a settings reset would have silently dropped
   it and broken every root-relative asset path.

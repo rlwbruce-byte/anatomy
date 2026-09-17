@@ -112,7 +112,7 @@ Like a database, AI is only as good as the information we give it. Enable teams 
 
 **Investors**
 
-Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamline how Port Cos are leveraging AI and gain confidence in their operations.
+Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamline how portfolio companies are leveraging AI and gain confidence in their operations.
 
 ## Contact
 

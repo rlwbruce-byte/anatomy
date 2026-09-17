@@ -53,15 +53,18 @@ that always renders, which is how the grouping works on touch and with
 JavaScript off. Call `setActiveNav('home'|'about'|'offerings'|'skills'|'contact')`
 at the bottom of each page; the `.subnav` active state is hardcoded per page.
 
-**Two gutter patterns exist in the stylesheet, and they do not align.** Where the
-40px gutter sits on an outer wrapper and an inner element is capped at 1040px
-(`.hero`, `.page-header`, `.cta-band`, `.site-footer`, `.filter-wrap`), content
-lands at 120px on a 1280px viewport. Where an element carries both the cap and
-the gutter itself (`.section`, `.how`, `.skills-section`), it lands at 160px.
-`.global-nav-inner` and `.subnav-inner` are the second kind but are capped at
-**1120px** (1040 plus two 40px gutters) so they match the hero exactly at every
-width. If you unify the rest, widen their caps the same way rather than
-restructuring the markup.
+**Two gutter patterns exist in the stylesheet, and as of 2026-09-17 they align.**
+Where the 40px gutter sits on an outer wrapper and an inner element is capped at
+1040px (`.hero`, `.page-header`, `.cta-band`, `.site-footer`, `.filter-wrap`),
+content lands at 120px on a 1280px viewport. Where an element carries both the
+cap and the gutter itself (`.section`, `.how`, `.skills-section`,
+`.global-nav-inner`, `.subnav-inner`), the cap is **1120px** — 1040 plus two 40px
+gutters — which lands its content on the same line.
+
+So: **an element that carries its own 40px gutter caps at 1120px, one that does
+not caps at 1040px.** Get that backwards and the page grows a second left edge,
+40px inside the first. Verified aligned on all eleven pages at 1440, 1280, 1024,
+768, 375 and 320px. Widen a cap rather than restructuring the markup.
 
 Copy the whole nav block verbatim when adding a page. It is duplicated by design
 — there is no include mechanism and no build step.
