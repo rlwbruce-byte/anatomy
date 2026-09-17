@@ -344,8 +344,8 @@ Published, because you should not have to book a call to find out whether we are
 
 | Offering | Investment | Timeline | How it works |
 | --- | --- | --- | --- |
-| Anatomy Scan | $5,000 | Typically within two weeks | Fixed engagement. The fee credits into an Anatomy OS build if you go on. |
-| Anatomy OS | $25,000 | Typically within three to six weeks | Where it lands in that range depends on how fast intake comes back and how quickly we get through the sprint sessions. |
+| Anatomy Scan | $5,000 | Typically delivered within two weeks | Fixed engagement. The fee credits into an Anatomy OS build if you go on. |
+| Anatomy OS | $25,000 | Typically delivered within three to six weeks | Where it lands in that range depends on how fast intake comes back and how quickly we get through the sprint sessions. |
 | AI Sprint | Starting at $5,000 | Scoped per project | Price and duration follow the scope and the complexity. Both are agreed before you commit. |
 | Fractional Partner | $8,500 per month | Ongoing | One seat or several: marketing, go-to-market, GTM engineering. Hourly rates available where the work is project-shaped. |
 
@@ -555,7 +555,7 @@ Scoped project work against your roadmap, shipped into the systems your team alr
 
 _Starting at $5,000_
 
-_Timeline scoped per project_
+_Scoped per project_
 
 _Yours at handover, following enablement_
 

@@ -2,6 +2,31 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (2)
+
+Offering-page pass, after the restore.
+
+- **Timeline wording reconciled.** The hub's `.price-table` read "Typically
+  within two weeks" while the offer cards directly above it read "Typically
+  delivered within two weeks." The locked wording is "Typically delivered
+  within …", so the table now matches. The AI Sprint pill read "Timeline scoped
+  per project," which is now "Scoped per project" like every other timeline
+  value.
+- **`about.html` was the only page whose h1 full stop was not wrapped** in
+  `<span>.</span>`, so it rendered in ink rather than amber. All five offering
+  pages already had it.
+- **The section divider no longer overhangs the page.** Unifying the caps moved
+  the rule, which was a border on the 1040px box, out to 80px on a 1280px
+  viewport while the text sat at 120px: it poked 40px left of the wordmark. The
+  rule is now an inset pseudo-element driven by a new `--gutter` token, so it
+  lands on the same line as the text and the two cannot drift. Verified on nine
+  pages at 1280, 640 and 375px.
+
+Checked and deliberately left alone: `.cta-band-title` carries no terminal
+punctuation on any of the six pages that use it, including the two that were
+already live. It is a call-to-action lead-in rather than a section heading, and
+the rule names `.section-title` and `.page-header h1`.
+
 ## 2026-09-17
 
 The six Coming Soon pages come back. Every page on the site is now live.

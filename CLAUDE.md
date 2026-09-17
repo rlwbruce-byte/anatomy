@@ -61,8 +61,13 @@ cap and the gutter itself (`.section`, `.how`, `.skills-section`,
 `.global-nav-inner`, `.subnav-inner`), the cap is **1120px** — 1040 plus two 40px
 gutters — which lands its content on the same line.
 
-So: **an element that carries its own 40px gutter caps at 1120px, one that does
-not caps at 1040px.** Get that backwards and the page grows a second left edge,
+The gutter is the `--gutter` token (40px, 20px under 640px). The rule under a
+`.section` or `.how` is **not** a border on the box: a border would sit on the
+box edge, 40px outside the text, and overhang the page. It is an inset
+`::after` driven by the same token, so the rule and the text edge cannot drift.
+
+So: **an element that carries its own gutter caps at 1120px, one that does not
+caps at 1040px.** Get that backwards and the page grows a second left edge,
 40px inside the first. Verified aligned on all eleven pages at 1440, 1280, 1024,
 768, 375 and 320px. Widen a cap rather than restructuring the markup.
 

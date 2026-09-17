@@ -14,7 +14,7 @@ Scoped project work against your roadmap, shipped into the systems your team alr
 
 _Starting at $5,000_
 
-_Timeline scoped per project_
+_Scoped per project_
 
 _Yours at handover, following enablement_
 
