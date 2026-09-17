@@ -2,6 +2,35 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-09-17 (2)
+
+About goes live.
+
+- **Restored `about.html`** from its archived version at `0b5f3a6`, replacing the
+  Coming Soon splash. Not a verbatim `git show`: that version predates several
+  decisions, so four things were reconciled first.
+  - The nav still carried a **Home** item, which the regroup removed. All eleven
+    navs now hash identically.
+  - The footer was missing the **LinkedIn** link.
+  - The page still sized the ideal customer at **"2 to 200"**, from before the
+    resize to 1 to 100. About was already a splash when that landed, so it was
+    the last file on the site carrying the old figure.
+  - The h1 full stop was not wrapped in `<span>.</span>`, so it rendered in ink
+    rather than amber.
+- **Added an `AboutPage` structured-data block**, matching the `Organization`
+  block on Home. Its description is the page's own meta description.
+- **The founder placeholder stays commented out.** It holds further biography
+  detail, named employers, board roles, or a headshot, and needs Rachel's word
+  rather than a plausible filler. Verified in a browser that no internal marker
+  renders.
+- **`llms.txt` status block** now says the Offerings hub and the four offering
+  pages are the only splash pages left.
+
+The site-wide gutter unification is deliberately **not** in this change: it
+moves every page, so it ships on its own rather than riding an About release.
+About therefore matches the current site convention, sections inset 40px from
+the nav, exactly as Home does today.
+
 ## 2026-09-17
 
 Contact page, shipped on its own.
