@@ -6,8 +6,9 @@ Guidance for Claude Code when working in this repo.
 
 `anatomy` is the public-facing site for **GTM Anatomy**: the marketing site for
 the practice, plus the free Claude skills library for GTM and marketing teams.
-It is served via GitHub Pages directly from `main` — no build step. Eleven
-static pages share `assets/styles.css` and `assets/site.js`:
+It is served by **Vercel** from `main` — no build step, no `vercel.json`, just
+static files. The canonical URL is **https://gtmanatomy.ai**; merging to `main`
+publishes. Eleven static pages share `assets/styles.css` and `assets/site.js`:
 
 **The practice**
 
@@ -30,8 +31,12 @@ static pages share `assets/styles.css` and `assets/site.js`:
   old `index.html` before the 2026-09-10 restructure).
 - `marketing.html` — skills tagged for the Marketing track.
 - `go-to-market.html` — skills tagged for the **Sales** track. The filename stays
-  `go-to-market.html` on purpose: GitHub Pages has no redirects, so renaming it
-  would break inbound links. Change the label, never the URL.
+  `go-to-market.html` on purpose: renaming it would break inbound links. Change
+  the label, never the URL. (The old reason given here was "GitHub Pages has no
+  redirects." That stopped being true when the site moved to Vercel, which does
+  support redirects via `vercel.json`. Keeping the URL is now a choice rather
+  than a constraint — but it is still the right one, and anyone changing it owes
+  a redirect.)
 
 ### Nav
 
@@ -65,6 +70,29 @@ restructuring the markup.
 
 Copy the whole nav block verbatim when adding a page. It is duplicated by design
 — there is no include mechanism and no build step.
+
+### Hosting, and the two URLs
+
+**Vercel serves `gtmanatomy.ai` from `main`.** That is the whole deployment: a
+push to `main` is a deploy, and pull requests get their own preview URL (which
+is behind Vercel's deployment protection, so a sandbox cannot fetch it — verify
+against the live site after merge instead).
+
+**GitHub Pages is still switched on, but it no longer serves the site.** Its
+source is the `gh-pages` branch, which holds two files and nothing else:
+`index.html` and `404.html`, both redirect stubs pointing at gtmanatomy.ai.
+Every path under `rlwbruce-byte.github.io/anatomy/` therefore lands on the
+canonical domain — the root through `index.html`, everything else through
+`404.html`, which GitHub serves with a 404 status and a body that redirects.
+That status code is expected and is not a broken link.
+
+`gh-pages` is a **content branch, not a copy of the site.** Never merge `main`
+into it or regenerate it from `main`; it would republish the whole site at the
+old URL, which is the thing it exists to prevent.
+
+`CNAME` at the repo root is inert. It is a GitHub Pages mechanism, `main` is not
+the Pages source, and DNS for gtmanatomy.ai points at Vercel. It is kept because
+the repo's records treat it as meaningful; it does nothing.
 
 ### Machine-readable layer
 
