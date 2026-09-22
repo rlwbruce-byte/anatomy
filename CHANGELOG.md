@@ -153,6 +153,19 @@ Contact page, shipped on its own.
 The aside is now just "What happens next" and its three steps, so both `<hr>`
 rules inside it went with the sections they separated.
 
+## 2026-09-22 (18)
+
+- **Founder name settled as "Rachel Bruce", no middle initial.** The long form
+  survived in eight places: the `founder` field in the Home page JSON-LD, the
+  founder line in `llms.txt`, and the About founder section shipped with the
+  four-questions restructure — its heading, the portrait's alt text and the
+  biography paragraph, mirrored into `about.md` and `llms-full.txt`. Every
+  footer byline on the site already used the short form, so the two forms had
+  been running side by side, including on the machine-readable surface, which
+  is exactly where a name should not disagree with itself. The decision came
+  out of the one-pager copy pass and is recorded in `brain` at
+  `ventures/gtm-anatomy/brand.md`.
+
 ## 2026-09-14 (17)
 
 - **Dropped "Or try it free if you prefer to build yourself."** from the skills
