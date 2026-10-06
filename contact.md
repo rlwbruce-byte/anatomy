@@ -16,7 +16,7 @@ Fifteen to thirty minutes on where your go-to-market (GTM) foundations stand tod
 
 ### Pick a slot that works.
 
-Include the company name when you book so we can be better prepared for our discussion.
+Or reach out directly to rachel@gtmanatomy.ai. Include the company name when you book so we can be better prepared for our discussion.
 
 Calendar not loading? Book directly on Calendly, or email us below.
 
