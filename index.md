@@ -110,7 +110,7 @@ Accelerate growth, align GTM teams, reduce token spend and tool sprawl. Streamli
 
 ## Contact
 
-### Better together. Let's synergize.
+### Better together. Let's collaborate.
 
 AI use cases are endless. And if you have processes in place, there is no better time than now to increase the efficiency of your operations. If you want to explore the art of what's possible, or you had something specific in mind, let's grab 15 to 30 minutes for a quick call. We can see if a partnership makes sense, or at least walk away smarter, together.
 
