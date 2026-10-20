@@ -261,7 +261,7 @@ Already want to see the work? The skills library is live and free. Getting Start
 
 # Anatomy OS — GTM Anatomy
 
-> An AI-native go-to-market operating system, built for your team and yours at handover, following enablement. $25,000, typically delivered within three to six weeks.
+> The full build: an AI-native operating system for your go-to-market team, with your context, your standards, and your governance written in. $25,000, three to six weeks, yours at handover, after enablement.
 
 Source: https://gtmanatomy.ai/offerings/anatomy-os.html
 
@@ -271,21 +271,21 @@ _Offering 02_
 
 # Anatomy OS.
 
-The full build. We architect and implement an AI-native go-to-market operating system for your team, with your context, your standards, and your governance written into it.
+The full build. An AI-native operating system for your go-to-market team, with your context, your standards, and your governance written in.
 
 _$25,000_
 
-_Typically delivered within three to six weeks_
+_Three to six weeks_
 
-_Yours at handover, following enablement_
+_Yours at handover, after enablement_
 
 ## What it is
 
-Anatomy OS is the complete build: the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
+Anatomy OS is the complete build: infrastructure and skills built for your business, plus enablement and training for your go-to-market (GTM) team to drive adoption. It includes the context layer that holds your foundations, the skills and agents your team runs every day, the standards that say what those agents may touch, and the measurement that tells you whether any of it is working.
 
 Anatomy OS is what we call it. What you are buying is an AI-native go-to-market operating system, tuned to your business, your brand, and your goals.
 
-It starts with the go-to-market (GTM) team, because that is where the pressure is, and it is architected to scale across the rest of the organization, so every function that represents the brand is eventually working from the same context. The system we hand over is called your AI Operating System, and it is yours.
+It starts with the GTM team, because that is where the pressure is, and it is architected to scale across the rest of the organization, so every function that represents the brand is eventually working from the same context. The system we hand over is called your AI Operating System, and it is yours.
 
 ## Why it exists
 
