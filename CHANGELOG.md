@@ -2,6 +2,19 @@
 
 All notable changes to the site are recorded here, most recent first.
 
+## 2026-10-20 (2)
+
+Offerings hub goes live.
+
+- **Offerings hub rebuilt** as a brief page in the Home pattern: a one-line lede,
+  the four offering cards, and a CTA band. Card copy, prices and timelines follow
+  the 2026-10-05 single-page one-pager. Fractional Partner reads "Price upon
+  request", as the one-pager does; Home, `fractional-partner.html` and `llms.txt`
+  still publish $8,500 per month and need to be brought into step.
+- **One-page PDF download** at `/assets/gtm-anatomy-offerings-overview.pdf`,
+  linked from the hub header and CTA band. Replace the file in place when the
+  one-pager is revised so the URL never changes.
+
 ## 2026-10-20
 
 Anatomy OS goes live; Offerings nav becomes a dropdown.

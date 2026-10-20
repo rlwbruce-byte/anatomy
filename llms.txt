@@ -21,8 +21,8 @@ Dell), Very Good Security, and Trustwave.
 
 ## Status
 
-The Offerings hub and three of the four offering pages (Anatomy Scan, AI Sprint,
-Fractional Partner) are Coming Soon splash pages today. The Anatomy OS page is live. Home, About, Contact and the skills library are complete. Pricing is published on the
+The Offerings hub and the Anatomy OS page are live. Anatomy Scan, AI Sprint and
+Fractional Partner are Coming Soon splash pages today. Home, About, Contact and the skills library are complete. Pricing is published on the
 home page. Booking is live at https://calendly.com/rachel-gtmanatomy/30min and the company
 is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
 
@@ -34,7 +34,7 @@ is on LinkedIn at https://www.linkedin.com/company/gtm-anatomy-ai/.
 
 ## Offerings
 
-- [Offerings overview](https://gtmanatomy.ai/offerings/index.md): the four offerings in sequence and what every engagement includes.
+- [Offerings overview](https://gtmanatomy.ai/offerings/index.md): the four offerings in sequence, with a downloadable one-page PDF (https://gtmanatomy.ai/assets/gtm-anatomy-offerings-overview.pdf).
 - [Anatomy Scan](https://gtmanatomy.ai/offerings/anatomy-scan.md): a two-week diagnostic of your go-to-market foundations and AI readiness, ending in a 90-day roadmap. $5,000, typically delivered within two weeks.
 - [Anatomy OS](https://gtmanatomy.ai/offerings/anatomy-os.md): the full build of an AI-native go-to-market operating system for your team: a 40-question intake, a two-week alignment sprint, training, and handover. $25,000, three to six weeks.
 - [AI Sprint](https://gtmanatomy.ai/offerings/ai-sprint.md): scoped project work against your roadmap. Starting at $5,000, timeline scoped per project.
