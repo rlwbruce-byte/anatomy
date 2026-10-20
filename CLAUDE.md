@@ -59,8 +59,9 @@ Offerings, AI Skills and **Contact** grouped hard right. The Contact button keep
 that plain label: it is wayfinding, and the amber fill already carries the
 emphasis. "Let's chat" is the heading on the contact page, not the nav item. There
 is no Home item: the wordmark is the home link and carries
-`aria-label="GTM Anatomy, home"`. Offerings are reached through the hub, never
-listed individually in the nav.
+`aria-label="GTM Anatomy, home"`. Offerings is a CSS-only dropdown (the same
+`.gn-group` / `.gn-drop` pattern as AI Skills) listing the four offerings and
+nothing else; the label itself still links to the hub.
 
 `.gn-contact` is the only solid amber in the bar, which is why the current page
 reads as a faint amber wash (`.gn-links a.active`) rather than a filled chip.

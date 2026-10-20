@@ -1,6 +1,23 @@
 # Changelog
 
 All notable changes to the site are recorded here, most recent first.
+
+## 2026-10-20
+
+Anatomy OS goes live; Offerings nav becomes a dropdown.
+
+- **Anatomy OS offering page is live.** Restored from `0b5f3a6`, aligned to the
+  2026-10-05 single-page one-pager, and rewritten around the process: a
+  40-question intake, a two-week alignment sprint (one hour a day with the
+  leadership team), deliverables written to the client's repo as the
+  intelligence layer, two training sessions and two hours of office hours, then
+  documentation, quick guides and the operating system at handover. The
+  proof-point placeholder panel was removed. The other three offering pages and
+  the hub remain Coming Soon splash pages.
+- **Offerings is now a dropdown** listing the four offerings, on all eleven
+  pages. Suppressed on touch, like AI Skills.
+- Mirrored into `anatomy-os.md`, `llms-full.txt`, `llms.txt` (Status block) and
+  the sitemap.
 ## 2026-09-17 (5)
 
 About, second pass on review.
